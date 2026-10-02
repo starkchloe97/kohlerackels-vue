@@ -1,0 +1,15 @@
+@mixin container {
+  width: min(100% - 40px, $container-max);
+  margin-inline: auto;
+}
+
+@mixin focus-ring {
+  outline: 3px solid $color-deep-blue;
+  outline-offset: 3px;
+}
+
+@mixin respond($breakpoint) {
+  @media (max-width: $breakpoint) {
+    @content;
+  }
+}
