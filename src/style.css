@@ -21647,3 +21647,15 @@ div#map_inner {
 .carousel-play-icon{background-image:none!important;position:relative;width:16px;height:18px}
 .carousel-play-icon.carousel-playing:before{content:"";position:absolute;left:2px;top:2px;width:3px;height:14px;background:currentColor;box-shadow:7px 0 0 currentColor}
 .carousel-play-icon.carousel-paused:before{content:"";position:absolute;left:3px;top:2px;border-top:7px solid transparent;border-bottom:7px solid transparent;border-left:10px solid currentColor}
+
+
+/* Global typography: Quattrocento Sans for headings, Open Sans for all text. */
+html, body {
+  font-family: "Open Sans", Arial, sans-serif !important;
+}
+body :where(h1, h2, h3, h4, h5, h6) {
+  font-family: "Quattrocento Sans", Georgia, sans-serif !important;
+}
+body :where(p, span, li, a, button, input, textarea, select, label, small, strong, em, td, th, dt, dd, legend, figcaption) {
+  font-family: "Open Sans", Arial, sans-serif !important;
+}
