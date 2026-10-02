@@ -1,7 +1,7 @@
 <template>
-  <div class="site-wrapper" @error.capture="handleImageError">
+  <div class="site-wrapper">
     <Header />
-    <main class="col-sm-12 page_container-">
+    <main id="main-content">
       <RouterView />
     </main>
     <Footer />
@@ -9,19 +9,12 @@
 </template>
 
 <style scoped>
+main {
+  min-height: 0;
+}
 </style>
 
 <script setup>
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
-
-const placeholder = '/images/placeholder.svg'
-
-const handleImageError = (event) => {
-  const image = event.target
-  if (image?.tagName !== 'IMG' || image.dataset.fallbackApplied === 'true') return
-
-  image.dataset.fallbackApplied = 'true'
-  image.src = placeholder
-}
 </script>
