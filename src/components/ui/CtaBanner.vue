@@ -1,0 +1,2 @@
+<template><section class="cta"><div><h2>Clients First. We Deliver.</h2><p>Your business is our business. We work tirelessly for your success.</p></div></section></template>
+<style scoped lang="scss">.cta{padding:60px 20px;background:$color-navy;color:#fff}.cta>div{width:min(100%,$container-max);margin:auto}.cta h2{font:700 clamp(32px,5vw,54px)/1.05 $font-display}.cta p{margin-top:12px}</style>
