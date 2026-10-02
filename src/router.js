@@ -1,12 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from './pages/Home.vue'
-import Professionals from './pages/Professionals.vue'
-import Services from './pages/Services.vue'
-import Firm from './pages/Firm.vue'
-import Locations from './pages/Locations.vue'
-import Culture from './pages/Culture.vue'
-import PrivacyPolicy from './pages/PrivacyPolicy.vue'
-import NoticeAtCollection from './pages/NoticeAtCollection.vue'
+import Home from '@/pages/Home.vue'
+import Professionals from '@/pages/Professionals.vue'
+import Services from '@/pages/Services.vue'
+import Firm from '@/pages/Firm.vue'
+import Locations from '@/pages/Locations.vue'
+import Culture from '@/pages/Culture.vue'
+import PrivacyPolicy from '@/pages/PrivacyPolicy.vue'
+import NoticeAtCollection from '@/pages/NoticeAtCollection.vue'
 
 export default createRouter({
   history: createWebHistory(),
