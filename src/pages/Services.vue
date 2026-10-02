@@ -797,7 +797,7 @@
                                 <div class="row carousel-item " role="group" aria-roledescription="slide"
                                     aria-label="Slide 2 of 3">
                                     <div class="col-12 col-md-6">
-                                        <img src="/images/Jc7KbwbGvTjOLhbjU9RbQZK3aT6GcA64o6dOcWRW.jpg"
+                                        <img src="/images//images/placeholder.svg"
                                             alt="football" />
                                         <div class="photo-gradient"></div>
                                         <div class="carousel-caption">
