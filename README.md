@@ -1,14 +1,52 @@
 # Kohlerackels Vue
 
-Vue 3 + Vite reconstruction of the Kohlerackels law firm website.
+A simple Vue 3/Vite reconstruction of the Kohlerackels website.
 
 ## Stack
-
 - Vue 3 Composition API with `<script setup>`
 - Vite
 - Vue Router 4
-- SCSS
-- No Tailwind
+- Plain CSS (no SCSS, no Tailwind)
+
+## Simple structure
+
+```text
+src/
+├── components/
+│   ├── Header.vue
+│   └── Footer.vue
+├── pages/
+│   ├── Home.vue
+│   ├── Professionals.vue
+│   ├── Services.vue
+│   ├── Firm.vue
+│   ├── Locations.vue
+│   ├── Culture.vue
+│   ├── PrivacyPolicy.vue
+│   └── NoticeAtCollection.vue
+├── App.vue
+├── main.js
+├── router.js
+└── style.css
+```
+
+Each page/component keeps the Vue SFC intentionally simple:
+
+```vue
+<template>
+  ...
+</template>
+
+<style scoped>
+  ...
+</style>
+
+<script setup>
+  ...
+</script>
+```
+
+The original HTML pages were used as migration sources and removed after conversion. The original compiled global stylesheet was moved to `src/style.css` and remains plain CSS.
 
 ## Development
 
@@ -16,5 +54,3 @@ Vue 3 + Vite reconstruction of the Kohlerackels law firm website.
 npm install
 npm run dev
 ```
-
-The visual implementation will be driven by the supplied source HTML/CSS and reference screenshots. Legacy DOM/jQuery behavior will be converted to Vue state and composables.
