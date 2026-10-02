@@ -1,0 +1,1 @@
+<template><section class="page"><h1>Practice Areas</h1><p>Practice area content will be migrated from the original source.</p></section></template><style scoped lang="scss">.page{width:min(100% - 40px,$container-max);margin:auto;padding:80px 0}.page h1{font-size:56px}.page p{margin-top:16px}</style>
