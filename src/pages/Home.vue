@@ -7,48 +7,51 @@
       @mouseenter="pauseHero"
       @mouseleave="resumeHero"
     >
-      <div class="hero-inner">
-        <div class="hero-copy">
-          <div class="hero-controls" aria-label="Hero carousel controls">
-            <button type="button" aria-label="Previous slide" @click="previousHero">‹</button>
-            <button type="button" :aria-label="heroPlaying ? 'Pause slideshow' : 'Play slideshow'" @click="toggleHero">
-              <span aria-hidden="true">{{ heroPlaying ? 'Ⅱ' : '▶' }}</span>
-            </button>
-            <button type="button" aria-label="Next slide" @click="nextHero">›</button>
-            <div class="hero-dots">
-              <button
-                v-for="(slide, index) in heroSlides"
-                :key="slide.image"
-                type="button"
-                :class="{ active: index === heroIndex }"
-                :aria-label="'Go to slide ' + (index + 1)"
-                :aria-current="index === heroIndex"
-                @click="goHero(index)"
-              ></button>
+      <div class="hero-slides">
+        <article
+          v-for="(slide, index) in heroSlides"
+          :key="slide.image"
+          class="hero-slide"
+          :class="{ active: index === heroIndex }"
+          role="group"
+          :aria-roledescription="'slide'"
+          :aria-label="'Slide ' + (index + 1) + ' of ' + heroSlides.length"
+        >
+          <img :src="slide.image" :alt="slide.alt" class="hero-image">
+          <div class="hero-image-fade"></div>
+
+          <div class="hero-container">
+            <div class="hero-copy">
+              <p class="hero-kicker">Kohlerackels</p>
+              <h1 v-html="slide.title"></h1>
+              <p class="hero-lead">{{ slide.text }}</p>
             </div>
           </div>
+        </article>
+      </div>
 
-          <div
-            v-for="(slide, index) in heroSlides"
-            :key="slide.image"
-            class="hero-text"
-            :class="{ active: index === heroIndex }"
-            :aria-hidden="index !== heroIndex"
-          >
-            <p class="hero-kicker">Kohlerackels</p>
-            <h1 v-html="slide.title"></h1>
-            <p class="hero-lead">{{ slide.text }}</p>
+      <div class="hero-container hero-controls-container">
+        <div class="hero-controls" aria-label="Hero carousel controls">
+          <button type="button" aria-label="Previous slide" @click="previousHero">‹</button>
+          <button type="button" :aria-label="heroPlaying ? 'Pause slideshow' : 'Play slideshow'" @click="toggleHero">
+            <span aria-hidden="true">{{ heroPlaying ? 'Ⅱ' : '▶' }}</span>
+          </button>
+          <button type="button" aria-label="Next slide" @click="nextHero">›</button>
+
+          <div class="hero-dots">
+            <button
+              v-for="(slide, index) in heroSlides"
+              :key="slide.image"
+              type="button"
+              :class="{ active: index === heroIndex }"
+              :aria-label="'Go to slide ' + (index + 1)"
+              :aria-current="index === heroIndex"
+              @click="goHero(index)"
+            ></button>
           </div>
-        </div>
-
-        <div class="hero-image-wrap">
-          <transition name="hero-fade" mode="out-in">
-            <img :key="heroActive.image" :src="heroActive.image" :alt="heroActive.alt" class="hero-image">
-          </transition>
         </div>
       </div>
     </section>
-
     <section
       class="news-section"
       aria-label="Featured insights"
@@ -163,43 +166,121 @@
 }
 
 .hero {
-  background: #fff;
+  position: relative;
+  width: 100%;
+  min-height: 580px;
+  margin: 0 0 10px;
+  overflow: hidden;
+  background: #eee;
 }
 
-.hero-inner {
-  width: min(100% - 40px, 1140px);
+.hero-slides {
+  position: relative;
+  width: 100%;
   min-height: 580px;
+}
+
+.hero-slide {
+  position: absolute;
+  inset: 0;
+  display: none;
+  min-height: 580px;
+  overflow: hidden;
+}
+
+.hero-slide.active {
+  display: block;
+}
+
+.hero-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: auto;
+  max-width: 100%;
+  height: 580px;
+  display: block;
+  object-fit: contain;
+  object-position: right center;
+}
+
+.hero-image-fade {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(
+    to right,
+    #fff 5%,
+    #fff 40%,
+    rgba(255, 255, 255, .88) 52%,
+    rgba(255, 255, 255, 0) 76%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.hero-container {
+  position: relative;
+  width: min(100% - 40px, 1140px);
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 43% 57%;
-  align-items: stretch;
+  height: 100%;
+  z-index: 3;
 }
 
 .hero-copy {
   position: relative;
-  min-height: 580px;
-  padding: 74px 54px 60px 0;
-  z-index: 2;
+  width: 50%;
+  max-width: 575px;
+  padding-top: 205px;
+}
+
+.hero-kicker {
+  margin: 0 0 8px;
+  color: #c28b14;
+  font: 400 26px/1.1 "Quattrocento Sans", sans-serif;
+}
+
+.hero-copy h1 {
+  margin: 0 0 30px;
+  color: #111;
+  font: 400 60px/0.93 "Quattrocento Sans", sans-serif;
+  letter-spacing: -0.04em;
+}
+
+.hero-lead {
+  width: 90%;
+  max-width: 540px;
+  margin: 0;
+  color: #447aa7;
+  font: 300 16px/1.375 "Open Sans", sans-serif;
+}
+
+.hero-controls-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 30%;
+  height: auto;
+  pointer-events: none;
 }
 
 .hero-controls {
   display: flex;
   align-items: center;
-  gap: 9px;
-  margin-bottom: 42px;
-  color: #355989;
+  justify-content: flex-start;
+  gap: 8px;
+  width: 50%;
+  pointer-events: auto;
 }
 
 .hero-controls > button {
-  width: 27px;
-  height: 27px;
+  width: 28px;
+  height: 28px;
   border: 0;
   padding: 0;
   background: transparent;
   color: #355989;
-  font-size: 25px;
-  line-height: 1;
-  font-family: "Quattrocento Sans", sans-serif;
+  font: 400 25px/1 "Quattrocento Sans", sans-serif;
 }
 
 .hero-controls > button:hover {
@@ -210,91 +291,32 @@
   display: flex;
   align-items: center;
   gap: 6px;
-  margin-left: 4px;
+  margin-left: 3px;
 }
 
 .hero-dots button {
-  width: 10px;
-  height: 10px;
-  border: 1px solid #355989;
-  border-radius: 50%;
+  position: relative;
+  width: 18px;
+  height: 18px;
+  border: 0;
   padding: 0;
   background: transparent;
 }
 
-.hero-dots button.active {
-  background: #355989;
-}
-
-.hero-text {
-  display: none;
-  max-width: 530px;
-}
-
-.hero-text.active {
-  display: block;
-}
-
-.hero-kicker {
-  margin-bottom: 9px;
-  color: #c28b14;
-  font: 400 26px/1.1 "Quattrocento Sans", sans-serif;
-}
-
-.hero-text h1 {
-  margin: 0 0 28px;
-  color: #111;
-  font: 400 60px/0.96 "Quattrocento Sans", sans-serif;
-  letter-spacing: -0.04em;
-}
-
-.hero-lead {
-  max-width: 500px;
-  margin: 0;
-  color: #355989;
-  font: 600 20px/1.55 "Open Sans", sans-serif;
-}
-
-.hero-image-wrap {
-  position: relative;
-  min-height: 580px;
-  overflow: hidden;
-}
-
-.hero-image-wrap::before {
+.hero-dots button::before {
   content: "";
   position: absolute;
-  inset: 0 auto 0 -1px;
-  width: 43%;
-  z-index: 1;
-  pointer-events: none;
-  background: linear-gradient(to right, #fff 0%, rgba(255,255,255,.96) 22%, rgba(255,255,255,.48) 56%, rgba(255,255,255,0) 100%);
+  width: 9px;
+  height: 9px;
+  top: 4.5px;
+  left: 4.5px;
+  border: 1px solid #355989;
+  border-radius: 50%;
+  background: transparent;
 }
 
-.hero-image {
-  width: 100%;
-  height: 580px;
-  display: block;
-  object-fit: cover;
-  object-position: center;
-}
-
-.hero-fade-enter-active,
-.hero-fade-leave-active,
-.news-fade-enter-active,
-.news-fade-leave-active,
-.focus-fade-enter-active,
-.focus-fade-leave-active {
-  transition: opacity .34s ease;
-}
-
-.hero-fade-enter-from,
-.hero-fade-leave-to,
-.news-fade-enter-from,
-.news-fade-leave-to,
-.focus-fade-enter-from,
-.focus-fade-leave-to {
-  opacity: 0;
+.hero-dots button.active::before {
+  background: #355989;
 }
 
 .news-section {
@@ -373,13 +395,8 @@
   background: rgba(0,0,0,.3);
 }
 
-.news-prev {
-  left: 18px;
-}
-
-.news-next {
-  right: 18px;
-}
+.news-prev { left: 18px; }
+.news-next { right: 18px; }
 
 .news-dots {
   position: absolute;
@@ -400,9 +417,7 @@
   background: rgba(255,255,255,.35);
 }
 
-.news-dots button.active {
-  background: #fff;
-}
+.news-dots button.active { background: #fff; }
 
 .practice-section {
   padding: 30px 0 92px;
@@ -598,6 +613,11 @@
   color: #355989;
 }
 
+.stat-icon :deep(svg) {
+  width: 100%;
+  height: 100%;
+}
+
 .stat-card strong {
   display: block;
   color: #0d2f5e;
@@ -613,17 +633,25 @@
 }
 
 @media (max-width: 1024px) {
-  .hero-inner {
+  .hero-container {
     width: min(100% - 32px, 1140px);
-    grid-template-columns: 48% 52%;
   }
 
   .hero-copy {
-    padding-right: 28px;
+    width: 48%;
+    padding-top: 185px;
   }
 
-  .hero-text h1 {
+  .hero-copy h1 {
     font-size: 50px;
+  }
+
+  .hero-lead {
+    width: 100%;
+  }
+
+  .hero-controls {
+    width: 48%;
   }
 
   .news-slider,
@@ -638,39 +666,77 @@
 }
 
 @media (max-width: 768px) {
-  .hero-inner {
-    width: 100%;
+  .hero {
+    min-height: auto;
+    margin-bottom: 0;
+  }
+
+  .hero-slides {
     min-height: 0;
-    grid-template-columns: 1fr;
   }
 
-  .hero-copy {
+  .hero-slide {
+    position: relative;
     min-height: 0;
-    padding: 30px 20px 32px;
+    display: none;
   }
 
-  .hero-controls {
-    margin-bottom: 24px;
-  }
-
-  .hero-text h1 {
-    max-width: 580px;
-    font-size: 46px;
-  }
-
-  .hero-image-wrap {
-    min-height: 360px;
+  .hero-slide.active {
+    display: flex;
+    flex-direction: column;
   }
 
   .hero-image {
-    height: 360px;
+    position: relative;
+    order: 1;
+    width: 100%;
+    height: auto;
+    max-width: none;
+    object-fit: cover;
   }
 
-  .hero-image-wrap::before {
+  .hero-image-fade {
     inset: 0 0 auto 0;
-    width: 100%;
     height: 22%;
     background: linear-gradient(to bottom, #fff, rgba(255,255,255,0));
+  }
+
+  .hero-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .hero-copy {
+    order: 2;
+    width: 100%;
+    max-width: none;
+    padding: 26px 20px 34px;
+  }
+
+  .hero-kicker {
+    font-size: 22px;
+  }
+
+  .hero-copy h1 {
+    margin-bottom: 20px;
+    font-size: 42px;
+    line-height: .98;
+  }
+
+  .hero-lead {
+    font-size: 15px;
+  }
+
+  .hero-controls-container {
+    position: relative;
+    top: auto;
+    margin-top: -2px;
+    padding: 0 20px;
+  }
+
+  .hero-controls {
+    width: 100%;
+    padding-bottom: 22px;
   }
 
   .news-section {
@@ -713,14 +779,6 @@
     gap: 32px;
   }
 
-  .focus-buttons {
-    gap: 14px;
-  }
-
-  .focus-button {
-    width: 100%;
-  }
-
   .focus-content {
     padding: 0;
   }
@@ -761,12 +819,12 @@
     padding-inline: 16px;
   }
 
-  .hero-text h1 {
-    font-size: 40px;
+  .hero-copy h1 {
+    font-size: 38px;
   }
 
-  .hero-lead {
-    font-size: 17px;
+  .hero-controls-container {
+    padding-inline: 16px;
   }
 
   .news-content {
@@ -782,13 +840,8 @@
     height: 40px;
   }
 
-  .news-prev {
-    left: 10px;
-  }
-
-  .news-next {
-    right: 10px;
-  }
+  .news-prev { left: 10px; }
+  .news-next { right: 10px; }
 
   .news-dots {
     bottom: 12px;
