@@ -63,11 +63,11 @@
           <article :key="newsActive.image" class="news-slide">
             <img :src="newsActive.image" :alt="newsActive.alt" class="news-image">
             <div class="news-overlay"></div>
-            <div class="news-content">
+            <!-- <div class="news-content">
               <p class="news-category">{{ newsActive.category }}</p>
               <h2>{{ newsActive.title }}</h2>
               <p class="news-date">{{ newsActive.date }}</p>
-            </div>
+            </div> -->
           </article>
         </transition>
 
@@ -131,9 +131,9 @@
     </section>
 
     <section class="stats-section">
-      <div class="stats-panel">
+      <!-- <div class="stats-panel">
         <div class="stats-intro">
-          <img src="/images/kohlerackels-logo.png" alt="Kohlerackels" class="stats-logo">
+          <img src="/images/home-slide-3.jpeg" alt="Kohlerackels" class="stats-logo">
           <div>
             <p class="stats-est">ESTABLISHED IN 1897</p>
             <h2>A FULL-SERVICE AM LAW 50 FIRM</h2>
@@ -151,7 +151,8 @@
             <span>{{ stat.label }}</span>
           </article>
         </div>
-      </div>
+      </div> -->
+      <img src="/images/home-slide-3.jpeg" alt="">
     </section>
   </div>
 </template>
@@ -345,9 +346,9 @@
   object-fit: cover;
 }
 
-.news-overlay {
+/* .news-overlay {
   background: linear-gradient(90deg, rgba(11,35,60,.72) 0%, rgba(11,35,60,.28) 48%, rgba(11,35,60,0) 78%);
-}
+} */
 
 .news-content {
   position: absolute;
