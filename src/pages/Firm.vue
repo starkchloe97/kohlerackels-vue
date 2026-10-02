@@ -53,7 +53,7 @@
 
 
 		<div class="row featured-top mobile_background_banner">
-			<img src="/images//images/placeholder.svg" alt="" />
+			<img src="/images/placeholder.svg" alt="" />
 			<div class="container featured-container">
 				<div class="row">
 					<div class="col-md-6 featured-content">
@@ -109,7 +109,7 @@
 							<!-- aside -->
 							<div class="row firm-message">
 								<div class="col-md-5 firm-video-thumb"><img
-										src="/images//images/placeholder.svg" alt="" /></div>
+										src="/images/placeholder.svg" alt="" /></div>
 								<div class="col-md-7">
 									<h3>A message from James K. Lehman, Managing Partner</h3>
 									<p>At Kohlerackels, our client relationships are based on a deep understanding of
@@ -299,7 +299,7 @@
 						<div class="sidebar-aside-container">
 
 
-							<img src="/images//images/placeholder.svg" class="img-fluid"
+							<img src="/images/placeholder.svg" class="img-fluid"
 								alt="Badge for The Am Law 100 ranking Kohlerackels in top 100 firms 2025" />
 
 
@@ -309,7 +309,7 @@
 						<div class="sidebar-aside-container">
 
 
-							<img src="/images//images/placeholder.svg" class="img-fluid"
+							<img src="/images/placeholder.svg" class="img-fluid"
 								alt="ISO 27001 Certified by schellman" />
 
 
@@ -348,7 +348,7 @@
 								<!-- aside -->
 								<div class="row firm-message">
 									<div class="col-md-5 firm-video-thumb"><img
-											src="/images//images/placeholder.svg" alt="" /></div>
+											src="/images/placeholder.svg" alt="" /></div>
 									<div class="col-md-7">
 										<h3>A message from James K. Lehman, Managing Partner</h3>
 										<p>At Kohlerackels, our client relationships are based on a deep understanding
@@ -540,7 +540,7 @@
 							<div class="sidebar-aside-container">
 
 
-								<img src="/images//images/placeholder.svg" class="img-fluid"
+								<img src="/images/placeholder.svg" class="img-fluid"
 									alt="Badge for The Am Law 100 ranking Kohlerackels in top 100 firms 2025" />
 
 
@@ -550,7 +550,7 @@
 							<div class="sidebar-aside-container">
 
 
-								<img src="/images//images/placeholder.svg" class="img-fluid"
+								<img src="/images/placeholder.svg" class="img-fluid"
 									alt="ISO 27001 Certified by schellman" />
 
 
