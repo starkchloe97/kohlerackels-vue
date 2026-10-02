@@ -1,31 +1,72 @@
 <template>
-  <footer class="footer">
-    <div class="footer-wrapper">
-      <div class="container">
-        <div class="footer-links">
-          <div class="mt-3 mb-4 footer-socials">
-            <a href="https://www.facebook.com/NelsonMullinsRileyScarborough" target="_blank" rel="noopener noreferrer"><img src="/images/icon-facebook-bottom.png" alt="Visit us on Facebook" height="26" width="26"></a>
-            <a href="https://www.linkedin.com/company/165138" target="_blank" rel="noopener noreferrer"><img src="/images/icon-linkedin-bottom.png" alt="Visit us on LinkedIn" height="26" width="26"></a>
-            <a href="https://x.com/NelsonMullins" target="_blank" rel="noopener noreferrer"><img src="/images/icon-x-bottom.png" alt="Visit us on X" height="26" width="26"></a>
-            <a href="https://www.youtube.com/user/NelsonMullinsVideo" target="_blank" rel="noopener noreferrer"><img src="/images/icon-youtube-bottom.png" alt="Visit us on YouTube" height="26" width="26"></a>
-            <a href="https://www.instagram.com/nelson_mullins/" target="_blank" rel="noopener noreferrer"><img src="/images/icon-instagram-bottom.png" alt="Visit us on Instagram" height="26" width="26"></a>
-          </div>
-          <a href="/rss-feeds.html">RSS FEEDS</a>
-          <a href="/sitemap.html">SITE MAP</a>
-          <a href="/disclaimer.html">DISCLAIMER</a>
-          <a href="/privacy-policy">PRIVACY POLICY</a>
-          <a href="/notice-at-collection">NOTICE AT COLLECTION</a>
-        </div>
-        <div class="copyright">
-          Copyright &copy;2025 Kohlerackels Riley &amp; Scarborough LLP - Attorneys and Counselors at Law. All rights reserved.<br>
-          For informational purposes only. Past success does not indicate the likelihood of success in any future legal representation.
-        </div>
-      </div>
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#" @click.prevent>DISCLAIMER</a>
+        <RouterLink to="/privacy-policy">PRIVACY POLICY</RouterLink>
+        <RouterLink to="/notice-at-collection">NOTICE AT COLLECTION</RouterLink>
+      </nav>
+
+      <p>
+        Copyright &copy;2025 Kohlerackels Riley &amp; Scarborough LLP - Attorneys and Counselors at Law.
+        All rights reserved.<br>
+        For informational purposes only. Past success does not indicate the likelihood of success
+        in any future legal representation.
+      </p>
     </div>
   </footer>
 </template>
 
 <style scoped>
+.site-footer {
+  background: #fff;
+  border-top: 1px solid #ececec;
+}
+
+.site-footer-inner {
+  width: min(100% - 40px, 1140px);
+  margin: 0 auto;
+  padding: 30px 0 26px;
+  text-align: center;
+  color: #747474;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 28px;
+  margin-bottom: 12px;
+}
+
+.footer-nav a {
+  color: #747474;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.footer-nav a:hover {
+  color: #355989;
+  text-decoration: underline;
+}
+
+.site-footer p {
+  margin: 0;
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+@media (max-width: 480px) {
+  .site-footer-inner {
+    width: min(100% - 28px, 1140px);
+  }
+
+  .footer-nav {
+    gap: 15px;
+  }
+}
 </style>
 
 <script setup>
