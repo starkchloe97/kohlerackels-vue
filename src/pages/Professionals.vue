@@ -5,7 +5,7 @@
             <!-- main content -->
             <div class="row featured-top desktop_background_banner">
                 <div class="featured-background">
-                    <img src="/images//images/placeholder.svg"
+                    <img src="/images/placeholder.svg"
                         alt="Image of two individuals quickly walking down a spiral staircase" />
                 </div>
                 <div class="photo-gradient"></div>
@@ -30,7 +30,7 @@
             <!-- /end of DESKTOP featured top -->
 
             <div class="row featured-top mobile_background_banner">
-                <img src="/images//images/placeholder.svg"
+                <img src="/images/placeholder.svg"
                     alt="Image of two individuals quickly walking down a spiral staircase" />
                 <div class="container featured-container">
                     <div class="row">
@@ -394,7 +394,7 @@
                                 <div class="row carousel-item " role="group" aria-roledescription="slide"
                                     aria-label="Slide 2 of 3">
                                     <div class="col-12 col-md-6">
-                                        <img src="/images//images/placeholder.svg"
+                                        <img src="/images/placeholder.svg"
                                             alt="football" />
                                         <div class="photo-gradient"></div>
                                         <div class="carousel-caption">
