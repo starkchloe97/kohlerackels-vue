@@ -1,0 +1,2 @@
+import {onMounted,onUnmounted} from 'vue'
+export function useScrollAnimation(selector='[data-reveal]'){let observer;onMounted(()=>{observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('is-visible');observer.unobserve(e.target)}}),{threshold:.12});document.querySelectorAll(selector).forEach(el=>observer.observe(el))});onUnmounted(()=>observer?.disconnect())}
