@@ -14,7 +14,7 @@
         </div>
         <div class="carousel-inner" aria-live="off">
           <div v-for="(slide,index) in heroSlides" :key="slide.image" class="home-cropped carousel-item" :class="{active:index===heroIndex}" role="group" aria-roledescription="slide" :aria-label="'Slide '+(index+1)+' of '+heroSlides.length">
-            <img :src="slide.image" :alt="slide.alt" class="no-show">
+            <img :src="slide.image" :alt="slide.alt">
             <div class="container caption-wrapper"><div class="carousel-caption animated fadeInUp"><h1 v-html="slide.title"></h1><p><span class="text-head-blue">{{slide.text}}</span></p></div></div>
           </div>
         </div>
@@ -25,7 +25,7 @@
       <div id="home-top-carousel-responsive" class="aside carousel" aria-roledescription="carousel" aria-label="Kohlerackels Service Information">
         <div class="carousel-inner" aria-live="off">
           <div v-for="(slide,index) in mobileHeroSlides" :key="slide.image" class="home-cropped carousel-item" :class="{active:index===heroIndex}" role="group" aria-roledescription="slide" :aria-label="'Slide '+(index+1)+' of '+mobileHeroSlides.length">
-            <img :src="slide.image" :alt="slide.alt" class="no-show">
+            <img :src="slide.image" :alt="slide.alt">
             <div class="container caption-wrapper"><div class="carousel-caption animated fadeInUp"><h1 v-html="slide.title"></h1><p><span class="text-head-blue">{{slide.text}}</span></p></div></div>
           </div>
         </div>
@@ -105,10 +105,10 @@ const heroSlides = [
   { image:'/images/slide-4.jpg', title:'Clients First. <br />We Deliver.', text:'Your business is our business. We work tirelessly for your success.', alt:'' }
 ]
 const mobileHeroSlides = [
-  { image:'/images/mobslide1.jpeg', title:'Innovative Thinkers. Solution Providers.', text:'Challenges are opportunities to be leveraged. We provide creative solutions to complex problems.', alt:'' },
-  { image:'/images/mobslide2.jpeg', title:'Business Acumen. Legal Know-How.', text:'Legal issues are only part of the story. We apply the law with practical business solutions.', alt:'' },
-  { image:'/images/mobslide3.jpeg', title:'National Reach. Local Touch.', text:'Relationships matter. We are where you need us with depth and breadth of resources.', alt:'' },
-  { image:'/images/mobslide4.jpeg', title:'Clients First. We Deliver.', text:'Your business is our business. We work tirelessly for your success.', alt:'' }
+  { image:'/images/slide-1.jpeg', title:'Innovative Thinkers. Solution Providers.', text:'Challenges are opportunities to be leveraged. We provide creative solutions to complex problems.', alt:'' },
+  { image:'/images/slide-2.jpg', title:'Business Acumen. Legal Know-How.', text:'Legal issues are only part of the story. We apply the law with practical business solutions.', alt:'' },
+  { image:'/images/slide-3.jpeg', title:'National Reach. Local Touch.', text:'Relationships matter. We are where you need us with depth and breadth of resources.', alt:'' },
+  { image:'/images/slide-4.jpg', title:'Clients First. We Deliver.', text:'Your business is our business. We work tirelessly for your success.', alt:'' }
 ]
 const insights = [
   {image:'/images/Slide1.jpg'},{image:'/images/Slide2.jpg'},{image:'/images/Slide3.jpg'},{image:'/images/Slide4.jpg'}
