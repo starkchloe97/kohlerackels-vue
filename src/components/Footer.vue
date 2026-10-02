@@ -1,26 +1,31 @@
 <template>
   <footer class="footer">
     <div class="footer-wrapper">
-      <div class="container footer-inner">
-        <div class="footer-socials">
-          <a href="#" aria-label="Visit us on Facebook"><img src="/images/icon-facebook-bottom.png" alt="" /></a>
-          <a href="#" aria-label="Visit us on LinkedIn"><img src="/images/icon-linkedin-bottom.png" alt="" /></a>
-          <a href="#" aria-label="Visit us on X"><img src="/images/icon-x-bottom.png" alt="" /></a>
-          <a href="#" aria-label="Visit us on YouTube"><img src="/images/icon-youtube-bottom.png" alt="" /></a>
-          <a href="#" aria-label="Visit us on Instagram"><img src="/images/icon-instagram-bottom.png" alt="" /></a>
-        </div>
+      <div class="container">
         <div class="footer-links">
-          <RouterLink to="/privacy-policy">PRIVACY POLICY</RouterLink>
-          <RouterLink to="/notice-at-collection">NOTICE AT COLLECTION</RouterLink>
+          <div class="mt-3 mb-4 footer-socials">
+            <a href="https://www.facebook.com/NelsonMullinsRileyScarborough" target="_blank" rel="noopener noreferrer"><img src="/images/icon-facebook-bottom.png" alt="Visit us on Facebook" height="26" width="26"></a>
+            <a href="https://www.linkedin.com/company/165138" target="_blank" rel="noopener noreferrer"><img src="/images/icon-linkedin-bottom.png" alt="Visit us on LinkedIn" height="26" width="26"></a>
+            <a href="https://x.com/NelsonMullins" target="_blank" rel="noopener noreferrer"><img src="/images/icon-x-bottom.png" alt="Visit us on X" height="26" width="26"></a>
+            <a href="https://www.youtube.com/user/NelsonMullinsVideo" target="_blank" rel="noopener noreferrer"><img src="/images/icon-youtube-bottom.png" alt="Visit us on YouTube" height="26" width="26"></a>
+            <a href="https://www.instagram.com/nelson_mullins/" target="_blank" rel="noopener noreferrer"><img src="/images/icon-instagram-bottom.png" alt="Visit us on Instagram" height="26" width="26"></a>
+          </div>
+          <a href="/rss-feeds.html">RSS FEEDS</a>
+          <a href="/sitemap.html">SITE MAP</a>
+          <a href="/disclaimer.html">DISCLAIMER</a>
+          <a href="/privacy-policy">PRIVACY POLICY</a>
+          <a href="/notice-at-collection">NOTICE AT COLLECTION</a>
         </div>
-        <p class="copyright">Copyright &copy;2025 Kohlerackels Riley &amp; Scarborough LLP - Attorneys and Counselors at Law. All rights reserved.<br>For informational purposes only. Past success does not indicate the likelihood of success in any future legal representation.</p>
+        <div class="copyright">
+          Copyright &copy;2025 Kohlerackels Riley &amp; Scarborough LLP - Attorneys and Counselors at Law. All rights reserved.<br>
+          For informational purposes only. Past success does not indicate the likelihood of success in any future legal representation.
+        </div>
       </div>
     </div>
   </footer>
 </template>
 
 <style scoped>
-.footer{border-top:1px solid #eee;margin-top:30px}.footer-inner{text-align:center;padding:28px 20px}.footer-socials{display:flex;justify-content:center;gap:10px;margin-bottom:14px}.footer-socials img{width:26px;height:26px}.footer-links{display:flex;justify-content:center;gap:24px;flex-wrap:wrap;margin-bottom:14px}.footer-links a{text-decoration:none;font-size:11px}.copyright{font-size:10px;line-height:1.55}
 </style>
 
 <script setup>
