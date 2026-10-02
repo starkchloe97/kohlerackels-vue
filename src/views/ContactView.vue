@@ -1,1 +1,0 @@
-<template><section class="page"><h1>Contact</h1><p>Contact content will be migrated from the supplied source.</p></section></template><style scoped lang="scss">.page{width:min(100% - 40px,$container-max);margin:auto;padding:80px 0}.page h1{font-size:56px}.page p{margin-top:16px}</style>
