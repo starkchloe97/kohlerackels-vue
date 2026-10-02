@@ -1,0 +1,13 @@
+<template><div class="source-page"><section class="row featured-top desktop_background_banner"><div class="featured-background"><img src="/images/profesional-1.jpg.jpeg" alt="Image of two individuals quickly walking down a spiral staircase"></div><div class="photo-gradient"></div><div class="container featured-container"><div class="row"><div class="col-md-6 featured-content"><h1 class="featured-section">Professionals</h1><h2 class="featured-title">A deep understanding of your vision</h2><div class="featured-details"><p><span class="text-head-blue">At Kohlerackels, we help advance our clients’ business goals through flexibility, business sense, and tireless advocacy based on a deep understanding of their business worlds.</span></p><p>A team of more than 1,000 attorneys, policy advisors, e-discovery professionals and other business professionals with over 100 diversified practice areas, we work side-by-side with you towards shared goals.</p></div></div></div></div></section><section class="container py-5"><div class="attorneys-grid"><article v-for="person in people" :key="person.name" class="attorney-card"><img class="attorney-img" :src="person.image" :alt="person.name"><div class="attorney-info"><h3 class="attorney-name">{{person.name}}</h3><p class="attorney-designation">{{person.role}}</p><div class="contact-info"><div class="contact-item"><span class="contact-text">{{person.phone}}</span></div><div class="contact-item"><span class="location">{{person.city}}</span></div></div></div></article></div><h2 class="mt-4">Highlights</h2></section></div></template>
+
+<style scoped>.source-page{overflow:hidden}.attorneys-grid{margin-top:25px}.featured-content{padding-top:40px;padding-bottom:40px}.featured-section{color:#b7801d}.featured-title{font-size:48px;line-height:1.05;margin:10px 0 25px;max-width:600px}.text-head-blue{color:#2e75b6;font-weight:600}.attorney-img{object-fit:cover}</style>
+
+<script setup>
+const people=[
+{name:'Alice Smith',role:'Manager',phone:'T 803.555.1001',city:'Atlanta, GA',image:'/images/ohdpvaLVtm2FONsiglaiLxq6N0Owi4O40e34qL9b.jpg'},
+{name:'Robert Johnson',role:'Senior Partner',phone:'T 212.555.2300',city:'New York, NY',image:'/images/qd5IYrDqccPfoJYxEh0r6blgftNNhc1KB1PBlTWl.jpg'},
+{name:'Maria Garcia',role:'Corporate Counsel',phone:'T 305.555.4500',city:'Miami, FL',image:'/images/Jc7KbwbGvTjOLhbjU9RbQZK3aT6GcA64o6dOcWRW.jpg'},
+{name:'James Wilson',role:'Litigation Attorney',phone:'T 312.555.6700',city:'Chicago, IL',image:'/images/Lht62fS0RwzCc7jmGm6kLFoJJaBwAtrjlZZl60aD.jpg'},
+{name:'Patricia Lee',role:'Intellectual Property',phone:'T 415.555.8900',city:'San Francisco, CA',image:'/images/Lc9cz7XPTgv1Tcl7av5lixHNL9U6efAXba6QCp3X.jpg'}
+]
+</script>
