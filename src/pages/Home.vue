@@ -861,19 +861,20 @@
 
 <script setup>
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
+import { SITE_NAME } from '@/config/siteInfo'
 
 const heroSlides = [
   {
     image: '/images/slide-1.jpeg',
     title: 'Innovative Thinkers. Solution Providers.',
     text: 'Challenges are opportunities to be leveraged. We provide creative solutions to complex problems.',
-    alt: 'Kohlerackels service information'
+    alt: `${SITE_NAME} service information`
   },
   {
     image: '/images/slide-21.jpg',
     title: 'Business Acumen. Legal Know-How.',
     text: 'Legal issues are only part of the story. We apply the law with practical business solutions.',
-    alt: 'Kohlerackels service information'
+    alt: `${SITE_NAME} service information`
   },
   {
     image: '/images/slide-3.jpeg',
@@ -885,7 +886,7 @@ const heroSlides = [
     image: '/images/slide-4.jpg',
     title: 'Clients First. <br>We Deliver.',
     text: 'Your business is our business. We work tirelessly for your success.',
-    alt: 'Kohlerackels client service information'
+    alt: `${SITE_NAME} client service information`
   }
 ]
 
