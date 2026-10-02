@@ -4,7 +4,7 @@
     <nav class="navbar navbar-toggleable-md navbar-light main-header" aria-label="Main Menu">
       <div class="container header-container">
         <RouterLink class="navbar-brand py-0" to="/" aria-label="Go to the homepage">
-          <img src="/images/Kohlerackels-logo.png" alt="Kohlerackels" @error="logoFailed = true" />
+          <img :src="logo" alt="Kohlerackels" @error="logoFailed = true" />
           <span v-if="logoFailed" class="logo-fallback">KOHLERACKELS</span>
         </RouterLink>
         <button class="navbar-toggler" type="button" :aria-expanded="mobileOpen" aria-label="Toggle navigation" @click="mobileOpen = !mobileOpen">
@@ -37,6 +37,7 @@
 </style>
 
 <script setup>
+import logo from '../../public/images/kohlerackels-logo.png'
 import { ref } from 'vue'
 const mobileOpen = ref(false)
 const firmOpen = ref(false)
