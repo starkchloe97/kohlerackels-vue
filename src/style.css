@@ -5372,11 +5372,11 @@ button.close {
 }
 
 .carousel-control-prev-icon {
-    background-image:url('../img/icon-carousel-prev.png');
+    background-image:url('/images/icon-carousel-prev.png');
 }
 
 .carousel-control-next-icon {
-  background-image:url('../img/icon-carousel-next.png');
+  background-image:url('/images/icon-carousel-next.png');
 }
 
 .carousel-indicators {
@@ -13029,7 +13029,7 @@ ul.nav.navbar-nav.navbar-top {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-image: url(../img/select-arrow.png);
+  background-image: url(/images/select-arrow.png);
   background-position: right center;
   background-repeat: no-repeat;
 }
@@ -13078,7 +13078,7 @@ ul.nav.navbar-nav.navbar-top {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: url(../img/select-arrow.png) center right no-repeat #e3e5e6;
+  background: url(/images/select-arrow.png) center right no-repeat #e3e5e6;
 }
 .location-search-form select.form-control:focus{
     outline:unset;
@@ -13609,10 +13609,10 @@ p.read-more-link {
 }
 
 .carousel-playing{
-    background-image:url('../img/pause-off.png');
+    background-image:url('/images/pause-off.png');
 }
 .carousel-paused{
-    background-image:url('../img/play-off.png');
+    background-image:url('/images/play-off.png');
 }
 
 .btn-carousel{
@@ -13689,10 +13689,10 @@ p.read-more-link {
 }
 
 .slick-autoplay-toggle-button:hover img.slick-autoplay-pause, .slick-autoplay-toggle-button:focus img.slick-autoplay-pause{
-    content:url("../img/pause-on.png");
+    content:url("/images/pause-on.png");
 }
 .slick-autoplay-toggle-button:hover img.slick-autoplay-play, .slick-autoplay-toggle-button:focus img.slick-autoplay-play{
-    content:url("../img/play-on.png");
+    content:url("/images/play-on.png");
 }
 .slick-prev,.slick-next {
     height:27px !important;
@@ -13715,10 +13715,10 @@ p.read-more-link {
     outline:none !important;
 }
 .slick-prev:hover img, .slick-prev:focus img{
-    content:url("../img/pagination-arrow-left-on.png");
+    content:url("/images/pagination-arrow-left-on.png");
 }
 .slick-next:hover img, .slick-next:focus img{
-    content:url("../img/pagination-arrow-right-on.png");
+    content:url("/images/pagination-arrow-right-on.png");
 }
 
 .slick-prev {
@@ -14323,7 +14323,7 @@ p.read-more-link {
 
 /* --- Subnav and Tabs --- */
 .attorney-subnav {
-  background: url(../img/subnav-background.png) top left repeat-x #fff;
+  background: url(/images/subnav-background.png) top left repeat-x #fff;
   padding-top: 30px;
   position: relative;
   z-index: 10;
@@ -14540,7 +14540,7 @@ p.read-more-link {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: url(../img/sort-arrow.png) center right no-repeat transparent;
+  background: url(/images/sort-arrow.png) center right no-repeat transparent;
   padding-right: 25px;
   margin-right: 0px;
   text-align: right;
@@ -15318,7 +15318,7 @@ p.read-more-link {
 }
 
 .culture-highlights-images {
-  background: url(../img/culture-highlights-images-back.png) center top repeat-y;
+  background: url(/images/culture-highlights-images-back.png) center top repeat-y;
 }
 
 .culture-highlights-images img {
@@ -15531,7 +15531,7 @@ p.read-more-link {
 }
 
 .location-button {
-  background: url(../img/location-button.png) center right #e3e5e6 no-repeat;
+  background: url(/images/location-button.png) center right #e3e5e6 no-repeat;
 }
 
 .location-button a {
@@ -15713,7 +15713,7 @@ a.nm-fake-button-yellow.no-transition:focus, a.nm-fake-button-blue.no-transition
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: url(../img/select-arrow.png) center right no-repeat #e3e5e6;
+  background: url(/images/select-arrow.png) center right no-repeat #e3e5e6;
 }
 
 .idea-exchange-search-form .btn-primary, .idea-exchange-search-filter .btn-primary {
@@ -16498,7 +16498,7 @@ h3.sidebar-title {
 
 .sidebar-contact-phone:before {
   content: "";
-  background: url(../img/detail-email.png);
+  background: url(/images/detail-email.png);
   background-size: 100%;
   display: inline-block;
   margin-right: 12px;
@@ -18782,7 +18782,7 @@ ul li div .attorney-tab-read-more {
   position: absolute;
   top: 0;
   right: 15px;
-  background: url(../img/select-arrow.png) center right no-repeat #e3e5e6;
+  background: url(/images/select-arrow.png) center right no-repeat #e3e5e6;
   pointer-events: none;
 }
 
@@ -20482,7 +20482,7 @@ a.skip-main:focus, a.skip-main:active {
     margin-bottom: 20px;
   }
   .culture-highlights-images {
-    background: url(../img/culture-highlights-images-back-mob.png) center center repeat-x;
+    background: url(/images/culture-highlights-images-back-mob.png) center center repeat-x;
   }
   .culture-highlights-images .col-md-5 {
     margin-left: 0;
