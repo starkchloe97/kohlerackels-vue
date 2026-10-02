@@ -1,132 +1,161 @@
 <template>
-  <header>
-    <a class="skip-main hidden-print" href="#main-content">Skip to Main Content</a>
+  <header class="simple-header">
+    <a class="skip-link" href="#main-content">Skip to Main Content</a>
 
-    <nav class="navbar navbar-expand-lg navbar-light" id="page-nav-top" aria-label="Related Sites">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 pr-0">
-            <button type="button" class="float-right nm-fake-button-dark-blue ml-4" @click="subscribeOpen = true">Subscribe</button>
-            <ul class="nav navbar-nav navbar-top flex-row mt-2">
-              <li class="nav-item"><a class="nav-link" href="https://encompass.kohlerackels.com/">Encompass</a></li>
-              <li class="nav-item"><a class="nav-link" href="https://educationcounsel.com/" target="_blank" rel="noopener">EducationCounsel</a></li>
-              <li class="nav-item"><a class="nav-link" href="https://assureg.com/" target="_blank" rel="noopener">Assureg</a></li>
-              <li class="nav-item"><a class="nav-link" href="https://nmsource.kohlerackels.com/">NMSource</a></li>
-              <li class="nav-item"><a class="nav-link" href="https://alumni.kohlerackels.com/" target="_blank" rel="noopener">Alumni</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>
+    <div class="simple-header-inner">
+      <RouterLink class="site-logo" to="/" aria-label="Kohlerackels home">
+        <img src="/images/kohlerackels-logo.png" alt="Kohlerackels">
+      </RouterLink>
 
-    <nav class="navbar navbar-toggleable-md navbar-light" aria-label="Main Menu">
-      <div class="container">
-        <button class="navbar-toggler navbar-toggler-right" type="button" :aria-expanded="mobileOpen" aria-controls="navbarNav" aria-label="Toggle navigation" @click="mobileOpen = !mobileOpen">
-          <span v-if="mobileOpen" class="my-1 mx-2 close" aria-hidden="true">&times;</span>
-          <span v-else class="navbar-toggler-icon" aria-hidden="true"></span>
-        </button>
+      <button
+        class="menu-toggle"
+        type="button"
+        :aria-expanded="menuOpen"
+        aria-controls="site-navigation"
+        aria-label="Toggle navigation"
+        @click="menuOpen = !menuOpen"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
-        <div class="mobile-search">
-          <button type="button" class="mobile-search-button" :aria-expanded="mobileSearchOpen" aria-label="Search" @click="mobileSearchOpen = !mobileSearchOpen">
-            <svg class="vue-search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M16 16l5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
-          </button>
-          <div class="header-search" :style="{ display: mobileSearchOpen ? 'block' : undefined }">
-            <form action="#" role="search" aria-label="Sitewide" @submit.prevent>
-              <div class="input-group">
-                <input class="stt-default-search-input form-control mobile-search-keyword" name="keyword" type="text" placeholder="Search for..." aria-label="Search for">
-                <span class="input-group-btn"><button class="btn btn-default" type="submit">Go</button></span>
-              </div>
-            </form>
-          </div>
-        </div>
-
-        <RouterLink class="navbar-brand py-0" to="/" aria-label="Go to the homepage">
-          <img src="/images/kohlerackels-logo.png" alt="Kohlerackels">
-        </RouterLink>
-
-        <div id="navbarNav" class="collapse navbar-collapse" :class="{ show: mobileOpen }">
-          <div class="col-md-12 main-nav-wrapper">
-            <ul class="nav navbar-nav navbar-top">
-              <li class="nav-item"><a class="nav-link" href="/careers">Careers</a></li>
-              <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
-              <li class="nav-item">
-                <div class="search-link">
-                  <button type="button" class="desktop-search" :aria-expanded="desktopSearchOpen" @click="desktopSearchOpen = !desktopSearchOpen">
-                    Search <svg class="vue-search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M16 16l5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
-                  </button>
-                  <div class="header-search" :style="{ display: desktopSearchOpen ? 'block' : undefined }">
-                    <form action="#" role="search" aria-label="Sitewide" @submit.prevent>
-                      <div class="input-group">
-                        <input class="stt-default-search-input form-control search-keyword" type="text" placeholder="Search for..." aria-label="Search for">
-                        <span class="input-group-btn"><button class="btn btn-default" type="submit">Go</button></span>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </li>
-            </ul>
-
-            <div class="clearfix"></div>
-
-            <ul class="nav navbar-nav navbar-main">
-              <li class="nav-item"><RouterLink class="nav-link" to="/professionals">Professionals</RouterLink></li>
-              <li class="nav-item"><RouterLink class="nav-link" to="/services">Services</RouterLink></li>
-              <li class="nav-item dropdown">
-                <button type="button" class="nav-link dropdown-toggle" id="firm-dropdown" :aria-expanded="firmOpen" @click="firmOpen = !firmOpen">Firm</button>
-                <div class="dropdown-menu" aria-labelledby="firm-dropdown" :style="{ display: firmOpen ? 'block' : undefined }">
-                  <RouterLink class="dropdown-item" to="/firm">Overview</RouterLink>
-                  <RouterLink class="dropdown-item" to="/locations">Locations</RouterLink>
-                  <RouterLink class="dropdown-item" to="/culture">Culture</RouterLink>
-                  <a class="dropdown-item" href="/firm/history.html">History</a>
-                  <a class="dropdown-item" href="/culture/culture_pro_bono.html">Pro Bono</a>
-                  <a class="dropdown-item" href="/culture/culture_engagement_opportunity.html">Engagement and Opportunity</a>
-                  <a class="dropdown-item" href="/culture/culture_community_service.html">Community Service</a>
-                </div>
-              </li>
-              <li class="nav-item"><a class="nav-link" href="/insights/alerts.html">Insights</a></li>
-              <li class="nav-item"><a class="nav-link" href="/insights/events.html">Events</a></li>
-            </ul>
-
-            <ul class="nav navbar-nav navbar-top mobile-navbar">
-              <li class="nav-item"><a class="nav-link" href="https://encompass.kohlerackels.com/">Encompass</a></li>
-              <li class="nav-item"><a class="nav-link" href="https://educationcounsel.com/" target="_blank" rel="noopener">EducationCounsel</a></li>
-              <li class="nav-item"><a class="nav-link" href="https://assureg.com/" target="_blank" rel="noopener">Assureg</a></li>
-              <li class="nav-item"><a class="nav-link" href="https://nmsource.kohlerackels.com/">NMSource</a></li>
-              <li class="nav-item"><a class="nav-link" href="/careers">Careers</a></li>
-              <li class="nav-item"><a class="nav-link" href="https://alumni.kohlerackels.com/" target="_blank" rel="noopener">Alumni</a></li>
-              <li class="nav-item"><a class="nav-link no-border" href="/contact">Contact Us</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>
-
-    <div v-if="subscribeOpen" class="vue-modal" role="dialog" aria-modal="true" aria-labelledby="subscribe-title" @click.self="subscribeOpen = false">
-      <div class="vue-modal-content">
-        <div class="modal-header">
-          <h2 id="subscribe-title">Subscribe</h2>
-          <button type="button" aria-label="Close" @click="subscribeOpen = false">&times;</button>
-        </div>
-        <div class="modal-body"></div>
-      </div>
+      <nav id="site-navigation" class="simple-nav" :class="{ open: menuOpen }" aria-label="Main Menu">
+        <RouterLink to="/professionals" @click="menuOpen = false">Professionals</RouterLink>
+        <RouterLink to="/services" @click="menuOpen = false">Services</RouterLink>
+        <RouterLink to="/firm" @click="menuOpen = false">Firm</RouterLink>
+      </nav>
     </div>
   </header>
 </template>
 
 <style scoped>
-.vue-search-icon{width:24px;height:24px;vertical-align:middle;margin-left:5px}
+.simple-header {
+  position: relative;
+  z-index: 100;
+  background: #fff;
+}
+
+.simple-header-inner {
+  width: min(100% - 40px, 1140px);
+  min-height: 105px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-logo {
+  display: block;
+  line-height: 0;
+}
+
+.site-logo img {
+  width: 300px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.simple-nav {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+
+.simple-nav a {
+  color: #111;
+  text-decoration: none;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 19px;
+  font-weight: 300;
+  transition: color .2s ease;
+}
+
+.simple-nav a:hover,
+.simple-nav a.router-link-active {
+  color: #c28b14;
+}
+
+.menu-toggle {
+  display: none;
+  border: 0;
+  background: transparent;
+  padding: 8px;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 26px;
+  height: 2px;
+  margin: 5px 0;
+  background: #173b63;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 10px;
+}
+
+.skip-link:focus {
+  left: 10px;
+  z-index: 200;
+  padding: 10px 14px;
+  background: #fff;
+  color: #000;
+}
+
+@media (max-width: 991px) {
+  .simple-header-inner {
+    min-height: 82px;
+  }
+
+  .site-logo img {
+    width: 230px;
+    height: auto;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .simple-nav {
+    display: none;
+    position: absolute;
+    top: 82px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 12px 24px 20px;
+    background: #fff;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, .08);
+  }
+
+  .simple-nav.open {
+    display: flex;
+  }
+
+  .simple-nav a {
+    padding: 13px 0;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .simple-header-inner {
+    width: min(100% - 28px, 1140px);
+  }
+
+  .site-logo img {
+    width: 205px;
+  }
+}
 </style>
 
 <script setup>
-import { ref, watch } from 'vue'
+import { ref } from 'vue'
 
-const mobileOpen = ref(false)
-const mobileSearchOpen = ref(false)
-const desktopSearchOpen = ref(false)
-const firmOpen = ref(false)
-const subscribeOpen = ref(false)
-
-watch(mobileOpen, (open) => {
-  if (!open) firmOpen.value = false
-})
+const menuOpen = ref(false)
 </script>
