@@ -70,4 +70,5 @@
 </style>
 
 <script setup>
+import { SITE_NAME } from '@/config/siteInfo'
 </script>
