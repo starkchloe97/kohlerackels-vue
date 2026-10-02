@@ -29,7 +29,7 @@
   padding: 30px 0 26px;
   text-align: center;
   color: #747474;
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 .footer-nav {
