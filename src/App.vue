@@ -1,12 +1,16 @@
 <template>
-  <AppHeader />
-  <main id="main-content">
+  <Header />
+  <main id="app">
     <RouterView />
   </main>
-  <AppFooter />
+  <Footer />
 </template>
 
+<style scoped>
+main{min-height:60vh}
+</style>
+
 <script setup>
-import AppHeader from './components/layout/AppHeader.vue'
-import AppFooter from './components/layout/AppFooter.vue'
+import Header from './components/Header.vue'
+import Footer from './components/Footer.vue'
 </script>
