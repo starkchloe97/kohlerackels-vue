@@ -5,7 +5,7 @@
             <!-- main content -->
             <div class="row featured-top desktop_background_banner">
                 <div class="featured-background">
-                    <img src="/images/profesional-1.jpg.jpeg"
+                    <img src="/images//images/placeholder.svg"
                         alt="Image of two individuals quickly walking down a spiral staircase" />
                 </div>
                 <div class="photo-gradient"></div>
@@ -30,7 +30,7 @@
             <!-- /end of DESKTOP featured top -->
 
             <div class="row featured-top mobile_background_banner">
-                <img src="/images/sBE8FgyBKPS1dQl3rc327XbCMhLvS6v7PvUCUWrK.jpg"
+                <img src="/images//images/placeholder.svg"
                     alt="Image of two individuals quickly walking down a spiral staircase" />
                 <div class="container featured-container">
                     <div class="row">
@@ -77,7 +77,7 @@
                 <div class="attorneys-grid">
                     <!-- Attorney 1: Alice Smith -->
                     <div class="attorney-card">
-                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+                        <img src="/images/placeholder.svg"
                             alt="Alice Smith" class="attorney-img">
                         <div class="attorney-info">
                             <h3 class="attorney-name">Alice Smith</h3>
@@ -102,7 +102,7 @@
 
                     <!-- Attorney 2: Robert Johnson -->
                     <div class="attorney-card">
-                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+                        <img src="/images/placeholder.svg"
                             alt="Robert Johnson" class="attorney-img">
                         <div class="attorney-info">
                             <h3 class="attorney-name">Robert Johnson</h3>
@@ -127,7 +127,7 @@
 
                     <!-- Attorney 3: Maria Garcia -->
                     <div class="attorney-card">
-                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+                        <img src="/images/placeholder.svg"
                             alt="Maria Garcia" class="attorney-img">
                         <div class="attorney-info">
                             <h3 class="attorney-name">Maria Garcia</h3>
@@ -152,7 +152,7 @@
 
                     <!-- Attorney 4: James Wilson -->
                     <div class="attorney-card">
-                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+                        <img src="/images/placeholder.svg"
                             alt="James Wilson" class="attorney-img">
                         <div class="attorney-info">
                             <h3 class="attorney-name">James Wilson</h3>
@@ -177,7 +177,7 @@
 
                     <!-- Attorney 5: Patricia Lee -->
                     <div class="attorney-card">
-                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+                        <img src="/images/placeholder.svg"
                             alt="Patricia Lee" class="attorney-img">
                         <div class="attorney-info">
                             <h3 class="attorney-name">Patricia Lee</h3>
@@ -202,7 +202,7 @@
 
                     <!-- Attorney 6: Michael Brown -->
                     <div class="attorney-card">
-                        <img src="https://images.unsplash.com/photo-1507591064344-4c6ce005b128?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+                        <img src="/images/placeholder.svg"
                             alt="Michael Brown" class="attorney-img">
                         <div class="attorney-info">
                             <h3 class="attorney-name">Michael Brown</h3>
@@ -227,7 +227,7 @@
 
                     <!-- Attorney 7: Jennifer Davis -->
                     <div class="attorney-card">
-                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+                        <img src="/images/placeholder.svg"
                             alt="Jennifer Davis" class="attorney-img">
                         <div class="attorney-info">
                             <h3 class="attorney-name">Jennifer Davis</h3>
@@ -252,7 +252,7 @@
 
                     <!-- Attorney 8: William Miller -->
                     <div class="attorney-card">
-                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+                        <img src="/images/placeholder.svg"
                             alt="William Miller" class="attorney-img">
                         <div class="attorney-info">
                             <h3 class="attorney-name">William Miller</h3>
@@ -277,7 +277,7 @@
 
                     <!-- Attorney 9: Linda Taylor -->
                     <div class="attorney-card">
-                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+                        <img src="/images/placeholder.svg"
                             alt="Linda Taylor" class="attorney-img">
                         <div class="attorney-info">
                             <h3 class="attorney-name">Linda Taylor</h3>
@@ -302,7 +302,7 @@
 
                     <!-- Attorney 10: David Anderson -->
                     <div class="attorney-card">
-                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+                        <img src="/images/placeholder.svg"
                             alt="David Anderson" class="attorney-img">
                         <div class="attorney-info">
                             <h3 class="attorney-name">David Anderson</h3>
@@ -394,7 +394,7 @@
                                 <div class="row carousel-item " role="group" aria-roledescription="slide"
                                     aria-label="Slide 2 of 3">
                                     <div class="col-12 col-md-6">
-                                        <img src="/images/Jc7KbwbGvTjOLhbjU9RbQZK3aT6GcA64o6dOcWRW.jpg"
+                                        <img src="/images//images/placeholder.svg"
                                             alt="football" />
                                         <div class="photo-gradient"></div>
                                         <div class="carousel-caption">
