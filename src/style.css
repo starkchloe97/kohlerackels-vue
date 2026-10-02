@@ -4,8 +4,7 @@
   IMPORTS 
 */
 /* standard CSS imports (not compiled) */
-/*  @import "../vendor/jquery-ui/jquery-ui.css";
-  @import "../vendor/google/fonts/lato/lato-v11-latin.css";*/
+/* Original vendor imports intentionally removed; this site uses the local stylesheet only. */
 /* SCSS imports (compiled) */
 /*!
  * Bootstrap v4.0.0-alpha.6 (https://getbootstrap.com)
