@@ -1,13 +1,14 @@
 <template>
-  <Header />
-  <main id="app">
-    <RouterView />
-  </main>
-  <Footer />
+  <div class="site-wrapper">
+    <Header />
+    <main class="col-sm-12 page_container-">
+      <RouterView />
+    </main>
+    <Footer />
+  </div>
 </template>
 
 <style scoped>
-main{min-height:60vh}
 </style>
 
 <script setup>
