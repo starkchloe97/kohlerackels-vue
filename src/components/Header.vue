@@ -3,8 +3,8 @@
     <a class="skip-link" href="#main-content">Skip to Main Content</a>
 
     <div class="simple-header-inner">
-      <RouterLink class="site-logo" to="/" aria-label="Kohlerackels home">
-        <img src="/images/kohlerackels-logo.png" alt="Kohlerackels">
+      <RouterLink class="site-logo" to="/"  :aria-label="`${SITE_NAME} home`">
+        <img src="/images/kohlerackels-logo.png"  :alt="SITE_NAME">
       </RouterLink>
 
       <button
@@ -156,6 +156,7 @@
 
 <script setup>
 import { ref } from 'vue'
+import { SITE_NAME } from '@/config/siteInfo'
 
 const menuOpen = ref(false)
 </script>
