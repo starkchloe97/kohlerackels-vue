@@ -28,7 +28,7 @@
 
         <div class="mobile-search">
           <button type="button" class="mobile-search-button" :aria-expanded="mobileSearchOpen" aria-label="Search" @click="mobileSearchOpen = !mobileSearchOpen">
-            <img src="/images/icon-search.png" alt="Search">
+            <svg class="vue-search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M16 16l5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
           </button>
           <div class="header-search" :style="{ display: mobileSearchOpen ? 'block' : undefined }">
             <form action="#" role="search" aria-label="Sitewide" @submit.prevent>
@@ -52,7 +52,7 @@
               <li class="nav-item">
                 <div class="search-link">
                   <button type="button" class="desktop-search" :aria-expanded="desktopSearchOpen" @click="desktopSearchOpen = !desktopSearchOpen">
-                    Search <img src="/images/icon-search.png" alt="">
+                    Search <svg class="vue-search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M16 16l5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
                   </button>
                   <div class="header-search" :style="{ display: desktopSearchOpen ? 'block' : undefined }">
                     <form action="#" role="search" aria-label="Sitewide" @submit.prevent>
@@ -114,6 +114,7 @@
 </template>
 
 <style scoped>
+.vue-search-icon{width:24px;height:24px;vertical-align:middle;margin-left:5px}
 </style>
 
 <script setup>
