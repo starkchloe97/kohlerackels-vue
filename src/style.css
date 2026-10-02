@@ -21645,3 +21645,12 @@ div#map_inner {
         column-count: 2;        
     }
     }
+
+/* Vue-only fallbacks for legacy icon assets that are not required by the page markup. */
+.carousel-control-prev-icon,
+.carousel-control-next-icon{background-image:none!important;width:18px;height:18px;border-top:2px solid currentColor;border-left:2px solid currentColor}
+.carousel-control-prev-icon{transform:rotate(-45deg)}
+.carousel-control-next-icon{transform:rotate(135deg)}
+.carousel-play-icon{background-image:none!important;position:relative;width:16px;height:18px}
+.carousel-play-icon.carousel-playing:before{content:"";position:absolute;left:2px;top:2px;width:3px;height:14px;background:currentColor;box-shadow:7px 0 0 currentColor}
+.carousel-play-icon.carousel-paused:before{content:"";position:absolute;left:3px;top:2px;border-top:7px solid transparent;border-bottom:7px solid transparent;border-left:10px solid currentColor}
