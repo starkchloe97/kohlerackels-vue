@@ -21369,3 +21369,279 @@ a.skip-main:focus, a.skip-main:active {
 .focus-section{width:100%;overflow:hidden}.focus-container{max-width:1084px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;align-items:flex-start;gap:48px}.focus-left{flex:0 0 360px;padding:0 0 70px}.focus-title{font-family:"Quattrocento Sans";font-size:31px;line-height:1.15;font-weight:700;color:#000;margin-bottom:38px}.focus-buttons{display:flex;flex-direction:column;align-items:flex-start;gap:20px}.focus-btn{appearance:none;border:0;cursor:pointer;text-align:left;font-family:"Open Sans",sans-serif;font-size:15.5px;font-weight:700;line-height:1.4;box-shadow:0 3px 12px rgba(0,0,0,.14);color:#000;background:#fff;padding:8px 24px;border-radius:24px;max-width:362px;transition:background-color .25s ease,color .25s ease,box-shadow .25s ease}.focus-btn:hover{background:#ffffff8a;box-shadow:0 3px 12px rgba(0,0,0,.23)}.focus-btn.is-active{background:#023e82b7;color:#fff;padding:12px 26px;border-radius:28px}.focus-right{flex:0 0 652px;max-width:100%}.focus-card{background:#fff;overflow:hidden}.focus-card__inner{padding:0 64px 26px 90px}.focus-card h3{font-family:"Quattrocento Sans";font-size:31px;line-height:1.3;font-weight:700;color:#1a1a1a;margin-bottom:13px}.focus-card p{font-size:15px;line-height:1.5;color:#333}@media(max-width:1080px){.focus-container{flex-direction:column;gap:0;padding:0 20px 60px}.focus-left{flex:none;padding:45px 0 40px}.focus-right{flex:none;width:100%}.focus-card__inner{padding:26px 30px}}@media(max-width:768px){.focus-buttons,.focus-right{display:none}.focus-left{padding:38px 0 28px}.focus-title{font-size:26px;margin-bottom:22px}}
 .attorneys-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:25px;margin-bottom:40px}.attorney-card{background:#e8edf1;border-radius:10px;overflow:hidden;box-shadow:0 5px 15px rgba(0,0,0,.08);transition:transform .3s ease,box-shadow .3s ease}.attorney-card:hover{transform:translateY(-5px);box-shadow:0 10px 25px rgba(0,0,0,.12)}.attorney-img{width:100%;height:200px;object-fit:cover;border-bottom:4px solid #000}.attorney-info{padding:20px}.attorney-name{color:#000;font-size:1rem;margin-bottom:0;font-weight:600}.attorney-designation{color:#000;font-size:.75rem;margin-bottom:15px;font-weight:500}.contact-info{margin-top:10px;border-top:1px solid #c7c7c7;padding-top:10px}.contact-item{display:flex;align-items:center;margin-bottom:2px;font-size:.7rem}.contact-item i{width:20px;color:#000;margin-right:10px}.contact-text,.location{color:#6e6e6e}
 .practice-subcategories-two-column{column-count:2}@media(max-width:575px){.practice-subcategories-two-column{column-count:1}}
+
+
+/* Professionals page styles migrated from original HTML */
+h1 {
+            color: #2c3e50;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.1rem;
+        }
+
+        .attorneys-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+
+        .attorney-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .attorney-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+        }
+
+        .attorney-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 4px solid #000;
+        }
+
+        .attorney-info {
+            padding: 20px;
+        }
+
+        .attorney-name {
+            color: #000;
+            font-size: 1rem;
+            margin-bottom: 0px;
+            font-weight: 600;
+        }
+
+        .attorney-designation {
+            color: #000;
+            font-size: 0.75rem;
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+
+        .contact-info {
+            margin-top: 10px;
+            border-top: 1px solid #c7c7c7;
+            padding-top: 10px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 2px;
+            font-size: 0.7rem;
+        }
+
+        .contact-item i {
+            width: 20px;
+            color: #000;
+            margin-right: 10px;
+        }
+
+        .contact-text {
+            color: #6e6e6e;
+        }
+
+        .location {
+            color: #6e6e6e;
+        }
+
+        .attorney-card {
+            background-color: #e8edf1;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eaeaea;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 1300px) {
+            .attorneys-grid {
+                grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            }
+        }
+
+        @media (max-width: 768px) {
+            .attorneys-grid {
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .attorneys-grid {
+                grid-template-columns: 1fr;
+            }
+
+            body {
+                padding: 15px;
+            }
+        }
+
+body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+
+        .alphabet-container {
+            background-color: #475666;
+            padding: 10px;
+            border-radius: 8px;
+            min-width: 300px;
+        }
+
+        .alphabet-grid {
+            display: grid;
+            grid-template-columns: repeat(7, 40px);
+            grid-gap: 10px;
+        }
+
+        .alphabet-grid div {
+            background-color: inherit;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            cursor: pointer;
+            border-radius: 4px;
+            user-select: none;
+            transition: background-color 0.3s;
+        }
+
+        .alphabet-grid div:hover {
+            background-color: #3b4b5c;
+        }
+
+        .alphabet-grid div.active {
+            background-color: #95a8bd;
+            color: white;
+        }
+
+        .list-container {
+            flex: 1;
+            overflow-x: auto;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+            vertical-align: top;
+        }
+
+        th {
+            text-align: left;
+            background: #f0f0f0;
+        }
+
+        .contact span {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+
+        .contact span img {
+            width: 16px;
+            height: 16px;
+            margin-right: 5px;
+        }
+
+        img.profile {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        .count-display {
+            margin: 10px 0;
+            color: #666;
+            font-style: italic;
+        }
+
+/* Services page styles migrated from original HTML */
+.practice-subcategories-two-column {
+            column-count: 2;
+        }
+
+        @media(max-width:575px) {
+            .practice-subcategories-two-column {
+                column-count: 1;
+            }
+        }
+
+/* .capabilities-practices .practice-column:nth-of-type(1) .practices-category a,
+        .practices-category button {
+            background: green !important;
+        }
+
+
+
+        .capabilities-practices .practice-column:nth-of-type(3) {
+            background: green !important;
+
+        } */
+
+/* Locations page styles migrated from original HTML */
+div#map_inner {
+         pointer-events: none;
+}
+    .locations-list{
+        padding:0;
+        list-style:none;
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;        
+    }
+    .locations-list li{
+        margin-bottom:1em;
+    }
+    .locations-list li a{
+        font-size:1.283em;
+        font-weight:600;
+        color:#4579A5;
+    }
+    .locations-list li a:hover{
+        text-decoration:underline;
+    }
+    .other-location .other-location-name{
+        font-size:1.283em;
+        font-weight:600;
+    }
+    #map a{
+        color:#3B6D97 ;
+    }
+    @media (max-width: 768px) {
+        .locations-list{
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;        
+    }
+    }
