@@ -303,7 +303,7 @@ The Firm worked in partnership with Eli Lilly and Company to help create and lau
                                                                                     </div>
                     </div>
                                     <div class="sidebar-contact-photo key-contact">
-                                                    <img src="/images/e5b5d0de4459d2d306e7803f1be658fc.jpg" alt="Patrece Simmons" />                                                                
+                                                    <img src="/images//images/placeholder.svg" alt="Patrece Simmons" />                                                                
                         <div class="sidebar-contact-details">
                                                             <h4>Patrece Simmons</h4>
                                                         <h6>
@@ -320,7 +320,7 @@ The Firm worked in partnership with Eli Lilly and Company to help create and lau
                                                                                     </div>
                     </div>
                                     <div class="sidebar-contact-photo key-contact">
-                                                    <img src="/images/gnMAyJtPKI66gA8fBxl3qRQzHVb9DIIFQSIy0pEo.jpg" alt="Katerina (Kat) Y. Taylor" />                                                                
+                                                    <img src="/images//images/placeholder.svg" alt="Katerina (Kat) Y. Taylor" />                                                                
                         <div class="sidebar-contact-details">
                                                             <h4>Katerina (Kat) Y. Taylor</h4>
                                                         <h6>
@@ -603,7 +603,7 @@ The Firm worked in partnership with Eli Lilly and Company to help create and lau
                                                                                     </div>
                     </div>
                                     <div class="sidebar-contact-photo key-contact">
-                                                    <img src="/images/e5b5d0de4459d2d306e7803f1be658fc.jpg" alt="Patrece Simmons" />                                                                
+                                                    <img src="/images//images/placeholder.svg" alt="Patrece Simmons" />                                                                
                         <div class="sidebar-contact-details">
                                                             <h4>Patrece Simmons</h4>
                                                         <h6>
@@ -620,7 +620,7 @@ The Firm worked in partnership with Eli Lilly and Company to help create and lau
                                                                                     </div>
                     </div>
                                     <div class="sidebar-contact-photo key-contact">
-                                                    <img src="/images/gnMAyJtPKI66gA8fBxl3qRQzHVb9DIIFQSIy0pEo.jpg" alt="Katerina (Kat) Y. Taylor" />                                                                
+                                                    <img src="/images//images/placeholder.svg" alt="Katerina (Kat) Y. Taylor" />                                                                
                         <div class="sidebar-contact-details">
                                                             <h4>Katerina (Kat) Y. Taylor</h4>
                                                         <h6>
@@ -742,7 +742,7 @@ The Firm worked in partnership with Eli Lilly and Company to help create and lau
 			<div class="carousel-inner" aria-live="polite">
                 				                                                <div class="row carousel-item active" role="group" aria-roledescription="slide" aria-label="Slide 1 of 3">
                 					<div class="col-12 col-md-6">
-                                                                        <img src="/images/wHN1ADwTfECbJlT8ZZ4H0mj3iHTBeI9iDJKhaatA.jpg" alt="Hold on tight and never let go" />                                            						
+                                                                        <img src="/images//images/placeholder.svg" alt="Hold on tight and never let go" />                                            						
 						<div class="photo-gradient"></div>
 						<div class="carousel-caption">
 															<a href="insights/news/press_releases/boca-raton-partner-laura-maher-defends-children-s-rights-in-pro-bono-appeal.html"
@@ -756,7 +756,7 @@ The Firm worked in partnership with Eli Lilly and Company to help create and lau
 						</div>
 					</div>
                     				                					<div class="col-12 col-md-6">
-                                                                        <img src="/images/pYtMqIERbVRVSaa4fQB3bgovHFKga8RA7nCfCE1M.jpg" alt="" />                                            						
+                                                                        <img src="/images//images/placeholder.svg" alt="" />                                            						
 						<div class="photo-gradient"></div>
 						<div class="carousel-caption">
 															<a href="insights/news/press_releases/jaclyn-hall-s-pro-bono-counsel-helps-open-doors-for-vulnerable-new-yorkers.html"
@@ -772,7 +772,7 @@ The Firm worked in partnership with Eli Lilly and Company to help create and lau
                                         </div>
                     				                                                <div class="row carousel-item " role="group" aria-roledescription="slide" aria-label="Slide 2 of 3">
                 					<div class="col-12 col-md-6">
-                                                                        <img src="/images/SlzMlZylnoC5i8abq2OHMKW74gG1KfVvBZ12ABoB.jpg" alt="closeup of American flags lined up in a row" />                                            						
+                                                                        <img src="/images//images/placeholder.svg" alt="closeup of American flags lined up in a row" />                                            						
 						<div class="photo-gradient"></div>
 						<div class="carousel-caption">
 															<a href="insights/news/press_releases/houston-partner-jason-sharp-secures-benefits-for-veteran-in-tinnitus-appeal.html"
@@ -786,7 +786,7 @@ The Firm worked in partnership with Eli Lilly and Company to help create and lau
 						</div>
 					</div>
                     				                					<div class="col-12 col-md-6">
-                                                                        <img src="/images/kzIMEmdekvHf9teDfkfMcLXajseRYRsXH8z6QtRk.jpg" alt="" />                                            						
+                                                                        <img src="/images//images/placeholder.svg" alt="" />                                            						
 						<div class="photo-gradient"></div>
 						<div class="carousel-caption">
 															<a href="insights/news/press_releases/nelson-mullins-celebrates-35-years-of-pro-bono-impact.html"
@@ -802,7 +802,7 @@ The Firm worked in partnership with Eli Lilly and Company to help create and lau
                                         </div>
                     				                                                <div class="row carousel-item " role="group" aria-roledescription="slide" aria-label="Slide 3 of 3">
                 					<div class="col-12 col-md-6">
-                                                                        <img src="/images/bhcT0XrxprbBzR87iacHLQGE49TqX1uWAMucU6gB.jpg" alt="" />                                            						
+                                                                        <img src="/images//images/placeholder.svg" alt="" />                                            						
 						<div class="photo-gradient"></div>
 						<div class="carousel-caption">
 															<a href="insights/news/press_releases/kick-off-training-for-new-nelson-mullins-restraining-order-pilot-project-in-sc.html"
@@ -816,7 +816,7 @@ The Firm worked in partnership with Eli Lilly and Company to help create and lau
 						</div>
 					</div>
                     				                					<div class="col-12 col-md-6">
-                                                                        <img src="/images/GezBJWp3y1d2uemsZEG8FxyhbgEmPh2GgqluMNBB.jpg" alt="NLADA Logo" />                                            						
+                                                                        <img src="/images//images/placeholder.svg" alt="NLADA Logo" />                                            						
 						<div class="photo-gradient"></div>
 						<div class="carousel-caption">
 															<a href="insights/news/press_releases/nelson-mullins-pro-bono-department-honored-with-2025-beacon-of-justice-award.html"
