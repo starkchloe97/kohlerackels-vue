@@ -1,0 +1,2 @@
+# Image assets
+Add supplied source images here during asset migration. Expected homepage sources include slide-1.jpeg, slide-21.jpg, slide-3.jpeg, slide-4.jpg, mobslide1.jpeg through mobslide4.jpeg, Slide1.jpg through Slide4.jpg, home-slide-3.jpeg, and Kohlerackels-logo.png.
