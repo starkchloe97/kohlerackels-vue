@@ -734,137 +734,7 @@
                 </div>
             </div>
 
-            <div class="container">
-                <!-- Bottom Carousel -->
-                <!-- aside -->
-                <section class="row bottom-carousel">
-                    <div class="col-md-12 bottom-carousel-wrapper">
-                        <section id="bottom-carousel" class="aside carousel slide multi" data-itemcount-l="2" data-itemcount-m="2" data-itemcount-s="1"
-                            aria-roledescription="carousel" aria-labelledby="aside486">
-
-                            <h2 id="aside486" class="d-inline-block">Highlights from Insights</h2>
-                            <ol class="carousel-indicators circle">
-
-                                <li class="carousel-circle active dot-1">
-                                    <button type="button" class="btn-carousel" aria-label="Slide 1" aria-current="true"></button>
-                                </li>
-
-                                <li class="carousel-circle  dot-2">
-                                    <button type="button" class="btn-carousel" aria-label="Slide 2" aria-current="false"></button>
-                                </li>
-
-                                <li class="carousel-circle  dot-3">
-                                    <button type="button" class="btn-carousel" aria-label="Slide 3" aria-current="false"></button>
-                                </li>
-                            </ol>
-
-
-                            <div class="carousel-inner" aria-live="polite">
-                                <div class="row carousel-item active" role="group" aria-roledescription="slide"
-                                    aria-label="Slide 1 of 3">
-                                    <div class="col-12 col-md-6">
-                                        <img src="/images/ohdpvaLVtm2FONsiglaiLxq6N0Owi4O40e34qL9b.jpg"
-                                            alt="gavel on law books" />
-                                        <div class="photo-gradient"></div>
-                                        <div class="carousel-caption">
-                                            <a
-                                                href="insights/insights/navigating-california-s-climate-disclosure-laws-your-complete-guide-to-sb-253-and-sb-261.html">
-                                                Navigating California’s Climate Disclosure Laws: Your Complete Guide to
-                                                SB...
-
-                                            </a>
-                                            <div class="caption-date">
-                                                December 2, 2025
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-md-6">
-                                        <img src="/images/qd5IYrDqccPfoJYxEh0r6blgftNNhc1KB1PBlTWl.jpg"
-                                            alt="Construction site and development" />
-                                        <div class="photo-gradient"></div>
-                                        <div class="carousel-caption">
-                                            <a
-                                                href="insights/insights/nmrs-attorneys-published-in-florida-bar-journal-on-ccna-procurements.html">
-                                                NMRS Attorneys Published in Florida Bar Journal on CCNA Procurements
-
-                                            </a>
-                                            <div class="caption-date">
-                                                November/December 2025
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row carousel-item " role="group" aria-roledescription="slide"
-                                    aria-label="Slide 2 of 3">
-                                    <div class="col-12 col-md-6">
-                                        <img src="/images/placeholder.svg"
-                                            alt="football" />
-                                        <div class="photo-gradient"></div>
-                                        <div class="carousel-caption">
-                                            <a
-                                                href="insights/insights/prime-equity-and-the-nil-era-shedeur-sanders-contract-ushers-in-a-new-legal-framework-for-pro-athlete-compensation.html">
-                                                “Prime Equity” and the NIL Era: Shedeur Sanders’ Contract Ushers...
-
-                                            </a>
-                                            <div class="caption-date">
-                                                September 3, 2025
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-md-6">
-                                        <img src="/images/Lht62fS0RwzCc7jmGm6kLFoJJaBwAtrjlZZl60aD.jpg" alt="" />
-                                        <div class="photo-gradient"></div>
-                                        <div class="carousel-caption">
-                                            <a
-                                                href="insights/alerts/additional_nelson_mullins_alerts/all/fdot-announces-small-business-growth-program-following-dbe-program-updates.html">
-                                                FDOT Announces Small Business Growth Program Following DBE Program
-                                                Updates
-
-                                            </a>
-                                            <div class="caption-date">
-                                                November 24, 2025
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row carousel-item " role="group" aria-roledescription="slide"
-                                    aria-label="Slide 3 of 3">
-                                    <div class="col-12 col-md-6">
-                                        <img src="/images/Lc9cz7XPTgv1Tcl7av5lixHNL9U6efAXba6QCp3X.jpg" alt="" />
-                                        <div class="photo-gradient"></div>
-                                        <div class="carousel-caption">
-                                            <a
-                                                href="insights/alerts/nelson-mullins-affordable-housing-news/all/hud-continuum-of-care-funding-gap-risks-and-recommendations.html">
-                                                HUD Continuum of Care Funding Gap: Risks and Recommendations
-
-                                            </a>
-                                            <div class="caption-date">
-                                                November 24, 2025
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-md-6">
-                                        <img src="/images/Lc9cz7XPTgv1Tcl7av5lixHNL9U6efAXba6QCp3X.jpg" alt="" />
-                                        <div class="photo-gradient"></div>
-                                        <div class="carousel-caption">
-                                            <a
-                                                href="insights/alerts/nelson-mullins-affordable-housing-news/all/hud-extends-compliance-dates-for-energy-efficiency-standards-in-hud-and-usda-financed-housing.html">
-                                                HUD Extends Compliance Dates for Energy Efficiency Standards in HUD-...
-
-                                            </a>
-                                            <div class="caption-date">
-                                                November 14, 2025
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </section>
-                <!-- /aside -->
-
-            </div>
+           <Carousel />
 
             <!-- /main content -->
   </div>
@@ -874,4 +744,7 @@
 </style>
 
 <script setup>
+
+import Carousel from '@/components/Carousel.vue';
+
 </script>
