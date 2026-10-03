@@ -318,5 +318,5 @@
 <style scoped></style>
 
 <script setup>
-import Carousel from '/components/Carousel.vue';
+import Carousel from '@/components/Carousel.vue';
 </script>

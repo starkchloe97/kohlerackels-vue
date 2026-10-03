@@ -106,7 +106,7 @@ const items = ref([
     date: 'November/December 2025',
   },
   {
-    image: '/images/placeholder.svg',
+    image: '/images/carousal-img.jpg',
     alt: 'football',
     title: '“Prime Equity” and the NIL Era: Shedeur Sanders’ Contract Ushers...',
     href: 'insights/insights/prime-equity-and-the-nil-era-shedeur-sanders-contract-ushers-in-a-new-legal-framework-for-pro-athlete-compensation.html',
