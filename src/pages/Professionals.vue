@@ -58,26 +58,13 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
             <div class="container">
 
 
                 <div class="attorneys-grid">
                     <!-- Attorney 1: Alice Smith -->
                     <div class="attorney-card">
-                        <img src="/images/placeholder.svg"
+                        <img src="/images/alice-smith.avif"
                             alt="Alice Smith" class="attorney-img">
                         <div class="attorney-info">
                             <h3 class="attorney-name">Alice Smith</h3>
@@ -85,15 +72,15 @@
 
                             <div class="contact-info">
                                 <div class="contact-item">
-                                    <i class="fas fa-phone"></i>
+                                    <Phone class="contact-icon" :size="16" aria-hidden="true" />
                                     <span class="contact-text">T 803.555.1001</span>
                                 </div>
                                 <div class="contact-item">
-                                    <i class="fas fa-fax"></i>
+                                    <Printer class="contact-icon" :size="16" aria-hidden="true" />
                                     <span class="contact-text">F 803.555.1002</span>
                                 </div>
                                 <div class="contact-item">
-                                    <i class="fas fa-map-marker-alt"></i>
+                                    <MapPin class="contact-icon" :size="16" aria-hidden="true" />
                                     <span class="location">Atlanta, GA</span>
                                 </div>
                             </div>
@@ -102,7 +89,7 @@
 
                     <!-- Attorney 2: Robert Johnson -->
                     <div class="attorney-card">
-                        <img src="/images/placeholder.svg"
+                        <img src="/images/robert.avif"
                             alt="Robert Johnson" class="attorney-img">
                         <div class="attorney-info">
                             <h3 class="attorney-name">Robert Johnson</h3>
@@ -110,15 +97,15 @@
 
                             <div class="contact-info">
                                 <div class="contact-item">
-                                    <i class="fas fa-phone"></i>
+                                    <Phone class="contact-icon" :size="16" aria-hidden="true" />
                                     <span class="contact-text">T 212.555.2300</span>
                                 </div>
                                 <div class="contact-item">
-                                    <i class="fas fa-fax"></i>
+                                    <Printer class="contact-icon" :size="16" aria-hidden="true" />
                                     <span class="contact-text">F 212.555.2301</span>
                                 </div>
                                 <div class="contact-item">
-                                    <i class="fas fa-map-marker-alt"></i>
+                                    <MapPin class="contact-icon" :size="16" aria-hidden="true" />
                                     <span class="location">New York, NY</span>
                                 </div>
                             </div>
@@ -127,7 +114,7 @@
 
                     <!-- Attorney 3: Maria Garcia -->
                     <div class="attorney-card">
-                        <img src="/images/placeholder.svg"
+                        <img src="/images/maria.avif"
                             alt="Maria Garcia" class="attorney-img">
                         <div class="attorney-info">
                             <h3 class="attorney-name">Maria Garcia</h3>
@@ -135,15 +122,15 @@
 
                             <div class="contact-info">
                                 <div class="contact-item">
-                                    <i class="fas fa-phone"></i>
+                                    <Phone class="contact-icon" :size="16" aria-hidden="true" />
                                     <span class="contact-text">T 305.555.4500</span>
                                 </div>
                                 <div class="contact-item">
-                                    <i class="fas fa-fax"></i>
+                                    <Printer class="contact-icon" :size="16" aria-hidden="true" />
                                     <span class="contact-text">F 305.555.4501</span>
                                 </div>
                                 <div class="contact-item">
-                                    <i class="fas fa-map-marker-alt"></i>
+                                    <MapPin class="contact-icon" :size="16" aria-hidden="true" />
                                     <span class="location">Miami, FL</span>
                                 </div>
                             </div>
@@ -152,7 +139,7 @@
 
                     <!-- Attorney 4: James Wilson -->
                     <div class="attorney-card">
-                        <img src="/images/placeholder.svg"
+                        <img src="/images/james.avif"
                             alt="James Wilson" class="attorney-img">
                         <div class="attorney-info">
                             <h3 class="attorney-name">James Wilson</h3>
@@ -160,15 +147,15 @@
 
                             <div class="contact-info">
                                 <div class="contact-item">
-                                    <i class="fas fa-phone"></i>
+                                    <Phone class="contact-icon" :size="16" aria-hidden="true" />
                                     <span class="contact-text">T 312.555.6700</span>
                                 </div>
                                 <div class="contact-item">
-                                    <i class="fas fa-fax"></i>
+                                    <Printer class="contact-icon" :size="16" aria-hidden="true" />
                                     <span class="contact-text">F 312.555.6701</span>
                                 </div>
                                 <div class="contact-item">
-                                    <i class="fas fa-map-marker-alt"></i>
+                                    <MapPin class="contact-icon" :size="16" aria-hidden="true" />
                                     <span class="location">Chicago, IL</span>
                                 </div>
                             </div>
@@ -177,7 +164,7 @@
 
                     <!-- Attorney 5: Patricia Lee -->
                     <div class="attorney-card">
-                        <img src="/images/placeholder.svg"
+                        <img src="/images/patricia.avif"
                             alt="Patricia Lee" class="attorney-img">
                         <div class="attorney-info">
                             <h3 class="attorney-name">Patricia Lee</h3>
@@ -185,15 +172,15 @@
 
                             <div class="contact-info">
                                 <div class="contact-item">
-                                    <i class="fas fa-phone"></i>
+                                    <Phone class="contact-icon" :size="16" aria-hidden="true" />
                                     <span class="contact-text">T 415.555.8900</span>
                                 </div>
                                 <div class="contact-item">
-                                    <i class="fas fa-fax"></i>
+                                    <Printer class="contact-icon" :size="16" aria-hidden="true" />
                                     <span class="contact-text">F 415.555.8901</span>
                                 </div>
                                 <div class="contact-item">
-                                    <i class="fas fa-map-marker-alt"></i>
+                                    <MapPin class="contact-icon" :size="16" aria-hidden="true" />
                                     <span class="location">San Francisco, CA</span>
                                 </div>
                             </div>
@@ -202,7 +189,7 @@
 
                     <!-- Attorney 6: Michael Brown -->
                     <div class="attorney-card">
-                        <img src="/images/placeholder.svg"
+                        <img src="/images/Michael.avif"
                             alt="Michael Brown" class="attorney-img">
                         <div class="attorney-info">
                             <h3 class="attorney-name">Michael Brown</h3>
@@ -210,15 +197,15 @@
 
                             <div class="contact-info">
                                 <div class="contact-item">
-                                    <i class="fas fa-phone"></i>
+                                    <Phone class="contact-icon" :size="16" aria-hidden="true" />
                                     <span class="contact-text">T 202.555.3400</span>
                                 </div>
                                 <div class="contact-item">
-                                    <i class="fas fa-fax"></i>
+                                    <Printer class="contact-icon" :size="16" aria-hidden="true" />
                                     <span class="contact-text">F 202.555.3401</span>
                                 </div>
                                 <div class="contact-item">
-                                    <i class="fas fa-map-marker-alt"></i>
+                                    <MapPin class="contact-icon" :size="16" aria-hidden="true" />
                                     <span class="location">Washington, DC</span>
                                 </div>
                             </div>
@@ -227,7 +214,7 @@
 
                     <!-- Attorney 7: Jennifer Davis -->
                     <div class="attorney-card">
-                        <img src="/images/placeholder.svg"
+                        <img src="/images/jennifer.avif"
                             alt="Jennifer Davis" class="attorney-img">
                         <div class="attorney-info">
                             <h3 class="attorney-name">Jennifer Davis</h3>
@@ -235,15 +222,15 @@
 
                             <div class="contact-info">
                                 <div class="contact-item">
-                                    <i class="fas fa-phone"></i>
+                                    <Phone class="contact-icon" :size="16" aria-hidden="true" />
                                     <span class="contact-text">T 713.555.5600</span>
                                 </div>
                                 <div class="contact-item">
-                                    <i class="fas fa-fax"></i>
+                                    <Printer class="contact-icon" :size="16" aria-hidden="true" />
                                     <span class="contact-text">F 713.555.5601</span>
                                 </div>
                                 <div class="contact-item">
-                                    <i class="fas fa-map-marker-alt"></i>
+                                    <MapPin class="contact-icon" :size="16" aria-hidden="true" />
                                     <span class="location">Houston, TX</span>
                                 </div>
                             </div>
@@ -252,7 +239,7 @@
 
                     <!-- Attorney 8: William Miller -->
                     <div class="attorney-card">
-                        <img src="/images/placeholder.svg"
+                        <img src="/images/william.avif"
                             alt="William Miller" class="attorney-img">
                         <div class="attorney-info">
                             <h3 class="attorney-name">William Miller</h3>
@@ -260,15 +247,15 @@
 
                             <div class="contact-info">
                                 <div class="contact-item">
-                                    <i class="fas fa-phone"></i>
+                                    <Phone class="contact-icon" :size="16" aria-hidden="true" />
                                     <span class="contact-text">T 602.555.7800</span>
                                 </div>
                                 <div class="contact-item">
-                                    <i class="fas fa-fax"></i>
+                                    <Printer class="contact-icon" :size="16" aria-hidden="true" />
                                     <span class="contact-text">F 602.555.7801</span>
                                 </div>
                                 <div class="contact-item">
-                                    <i class="fas fa-map-marker-alt"></i>
+                                    <MapPin class="contact-icon" :size="16" aria-hidden="true" />
                                     <span class="location">Phoenix, AZ</span>
                                 </div>
                             </div>
@@ -277,7 +264,7 @@
 
                     <!-- Attorney 9: Linda Taylor -->
                     <div class="attorney-card">
-                        <img src="/images/placeholder.svg"
+                        <img src="/images/linda.avif"
                             alt="Linda Taylor" class="attorney-img">
                         <div class="attorney-info">
                             <h3 class="attorney-name">Linda Taylor</h3>
@@ -285,15 +272,15 @@
 
                             <div class="contact-info">
                                 <div class="contact-item">
-                                    <i class="fas fa-phone"></i>
+                                    <Phone class="contact-icon" :size="16" aria-hidden="true" />
                                     <span class="contact-text">T 617.555.1200</span>
                                 </div>
                                 <div class="contact-item">
-                                    <i class="fas fa-fax"></i>
+                                    <Printer class="contact-icon" :size="16" aria-hidden="true" />
                                     <span class="contact-text">F 617.555.1201</span>
                                 </div>
                                 <div class="contact-item">
-                                    <i class="fas fa-map-marker-alt"></i>
+                                    <MapPin class="contact-icon" :size="16" aria-hidden="true" />
                                     <span class="location">Boston, MA</span>
                                 </div>
                             </div>
@@ -302,7 +289,7 @@
 
                     <!-- Attorney 10: David Anderson -->
                     <div class="attorney-card">
-                        <img src="/images/placeholder.svg"
+                        <img src="/images/david-anderson.avif"
                             alt="David Anderson" class="attorney-img">
                         <div class="attorney-info">
                             <h3 class="attorney-name">David Anderson</h3>
@@ -310,15 +297,15 @@
 
                             <div class="contact-info">
                                 <div class="contact-item">
-                                    <i class="fas fa-phone"></i>
+                                    <Phone class="contact-icon" :size="16" aria-hidden="true" />
                                     <span class="contact-text">T 310.555.9900</span>
                                 </div>
                                 <div class="contact-item">
-                                    <i class="fas fa-fax"></i>
+                                    <Printer class="contact-icon" :size="16" aria-hidden="true" />
                                     <span class="contact-text">F 310.555.9901</span>
                                 </div>
                                 <div class="contact-item">
-                                    <i class="fas fa-map-marker-alt"></i>
+                                    <MapPin class="contact-icon" :size="16" aria-hidden="true" />
                                     <span class="location">Los Angeles, CA</span>
                                 </div>
                             </div>
@@ -339,10 +326,19 @@
 </template>
 
 <style scoped>
+.contact-icon {
+    flex: 0 0 20px;
+    margin-right: 10px;
+    color: #000;
+    transform: scale(.875);
+}
 </style>
 
 <script setup>
 
 import Carousel from '@/components/Carousel.vue';
+import { MapPin, Phone, Printer } from '@lucide/vue'
+
+
 
 </script>

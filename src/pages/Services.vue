@@ -32,7 +32,7 @@
             <!-- /end of featured top -->
 
             <!-- services listing -->
-            <div class="row full-width-blue people-search">
+            <div class="row full-width-blue people-search" ref="accordionRoot">
                 <div class="container">
                     <div class="row">
                         <div class="col capabilities-practices">
@@ -746,5 +746,104 @@
 <script setup>
 
 import Carousel from '@/components/Carousel.vue';
+import { ref, reactive, computed, watchEffect, onMounted, onBeforeUnmount } from 'vue'
+ 
+// Template ref (matches ref="accordionRoot" on the outer div)
+const accordionRoot = ref(null)
+ 
+// ---------- State ----------
+// One boolean per accordion button, keyed by its position: { 0: false, 1: true, ... }
+const open = reactive({})
+ 
+const allOpen = computed(() => {
+  const values = Object.values(open)
+  return values.length > 0 && values.every(Boolean)
+})
+ 
+const toggle = (key) => {
+  open[key] = !open[key]
+}
+ 
+const toggleAll = () => {
+  const next = !allOpen.value
+  Object.keys(open).forEach((key) => {
+    open[key] = next
+  })
+}
+ 
+// ---------- Wiring to the existing markup ----------
+// Each entry links a button to the panel that follows it.
+//   level 1: button.practice-category  -> div.practice-category-children
+//   level 2: button.practices-category -> ul.practices-subcategories
+let entries = []              // [{ key, btn, panel, indicator }]
+let buttonToKey = new Map()   // btn -> key
+let viewAllBtn = null
+ 
+function collect(root) {
+  entries = []
+  buttonToKey = new Map()
+ 
+  const buttons = root.querySelectorAll('button.practice-category, button.practices-category')
+ 
+  buttons.forEach((btn, key) => {
+    const panel = btn.nextElementSibling
+    if (!panel) return
+ 
+    // Give each panel an id so aria-controls is valid
+    if (!panel.id) panel.id = `accordion-panel-${key}`
+    btn.setAttribute('aria-controls', panel.id)
+ 
+    const indicator = btn.querySelector('.practice-category-indicator, .practice-indicator')
+ 
+    entries.push({ key, btn, panel, indicator })
+    buttonToKey.set(btn, key)
+    open[key] = false
+  })
+ 
+  viewAllBtn = root.querySelector('.practice-category-view-all')
+}
+ 
+function onClick(e) {
+  const btn = e.target.closest('button')
+  if (!btn || !accordionRoot.value?.contains(btn)) return
+ 
+  if (btn === viewAllBtn) {
+    toggleAll()
+    return
+  }
+ 
+  if (buttonToKey.has(btn)) {
+    toggle(buttonToKey.get(btn))
+  }
+}
+ 
+onMounted(() => {
+  const root = accordionRoot.value
+  if (!root) return
+ 
+  collect(root)
+ 
+  // Single delegated listener for every button
+  root.addEventListener('click', onClick)
+ 
+  // Keeps the DOM in sync with `open` (runs once now, then on every change)
+  watchEffect(() => {
+    entries.forEach(({ key, btn, panel, indicator }) => {
+      const isOpen = !!open[key]
+      panel.style.display = isOpen ? 'block' : 'none'
+      btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false')
+      if (indicator) indicator.textContent = isOpen ? '−' : '+'
+    })
+ 
+    if (viewAllBtn) {
+      viewAllBtn.setAttribute('aria-expanded', allOpen.value ? 'true' : 'false')
+      viewAllBtn.textContent = allOpen.value ? 'Collapse All' : 'View All'
+    }
+  })
+})
+ 
+onBeforeUnmount(() => {
+  accordionRoot.value?.removeEventListener('click', onClick)
+})
 
 </script>

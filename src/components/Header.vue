@@ -23,7 +23,14 @@
       <nav id="site-navigation" class="simple-nav" :class="{ open: menuOpen }" aria-label="Main Menu">
         <RouterLink to="/professionals" @click="menuOpen = false">Professionals</RouterLink>
         <RouterLink to="/services" @click="menuOpen = false">Services</RouterLink>
-        <RouterLink to="/firm" @click="menuOpen = false">Firm</RouterLink>
+        <div class="nav-dropdown">
+          <RouterLink to="/firm" @click="menuOpen = false">Firm</RouterLink>
+          <div class="dropdown-menu">
+            <RouterLink to="/firm" @click="menuOpen = false">Overview</RouterLink>
+            <RouterLink to="/locations" @click="menuOpen = false">Locations</RouterLink>
+            <RouterLink to="/history" @click="menuOpen = false">History</RouterLink>
+          </div>
+        </div>
       </nav>
     </div>
   </header>
@@ -74,6 +81,33 @@
 .simple-nav a:hover,
 .simple-nav a.router-link-active {
   color: #c28b14;
+}
+
+.nav-dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: -16px;
+  min-width: 180px;
+  padding: 8px 16px;
+  background: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, .12);
+  flex-direction: column;
+}
+
+.nav-dropdown:hover .dropdown-menu,
+.nav-dropdown:focus-within .dropdown-menu {
+  display: flex;
+}
+
+.dropdown-menu a {
+  padding: 9px 0;
+  font-size: 16px;
+  white-space: nowrap;
 }
 
 .menu-toggle {
@@ -140,6 +174,23 @@
   .simple-nav a {
     padding: 13px 0;
     font-size: 18px;
+  }
+
+  .nav-dropdown {
+    width: 100%;
+  }
+
+  .dropdown-menu {
+    display: flex;
+    position: static;
+    min-width: 0;
+    padding: 0 0 0 18px;
+    box-shadow: none;
+  }
+
+  .dropdown-menu a {
+    padding: 10px 0;
+    font-size: 16px;
   }
 }
 

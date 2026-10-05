@@ -73,7 +73,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="container featured-tabs">
+			<div class="container featured-tabs">row firm-message
 				<ul class="nav nav-tabs">
 					<li class="nav-item">
 						<a class="nav-link active" aria-current="page" href="/firm">Overview</a>
@@ -82,7 +82,7 @@
 						<a class="nav-link " href="/locations">Locations</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link " href="firm/history.html">History</a>
+						<a class="nav-link " href="/locations">History</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link " href="/culture">Culture</a>
@@ -109,7 +109,7 @@
 							<!-- aside -->
 							<div class="row firm-message">
 								<div class="col-md-5 firm-video-thumb"><img
-										src="/images/placeholder.svg" alt="" /></div>
+										src="/images/James-firm-component.jpg" alt="" /></div>
 								<div class="col-md-7">
 									<h3>A message from James K. Lehman, Managing Partner</h3>
 									<p>At Kohlerackels, our client relationships are based on a deep understanding of
@@ -299,7 +299,7 @@
 						<div class="sidebar-aside-container">
 
 
-							<img src="/images/placeholder.svg" class="img-fluid"
+							<img src="/images/firm-amrican-lawer.jpg" class="img-fluid"
 								alt="Badge for The Am Law 100 ranking Kohlerackels in top 100 firms 2025" />
 
 
@@ -309,7 +309,7 @@
 						<div class="sidebar-aside-container">
 
 
-							<img src="/images/placeholder.svg" class="img-fluid"
+							<img src="/images/firm-certified-iso.jpg" class="img-fluid"
 								alt="ISO 27001 Certified by schellman" />
 
 
@@ -624,7 +624,8 @@
 	
 </template>
 
-<style scoped></style>
+<style scoped>
+</style>
 
 <script setup>
 import Carousel from '@/components/Carousel.vue';
