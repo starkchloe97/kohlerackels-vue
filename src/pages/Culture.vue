@@ -1,10 +1,6 @@
 <template>
     <div class="legacy-page">
         <!-- main content -->
-
-
-
-
         <div class="row featured-top desktop_background_banner">
             <div class="featured-background firm">
                 <img src="/images/firm-culture.jpg" alt="Image of coworkers in a meeting room" />
@@ -32,7 +28,8 @@
                         <a class="nav-link active" aria-current="page" href="/culture">Overview</a>
                     </li>
                     <li class="nav-item">
-                        <RouterLink to="/CultureProBono"> Pro Bono </RouterLink>
+                        <!-- <RouterLink to="/CultureProBono"> Pro Bono </RouterLink> -->
+                         <a class="nav-link " href="/CultureProBono">Pro Bono</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="culture/culture_engagement_opportunity.html">Engagement and
@@ -73,7 +70,8 @@
                         <a class="nav-link active" aria-current="page" href="/culture">Overview</a>
                     </li>
                     <li class="nav-item">
-                        <RouterLink to="/CultureProBono" class="nav-link"> Pro Bono </RouterLink>
+                        <!-- <RouterLink to="/CultureProBono" class="nav-link"> Pro Bono </RouterLink> -->
+                         <a class="nav-link " href="/CultureProBono">Pro Bono</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="culture/culture_engagement_opportunity.html">Engagement and
