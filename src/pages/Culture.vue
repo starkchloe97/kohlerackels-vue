@@ -32,7 +32,7 @@
                         <a class="nav-link active" aria-current="page" href="/culture">Overview</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="culture/culture_pro_bono.html">Pro Bono</a>
+                        <RouterLink to="/CultureProBono"> Pro Bono </RouterLink>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="culture/culture_engagement_opportunity.html">Engagement and
@@ -73,7 +73,7 @@
                         <a class="nav-link active" aria-current="page" href="/culture">Overview</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="culture/culture_pro_bono.html">Pro Bono</a>
+                        <RouterLink to="/CultureProBono" class="nav-link"> Pro Bono </RouterLink>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="culture/culture_engagement_opportunity.html">Engagement and
@@ -285,217 +285,12 @@
                     <!-- Sidebar -->
                     <div class="col-md-5 diversity-contacts">
 
-                        <!-- aside -->
-                        <div class="aside-contact-culture">
-                            <div class="aside carousel slide">
-                                <h4 class="culture-sidebar-title">PRO BONO CONTACTS</h4>
-                                <div class="slick slick-single">
-                                    <div class="location-key-contact">
-                                        <div class="aside-contact-culture">
-                                            <div class="sidebar-contact-photo key-contact">
-                                                <img src="/images/FCSluFnd4rD1mZVKMSlYbCYrqYf2gm67X5MSs4Pe.jpg"
-                                                    alt="Emily Guerrero" />
-                                                <div class="sidebar-contact-details">
-                                                    <h4>Emily Guerrero</h4>
-                                                    <h6>
-                                                        <p>Pro Bono Coordinator</p>
-                                                    </h6>
-                                                    <div class="sidebar-email-icon">
-                                                        <a class="email_btn" href="#" data-email="kohlerackels.com">
-                                                            <img src="/images/detail-email.png"
-                                                                alt="Send Email to Emily Guerrero" />
-                                                        </a>
-                                                    </div>
-                                                    <div class="sidebar-phone">
-                                                        <p>T 843.534.4102</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="location-key-contact">
-                                        <div class="aside-contact-culture">
-                                            <div class="sidebar-contact-photo key-contact">
-                                                <a href="professionals/elisa-kodish.html">
-                                                    <img src="/images/Lh812PsEnE9sofSZGILxaH7bABv8kCJB72qdJx6P.jpg"
-                                                        alt="Elisa Smith Kodish" /> </a>
 
-                                                <div class="sidebar-contact-details">
-                                                    <h4><a href="professionals/elisa-kodish.html">Elisa Smith Kodish</a>
-                                                    </h4>
-                                                    <h6>
-                                                        <p>Pro Bono Partner</p>
-                                                    </h6>
-                                                    <div class="sidebar-email-icon">
-                                                        <a class="email_btn" href="#" data-email="kohlerackels.com">
-                                                            <img src="/images/detail-email.png"
-                                                                alt="Send Email to Elisa Smith Kodish" />
-                                                        </a>
-                                                    </div>
-                                                    <div class="sidebar-phone">
-                                                        <p>T 404.322.6160</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="location-key-contact">
-                                        <div class="aside-contact-culture">
-                                            <div class="sidebar-contact-photo key-contact">
-                                                <a href="professionals/katherine-lawler.html">
-                                                    <img src="/images/c2W180V468666kT8EYz4kVVXSP2AByzLWr1Bgqy6.jpg"
-                                                        alt="Katherine A. Lawler" /> </a>
+                        <!-- Contact records and initial slides are configured at the end of this file. -->
+                        <RightSideShortSlider title="PRO BONO CONTACTS" :contacts="proBonoContacts" :initial-index="3" />
+                        <RightSideShortSlider title="ENGAGEMENT AND OPPORTUNITY CONTACTS" :contacts="engagementContacts" :initial-index="2" />
+                        <RightSideShortSlider title="COMMUNITY SERVICE CONTACTS" :contacts="communityContacts" />
 
-                                                <div class="sidebar-contact-details">
-                                                    <h4><a href="professionals/katherine-lawler.html">Katherine A.
-                                                            Lawler</a></h4>
-                                                    <h6>
-                                                        <p>Partner</p>
-                                                    </h6>
-                                                    <div class="sidebar-email-icon">
-                                                        <a class="email_btn" href="#" data-email="kohlerackels.com">
-                                                            <img src="/images/detail-email.png"
-                                                                alt="Send Email to Katherine A. Lawler" />
-                                                        </a>
-                                                    </div>
-                                                    <div class="sidebar-phone">
-                                                        <p>T 443.392.9405</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="location-key-contact">
-                                        <div class="aside-contact-culture">
-                                            <div class="sidebar-contact-photo key-contact">
-                                                <img src="/images/3159c8eb968d004fd09f64c7254b4e67.jpg"
-                                                    alt="Norah C. Rogers" />
-                                                <div class="sidebar-contact-details">
-                                                    <h4>Norah C. Rogers</h4>
-                                                    <h6>
-                                                        <p>Pro Bono Manager</p>
-                                                    </h6>
-                                                    <div class="sidebar-email-icon">
-                                                        <a class="email_btn" href="#" data-email="kohlerackels.com">
-                                                            <img src="/images/detail-email.png"
-                                                                alt="Send Email to Norah C. Rogers" />
-                                                        </a>
-                                                    </div>
-                                                    <div class="sidebar-phone">
-                                                        <p>T 803.255.9546</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /aside -->
-
-                        <!-- aside -->
-                        <div class="aside-contact-culture">
-                            <div class="aside carousel slide">
-                                <h4 class="culture-sidebar-title">ENGAGEMENT AND OPPORTUNITY CONTACTS</h4>
-                                <div class="slick slick-single">
-                                    <div class="sidebar-contact-photo key-contact">
-                                        <a href="professionals/brandee-kowalzyk.html">
-                                            <img src="/images/da85d12b699cbff7431fef2f0fa8c724.jpg"
-                                                alt="Brandee J. Kowalzyk" /> </a>
-
-                                        <div class="sidebar-contact-details">
-                                            <h4><a href="professionals/brandee-kowalzyk.html">Brandee J. Kowalzyk</a>
-                                            </h4>
-                                            <h6>
-                                                <p>Partner</p>
-                                            </h6>
-                                            <div class="sidebar-email-icon">
-                                                <a class="email_btn" href="#" data-email="kohlerackels.com">
-                                                    <img src="/images/detail-email.png"
-                                                        alt="Send email to Brandee J. Kowalzyk" />
-                                                </a>
-                                            </div>
-                                            <div class="sidebar-phone">
-                                                <p>T 404.322.6040</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="sidebar-contact-photo key-contact">
-                                        <img src="/images/placeholder.svg" alt="Patrece Simmons" />
-                                        <div class="sidebar-contact-details">
-                                            <h4>Patrece Simmons</h4>
-                                            <h6>
-                                                <p>Engagement and Opportunity Coordinator</p>
-                                            </h6>
-                                            <div class="sidebar-email-icon">
-                                                <a class="email_btn" href="#" data-email="kohlerackels.com">
-                                                    <img src="/images/detail-email.png"
-                                                        alt="Send email to Patrece Simmons" />
-                                                </a>
-                                            </div>
-                                            <div class="sidebar-phone">
-                                                <p>T 803.255.9205</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="sidebar-contact-photo key-contact">
-                                        <img src="/images/placeholder.svg" alt="Katerina (Kat) Y. Taylor" />
-                                        <div class="sidebar-contact-details">
-                                            <h4>Katerina (Kat) Y. Taylor</h4>
-                                            <h6>
-                                                <p>Director of Engagement and Opportunity</p>
-                                            </h6>
-                                            <div class="sidebar-email-icon">
-                                                <a class="email_btn" href="#" data-email="kohlerackels.com">
-                                                    <img src="/images/detail-email.png"
-                                                        alt="Send email to Katerina (Kat) Y. Taylor" />
-                                                </a>
-                                            </div>
-                                            <div class="sidebar-phone">
-                                                <p>T 404.322.6465</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /aside -->
-
-                        <!-- aside -->
-                        <div class="aside-contact-culture">
-                            <div class="aside carousel slide">
-                                <h4 class="culture-sidebar-title">COMMUNITY SERVICE CONTACTS</h4>
-                                <div class="aside-spacer2">
-                                    <div class="location-key-contact">
-                                        <div class="aside-contact-culture">
-                                            <div class="sidebar-contact-photo key-contact">
-                                                <a href="professionals/elisa-kodish.html">
-                                                    <img src="/images/Lh812PsEnE9sofSZGILxaH7bABv8kCJB72qdJx6P.jpg"
-                                                        alt="Elisa Smith Kodish" /> </a>
-
-                                                <div class="sidebar-contact-details">
-                                                    <h4><a href="professionals/elisa-kodish.html">Elisa Smith Kodish</a>
-                                                    </h4>
-                                                    <h6>
-                                                        <p>Pro Bono Partner</p>
-                                                    </h6>
-                                                    <div class="sidebar-email-icon">
-                                                        <a class="email_btn" href="#" data-email="kohlerackels.com">
-                                                            <img src="/images/detail-email.png"
-                                                                alt="Send Email to Elisa Smith Kodish" />
-                                                        </a>
-                                                    </div>
-                                                    <div class="sidebar-phone">
-                                                        <p>T 404.322.6160</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /aside -->
 
 
                     </div>
@@ -509,7 +304,7 @@
 
 
             <div class="card-header non-accordion">
-                <h5 class="closed"><a class="nav-link   " href="/culture" role="tab">Culture</a></h5>
+                <h5 class="closed"><a class="nav-link" href="/culture" role="tab">Culture</a></h5>
 
 
                 <div class="container">
@@ -701,217 +496,12 @@
                                 </div>
                             </div>
 
-                            <!-- aside -->
-                            <div class="aside-contact-culture">
-                                <div class="aside carousel slide">
-                                    <h4 class="culture-sidebar-title">PRO BONO CONTACTS</h4>
-                                    <div class="slick slick-single">
-                                        <div class="location-key-contact">
-                                            <div class="aside-contact-culture">
-                                                <div class="sidebar-contact-photo key-contact">
-                                                    <img src="/images/FCSluFnd4rD1mZVKMSlYbCYrqYf2gm67X5MSs4Pe.jpg"
-                                                        alt="Emily Guerrero" />
-                                                    <div class="sidebar-contact-details">
-                                                        <h4>Emily Guerrero</h4>
-                                                        <h6>
-                                                            <p>Pro Bono Coordinator</p>
-                                                        </h6>
-                                                        <div class="sidebar-email-icon">
-                                                            <a class="email_btn" href="#" data-email="kohlerackels.com">
-                                                                <img src="/images/detail-email.png"
-                                                                    alt="Send Email to Emily Guerrero" />
-                                                            </a>
-                                                        </div>
-                                                        <div class="sidebar-phone">
-                                                            <p>T 843.534.4102</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="location-key-contact">
-                                            <div class="aside-contact-culture">
-                                                <div class="sidebar-contact-photo key-contact">
-                                                    <a href="professionals/elisa-kodish.html">
-                                                        <img src="/images/Lh812PsEnE9sofSZGILxaH7bABv8kCJB72qdJx6P.jpg"
-                                                            alt="Elisa Smith Kodish" /> </a>
 
-                                                    <div class="sidebar-contact-details">
-                                                        <h4><a href="professionals/elisa-kodish.html">Elisa Smith
-                                                                Kodish</a></h4>
-                                                        <h6>
-                                                            <p>Pro Bono Partner</p>
-                                                        </h6>
-                                                        <div class="sidebar-email-icon">
-                                                            <a class="email_btn" href="#" data-email="kohlerackels.com">
-                                                                <img src="/images/detail-email.png"
-                                                                    alt="Send Email to Elisa Smith Kodish" />
-                                                            </a>
-                                                        </div>
-                                                        <div class="sidebar-phone">
-                                                            <p>T 404.322.6160</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="location-key-contact">
-                                            <div class="aside-contact-culture">
-                                                <div class="sidebar-contact-photo key-contact">
-                                                    <a href="professionals/katherine-lawler.html">
-                                                        <img src="/images/c2W180V468666kT8EYz4kVVXSP2AByzLWr1Bgqy6.jpg"
-                                                            alt="Katherine A. Lawler" /> </a>
+                        <!-- Contact records and initial slides are configured at the end of this file. -->
+                        <RightSideShortSlider title="PRO BONO CONTACTS" :contacts="proBonoContacts" :initial-index="3" />
+                        <RightSideShortSlider title="ENGAGEMENT AND OPPORTUNITY CONTACTS" :contacts="engagementContacts" :initial-index="2" />
+                        <RightSideShortSlider title="COMMUNITY SERVICE CONTACTS" :contacts="communityContacts" />
 
-                                                    <div class="sidebar-contact-details">
-                                                        <h4><a href="professionals/katherine-lawler.html">Katherine A.
-                                                                Lawler</a></h4>
-                                                        <h6>
-                                                            <p>Partner</p>
-                                                        </h6>
-                                                        <div class="sidebar-email-icon">
-                                                            <a class="email_btn" href="#" data-email="kohlerackels.com">
-                                                                <img src="/images/detail-email.png"
-                                                                    alt="Send Email to Katherine A. Lawler" />
-                                                            </a>
-                                                        </div>
-                                                        <div class="sidebar-phone">
-                                                            <p>T 443.392.9405</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="location-key-contact">
-                                            <div class="aside-contact-culture">
-                                                <div class="sidebar-contact-photo key-contact">
-                                                    <img src="/images/3159c8eb968d004fd09f64c7254b4e67.jpg"
-                                                        alt="Norah C. Rogers" />
-                                                    <div class="sidebar-contact-details">
-                                                        <h4>Norah C. Rogers</h4>
-                                                        <h6>
-                                                            <p>Pro Bono Manager</p>
-                                                        </h6>
-                                                        <div class="sidebar-email-icon">
-                                                            <a class="email_btn" href="#" data-email="kohlerackels.com">
-                                                                <img src="/images/detail-email.png"
-                                                                    alt="Send Email to Norah C. Rogers" />
-                                                            </a>
-                                                        </div>
-                                                        <div class="sidebar-phone">
-                                                            <p>T 803.255.9546</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /aside -->
-
-                            <!-- aside -->
-                            <div class="aside-contact-culture">
-                                <div class="aside carousel slide">
-                                    <h4 class="culture-sidebar-title">ENGAGEMENT AND OPPORTUNITY CONTACTS</h4>
-                                    <div class="slick slick-single">
-                                        <div class="sidebar-contact-photo key-contact">
-                                            <a href="professionals/brandee-kowalzyk.html">
-                                                <img src="/images/da85d12b699cbff7431fef2f0fa8c724.jpg"
-                                                    alt="Brandee J. Kowalzyk" /> </a>
-
-                                            <div class="sidebar-contact-details">
-                                                <h4><a href="professionals/brandee-kowalzyk.html">Brandee J.
-                                                        Kowalzyk</a></h4>
-                                                <h6>
-                                                    <p>Partner</p>
-                                                </h6>
-                                                <div class="sidebar-email-icon">
-                                                    <a class="email_btn" href="#" data-email="kohlerackels.com">
-                                                        <img src="/images/detail-email.png"
-                                                            alt="Send email to Brandee J. Kowalzyk" />
-                                                    </a>
-                                                </div>
-                                                <div class="sidebar-phone">
-                                                    <p>T 404.322.6040</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="sidebar-contact-photo key-contact">
-                                            <img src="/images/placeholder.svg" alt="Patrece Simmons" />
-                                            <div class="sidebar-contact-details">
-                                                <h4>Patrece Simmons</h4>
-                                                <h6>
-                                                    <p>Engagement and Opportunity Coordinator</p>
-                                                </h6>
-                                                <div class="sidebar-email-icon">
-                                                    <a class="email_btn" href="#" data-email="kohlerackels.com">
-                                                        <img src="/images/detail-email.png"
-                                                            alt="Send email to Patrece Simmons" />
-                                                    </a>
-                                                </div>
-                                                <div class="sidebar-phone">
-                                                    <p>T 803.255.9205</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="sidebar-contact-photo key-contact">
-                                            <img src="/images/placeholder.svg" alt="Katerina (Kat) Y. Taylor" />
-                                            <div class="sidebar-contact-details">
-                                                <h4>Katerina (Kat) Y. Taylor</h4>
-                                                <h6>
-                                                    <p>Director of Engagement and Opportunity</p>
-                                                </h6>
-                                                <div class="sidebar-email-icon">
-                                                    <a class="email_btn" href="#" data-email="kohlerackels.com">
-                                                        <img src="/images/detail-email.png"
-                                                            alt="Send email to Katerina (Kat) Y. Taylor" />
-                                                    </a>
-                                                </div>
-                                                <div class="sidebar-phone">
-                                                    <p>T 404.322.6465</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /aside -->
-
-                            <!-- aside -->
-                            <div class="aside-contact-culture">
-                                <div class="aside carousel slide">
-                                    <h4 class="culture-sidebar-title">COMMUNITY SERVICE CONTACTS</h4>
-                                    <div class="aside-spacer2">
-                                        <div class="location-key-contact">
-                                            <div class="aside-contact-culture">
-                                                <div class="sidebar-contact-photo key-contact">
-                                                    <a href="professionals/elisa-kodish.html">
-                                                        <img src="/images/Lh812PsEnE9sofSZGILxaH7bABv8kCJB72qdJx6P.jpg"
-                                                            alt="Elisa Smith Kodish" /> </a>
-
-                                                    <div class="sidebar-contact-details">
-                                                        <h4><a href="professionals/elisa-kodish.html">Elisa Smith
-                                                                Kodish</a></h4>
-                                                        <h6>
-                                                            <p>Pro Bono Partner</p>
-                                                        </h6>
-                                                        <div class="sidebar-email-icon">
-                                                            <a class="email_btn" href="#" data-email="kohlerackels.com">
-                                                                <img src="/images/detail-email.png"
-                                                                    alt="Send Email to Elisa Smith Kodish" />
-                                                            </a>
-                                                        </div>
-                                                        <div class="sidebar-phone">
-                                                            <p>T 404.322.6160</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /aside -->
 
 
                         </div>
@@ -964,8 +554,81 @@
     </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+@media (max-width: 767px) {
+    .legacy-page :deep(.container.desktop_only) {
+        display: none !important;
+    }
+}
+</style>
 
 <script setup>
 import Carousel from '@/components/Carousel.vue';
+import RightSideShortSlider from '@/components/Right-side-short-slider.vue'
+
+// Edit these lists to change the contact details, images, or first slide.
+const proBonoContacts = [
+    {
+        id: 'emily-guerrero',
+        name: 'Emily Guerrero',
+        title: 'Pro Bono Coordinator',
+        phone: 'T 843.534.4102',
+        photo: '/images/FCSluFnd4rD1mZVKMSlYbCYrqYf2gm67X5MSs4Pe.jpg',
+    },
+    {
+        id: 'elisa-smith-kodish',
+        name: 'Elisa Smith Kodish',
+        title: 'Pro Bono Partner',
+        phone: 'T 404.322.6160',
+        photo: '/images/Lh812PsEnE9sofSZGILxaH7bABv8kCJB72qdJx6P.jpg',
+    },
+    {
+        id: 'katherine-lawler',
+        name: 'Katherine A. Lawler',
+        title: 'Partner',
+        phone: 'T 443.392.9405',
+        photo: '/images/c2W180V468666kT8EYz4kVVXSP2AByzLWr1Bgqy6.jpg',
+    },
+    {
+        id: 'norah-rogers',
+        name: 'Norah C. Rogers',
+        title: 'Pro Bono Manager',
+        phone: 'T 803.255.9546',
+        photo: '/images/3159c8eb968d004fd09f64c7254b4e67.jpg',
+    },
+]
+
+const engagementContacts = [
+    {
+        id: 'brandee-kowalzyk',
+        name: 'Brandee J. Kowalzyk',
+        title: 'Partner',
+        phone: 'T 404.322.6040',
+        photo: '/images/da85d12b699cbff7431fef2f0fa8c724.jpg',
+    },
+    {
+        id: 'patrece-simmons',
+        name: 'Patrece Simmons',
+        title: 'Engagement and Opportunity Coordinator',
+        phone: 'T 803.255.9205',
+        photo: '/images/simmons.jpg',
+    },
+    {
+        id: 'katerina-taylor',
+        name: 'Katerina (Kat) Y. Taylor',
+        title: 'Director of Engagement and Opportunity',
+        phone: 'T 404.322.6465',
+        photo: '/images/katerina.jpg',
+    },
+]
+
+const communityContacts = [
+    {
+        id: 'elisa-smith-kodish',
+        name: 'Elisa Smith Kodish',
+        title: 'Pro Bono Partner',
+        phone: 'T 404.322.6160',
+        photo: '/images/Lh812PsEnE9sofSZGILxaH7bABv8kCJB72qdJx6P.jpg',
+    },
+]
 </script>

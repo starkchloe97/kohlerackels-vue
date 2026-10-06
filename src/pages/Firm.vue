@@ -82,7 +82,7 @@
 						<a class="nav-link " href="/locations">Locations</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link " href="/locations">History</a>
+						<a class="nav-link " href="/History">History</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link " href="/culture">Culture</a>
