@@ -14,10 +14,10 @@
     					
     					<div class="capabilities-icon-row">
     					    <button type="button" class="bg-transparent border-0 p-0 print-btn">
-    						<img src="/images/detail-print.png" class="icon-print" alt="Print"/>
+    						<img src="/images/firmoverview.jpg" class="icon-print" alt="Print"/>
                             </button>
     		                <a href="../tools/generate/Service/289/patent-counseling-and-procurement.pdf" 
-    							 ><img src="/images/detail-pdf.png" class="icon-pdf-direct border-0" alt="PDF" /></a>
+    							 ><img src="/images/firmoverview.jpg" class="icon-pdf-direct border-0" alt="PDF" /></a>
     					    
     					</div>
     					<h4 class="featured-subhead" color="#363636" font-family="Quattrocento Sans" font-size="2.8125rem" line-height="2.5rem">Whether you are seeking to</h4>
@@ -186,13 +186,13 @@
                                                     	<div class="sidebar-aside-container">
                                 <a href="../professionals/patrick-kartes.html">
                                     <div class="sidebar-contact-photo">
-                                        <img src="/images/it3ptxOE4YG3KtbDYsMrdkYHSv4vQKUxV9FpyPVE.jpg" alt="Patrick L. Kartes" />                                </div>
+                                        <img src="/images/firmoverview.jpg" alt="Patrick L. Kartes" />                                </div>
                                 </a>
                                 <div class="sidebar-contact-details full-width">
                                     <h4><a href="../professionals/patrick-kartes.html">Patrick L. Kartes</a></h4>
                                                                         <div class="h5 position">Partner</div>
                                                                                                                                         <div class="sidebar-email-icon">
-                                            <a href="#" data-toggle="modal" data-target="#emailModal" data-email="patrick.kartes@nelsonmullins.com" class="email_btn"><img src="/images/detail-email.png" alt="Send Email to Patrick L. Kartes" /></a>
+                                            <a href="#" data-toggle="modal" data-target="#emailModal" data-email="patrick.kartes@nelsonmullins.com" class="email_btn"><img src="/images/firmoverview.jpg" alt="Send Email to Patrick L. Kartes" /></a>
                                         </div>
                                                                                                                                             	<div class="sidebar-phone">
                                             <p>T 704.417.3036</p>
@@ -217,7 +217,7 @@
     <div class="sidebar-aside-container" style='margin-bottom:40px;'>
     
     					
-    			    				    		<a href="#"><img src="/images/vHwciXOx7ncvVIk0aVDP1fdy57DDzoqJVsIn6Men.jpg" class="img-fluid" alt="Best Lawyers Best Law Firms 2025 Badge, patent law" /></a>
+    			    				    		<a href="#"><img src="/images/firmoverview.jpg" class="img-fluid" alt="Best Lawyers Best Law Firms 2025 Badge, patent law" /></a>
     			    	
     						
     		</div>
@@ -555,7 +555,7 @@
     <div class="sidebar-aside-container" style='margin-bottom:40px;'>
     
     					
-    			    				    		<a href="#"><img src="/images/vHwciXOx7ncvVIk0aVDP1fdy57DDzoqJVsIn6Men.jpg" class="img-fluid" alt="Best Lawyers Best Law Firms 2025 Badge, patent law" /></a>
+    			    				    		<a href="#"><img src="/images/firmoverview.jpg" class="img-fluid" alt="Best Lawyers Best Law Firms 2025 Badge, patent law" /></a>
     			    	
     						
     		</div>
@@ -791,13 +791,13 @@
     
     								                        <a href="../professionals/patrick-kartes.html">
     	                            <div class="sidebar-contact-photo">
-    	                                <img src="/images/it3ptxOE4YG3KtbDYsMrdkYHSv4vQKUxV9FpyPVE.jpg" alt="Patrick L. Kartes" />	                            </div>
+    	                                <img src="/images/firmoverview.jpg" alt="Patrick L. Kartes" />	                            </div>
     	                        </a>
     	                        <div class="sidebar-contact-details full-width">
     	                            <h4><a href="../professionals/patrick-kartes.html">Patrick L. Kartes</a></h4>
     	                            	                                <div class="h5 position">Partner</div>
     	                            	                            	                                <div class="sidebar-email-icon" style="float: left; margin-right: 10px;">
-    	                                    <a href="#" data-toggle="modal" data-target="#emailModal" data-email="patrick.kartes@nelsonmullins.com" class="email_btn"><img src="/images/detail-email.png" alt="Send Email to Patrick L. Kartes" /></a>
+    	                                    <a href="#" data-toggle="modal" data-target="#emailModal" data-email="patrick.kartes@nelsonmullins.com" class="email_btn"><img src="/images/firmoverview.jpg" alt="Send Email to Patrick L. Kartes" /></a>
     	                                </div>
     	                            	                            	                                	                                	<div style="float: left;">
     	                                    <p>T 704.417.3036</p>
@@ -853,7 +853,7 @@
     			<div class="carousel-inner" aria-live="polite">
                     				                                                <div class="row carousel-item active" role="group" aria-roledescription="slide" aria-label="Slide 1 of 3">
                     					<div class="col-12 col-md-6">
-                                                                            <img src="/images/ohdpvaLVtm2FONsiglaiLxq6N0Owi4O40e34qL9b.jpg" alt="gavel on law books" />                                            						
+                                                                            <img src="/images/firmoverview.jpg" alt="gavel on law books" />                                            						
     						<div class="photo-gradient"></div>
     						<div class="carousel-caption">
     															<a href="../insights/insights/navigating-california-s-climate-disclosure-laws-your-complete-guide-to-sb-253-and-sb-261.html"
@@ -867,7 +867,7 @@
     						</div>
     					</div>
                         				                					<div class="col-12 col-md-6">
-                                                                            <img src="/images/qd5IYrDqccPfoJYxEh0r6blgftNNhc1KB1PBlTWl.jpg" alt="Construction site and development" />                                            						
+                                                                            <img src="/images/firmoverview.jpg" alt="Construction site and development" />                                            						
     						<div class="photo-gradient"></div>
     						<div class="carousel-caption">
     															<a href="../insights/insights/nmrs-attorneys-published-in-florida-bar-journal-on-ccna-procurements.html"
@@ -883,7 +883,7 @@
                                             </div>
                         				                                                <div class="row carousel-item " role="group" aria-roledescription="slide" aria-label="Slide 2 of 3">
                     					<div class="col-12 col-md-6">
-                                                                            <img src="/images/Jc7KbwbGvTjOLhbjU9RbQZK3aT6GcA64o6dOcWRW.jpg" alt="football" />                                            						
+                                                                            <img src="/images/firmoverview.jpg" alt="football" />                                            						
     						<div class="photo-gradient"></div>
     						<div class="carousel-caption">
     															<a href="../insights/insights/prime-equity-and-the-nil-era-shedeur-sanders-contract-ushers-in-a-new-legal-framework-for-pro-athlete-compensation.html"
@@ -897,7 +897,7 @@
     						</div>
     					</div>
                         				                					<div class="col-12 col-md-6">
-                                                                            <img src="/images/Lht62fS0RwzCc7jmGm6kLFoJJaBwAtrjlZZl60aD.jpg" alt="" />                                            						
+                                                                            <img src="/images/firmoverview.jpg" alt="" />                                            						
     						<div class="photo-gradient"></div>
     						<div class="carousel-caption">
     															<a href="../insights/alerts/additional_nelson_mullins_alerts/all/fdot-announces-small-business-growth-program-following-dbe-program-updates.html"
@@ -913,7 +913,7 @@
                                             </div>
                         				                                                <div class="row carousel-item " role="group" aria-roledescription="slide" aria-label="Slide 3 of 3">
                     					<div class="col-12 col-md-6">
-                                                                            <img src="/images/Lc9cz7XPTgv1Tcl7av5lixHNL9U6efAXba6QCp3X.jpg" alt="" />                                            						
+                                                                            <img src="/images/firmoverview.jpg" alt="" />                                            						
     						<div class="photo-gradient"></div>
     						<div class="carousel-caption">
     															<a href="../insights/alerts/nelson-mullins-affordable-housing-news/all/hud-continuum-of-care-funding-gap-risks-and-recommendations.html"
@@ -927,7 +927,7 @@
     						</div>
     					</div>
                         				                					<div class="col-12 col-md-6">
-                                                                            <img src="/images/Lc9cz7XPTgv1Tcl7av5lixHNL9U6efAXba6QCp3X.jpg" alt="" />                                            						
+                                                                            <img src="/images/firmoverview.jpg" alt="" />                                            						
     						<div class="photo-gradient"></div>
     						<div class="carousel-caption">
     															<a href="../insights/alerts/nelson-mullins-affordable-housing-news/all/hud-extends-compliance-dates-for-energy-efficiency-standards-in-hud-and-usda-financed-housing.html"
