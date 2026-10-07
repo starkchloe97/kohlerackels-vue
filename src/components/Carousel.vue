@@ -18,7 +18,7 @@
           @focusout="onFocusOut"
           @keydown="onKeydown"
         >
-          <h2 id="aside253" class="d-inline-block">Highlights</h2>
+          <h2 id="aside253" class="d-inline-block">{{ title }}</h2>
 
           <ol class="carousel-indicators circle">
             <li
@@ -58,7 +58,7 @@
               >
                 <div
                   v-for="item in slide"
-                  :key="item.href"
+                  :key="item.title"
                   class="col-12 col-md-6"
                 >
                   <img :src="item.image" :alt="item.alt" />
@@ -85,12 +85,14 @@ import { ref, computed, watch, onMounted, onBeforeUnmount } from 'vue'
 const props = defineProps({
   interval: { type: Number, default: 6000 },
   perSlide: { type: Number, default: 2 },
+  title: { type: String, default: 'Highlights' },
+  items: { type: Array, default: null },
 })
 
 const SWIPE_THRESHOLD = 40 // px
 
 // ---------- Data ----------
-const items = ref([
+const defaultItems = [
   {
     image: '/images/ohdpvaLVtm2FONsiglaiLxq6N0Owi4O40e34qL9b.jpg',
     alt: 'gavel on law books',
@@ -133,7 +135,9 @@ const items = ref([
     href: 'insights/alerts/nelson-mullins-affordable-housing-news/all/hud-extends-compliance-dates-for-energy-efficiency-standards-in-hud-and-usda-financed-housing.html',
     date: 'November 14, 2025',
   },
-])
+]
+
+const items = computed(() => props.items || defaultItems)
 
 // Group items into slides of `perSlide`
 const slides = computed(() => {

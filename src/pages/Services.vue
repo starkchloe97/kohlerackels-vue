@@ -18,7 +18,7 @@
                             <h2 class="featured-title">Collaborative legal talent</h2>
                             <div class="featured-details">
                                 <p><span class="text-head-blue">Working side-by-side with clients, our results-oriented,
-                                        collaborative approach has made Kohlerackels the firm of choice for many.
+                                        collaborative approach has made Nelson Mullins the firm of choice for many.
                                     </span>&nbsp;With experience in over 100 practice areas, our attorneys and business
                                     professionals advocate for clients and offer practical solutions to challenging
                                     business problems.</p>
@@ -434,9 +434,19 @@
                                         <RouterLink to="/services/intellectual-property">Intellectual Property</RouterLink>
                                     </div>
 
+                                    <button class="practices-category w-100 bg-transparent border-0 text-left"
+                                        aria-expanded="false">
+                                        <span class="practice-indicator">+</span>
+                                        Intellectual Property Litigation
+                                    </button>
+                                    <ul class="practices-subcategories ">
+                                        <li><RouterLink to="/services/intellectual-property/litigation">Intellectual Property
+                                                Litigation</RouterLink></li>
+                                        <li><RouterLink to="/services/intellectual-property/patent-litigation">Patent Litigation</RouterLink></li>
+                                    </ul>
+
                                     <div class="practices-category">
-                                        <RouterLink to="/services/intellectual-property/litigation">Intellectual Property
-                                            Litigation</RouterLink>
+                                        <RouterLink to="/services/intellectual-property/transactions">Intellectual Property Transactions</RouterLink>
                                     </div>
 
                                     <button class="practices-category w-100 bg-transparent border-0 text-left"
@@ -462,15 +472,6 @@
                                         <li><RouterLink to="/services/intellectual-property/nmwatch">NMWatch™</RouterLink></li>
 
                                     </ul>
-                                    <div class="practices-category">
-                                        <RouterLink to="/services/intellectual-property/transactions">Intellectual Property Transactions</RouterLink>
-                                    </div>
-
-                                    <div class="practices-category">
-                                        <RouterLink to="/services/intellectual-property/patent-litigation">Patent Litigation</RouterLink>
-                                    </div>
-
-
                                 </div>
                             </div>
                             <hr>

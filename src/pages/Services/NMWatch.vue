@@ -1,5 +1,5 @@
 <template>
-  <div class="legacy-service-page">
+  <div class="legacy-service-page" @click="handleServicePageInteraction">
     <div class="row featured-top cropped-feature practice-area">
     		<div class="featured-background">            
     			<img src="/images/firmoverview.jpg" alt="" />		</div>
@@ -14,10 +14,10 @@
     					
     					<div class="capabilities-icon-row">
     					    <button type="button" class="bg-transparent border-0 p-0 print-btn">
-    						<img src="/images/firmoverview.jpg" class="icon-print" alt="Print"/>
+		<img src="/images/detail-print.png" class="icon-print" alt="Print"/>
                             </button>
     		                <a href="../tools/generate/Service/3406/nmwatch.pdf" 
-    							 ><img src="/images/firmoverview.jpg" class="icon-pdf-direct border-0" alt="PDF" /></a>
+							 ><img src="/images/detail-pdf.png" class="icon-pdf-direct border-0" alt="PDF" /></a>
     					    
     					</div>
     					<h4 class="featured-subhead">In today&#39;s evolving digital world, safeguarding your brand online is no longer a reactive measure, it&#39;s a strategic imperative.</h4>
@@ -92,7 +92,7 @@
                             
                             
     						<div class="aside-why">
-    							<h2>Why Kohlerackles?</h2>
+							<h2>Why Nelson Mullins?</h2>
     							<ul>
     	<li>
     	<p class="generic">Reduced risk of brand dilution and damage.</p>
@@ -195,7 +195,7 @@
     				
     				<div class="sidebar-aside-container hidden-print">
     					<div class="aside-why hidden-print">
-    						<h2>Why Kohlerackles?</h2>
+						<h2>Why Nelson Mullins?</h2>
     						<ul>
     	<li>
     	<p class="generic">Reduced risk of brand dilution and damage.</p>
@@ -244,7 +244,7 @@
     					
     					<div class="sidebar-aside-container hidden-print">
     						<div class="aside-why hidden-print">
-    							<h2>Why Kohlerackles?</h2>
+							<h2>Why Nelson Mullins?</h2>
     							<ul>
     	<li>
     	<p class="generic">Reduced risk of brand dilution and damage.</p>
@@ -308,10 +308,10 @@
     			<div class="row attorney-tab-info">
     					<div class="col-md-8">
     						<p>Following is a selected sampling of matters and is provided for informational purposes only. Past success does not indicate the likelihood of success in any future matter.</p>
-    						<p>In the intellectual property litigation context, Kohlerackles has represented clients in trademark matters in jurisdictions across the United States, including CA, FL, GA, NC, NY, SC, TN, and TX, and have selected and supervised counsel for matters in jurisdictions outside the United States, including before the Tribunal de Grande in Paris. Kohlerackles has also been involved in more than 100 matters at the TTAB. Representative matters include:</p>
+						<p>In the intellectual property litigation context, Nelson Mullins has represented clients in trademark matters in jurisdictions across the United States, including CA, FL, GA, NC, NY, SC, TN, and TX, and have selected and supervised counsel for matters in jurisdictions outside the United States, including before the Tribunal de Grande in Paris. Nelson Mullins has also been involved in more than 100 matters at the TTAB. Representative matters include:</p>
     
     <ul>
-    	<li>Represented a testing company in a copyright and certification mark infringement matter where Kohlerackles was not only able to defeat claims of infringement but won a multi-million dollar counterclaim against the plaintiff for unlaw interference with its business relationships and false advertising</li>
+	<li>Represented a testing company in a copyright and certification mark infringement matter where Nelson Mullins was not only able to defeat claims of infringement but won a multi-million dollar counterclaim against the plaintiff for unlaw interference with its business relationships and false advertising</li>
     	<li>Represented a plaintiff law firm in a trademark infringement, false advertising, and unfair competition claims against online lead generation lawyer referral service. This case was one of the first cases to assert claims arising out of deceptive &ldquo;bait and switch&rdquo; schemes in which defendants bid on and purchased plaintiff&rsquo;s trademarks as search engine advertising keywords and used them to generate misleading sponsored advertisements with &ldquo;click-to-call&rdquo; button that diverted potential clients searching for plaintiff to defendants&rsquo; call center, where defendants sought to refer those clients to other personal injury lawyers for a fee.&nbsp;</li>
     	<li>Represented plaintiff who is the operator of a large chain of convenience stores in an opposition of the application for the mark to be used for a convenience store. &nbsp;After a trial, the TTAB decided the case in favor of the plaintiff.</li>
     	<li>Developed a domain name policing campaign to address conference registration and hotel reservation scam. Successfully shut down infringing websites and recovered more than 10 domain names.</li>
@@ -324,7 +324,7 @@
     					
     					<div class="sidebar-aside-container">
     						<div class="aside-why">
-    							<h2>Why Kohlerackles?</h2>
+							<h2>Why Nelson Mullins?</h2>
     							<ul>
     	<li>
     	<p class="generic">Reduced risk of brand dilution and damage.</p>
@@ -499,10 +499,10 @@
     				<div class="row attorney-tab-info">
     					<div class="col-md-8">
     						<p>Following is a selected sampling of matters and is provided for informational purposes only. Past success does not indicate the likelihood of success in any future matter.</p>
-    						<p>In the intellectual property litigation context, Kohlerackles has represented clients in trademark matters in jurisdictions across the United States, including CA, FL, GA, NC, NY, SC, TN, and TX, and have selected and supervised counsel for matters in jurisdictions outside the United States, including before the Tribunal de Grande in Paris. Kohlerackles has also been involved in more than 100 matters at the TTAB. Representative matters include:</p>
+						<p>In the intellectual property litigation context, Nelson Mullins has represented clients in trademark matters in jurisdictions across the United States, including CA, FL, GA, NC, NY, SC, TN, and TX, and have selected and supervised counsel for matters in jurisdictions outside the United States, including before the Tribunal de Grande in Paris. Nelson Mullins has also been involved in more than 100 matters at the TTAB. Representative matters include:</p>
     
     <ul>
-    	<li>Represented a testing company in a copyright and certification mark infringement matter where Kohlerackles was not only able to defeat claims of infringement but won a multi-million dollar counterclaim against the plaintiff for unlaw interference with its business relationships and false advertising</li>
+	<li>Represented a testing company in a copyright and certification mark infringement matter where Nelson Mullins was not only able to defeat claims of infringement but won a multi-million dollar counterclaim against the plaintiff for unlaw interference with its business relationships and false advertising</li>
     	<li>Represented a plaintiff law firm in a trademark infringement, false advertising, and unfair competition claims against online lead generation lawyer referral service. This case was one of the first cases to assert claims arising out of deceptive &ldquo;bait and switch&rdquo; schemes in which defendants bid on and purchased plaintiff&rsquo;s trademarks as search engine advertising keywords and used them to generate misleading sponsored advertisements with &ldquo;click-to-call&rdquo; button that diverted potential clients searching for plaintiff to defendants&rsquo; call center, where defendants sought to refer those clients to other personal injury lawyers for a fee.&nbsp;</li>
     	<li>Represented plaintiff who is the operator of a large chain of convenience stores in an opposition of the application for the mark to be used for a convenience store. &nbsp;After a trial, the TTAB decided the case in favor of the plaintiff.</li>
     	<li>Developed a domain name policing campaign to address conference registration and hotel reservation scam. Successfully shut down infringing websites and recovered more than 10 domain names.</li>
@@ -523,7 +523,7 @@
     	
     	<div class="card aside-why">
     		<div class="card-header" role="tab" id="headingSeven">
-    			<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">Why Kohlerackles?</a></h5>
+			<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">Why Nelson Mullins?</a></h5>
     		</div>
     
     		<div id="collapseSeven" class="collapse" role="tabpanel" aria-labelledby="headingSeven">
@@ -619,134 +619,14 @@
     
     </div> 
     
-    				<div class="container hidden-print">
-    					
-    <section class="row bottom-carousel">
-    	<div class="col-md-12 bottom-carousel-wrapper">
-    		<section id="bottom-carousel" class="aside carousel slide multi" data-ride="carousel" data-interval="false" data-itemcount-l="2" data-itemcount-m="2" data-itemcount-s="1" aria-roledescription="carousel" aria-labelledby="aside249">
-    		    
-                <h2 id="aside249" class="d-inline-block">Highlights from Insights</h2>
-    		    <ol class="carousel-indicators circle">
-    			                
-                  <li class="carousel-circle active dot-1">
-                    <button type="button" class="btn-carousel" data-target="#bottom-carousel" data-slide-to="0" aria-label="Slide 1" aria-current="true"></button>
-                  </li>                
-    				              
-                  <li class="carousel-circle  dot-2">
-                    <button type="button" class="btn-carousel" data-target="#bottom-carousel" data-slide-to="1" aria-label="Slide 2" aria-current="false"></button>
-                  </li>                
-    				              
-                  <li class="carousel-circle  dot-3">
-                    <button type="button" class="btn-carousel" data-target="#bottom-carousel" data-slide-to="2" aria-label="Slide 3" aria-current="false"></button>
-                  </li>                
-    				            </ol>
-                
-    
-    			<div class="carousel-inner" aria-live="polite">
-                    				                                                <div class="row carousel-item active" role="group" aria-roledescription="slide" aria-label="Slide 1 of 3">
-                    					<div class="col-12 col-md-6">
-                                                                            <img src="/images/firmoverview.jpg" alt="gavel on law books" />                                            						
-    						<div class="photo-gradient"></div>
-    						<div class="carousel-caption">
-    															<a href="../insights/insights/navigating-california-s-climate-disclosure-laws-your-complete-guide-to-sb-253-and-sb-261.html"
-    														>
-                                                            Navigating California’s Climate Disclosure Laws: Your Complete Guide to SB...
-                                                            
-                                </a>
-    							<div class="caption-date">
-    																	December 2, 2025
+    <Carousel title="Highlights from Insights" :items="serviceInsights" />
     															</div>
-    						</div>
-    					</div>
-                        				                					<div class="col-12 col-md-6">
-                                                                            <img src="/images/firmoverview.jpg" alt="Construction site and development" />                                            						
-    						<div class="photo-gradient"></div>
-    						<div class="carousel-caption">
-    															<a href="../insights/insights/nmrs-attorneys-published-in-florida-bar-journal-on-ccna-procurements.html"
-    														>
-                                                            NMRS Attorneys Published in Florida Bar Journal on CCNA Procurements
-                                                            
-                                </a>
-    							<div class="caption-date">
-    																	November/December 2025
-    															</div>
-    						</div>
-    					</div>
-                                            </div>
-                        				                                                <div class="row carousel-item " role="group" aria-roledescription="slide" aria-label="Slide 2 of 3">
-                    					<div class="col-12 col-md-6">
-                                                                            <img src="/images/firmoverview.jpg" alt="football" />                                            						
-    						<div class="photo-gradient"></div>
-    						<div class="carousel-caption">
-    															<a href="../insights/insights/prime-equity-and-the-nil-era-shedeur-sanders-contract-ushers-in-a-new-legal-framework-for-pro-athlete-compensation.html"
-    														>
-                                                            “Prime Equity” and the NIL Era: Shedeur Sanders’ Contract Ushers...
-                                                            
-                                </a>
-    							<div class="caption-date">
-    																	September 3, 2025
-    															</div>
-    						</div>
-    					</div>
-                        				                					<div class="col-12 col-md-6">
-                                                                            <img src="/images/firmoverview.jpg" alt="" />                                            						
-    						<div class="photo-gradient"></div>
-    						<div class="carousel-caption">
-    															<a href="../insights/alerts/additional_nelson_mullins_alerts/all/fdot-announces-small-business-growth-program-following-dbe-program-updates.html"
-                                							>
-                                                            FDOT Announces Small Business Growth Program Following DBE Program Updates
-                                                            
-                                </a>
-    							<div class="caption-date">
-    																	November 24, 2025
-    															</div>
-    						</div>
-    					</div>
-                                            </div>
-                        				                                                <div class="row carousel-item " role="group" aria-roledescription="slide" aria-label="Slide 3 of 3">
-                    					<div class="col-12 col-md-6">
-                                                                            <img src="/images/firmoverview.jpg" alt="" />                                            						
-    						<div class="photo-gradient"></div>
-    						<div class="carousel-caption">
-    															<a href="../insights/alerts/nelson-mullins-affordable-housing-news/all/hud-continuum-of-care-funding-gap-risks-and-recommendations.html"
-                                							>
-                                                            HUD Continuum of Care Funding Gap: Risks and Recommendations
-                                                            
-                                </a>
-    							<div class="caption-date">
-    																	November 24, 2025
-    															</div>
-    						</div>
-    					</div>
-                        				                					<div class="col-12 col-md-6">
-                                                                            <img src="/images/firmoverview.jpg" alt="" />                                            						
-    						<div class="photo-gradient"></div>
-    						<div class="carousel-caption">
-    															<a href="../insights/alerts/nelson-mullins-affordable-housing-news/all/hud-extends-compliance-dates-for-energy-efficiency-standards-in-hud-and-usda-financed-housing.html"
-                                							>
-                                                            HUD Extends Compliance Dates for Energy Efficiency Standards in HUD-...
-                                                            
-                                </a>
-    							<div class="caption-date">
-    																	November 14, 2025
-    															</div>
-    						</div>
-    					</div>
-                                            </div>
-                        							</div>
-            </section>
-    	</div>
-    </section>
-    
-    				</div>
-    
-            
-        </main>
-  </div>
 </template>
 
 <script setup>
-// Converted directly from the original HTML page; shared Header/Footer remain in App.vue.
+import { handleServicePageInteraction } from '@/utils/servicePageInteractions.js'
+import Carousel from '@/components/Carousel.vue'
+import { serviceInsights } from '@/config/serviceInsights.js'
 </script>
 
 <style scoped>
