@@ -746,12 +746,9 @@
 </template>
 
 <script setup>
-// This page intentionally preserves the original service-page HTML structure.
-// Shared header and footer are provided by App.vue.
+// Converted directly from the original HTML page; shared Header/Footer remain in App.vue.
 </script>
 
 <style scoped>
-.legacy-service-page {
-  width: 100%;
-}
+.legacy-service-page { width: 100%; }
 </style>
