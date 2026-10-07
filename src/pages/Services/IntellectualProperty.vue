@@ -1,21 +1,895 @@
 <template>
-  <ServiceDetailLayout
-    title="Intellectual Property"
-    eyebrow="Services"
-    intro-title="Protecting & enforcing your intellectual property rights"
-    intro="Kohlerackels combines experience, a command of the U.S. Patent & Trademark Office and other regulatory agency processes, PTAB and trial skills, and an appreciation for the importance of innovation to your business to help achieve results. Our firm’s attorneys have deep experience in patent preparation, prosecution, opinions, client counseling, post-grant practice, and litigation. Our IP attorneys have represented clients in IP litigation and transactions in the United States, Europe, Asia, and South America."
-    :tabs="tabs"
-    :sections="sections"
-    :why="why"
-    :contacts="contacts"
-  />
+  <main class="legacy-service-page">
+    <div class="row featured-top cropped-feature practice-area">
+    		<div class="featured-background">            
+    			<img src="/images/oGexHrH2iWmumsvVnRkfqPZ8yVgKLOeZR540eF8x.jpg" alt="Image of a blue sphere surrounded by a silver cage" />		</div>
+    		<div class="photo-gradient"></div>
+    
+    		<div class="container featured-container">
+    
+    			<div class="row">
+    				<div class="col-md-7 featured-content">
+    				<h1 class="featured-section">Intellectual Property</h1>
+    				   <h2 class="featured-title">Protecting &amp; enforcing your intellectual property rights</h2>
+    					
+    					<div class="capabilities-icon-row">
+    					    <button type="button" class="bg-transparent border-0 p-0 print-btn">
+    						<img src="/images/detail-print.png" class="icon-print" alt="Print"/>
+                            </button>
+    		                <a href="../tools/generate/Service/276/intellectual-property.pdf" 
+    							 ><img src="/images/detail-pdf.png" class="icon-pdf-direct border-0" alt="PDF" /></a>
+    					    
+    					</div>
+    					<h4 class="featured-subhead" color="#363636" font-family="Quattrocento Sans" font-size="2.8125rem" line-height="2.5rem" margin-bottom="30px" position="relative">Kohlerackles combines experience, a command of the U.S. Patent &amp; Trademark Office and other regulatory agency processes, PTAB and trial skills, and an appreciation for the importance of innovation to your business to help achieve results.</h4>
+    
+    <p class="generic" dir="ltr">Our firm&rsquo;s attorneys have deep experience in patent preparation, prosecution, opinions, client counseling, post-grant practice, and litigation. Our IP attorneys have represented clients in IP litigation and transactions in the United States, Europe, Asia, and South America. That&rsquo;s why clients with worldwide patent and trademark portfolios trust our IP attorneys to manage and enhance their portfolios, protect their rights, and avoid infringement pitfalls.&nbsp;</p>
+    				</div>
+    			</div>
+    
+    		</div>
+    		
+    		<div class="container featured-tabs">
+    			<ul class="nav nav-tabs" role="tablist" aria-owns="professionals-side-tab">
+    				<li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="overview-tab" data-toggle="tab" data-target="#overview" type="button" role="tab" aria-controls="overview" aria-selected="true">Overview</button>
+    				</li>
+    				<li class="nav-item" role="presentation">
+                        <button class="nav-link" id="professionals-tab" data-toggle="tab" data-target="#professionals" type="button" role="tab" aria-controls="professionals" aria-selected="false">Professionals</button>
+    				</li>
+    								<li class="nav-item" role="presentation">					
+                        <button class="nav-link" id="practice-areas-tab" data-toggle="tab" data-target="#practice-areas" type="button" role="tab" aria-controls="practice-areas" aria-selected="false">Related Practice Areas</button>
+    				</li>
+    												<li class="nav-item" role="presentation">
+                        <button class="nav-link" id="industries-tab" data-toggle="tab" data-target="#industries" type="button" role="tab" aria-controls="industries" aria-selected="false">Related Industries</button>
+    				</li>
+    				                                <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="insights-tab" data-toggle="tab" data-target="#insights" type="button" role="tab" aria-controls="insights" aria-selected="false">Insights</button>
+                    </li>
+                    				                                                			</ul>
+    		</div> 
+    
+    	</div> 
+    
+    	
+    	<div class="row section-subnav">
+    	<div class="container">
+    
+    		
+    		<div class="tab-content white-back-sub">
+    
+    			
+    			<div class="tab-pane active sidebar-wrapper" id="overview" role="tabpanel" aria-labelledby="overview-tab">
+    			<div class="row attorney-tab-info">
+    				<div class="col-md-8 content-inner">
+    					<h3 class="top-body-subhead">Litigating and resolving a wide range of disputes</h3>
+    
+    <p>From the beginning of an issue, we seek to find business solutions to clients&rsquo; problems. Sometimes that requires us to demonstrate our trial skills in the courtroom. Many times it allows us to resolve IP issues without litigation. Our experience includes patent infringement, trademark and trade dress infringement and dilution, misappropriation of trade secrets and unfair competition, and copyright infringement.&nbsp;</p>
+    
+    <p class="generic" dir="ltr">We help clients with false advertising claims, including representing clients before the National Advertising Division of the Council on Better Business Bureaus. We also handle counterfeiting claims, cybersquatting claims through ICANN&rsquo;s Uniform Domain Name Dispute Resolution Policy, internet, domain names and social media, restrictive covenants, rights of privacy and publicity.&nbsp;</p>
+    
+    <p class="generic" dir="ltr">We bring clients a team well-versed in the substantive and procedural issues, including obtaining and defending against temporary restraining orders and preliminary injunctions often sought in IP actions.</p>
+    
+    <hr />
+    <h4 class="featured-subhead">Understanding the science, relaying complex matters to judges and juries</h4>
+    
+    <p dir="ltr">Kohlerackles&rsquo; IP group includes attorneys registered to practice before the U.S. Patent and Trademark Office, attorneys with technical degrees, including electrical engineering, biochemistry, chemistry, and mechanical engineering. Our team also includes former judicial clerks with the U.S. Court of Appeals for the Federal Circuit and former Patent Examiners, and attorneys who serve as thought leaders, through roles as adjunct intellectual property law professors at local law schools and authors of various publications.&nbsp;</p>
+    
+    <hr />
+    <h4 class="featured-subhead" dir="ltr">Clients span industry sectors and range from entrepreneurs to research institutions to established household names<meta charset="utf-8" /></h4>
+    
+    <p>Clients from many of today&rsquo;s high-profile industries select us to work side-by-side with them, including medical and research institutions, global specialty chemical companies, financial institutions, and clients in a range of business areas, including: electronic commerce, telecommunications, computer software, pharmaceuticals, biotechnology, manufacturing, and outdoor industry sectors.&nbsp;</p>
+    
+    <hr />
+    <h4 class="featured-subhead" dir="ltr">Broad experience includes creating and protecting large patent and trademark portfolios, and managing risks through due diligence<meta charset="utf-8" /></h4>
+    
+    <p>We bring to clients a team experienced in helping to ensure that a client&rsquo;s intellectual property is protected, whether by patents, trademarks, copyrights, or trade secrets.</p>
+    
+    <p class="generic" dir="ltr">In the past few years, we have handled more than 2,500 patents and more than 2,900 patent applications in 50+ countries.&nbsp;</p>
+    
+    <p class="generic" dir="ltr">We handle global patent portfolio management, licensing agreements &ndash; including next-generation technology protection.&nbsp;</p>
+    
+    <p class="generic" dir="ltr">We assist with trademark clearance in the United States and internationally and registration, including using the Madrid System. We conduct intellectual property due diligence for public offerings, fundraising transactions, and acquisitions. Our practices are based on efficient and time-tested practice parameters designed by attorneys with experience managing private practice and in-house international filing programs.</p>
+    
+    <hr />
+    <h4 class="featured-subhead" dir="ltr">Efficiencies through project management and technology</h4>
+    
+    <p dir="ltr">Every engagement begins with an understanding of our clients&rsquo; business goals and technology.</p>
+    
+    <p class="generic" dir="ltr">Our experience enables us to bring practical, solutions-oriented perspectives. We implement proven project management practices and leverage technology to enable us to efficiently manage, monitor, and respond to client needs and issues quickly and effectively.</p>
+    
+    					
+    
+    
+    					
+    					
+                       
+    				</div> 
+    
+    				<div class="col-md-4 sidebar-inner">
+    
+    					
+    					<div class="sidebar-aside-container">
+                            
+                            
+    						<div class="aside-why">
+    							<h2>Why Kohlerackles?</h2>
+    							<ul>
+    	<li><strong>Deep knowledge of the law and science</strong></li>
+    	<li><strong>Seasoned trial attorneys</strong> &minus; experience and ability trying cases to verdict wherever necessary</li>
+    	<li><strong>Solution-driven</strong>&nbsp;&ndash;&nbsp;helping to achieve business objectives, build and protect strong intellectual property portfolios, commercialize products, and manage risks in connection with intellectual property assets</li>
+    	<li><strong>Quality service and cost efficiency</strong>&nbsp;&ndash; we structure client service relationships using a range of fee arrangements that include predictable fee structures designed to enhance budget predictability</li>
+    </ul>
+    
+    						</div>
+    					</div>
+    
+    					
+    										<div class="aside-contacts">
+    						<div class="sidebar-title-with-first">
+      						<h3 class="sidebar-title">GET IN TOUCH</h3>
+      						<h4>Practice Contacts</h4>
+    
+                                                    	<div class="sidebar-aside-container">
+                                <a href="../professionals/patrick-kartes.html">
+                                    <div class="sidebar-contact-photo">
+                                        <img src="/images/it3ptxOE4YG3KtbDYsMrdkYHSv4vQKUxV9FpyPVE.jpg" alt="Patrick L. Kartes" />                                </div>
+                                </a>
+                                <div class="sidebar-contact-details full-width">
+                                    <h4><a href="../professionals/patrick-kartes.html">Patrick L. Kartes</a></h4>
+                                                                        <div class="h5 position">Partner</div>
+                                                                                                        <div class="h5">Co-Chair</div>
+                                                                                                        <div class="sidebar-email-icon">
+                                            <a href="#" data-toggle="modal" data-target="#emailModal" data-email="patrick.kartes@nelsonmullins.com" class="email_btn"><img src="/images/detail-email.png" alt="Send Email to Patrick L. Kartes" /></a>
+                                        </div>
+                                                                                                                                            	<div class="sidebar-phone">
+                                            <p>T 704.417.3036</p>
+                                           </div>
+                                                                                                    </div>
+                              </div>
+                                                        	</div> 
+                                                                              	<div class="sidebar-aside-container">
+                                <a href="../professionals/jane-remillard.html">
+                                    <div class="sidebar-contact-photo">
+                                        <img src="/images/x2ugdWp5FjpzFvsEmCreQrMFJUZJm35vJpnysC8k.jpg" alt="Jane E. Remillard" />                                </div>
+                                </a>
+                                <div class="sidebar-contact-details full-width">
+                                    <h4><a href="../professionals/jane-remillard.html">Jane E. Remillard</a></h4>
+                                                                        <div class="h5 position">Partner</div>
+                                                                                                        <div class="h5">Co-Chair</div>
+                                                                                                        <div class="sidebar-email-icon">
+                                            <a href="#" data-toggle="modal" data-target="#emailModal" data-email="jane.remillard@nelsonmullins.com" class="email_btn"><img src="/images/detail-email.png" alt="Send Email to Jane E. Remillard" /></a>
+                                        </div>
+                                                                                                                                            	<div class="sidebar-phone">
+                                            <p>T 617.217.4628</p>
+                                           </div>
+                                                                                                    </div>
+                              </div>
+                                                      					</div>
+    					
+                        <button class="nav-link nm-button-yellow" id="professionals-side-tab" data-toggle="tab" data-target="#professionals" type="button" aria-controls="professionals">Related Professionals</button>                        
+                        
+                        <div class="nm-button-yellow visible-print-block"><a href="../insights/alerts.html">Visit Insights</a></div>
+                        
+    
+                        					
+    					
+    
+    					
+    
+                        
+                                            
+    <div class="aside-contact-culture">
+            <div class="aside carousel slide multi">
+                            <div class="slick slick-single">
+                                                                            <div class="item">
+                                                        <a href="#"><img src="/images/1Bgt7C44D7gzRaQNzKrextbynyUHivY54DFWRxqz.jpg" alt="Best Lawyers Best Law Firms 2025 Badge, litigation intellectual property" class="img-fluid lozad" /></a>
+                                                    </div>
+                                                                                    <div class="item">
+                                                        <a href="#"><img src="/images/QopJIYnTZPOpNx394mrC1qdUNLI7IjxuUOXqH6c6.jpg" alt="Best Lawyers Best Law Firms 2025 Badge, patent law" class="img-fluid lozad" /></a>
+                                                    </div>
+                                                                                    <div class="item">
+                                                        <a href="#"><img src="/images/sNNJ2MjybC6rLnoYcJYWEsdSS9UD3WZOPmzhM7Cm.jpg" alt="Best Lawyers Best Law Firms 2025 Badge, trademark law" class="img-fluid lozad" /></a>
+                                                    </div>
+                                                                    </div>
+                        </div>
+        </div>
+    
+                        
+    				</div> 
+    
+    			</div>
+    
+    		</div>
+    
+    		
+    		<div class="tab-pane" id="professionals" role="tabpanel" aria-labelledby="professionals-tab">
+    		<div class="row attorney-tab-info">
+    			
+                <div class="col-md-8">
+                    <pageablelist v-bind:config="{
+                        pageableData: '/professionals?limit=45&service=276',
+                        sort: [{'parameter':'position', 'name':'Position'},{'parameter':'last_name', 'name':'Name'},{'parameter':'location', 'name':'Location'}],
+                        thisView: 'frontend.services.show',
+                        thisModel: 'Service',
+                        thisId: 276
+                    }"></pageablelist>
+                </div>
+                
+    
+    			<div class="col-md-4 sidebar hidden-print">
+    				
+    				<div class="sidebar-aside-container hidden-print">
+    					<div class="aside-why hidden-print">
+    						<h2>Why Kohlerackles?</h2>
+    						<ul>
+    	<li><strong>Deep knowledge of the law and science</strong></li>
+    	<li><strong>Seasoned trial attorneys</strong> &minus; experience and ability trying cases to verdict wherever necessary</li>
+    	<li><strong>Solution-driven</strong>&nbsp;&ndash;&nbsp;helping to achieve business objectives, build and protect strong intellectual property portfolios, commercialize products, and manage risks in connection with intellectual property assets</li>
+    	<li><strong>Quality service and cost efficiency</strong>&nbsp;&ndash; we structure client service relationships using a range of fee arrangements that include predictable fee structures designed to enhance budget predictability</li>
+    </ul>
+    					</div>
+    				</div>
+    			</div> 
+    	
+    		</div>
+    		</div> 
+    
+    		
+    				<div class="tab-pane" id="practice-areas" role="tabpanel" aria-labelledby="practice-areas-tab">
+    				<div class="row mt-3 pt-1 mb-5">
+    				<div class="col-md-8 capabilities-practices">
+    				<div class="row">
+                        <div class="col-md-12 practice-column related-industries-tab-info">
+    					<ul class="list-inline">
+    													<li>
+                                                                    <a href="bankruptcy_creditors_rights_and_restructuring.html">Bankruptcy, Creditors&#039; Rights &amp; Restructuring</a>
+                                                                </li>
+    													<li>
+                                                                    <a href="blockchain-and-digital-currency.html">Blockchain &amp; Digital Currency</a>
+                                                                </li>
+    													<li>
+                                                                    <a href="corporate_and_securities.html">Corporate &amp; Securities</a>
+                                                                </li>
+    													<li>
+                                                                    <a href="cybersecurity_and_data_breach_response.html">Cybersecurity &amp; Data Breach Response</a>
+                                                                </li>
+    													<li>
+                                                                    <a href="cybersecurity-and-data-privacy.html">Cybersecurity &amp; Data Privacy</a>
+                                                                </li>
+    													<li>
+                                                                    <a href="#" >E-Discovery - Encompass</a>
+                                                                </li>
+    													<li>
+                                                                    <a href="e-discovery-and-information-governance.html">E-Discovery &amp; Information Governance</a>
+                                                                </li>
+    													<li>
+                                                                    <a href="global-privacy-and-security.html">Global Privacy &amp; Security</a>
+                                                                </li>
+    													<li>
+                                                                    <a href="intellectual_property_litigation.html">Intellectual Property Litigation</a>
+                                                                </li>
+    													<li>
+                                                                    <a href="life_sciences_-_ip.html">Life Sciences - IP</a>
+                                                                </li>
+    													<li>
+                                                                    <a href="patent-counseling-and-procurement.html">Patent Counseling and Procurement</a>
+                                                                </li>
+    													<li>
+                                                                    <a href="trademarks_and_copyrights.html">Trademarks &amp; Copyrights</a>
+                                                                </li>
+    						                    </ul>
+                </div>
+    				</div>
+    				
+    
+    				</div> 
+    
+    				<div class="col-md-4 sidebar hidden-print">
+    					
+    					<div class="sidebar-aside-container hidden-print">
+    						<div class="aside-why hidden-print">
+    							<h2>Why Kohlerackles?</h2>
+    							<ul>
+    	<li><strong>Deep knowledge of the law and science</strong></li>
+    	<li><strong>Seasoned trial attorneys</strong> &minus; experience and ability trying cases to verdict wherever necessary</li>
+    	<li><strong>Solution-driven</strong>&nbsp;&ndash;&nbsp;helping to achieve business objectives, build and protect strong intellectual property portfolios, commercialize products, and manage risks in connection with intellectual property assets</li>
+    	<li><strong>Quality service and cost efficiency</strong>&nbsp;&ndash; we structure client service relationships using a range of fee arrangements that include predictable fee structures designed to enhance budget predictability</li>
+    </ul>
+    						</div>
+    					</div>
+    				</div> 
+    
+    			</div>
+    		</div> 
+    		
+    				
+    		<div class="tab-pane" id="industries" role="tabpanel" aria-labelledby="industries-tab">
+    			<div class="row mt-3 pt-1 mb-5">
+                    <div class="col-md-8 related-industries-tab-info">
+    				<ul class="list-inline">
+    											<li>
+                                                            <a href="consumer_products_and_retail.html">Consumer Products &amp; Retail</a>
+                                                        </li>
+    											<li>
+                                                            <a href="life-sciences-pharmaceuticals-and-medical-devices.html">Life Sciences, Pharmaceuticals &amp; Medical Devices</a>
+                                                        </li>
+    											<li>
+                                                            <a href="manufacturing.html">Manufacturing</a>
+                                                        </li>
+    											<li>
+                                                            <a href="technology.html">Technology and Commercial Transactions</a>
+                                                        </li>
+    					            </ul></div>	
+    
+    				<div class="col-md-4 sidebar hidden-print">
+    					
+    					<div class="sidebar-aside-container hidden-print">
+    						<div class="aside-why hidden-print">
+    							<h2>Why Kohlerackles?</h2>
+    							<ul>
+    	<li><strong>Deep knowledge of the law and science</strong></li>
+    	<li><strong>Seasoned trial attorneys</strong> &minus; experience and ability trying cases to verdict wherever necessary</li>
+    	<li><strong>Solution-driven</strong>&nbsp;&ndash;&nbsp;helping to achieve business objectives, build and protect strong intellectual property portfolios, commercialize products, and manage risks in connection with intellectual property assets</li>
+    	<li><strong>Quality service and cost efficiency</strong>&nbsp;&ndash; we structure client service relationships using a range of fee arrangements that include predictable fee structures designed to enhance budget predictability</li>
+    </ul>
+    						</div>
+    					</div>
+    				</div> 
+    
+    			</div>
+    		</div> 
+    		
+    		
+            <div class="tab-pane" id="insights" role="tabpanel" aria-labelledby="insights-tab">
+                <div class="row attorney-tab-info">
+                    <div class="col-md-8 attorney-tab-articles">
+                                            <pageablepostlist v-bind:config="{
+                            ie: false,
+                            header: 'News',
+                            service_id: 276,
+                            post_type: 3,
+                            limit: 5,
+                            results:{&quot;pageable&quot;:{&quot;current_page&quot;:1,&quot;data&quot;:[{&quot;id&quot;:13638,&quot;title&quot;:&quot;Fifteen Kohlerackles Partners Named 2025 Top Lawyers by Boston Magazine&quot;,&quot;slug&quot;:&quot;fifteen-nelson-mullins-partners-named-2025-top-lawyers-by-boston-magazine&quot;,&quot;published_at&quot;:&quot;2025-11-25T00:00:00.000000Z&quot;,&quot;alt_display_date&quot;:&quot;December 2025\/January 2026&quot;,&quot;default_images&quot;:null,&quot;name&quot;:&quot;Fifteen Kohlerackles Partners Named 2025 Top Lawyers by Boston Magazine&quot;,&quot;custom_record_images&quot;:[{&quot;id&quot;:12775,&quot;template_id&quot;:null,&quot;template_image_id&quot;:&quot;1991&quot;,&quot;foreign_id&quot;:&quot;13638&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\Post&quot;,&quot;name&quot;:&quot;Detail Image&quot;,&quot;tag&quot;:&quot;detail_image&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-11-25T15:16:47.947000Z&quot;,&quot;updated_at&quot;:&quot;2025-11-25T15:16:47.947000Z&quot;,&quot;format&quot;:null,&quot;width&quot;:&quot;1280&quot;,&quot;height&quot;:&quot;800&quot;,&quot;resolution&quot;:null,&quot;image&quot;:{&quot;id&quot;:15050,&quot;document_id&quot;:&quot;23738&quot;,&quot;foreign_id&quot;:&quot;12775&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\TemplateImage&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-11-25T15:16:48.033000Z&quot;,&quot;updated_at&quot;:&quot;2025-11-25T15:16:48.033000Z&quot;,&quot;label&quot;:null,&quot;document&quot;:{&quot;id&quot;:23738,&quot;user_id&quot;:&quot;88&quot;,&quot;type&quot;:&quot;image\/jpeg&quot;,&quot;name&quot;:&quot;Detail Image: Fifteen Kohlerackles Partners Named 2025 Top Lawyers by Boston Magazine&quot;,&quot;short_description&quot;:null,&quot;description&quot;:null,&quot;server_name&quot;:&quot;eO0JpjVTYtYlgOorAUzYcPe1RAt4jq5aj2LAGJ2U&quot;,&quot;server_ext&quot;:&quot;jpg&quot;,&quot;client_name&quot;:&quot;#199784_Awards_DETAIL&quot;,&quot;client_ext&quot;:&quot;jpg&quot;,&quot;file_size&quot;:&quot;75527&quot;,&quot;pixel_width&quot;:&quot;660&quot;,&quot;pixel_height&quot;:&quot;413&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-11-25T15:16:47.937000Z&quot;,&quot;updated_at&quot;:&quot;2025-11-25T15:17:01.080000Z&quot;,&quot;standalone&quot;:&quot;0&quot;,&quot;image_alt_tag&quot;:&quot;Group of trophies in a row&quot;,&quot;link&quot;:&quot;https:\/\/www.nelsonmullins.com\/storage\/eO0JpjVTYtYlgOorAUzYcPe1RAt4jq5aj2LAGJ2U.jpg&quot;,&quot;is_image&quot;:true}}}],&quot;post_categories&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Press Releases&quot;,&quot;slug&quot;:&quot;press_releases&quot;,&quot;description&quot;:null,&quot;collection_id&quot;:&quot;2&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;13638&quot;,&quot;category_id&quot;:&quot;1&quot;,&quot;created_at&quot;:&quot;2025-11-24T21:02:43.257000Z&quot;,&quot;updated_at&quot;:&quot;2025-11-24T21:02:43.257000Z&quot;}}],&quot;post_collections&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;News&quot;,&quot;slug&quot;:&quot;news&quot;,&quot;description&quot;:null,&quot;external_url&quot;:null,&quot;post_type_id&quot;:&quot;3&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;display_status_id&quot;:null,&quot;subscribe_link&quot;:null,&quot;overlay_color&quot;:null,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;13638&quot;,&quot;collection_id&quot;:&quot;2&quot;,&quot;created_at&quot;:&quot;2025-11-24T21:02:43.247000Z&quot;,&quot;updated_at&quot;:&quot;2025-11-24T21:02:43.247000Z&quot;}}],&quot;post_roles&quot;:[],&quot;post_type&quot;:null},{&quot;id&quot;:13043,&quot;title&quot;:&quot;Kohlerackles Grows In Houston With Osha Bergman IP Duo&quot;,&quot;slug&quot;:&quot;nelson-mullins-grows-in-houston-with-osha-bergman-ip-duo&quot;,&quot;published_at&quot;:&quot;2025-02-03T00:00:00.000000Z&quot;,&quot;alt_display_date&quot;:&quot;&quot;,&quot;default_images&quot;:null,&quot;name&quot;:&quot;Kohlerackles Grows In Houston With Osha Bergman IP Duo&quot;,&quot;custom_record_images&quot;:[{&quot;id&quot;:11863,&quot;template_id&quot;:null,&quot;template_image_id&quot;:&quot;1991&quot;,&quot;foreign_id&quot;:&quot;13043&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\Post&quot;,&quot;name&quot;:&quot;Detail Image&quot;,&quot;tag&quot;:&quot;detail_image&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-02-03T16:32:26.780000Z&quot;,&quot;updated_at&quot;:&quot;2025-02-03T16:32:26.780000Z&quot;,&quot;format&quot;:null,&quot;width&quot;:&quot;1280&quot;,&quot;height&quot;:&quot;800&quot;,&quot;resolution&quot;:null,&quot;image&quot;:{&quot;id&quot;:14034,&quot;document_id&quot;:&quot;21600&quot;,&quot;foreign_id&quot;:&quot;11863&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\TemplateImage&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-02-03T16:32:26.793000Z&quot;,&quot;updated_at&quot;:&quot;2025-02-04T08:00:19.610000Z&quot;,&quot;label&quot;:null,&quot;document&quot;:{&quot;id&quot;:21600,&quot;user_id&quot;:&quot;20&quot;,&quot;type&quot;:&quot;image\/jpeg&quot;,&quot;name&quot;:&quot;Detail Image: Kohlerackles Grows In Houston With Osha Bergman IP Duo&quot;,&quot;short_description&quot;:null,&quot;description&quot;:null,&quot;server_name&quot;:&quot;n55mULUdYpr05mtUZ3K7douVTHNpirPqk2U4A611&quot;,&quot;server_ext&quot;:&quot;jpg&quot;,&quot;client_name&quot;:&quot;News_90&quot;,&quot;client_ext&quot;:&quot;jpg&quot;,&quot;file_size&quot;:&quot;32400&quot;,&quot;pixel_width&quot;:&quot;660&quot;,&quot;pixel_height&quot;:&quot;413&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-02-04T08:00:19.607000Z&quot;,&quot;updated_at&quot;:&quot;2025-02-04T08:00:19.607000Z&quot;,&quot;standalone&quot;:&quot;0&quot;,&quot;image_alt_tag&quot;:null,&quot;link&quot;:&quot;https:\/\/www.nelsonmullins.com\/storage\/n55mULUdYpr05mtUZ3K7douVTHNpirPqk2U4A611.jpg&quot;,&quot;is_image&quot;:true}}}],&quot;post_categories&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;In the News&quot;,&quot;slug&quot;:&quot;in_the_news&quot;,&quot;description&quot;:null,&quot;collection_id&quot;:&quot;2&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;13043&quot;,&quot;category_id&quot;:&quot;2&quot;,&quot;created_at&quot;:&quot;2025-02-03T13:56:27.353000Z&quot;,&quot;updated_at&quot;:&quot;2025-02-03T13:56:27.353000Z&quot;}}],&quot;post_collections&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;News&quot;,&quot;slug&quot;:&quot;news&quot;,&quot;description&quot;:null,&quot;external_url&quot;:null,&quot;post_type_id&quot;:&quot;3&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;display_status_id&quot;:null,&quot;subscribe_link&quot;:null,&quot;overlay_color&quot;:null,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;13043&quot;,&quot;collection_id&quot;:&quot;2&quot;,&quot;created_at&quot;:&quot;2025-02-03T13:56:27.347000Z&quot;,&quot;updated_at&quot;:&quot;2025-02-03T13:56:27.347000Z&quot;}}],&quot;post_roles&quot;:[],&quot;post_type&quot;:null},{&quot;id&quot;:13034,&quot;title&quot;:&quot;Kohlerackles Continues Robust Growth in Houston with Pick Up of Two Intellectual Property Partners&quot;,&quot;slug&quot;:&quot;nelson-mullins-continues-robust-growth-in-houston-with-pick-up-of-two-intellectual-property-partners&quot;,&quot;published_at&quot;:&quot;2025-01-29T00:00:00.000000Z&quot;,&quot;alt_display_date&quot;:&quot;&quot;,&quot;default_images&quot;:null,&quot;name&quot;:&quot;Kohlerackles Continues Robust Growth in Houston with Pick Up of Two Intellectual Property Partners&quot;,&quot;custom_record_images&quot;:[{&quot;id&quot;:11847,&quot;template_id&quot;:null,&quot;template_image_id&quot;:&quot;1991&quot;,&quot;foreign_id&quot;:&quot;13034&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\Post&quot;,&quot;name&quot;:&quot;Detail Image&quot;,&quot;tag&quot;:&quot;detail_image&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-01-29T12:42:43.933000Z&quot;,&quot;updated_at&quot;:&quot;2025-01-29T12:42:43.933000Z&quot;,&quot;format&quot;:null,&quot;width&quot;:&quot;1280&quot;,&quot;height&quot;:&quot;800&quot;,&quot;resolution&quot;:null,&quot;image&quot;:{&quot;id&quot;:14018,&quot;document_id&quot;:&quot;21572&quot;,&quot;foreign_id&quot;:&quot;11847&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\TemplateImage&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-01-29T12:42:43.943000Z&quot;,&quot;updated_at&quot;:&quot;2025-01-30T12:42:15.580000Z&quot;,&quot;label&quot;:null,&quot;document&quot;:{&quot;id&quot;:21572,&quot;user_id&quot;:&quot;20&quot;,&quot;type&quot;:&quot;image\/jpeg&quot;,&quot;name&quot;:&quot;Detail Image: Kohlerackles Continues Robust Growth in Houston with Pick Up of Two Intellectual Property Partners&quot;,&quot;short_description&quot;:null,&quot;description&quot;:null,&quot;server_name&quot;:&quot;OOC5lmm0KrXQHKkkD7fViNRUehBtinfUuLOUyp5X&quot;,&quot;server_ext&quot;:&quot;jpg&quot;,&quot;client_name&quot;:&quot;News_89&quot;,&quot;client_ext&quot;:&quot;jpg&quot;,&quot;file_size&quot;:&quot;53842&quot;,&quot;pixel_width&quot;:&quot;660&quot;,&quot;pixel_height&quot;:&quot;413&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-01-30T12:42:15.570000Z&quot;,&quot;updated_at&quot;:&quot;2025-01-30T12:42:20.590000Z&quot;,&quot;standalone&quot;:&quot;0&quot;,&quot;image_alt_tag&quot;:&quot;&quot;,&quot;link&quot;:&quot;https:\/\/www.nelsonmullins.com\/storage\/OOC5lmm0KrXQHKkkD7fViNRUehBtinfUuLOUyp5X.jpg&quot;,&quot;is_image&quot;:true}}}],&quot;post_categories&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Press Releases&quot;,&quot;slug&quot;:&quot;press_releases&quot;,&quot;description&quot;:null,&quot;collection_id&quot;:&quot;2&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;13034&quot;,&quot;category_id&quot;:&quot;1&quot;,&quot;created_at&quot;:&quot;2025-01-28T17:15:08.847000Z&quot;,&quot;updated_at&quot;:&quot;2025-01-28T17:15:08.847000Z&quot;}}],&quot;post_collections&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;News&quot;,&quot;slug&quot;:&quot;news&quot;,&quot;description&quot;:null,&quot;external_url&quot;:null,&quot;post_type_id&quot;:&quot;3&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;display_status_id&quot;:null,&quot;subscribe_link&quot;:null,&quot;overlay_color&quot;:null,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;13034&quot;,&quot;collection_id&quot;:&quot;2&quot;,&quot;created_at&quot;:&quot;2025-01-28T17:15:08.843000Z&quot;,&quot;updated_at&quot;:&quot;2025-01-28T17:15:08.843000Z&quot;}}],&quot;post_roles&quot;:[],&quot;post_type&quot;:null},{&quot;id&quot;:12626,&quot;title&quot;:&quot;Kohlerackles Partner Jane Remillard Named Finalist for New England IP Attorney of the Year Award&quot;,&quot;slug&quot;:&quot;nelson-mullins-partner-jane-remillard-named-finalist-for-new-england-ip-attorney-of-the-year-award&quot;,&quot;published_at&quot;:&quot;2024-07-30T00:00:00.000000Z&quot;,&quot;alt_display_date&quot;:&quot;&quot;,&quot;default_images&quot;:null,&quot;name&quot;:&quot;Kohlerackles Partner Jane Remillard Named Finalist for New England IP Attorney of the Year Award&quot;,&quot;custom_record_images&quot;:[{&quot;id&quot;:11273,&quot;template_id&quot;:null,&quot;template_image_id&quot;:&quot;1991&quot;,&quot;foreign_id&quot;:&quot;12626&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\Post&quot;,&quot;name&quot;:&quot;Detail Image&quot;,&quot;tag&quot;:&quot;detail_image&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2024-07-30T10:23:12.363000Z&quot;,&quot;updated_at&quot;:&quot;2024-07-30T10:23:12.363000Z&quot;,&quot;format&quot;:null,&quot;width&quot;:&quot;1280&quot;,&quot;height&quot;:&quot;800&quot;,&quot;resolution&quot;:null,&quot;image&quot;:{&quot;id&quot;:13352,&quot;document_id&quot;:&quot;20504&quot;,&quot;foreign_id&quot;:&quot;11273&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\TemplateImage&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2024-07-30T10:23:12.377000Z&quot;,&quot;updated_at&quot;:&quot;2024-07-30T15:45:59.677000Z&quot;,&quot;label&quot;:null,&quot;document&quot;:{&quot;id&quot;:20504,&quot;user_id&quot;:&quot;20&quot;,&quot;type&quot;:&quot;image\/jpeg&quot;,&quot;name&quot;:&quot;Detail Image: Kohlerackles Partner Jane Remillard Named Finalist for New England IP Attorney of the Year Award&quot;,&quot;short_description&quot;:null,&quot;description&quot;:null,&quot;server_name&quot;:&quot;RgH3FdQn8SQjPZchXiDSwftwwOqRq1KCQJUKnddW&quot;,&quot;server_ext&quot;:&quot;jpg&quot;,&quot;client_name&quot;:&quot;News_56&quot;,&quot;client_ext&quot;:&quot;jpg&quot;,&quot;file_size&quot;:&quot;29625&quot;,&quot;pixel_width&quot;:&quot;660&quot;,&quot;pixel_height&quot;:&quot;413&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2024-07-30T15:45:59.673000Z&quot;,&quot;updated_at&quot;:&quot;2024-07-30T15:45:59.673000Z&quot;,&quot;standalone&quot;:&quot;0&quot;,&quot;image_alt_tag&quot;:null,&quot;link&quot;:&quot;https:\/\/www.nelsonmullins.com\/storage\/RgH3FdQn8SQjPZchXiDSwftwwOqRq1KCQJUKnddW.jpg&quot;,&quot;is_image&quot;:true}}}],&quot;post_categories&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;In the News&quot;,&quot;slug&quot;:&quot;in_the_news&quot;,&quot;description&quot;:null,&quot;collection_id&quot;:&quot;2&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;12626&quot;,&quot;category_id&quot;:&quot;2&quot;,&quot;created_at&quot;:&quot;2024-07-26T12:59:13.783000Z&quot;,&quot;updated_at&quot;:&quot;2024-07-26T12:59:13.783000Z&quot;}}],&quot;post_collections&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;News&quot;,&quot;slug&quot;:&quot;news&quot;,&quot;description&quot;:null,&quot;external_url&quot;:null,&quot;post_type_id&quot;:&quot;3&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;display_status_id&quot;:null,&quot;subscribe_link&quot;:null,&quot;overlay_color&quot;:null,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;12626&quot;,&quot;collection_id&quot;:&quot;2&quot;,&quot;created_at&quot;:&quot;2024-07-26T12:59:13.780000Z&quot;,&quot;updated_at&quot;:&quot;2024-07-26T12:59:13.780000Z&quot;}}],&quot;post_roles&quot;:[],&quot;post_type&quot;:null},{&quot;id&quot;:12517,&quot;title&quot;:&quot;Kohlerackles Trademark Attorney Named Among WTR Global Leaders 2024&quot;,&quot;slug&quot;:&quot;nelson-mullins-trademark-attorney-named-among-wtr-global-leaders-2024&quot;,&quot;published_at&quot;:&quot;2024-06-07T00:00:00.000000Z&quot;,&quot;alt_display_date&quot;:&quot;&quot;,&quot;default_images&quot;:null,&quot;name&quot;:&quot;Kohlerackles Trademark Attorney Named Among WTR Global Leaders 2024&quot;,&quot;custom_record_images&quot;:[{&quot;id&quot;:11153,&quot;template_id&quot;:null,&quot;template_image_id&quot;:&quot;1991&quot;,&quot;foreign_id&quot;:&quot;12517&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\Post&quot;,&quot;name&quot;:&quot;Detail Image&quot;,&quot;tag&quot;:&quot;detail_image&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2024-06-07T09:30:50.237000Z&quot;,&quot;updated_at&quot;:&quot;2024-06-07T09:30:50.237000Z&quot;,&quot;format&quot;:null,&quot;width&quot;:&quot;1280&quot;,&quot;height&quot;:&quot;800&quot;,&quot;resolution&quot;:null,&quot;image&quot;:{&quot;id&quot;:13220,&quot;document_id&quot;:&quot;20263&quot;,&quot;foreign_id&quot;:&quot;11153&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\TemplateImage&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2024-06-07T09:30:50.247000Z&quot;,&quot;updated_at&quot;:&quot;2024-06-10T08:39:28.987000Z&quot;,&quot;label&quot;:null,&quot;document&quot;:{&quot;id&quot;:20263,&quot;user_id&quot;:&quot;20&quot;,&quot;type&quot;:&quot;image\/jpeg&quot;,&quot;name&quot;:&quot;Detail Image: Kohlerackles Trademark Attorney Named Among WTR Global Leaders 2024&quot;,&quot;short_description&quot;:null,&quot;description&quot;:null,&quot;server_name&quot;:&quot;esZommoPsf81zN7KRu1HEVPpbXv3Sl9bBTxD2Y85&quot;,&quot;server_ext&quot;:&quot;jpg&quot;,&quot;client_name&quot;:&quot;PR_114&quot;,&quot;client_ext&quot;:&quot;jpg&quot;,&quot;file_size&quot;:&quot;31361&quot;,&quot;pixel_width&quot;:&quot;660&quot;,&quot;pixel_height&quot;:&quot;413&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2024-06-10T08:39:28.953000Z&quot;,&quot;updated_at&quot;:&quot;2024-06-10T08:39:28.953000Z&quot;,&quot;standalone&quot;:&quot;0&quot;,&quot;image_alt_tag&quot;:null,&quot;link&quot;:&quot;https:\/\/www.nelsonmullins.com\/storage\/esZommoPsf81zN7KRu1HEVPpbXv3Sl9bBTxD2Y85.jpg&quot;,&quot;is_image&quot;:true}}}],&quot;post_categories&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Press Releases&quot;,&quot;slug&quot;:&quot;press_releases&quot;,&quot;description&quot;:null,&quot;collection_id&quot;:&quot;2&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;12517&quot;,&quot;category_id&quot;:&quot;1&quot;,&quot;created_at&quot;:&quot;2024-06-06T15:44:55.613000Z&quot;,&quot;updated_at&quot;:&quot;2024-06-06T15:44:55.613000Z&quot;}}],&quot;post_collections&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;News&quot;,&quot;slug&quot;:&quot;news&quot;,&quot;description&quot;:null,&quot;external_url&quot;:null,&quot;post_type_id&quot;:&quot;3&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;display_status_id&quot;:null,&quot;subscribe_link&quot;:null,&quot;overlay_color&quot;:null,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;12517&quot;,&quot;collection_id&quot;:&quot;2&quot;,&quot;created_at&quot;:&quot;2024-06-06T15:44:55.610000Z&quot;,&quot;updated_at&quot;:&quot;2024-06-06T15:44:55.610000Z&quot;}}],&quot;post_roles&quot;:[],&quot;post_type&quot;:null}],&quot;first_page_url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=1&quot;,&quot;from&quot;:1,&quot;last_page&quot;:11,&quot;last_page_url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=11&quot;,&quot;links&quot;:[{&quot;url&quot;:null,&quot;label&quot;:&quot;\u0026laquo; Previous&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=1&quot;,&quot;label&quot;:&quot;1&quot;,&quot;active&quot;:true},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=2&quot;,&quot;label&quot;:&quot;2&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=3&quot;,&quot;label&quot;:&quot;3&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=4&quot;,&quot;label&quot;:&quot;4&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=5&quot;,&quot;label&quot;:&quot;5&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=6&quot;,&quot;label&quot;:&quot;6&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=7&quot;,&quot;label&quot;:&quot;7&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=8&quot;,&quot;label&quot;:&quot;8&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=9&quot;,&quot;label&quot;:&quot;9&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=10&quot;,&quot;label&quot;:&quot;10&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=11&quot;,&quot;label&quot;:&quot;11&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=2&quot;,&quot;label&quot;:&quot;Next \u0026raquo;&quot;,&quot;active&quot;:false}],&quot;next_page_url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=2&quot;,&quot;path&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property&quot;,&quot;per_page&quot;:5,&quot;prev_page_url&quot;:null,&quot;to&quot;:5,&quot;total&quot;:55}},
+                            thisView: 'frontend.services.show',
+                            thisModel: 'Page',
+                            thisId: 5
+                        }"></pageablepostlist>
+                                                                                    <pageablepostlist v-bind:config="{
+                            ie: false,
+                            header: 'Alerts',
+                            service_id: 276,
+                            post_type: 4,
+                            limit: 5,
+                            results:{&quot;pageable&quot;:{&quot;current_page&quot;:1,&quot;data&quot;:[{&quot;id&quot;:7787,&quot;title&quot;:&quot;Notice of Waiver of Patent-Related Timing Deadlines at the USPTO under The Coronavirus Aid, Relief and Economic Security Act&quot;,&quot;slug&quot;:&quot;notice-of-waiver-of-patent-related-timing-deadlines-at-the-uspto-under-the-coronavirus-aid-relief-and-economic-security-act&quot;,&quot;published_at&quot;:&quot;2020-04-01T00:00:00.000000Z&quot;,&quot;alt_display_date&quot;:&quot;April 1, 2020&quot;,&quot;default_images&quot;:null,&quot;name&quot;:&quot;Notice of Waiver of Patent-Related Timing Deadlines at the USPTO under The Coronavirus Aid, Relief and Economic Security Act&quot;,&quot;custom_record_images&quot;:[{&quot;id&quot;:5771,&quot;template_id&quot;:null,&quot;template_image_id&quot;:&quot;1968&quot;,&quot;foreign_id&quot;:&quot;7787&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\Post&quot;,&quot;name&quot;:&quot;Detail Image&quot;,&quot;tag&quot;:&quot;detail_image&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2020-04-01T15:21:59.763000Z&quot;,&quot;updated_at&quot;:&quot;2020-04-01T15:21:59.763000Z&quot;,&quot;format&quot;:null,&quot;width&quot;:&quot;1280&quot;,&quot;height&quot;:&quot;800&quot;,&quot;resolution&quot;:null,&quot;image&quot;:{&quot;id&quot;:6960,&quot;document_id&quot;:&quot;23220&quot;,&quot;foreign_id&quot;:&quot;5771&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\TemplateImage&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2020-04-01T15:21:59.767000Z&quot;,&quot;updated_at&quot;:&quot;2025-09-16T14:19:38.423000Z&quot;,&quot;label&quot;:null,&quot;document&quot;:{&quot;id&quot;:23220,&quot;user_id&quot;:&quot;20&quot;,&quot;type&quot;:&quot;image\/jpeg&quot;,&quot;name&quot;:&quot;Detail Image: Notice of Waiver of Patent-Related Timing Deadlines at the USPTO under The Coronavirus Aid, Relief and Economic Security Act&quot;,&quot;short_description&quot;:null,&quot;description&quot;:null,&quot;server_name&quot;:&quot;0urQyONmlZFgddBaogb4PXdlu78z8RPObsqDvysB&quot;,&quot;server_ext&quot;:&quot;jpg&quot;,&quot;client_name&quot;:&quot;Alert_56&quot;,&quot;client_ext&quot;:&quot;jpg&quot;,&quot;file_size&quot;:&quot;24795&quot;,&quot;pixel_width&quot;:&quot;660&quot;,&quot;pixel_height&quot;:&quot;413&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-09-16T14:19:38.413000Z&quot;,&quot;updated_at&quot;:&quot;2025-09-16T14:19:38.413000Z&quot;,&quot;standalone&quot;:&quot;0&quot;,&quot;image_alt_tag&quot;:null,&quot;link&quot;:&quot;https:\/\/www.nelsonmullins.com\/storage\/0urQyONmlZFgddBaogb4PXdlu78z8RPObsqDvysB.jpg&quot;,&quot;is_image&quot;:true}}}],&quot;post_categories&quot;:[],&quot;post_collections&quot;:[{&quot;id&quot;:10000,&quot;name&quot;:&quot;Additional Kohlerackles Alerts&quot;,&quot;slug&quot;:&quot;additional_nelson_mullins_alerts&quot;,&quot;description&quot;:&quot;&lt;p&gt;View additional Kohlerackles alerts on a range of topics, including financial services, healthcare, tax and technology.&lt;\/p&gt;&quot;,&quot;external_url&quot;:null,&quot;post_type_id&quot;:&quot;4&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2017-06-30T20:03:20.000000Z&quot;,&quot;updated_at&quot;:&quot;2025-11-20T14:28:12.457000Z&quot;,&quot;sort&quot;:&quot;1&quot;,&quot;display_status_id&quot;:&quot;1&quot;,&quot;subscribe_link&quot;:null,&quot;overlay_color&quot;:&quot;light-text&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;7787&quot;,&quot;collection_id&quot;:&quot;10000&quot;,&quot;created_at&quot;:&quot;2020-04-01T13:10:20.677000Z&quot;,&quot;updated_at&quot;:&quot;2020-04-01T13:10:20.677000Z&quot;}}],&quot;post_roles&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;Co-Author&quot;,&quot;is_displayed&quot;:&quot;0&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:&quot;2019-01-07T17:14:37.060000Z&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;7787&quot;,&quot;post_role_id&quot;:&quot;2&quot;,&quot;person_id&quot;:&quot;1462&quot;,&quot;display_on_bio&quot;:&quot;1&quot;,&quot;sort&quot;:&quot;1&quot;,&quot;created_at&quot;:&quot;2020-04-03T14:46:21.160000Z&quot;,&quot;updated_at&quot;:&quot;2020-04-03T14:46:21.160000Z&quot;}},{&quot;id&quot;:2,&quot;name&quot;:&quot;Co-Author&quot;,&quot;is_displayed&quot;:&quot;0&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:&quot;2019-01-07T17:14:37.060000Z&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;7787&quot;,&quot;post_role_id&quot;:&quot;2&quot;,&quot;person_id&quot;:&quot;1087&quot;,&quot;display_on_bio&quot;:&quot;1&quot;,&quot;sort&quot;:&quot;2&quot;,&quot;created_at&quot;:&quot;2020-04-03T14:47:02.733000Z&quot;,&quot;updated_at&quot;:&quot;2020-04-03T14:47:02.733000Z&quot;}},{&quot;id&quot;:2,&quot;name&quot;:&quot;Co-Author&quot;,&quot;is_displayed&quot;:&quot;0&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:&quot;2019-01-07T17:14:37.060000Z&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;7787&quot;,&quot;post_role_id&quot;:&quot;2&quot;,&quot;person_id&quot;:&quot;2840&quot;,&quot;display_on_bio&quot;:&quot;1&quot;,&quot;sort&quot;:&quot;3&quot;,&quot;created_at&quot;:&quot;2020-04-03T14:47:40.067000Z&quot;,&quot;updated_at&quot;:&quot;2020-04-03T14:47:40.067000Z&quot;}}],&quot;post_type&quot;:null}],&quot;first_page_url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=1&quot;,&quot;from&quot;:1,&quot;last_page&quot;:1,&quot;last_page_url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=1&quot;,&quot;links&quot;:[{&quot;url&quot;:null,&quot;label&quot;:&quot;\u0026laquo; Previous&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=1&quot;,&quot;label&quot;:&quot;1&quot;,&quot;active&quot;:true},{&quot;url&quot;:null,&quot;label&quot;:&quot;Next \u0026raquo;&quot;,&quot;active&quot;:false}],&quot;next_page_url&quot;:null,&quot;path&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property&quot;,&quot;per_page&quot;:5,&quot;prev_page_url&quot;:null,&quot;to&quot;:1,&quot;total&quot;:1}},
+                            thisView: 'frontend.services.show',
+                            thisModel: 'Page',
+                            thisId: 5
+                        }"></pageablepostlist>
+                                                                <pageablepostlist v-bind:config="{
+                            ie: false,
+                            header: 'Blogs',
+                            service_id: 276,
+                            post_type: 1,
+                            limit: 5,
+                            results:{&quot;pageable&quot;:{&quot;current_page&quot;:1,&quot;data&quot;:[{&quot;id&quot;:11881,&quot;title&quot;:&quot;Game On: Taking Advantage of Multiple IP Protections in the Gaming Industry&quot;,&quot;slug&quot;:&quot;gameon-taking-advantage-of-multiple-ip-protections-in-the-gaming-industry&quot;,&quot;published_at&quot;:&quot;2023-08-25T00:00:00.000000Z&quot;,&quot;alt_display_date&quot;:&quot;&quot;,&quot;default_images&quot;:null,&quot;name&quot;:&quot;Game On: Taking Advantage of Multiple IP Protections in the Gaming Industry&quot;,&quot;custom_record_images&quot;:[],&quot;post_categories&quot;:[],&quot;post_collections&quot;:[{&quot;id&quot;:10032,&quot;name&quot;:&quot;Cards on the Table&quot;,&quot;slug&quot;:&quot;cards-on-the-table&quot;,&quot;description&quot;:&quot;&lt;p&gt;Cards on the Table provides the latest legal news, analysis and insights relevant to casino, iGaming, sports betting, and fantasy sports operators, mobile app and video game developers, and gaming vendors. &lt;a href=../_https_/www.nelsonmullins.com/services/gaming2.html#main\&quot; target=\&quot;_blank\&quot;&gt;You can learn more about the practice here.&lt;\/a&gt;&lt;\/p&gt;&quot;,&quot;external_url&quot;:null,&quot;post_type_id&quot;:&quot;1&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2023-06-27T12:10:09.797000Z&quot;,&quot;updated_at&quot;:&quot;2025-11-20T14:41:33.353000Z&quot;,&quot;sort&quot;:&quot;18&quot;,&quot;display_status_id&quot;:&quot;1&quot;,&quot;subscribe_link&quot;:&quot;https:\/\/connect.nelsonmullins.com\/6\/5614\/landing-pages\/web-preferences.asp&quot;,&quot;overlay_color&quot;:&quot;light-text&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;11881&quot;,&quot;collection_id&quot;:&quot;10032&quot;,&quot;created_at&quot;:&quot;2023-08-23T10:11:03.087000Z&quot;,&quot;updated_at&quot;:&quot;2023-08-23T10:11:03.087000Z&quot;}}],&quot;post_roles&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;Co-Author&quot;,&quot;is_displayed&quot;:&quot;0&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:&quot;2019-01-07T17:14:37.060000Z&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;11881&quot;,&quot;post_role_id&quot;:&quot;2&quot;,&quot;person_id&quot;:&quot;979&quot;,&quot;display_on_bio&quot;:&quot;0&quot;,&quot;sort&quot;:&quot;1&quot;,&quot;created_at&quot;:&quot;2023-08-23T10:14:20.827000Z&quot;,&quot;updated_at&quot;:&quot;2023-08-23T10:14:20.827000Z&quot;}},{&quot;id&quot;:2,&quot;name&quot;:&quot;Co-Author&quot;,&quot;is_displayed&quot;:&quot;0&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:&quot;2019-01-07T17:14:37.060000Z&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;11881&quot;,&quot;post_role_id&quot;:&quot;2&quot;,&quot;person_id&quot;:&quot;4040&quot;,&quot;display_on_bio&quot;:&quot;0&quot;,&quot;sort&quot;:&quot;2&quot;,&quot;created_at&quot;:&quot;2023-08-23T10:14:31.527000Z&quot;,&quot;updated_at&quot;:&quot;2023-08-23T10:14:31.527000Z&quot;}}],&quot;post_type&quot;:null}],&quot;first_page_url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=1&quot;,&quot;from&quot;:1,&quot;last_page&quot;:1,&quot;last_page_url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=1&quot;,&quot;links&quot;:[{&quot;url&quot;:null,&quot;label&quot;:&quot;\u0026laquo; Previous&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=1&quot;,&quot;label&quot;:&quot;1&quot;,&quot;active&quot;:true},{&quot;url&quot;:null,&quot;label&quot;:&quot;Next \u0026raquo;&quot;,&quot;active&quot;:false}],&quot;next_page_url&quot;:null,&quot;path&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property&quot;,&quot;per_page&quot;:5,&quot;prev_page_url&quot;:null,&quot;to&quot;:1,&quot;total&quot;:1}},
+                            thisView: 'frontend.services.show',
+                            thisModel: 'Page',
+                            thisId: 5
+                        }"></pageablepostlist>
+                                                                <pageablepostlist v-bind:config="{
+                            ie: false,
+                            header: 'Events/Speaking Engagements',
+                            service_id: 276,
+                            post_type: 'event',
+                            limit: 5,
+                            results:{&quot;pageable&quot;:{&quot;current_page&quot;:1,&quot;data&quot;:[{&quot;id&quot;:3296,&quot;name&quot;:&quot;Performance \u0026 Potential: The Path to Promotion \u0026 Growth&quot;,&quot;slug&quot;:&quot;performance-and-potential-the-path-to-promotion-and-growth&quot;,&quot;date_started&quot;:&quot;2020-10-01T00:00:00.000000Z&quot;,&quot;date_ended&quot;:null,&quot;alt_display_date&quot;:&quot;Oct. 1, 2020&quot;,&quot;default_images&quot;:{&quot;detail_image&quot;:{&quot;id&quot;:2218,&quot;template_id&quot;:null,&quot;template_image_id&quot;:&quot;1946&quot;,&quot;foreign_id&quot;:&quot;19&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\Page&quot;,&quot;name&quot;:&quot;Detail Image&quot;,&quot;tag&quot;:&quot;detail_image&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2017-07-31T12:39:19.000000Z&quot;,&quot;updated_at&quot;:&quot;2018-04-08T14:27:05.000000Z&quot;,&quot;format&quot;:null,&quot;width&quot;:&quot;1280&quot;,&quot;height&quot;:&quot;800&quot;,&quot;resolution&quot;:null,&quot;image&quot;:{&quot;id&quot;:2609,&quot;document_id&quot;:&quot;2855&quot;,&quot;foreign_id&quot;:&quot;2218&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\TemplateImage&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2017-07-31T12:39:19.000000Z&quot;,&quot;updated_at&quot;:&quot;2017-07-31T12:39:19.000000Z&quot;,&quot;label&quot;:null,&quot;document&quot;:{&quot;id&quot;:2855,&quot;user_id&quot;:&quot;5&quot;,&quot;type&quot;:&quot;image\/jpeg&quot;,&quot;name&quot;:&quot;Detail Image: Events Detail&quot;,&quot;short_description&quot;:&quot;Image uploaded for pages ID 19&quot;,&quot;description&quot;:null,&quot;server_name&quot;:&quot;afbd7e2a56ca30839e5d23187f2eae72&quot;,&quot;server_ext&quot;:&quot;jpeg&quot;,&quot;client_name&quot;:&quot;event_default_2&quot;,&quot;client_ext&quot;:&quot;jpg&quot;,&quot;file_size&quot;:&quot;729926&quot;,&quot;pixel_width&quot;:&quot;1280&quot;,&quot;pixel_height&quot;:&quot;800&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2017-07-31T12:39:19.000000Z&quot;,&quot;updated_at&quot;:&quot;2025-11-13T21:42:52.230000Z&quot;,&quot;standalone&quot;:&quot;0&quot;,&quot;image_alt_tag&quot;:&quot;Financial Data - Stock Market, Trading and Investments, Business and Economy&quot;,&quot;link&quot;:&quot;https:\/\/www.nelsonmullins.com\/storage\/afbd7e2a56ca30839e5d23187f2eae72.jpeg&quot;,&quot;is_image&quot;:true}}}}},{&quot;id&quot;:2810,&quot;name&quot;:&quot;Practice Tips:  From Cloud Computing to Harvesting the Value of IP&quot;,&quot;slug&quot;:&quot;practice-tips-from-cloud-computing-to-harvesting-the-value-of-ip&quot;,&quot;date_started&quot;:&quot;2019-02-13T00:00:00.000000Z&quot;,&quot;date_ended&quot;:null,&quot;alt_display_date&quot;:&quot;February 13, 2019&quot;,&quot;default_images&quot;:{&quot;detail_image&quot;:{&quot;id&quot;:2218,&quot;template_id&quot;:null,&quot;template_image_id&quot;:&quot;1946&quot;,&quot;foreign_id&quot;:&quot;19&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\Page&quot;,&quot;name&quot;:&quot;Detail Image&quot;,&quot;tag&quot;:&quot;detail_image&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2017-07-31T12:39:19.000000Z&quot;,&quot;updated_at&quot;:&quot;2018-04-08T14:27:05.000000Z&quot;,&quot;format&quot;:null,&quot;width&quot;:&quot;1280&quot;,&quot;height&quot;:&quot;800&quot;,&quot;resolution&quot;:null,&quot;image&quot;:{&quot;id&quot;:2609,&quot;document_id&quot;:&quot;2855&quot;,&quot;foreign_id&quot;:&quot;2218&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\TemplateImage&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2017-07-31T12:39:19.000000Z&quot;,&quot;updated_at&quot;:&quot;2017-07-31T12:39:19.000000Z&quot;,&quot;label&quot;:null,&quot;document&quot;:{&quot;id&quot;:2855,&quot;user_id&quot;:&quot;5&quot;,&quot;type&quot;:&quot;image\/jpeg&quot;,&quot;name&quot;:&quot;Detail Image: Events Detail&quot;,&quot;short_description&quot;:&quot;Image uploaded for pages ID 19&quot;,&quot;description&quot;:null,&quot;server_name&quot;:&quot;afbd7e2a56ca30839e5d23187f2eae72&quot;,&quot;server_ext&quot;:&quot;jpeg&quot;,&quot;client_name&quot;:&quot;event_default_2&quot;,&quot;client_ext&quot;:&quot;jpg&quot;,&quot;file_size&quot;:&quot;729926&quot;,&quot;pixel_width&quot;:&quot;1280&quot;,&quot;pixel_height&quot;:&quot;800&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2017-07-31T12:39:19.000000Z&quot;,&quot;updated_at&quot;:&quot;2025-11-13T21:42:52.230000Z&quot;,&quot;standalone&quot;:&quot;0&quot;,&quot;image_alt_tag&quot;:&quot;Financial Data - Stock Market, Trading and Investments, Business and Economy&quot;,&quot;link&quot;:&quot;https:\/\/www.nelsonmullins.com\/storage\/afbd7e2a56ca30839e5d23187f2eae72.jpeg&quot;,&quot;is_image&quot;:true}}}}}],&quot;first_page_url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=1&quot;,&quot;from&quot;:1,&quot;last_page&quot;:1,&quot;last_page_url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=1&quot;,&quot;links&quot;:[{&quot;url&quot;:null,&quot;label&quot;:&quot;\u0026laquo; Previous&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=1&quot;,&quot;label&quot;:&quot;1&quot;,&quot;active&quot;:true},{&quot;url&quot;:null,&quot;label&quot;:&quot;Next \u0026raquo;&quot;,&quot;active&quot;:false}],&quot;next_page_url&quot;:null,&quot;path&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property&quot;,&quot;per_page&quot;:5,&quot;prev_page_url&quot;:null,&quot;to&quot;:2,&quot;total&quot;:2}},
+                            thisView: 'frontend.services.show',
+                             thisModel: 'Page',
+                            thisId: 5
+                        }"></pageablepostlist>
+                                                                
+                    </div>
+    
+                    <div class="col-md-4 attorney-tab-articles hidden-print">
+                        <div class="nm-button-yellow"><a href="../insights/alerts.html">Visit Insights</a></div>
+                                        </div>
+    
+                </div>
+            </div>
+    
+    
+    
+    
+    
+    		
+    		<div class="tab-pane" id="experience" role="tabpanel" aria-labelledby="experience-tab">
+    			
+    		</div> 
+    
+            
+    		<div class="tab-pane" id="awards" role="tabpanel" aria-labelledby="awards-tab">
+    					</div> 
+            
+                    
+    
+            
+    	</div> 
+    
+    
+    
+    
+    
+    
+    
+    	
+    	<div class="row attorney-accordion capabilities-accordion">
+    		<div id="accordion" role="tablist" aria-multiselectable="true">
+    
+    
+    			
+    			<div class="card">
+    				<div class="card-header" role="tab" id="headingOne">
+    					<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Overview</a></h5>
+    				</div>
+    
+    				<div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+    					<div class="card-block">
+    						<div class="row attorney-tab-info">
+    						<div class="col-md-8">
+    							<h3 class="top-body-subhead">Litigating and resolving a wide range of disputes</h3>
+    
+    <p>From the beginning of an issue, we seek to find business solutions to clients&rsquo; problems. Sometimes that requires us to demonstrate our trial skills in the courtroom. Many times it allows us to resolve IP issues without litigation. Our experience includes patent infringement, trademark and trade dress infringement and dilution, misappropriation of trade secrets and unfair competition, and copyright infringement.&nbsp;</p>
+    
+    <p class="generic" dir="ltr">We help clients with false advertising claims, including representing clients before the National Advertising Division of the Council on Better Business Bureaus. We also handle counterfeiting claims, cybersquatting claims through ICANN&rsquo;s Uniform Domain Name Dispute Resolution Policy, internet, domain names and social media, restrictive covenants, rights of privacy and publicity.&nbsp;</p>
+    
+    <p class="generic" dir="ltr">We bring clients a team well-versed in the substantive and procedural issues, including obtaining and defending against temporary restraining orders and preliminary injunctions often sought in IP actions.</p>
+    
+    <hr />
+    <h4 class="featured-subhead">Understanding the science, relaying complex matters to judges and juries</h4>
+    
+    <p dir="ltr">Kohlerackles&rsquo; IP group includes attorneys registered to practice before the U.S. Patent and Trademark Office, attorneys with technical degrees, including electrical engineering, biochemistry, chemistry, and mechanical engineering. Our team also includes former judicial clerks with the U.S. Court of Appeals for the Federal Circuit and former Patent Examiners, and attorneys who serve as thought leaders, through roles as adjunct intellectual property law professors at local law schools and authors of various publications.&nbsp;</p>
+    
+    <hr />
+    <h4 class="featured-subhead" dir="ltr">Clients span industry sectors and range from entrepreneurs to research institutions to established household names<meta charset="utf-8" /></h4>
+    
+    <p>Clients from many of today&rsquo;s high-profile industries select us to work side-by-side with them, including medical and research institutions, global specialty chemical companies, financial institutions, and clients in a range of business areas, including: electronic commerce, telecommunications, computer software, pharmaceuticals, biotechnology, manufacturing, and outdoor industry sectors.&nbsp;</p>
+    
+    <hr />
+    <h4 class="featured-subhead" dir="ltr">Broad experience includes creating and protecting large patent and trademark portfolios, and managing risks through due diligence<meta charset="utf-8" /></h4>
+    
+    <p>We bring to clients a team experienced in helping to ensure that a client&rsquo;s intellectual property is protected, whether by patents, trademarks, copyrights, or trade secrets.</p>
+    
+    <p class="generic" dir="ltr">In the past few years, we have handled more than 2,500 patents and more than 2,900 patent applications in 50+ countries.&nbsp;</p>
+    
+    <p class="generic" dir="ltr">We handle global patent portfolio management, licensing agreements &ndash; including next-generation technology protection.&nbsp;</p>
+    
+    <p class="generic" dir="ltr">We assist with trademark clearance in the United States and internationally and registration, including using the Madrid System. We conduct intellectual property due diligence for public offerings, fundraising transactions, and acquisitions. Our practices are based on efficient and time-tested practice parameters designed by attorneys with experience managing private practice and in-house international filing programs.</p>
+    
+    <hr />
+    <h4 class="featured-subhead" dir="ltr">Efficiencies through project management and technology</h4>
+    
+    <p dir="ltr">Every engagement begins with an understanding of our clients&rsquo; business goals and technology.</p>
+    
+    <p class="generic" dir="ltr">Our experience enables us to bring practical, solutions-oriented perspectives. We implement proven project management practices and leverage technology to enable us to efficiently manage, monitor, and respond to client needs and issues quickly and effectively.</p>
+                                
+    <div class="aside-contact-culture">
+            <div class="aside carousel slide multi">
+                            <div class="slick slick-single">
+                                                                            <div class="item">
+                                                        <a href="#"><img src="/images/1Bgt7C44D7gzRaQNzKrextbynyUHivY54DFWRxqz.jpg" alt="Best Lawyers Best Law Firms 2025 Badge, litigation intellectual property" class="img-fluid lozad" /></a>
+                                                    </div>
+                                                                                    <div class="item">
+                                                        <a href="#"><img src="/images/QopJIYnTZPOpNx394mrC1qdUNLI7IjxuUOXqH6c6.jpg" alt="Best Lawyers Best Law Firms 2025 Badge, patent law" class="img-fluid lozad" /></a>
+                                                    </div>
+                                                                                    <div class="item">
+                                                        <a href="#"><img src="/images/sNNJ2MjybC6rLnoYcJYWEsdSS9UD3WZOPmzhM7Cm.jpg" alt="Best Lawyers Best Law Firms 2025 Badge, trademark law" class="img-fluid lozad" /></a>
+                                                    </div>
+                                                                    </div>
+                        </div>
+        </div>
+    
+    						</div> 
+    					</div>
+    				</div>
+    			</div>
+    		</div> 
+    
+    
+    
+    					<div class="card">
+    				<div class="card-header" role="tab" id="headingThree">
+    					<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Related Practices</a></h5>
+    				</div>
+    
+    				<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+    					<div class="card-block">
+    						<div class="row attorney-tab-info">
+    						<div class="col-md-8 related-industries-tab-info">
+    
+    															<p>
+                                                                    <a href="bankruptcy_creditors_rights_and_restructuring.html">Bankruptcy, Creditors&#039; Rights &amp; Restructuring</a>
+                                    								</p>
+    															<p>
+                                                                    <a href="blockchain-and-digital-currency.html">Blockchain &amp; Digital Currency</a>
+                                    								</p>
+    															<p>
+                                                                    <a href="corporate_and_securities.html">Corporate &amp; Securities</a>
+                                    								</p>
+    															<p>
+                                                                    <a href="cybersecurity_and_data_breach_response.html">Cybersecurity &amp; Data Breach Response</a>
+                                    								</p>
+    															<p>
+                                                                    <a href="cybersecurity-and-data-privacy.html">Cybersecurity &amp; Data Privacy</a>
+                                    								</p>
+    															<p>
+                                                                    <a href="#" >E-Discovery - Encompass</a>
+                                    								</p>
+    															<p>
+                                                                    <a href="e-discovery-and-information-governance.html">E-Discovery &amp; Information Governance</a>
+                                    								</p>
+    															<p>
+                                                                    <a href="global-privacy-and-security.html">Global Privacy &amp; Security</a>
+                                    								</p>
+    															<p>
+                                                                    <a href="intellectual_property_litigation.html">Intellectual Property Litigation</a>
+                                    								</p>
+    															<p>
+                                                                    <a href="life_sciences_-_ip.html">Life Sciences - IP</a>
+                                    								</p>
+    															<p>
+                                                                    <a href="patent-counseling-and-procurement.html">Patent Counseling and Procurement</a>
+                                    								</p>
+    															<p>
+                                                                    <a href="trademarks_and_copyrights.html">Trademarks &amp; Copyrights</a>
+                                    								</p>
+    							
+    						</div>	
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    		
+    
+    
+    					<div class="card">
+    				<div class="card-header" role="tab" id="headingEight">
+    					<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">Related Industries</a></h5>
+    				</div>
+    
+    				<div id="collapseEight" class="collapse" role="tabpanel" aria-labelledby="headingEight">
+    					<div class="card-block">
+    						<div class="row attorney-tab-info">
+    						<div class="col-md-8 related-industries-tab-info">
+    														<p>
+                                                                    <a href="consumer_products_and_retail.html">Consumer Products &amp; Retail</a>
+                                    							</p>
+    													<p>
+                                                                    <a href="life-sciences-pharmaceuticals-and-medical-devices.html">Life Sciences, Pharmaceuticals &amp; Medical Devices</a>
+                                    							</p>
+    													<p>
+                                                                    <a href="manufacturing.html">Manufacturing</a>
+                                    							</p>
+    													<p>
+                                                                    <a href="technology.html">Technology and Commercial Transactions</a>
+                                    							</p>
+    												</div>	
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    		
+    
+    
+    		
+            <div class="card">
+                <div class="card-header" role="tab" id="headingTwo">
+                    <h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Professionals</a></h5>
+                </div>
+                <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="card-block">
+                        <div class="row attorney-tab-info">
+                            <div class="col-md-8">
+                                <pageablelist v-bind:config="{
+                                    pageableData: '/professionals?service=276',
+                                    sort: [{'parameter':'position', 'name':'Position'},{'parameter':'last_name', 'name':'Name'},{'parameter':'location', 'name':'Location'}],
+                                    thisView: 'frontend.services.show',
+                                    thisModel: 'Service',
+                                    thisId: 276
+                                }"></pageablelist>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+    
+    
+    
+    
+    	
+    	<div class="card">
+    		<div class="card-header" role="tab" id="headingFive">
+    			<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Insights</a></h5>
+    		</div>
+    
+    		<div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive">
+    			<div class="card-block">
+    				<div class="row attorney-tab-info">
+    					<div class="col-lg-8 attorney-tab-articles">
+    					                                        <pageablepostlist v-bind:config="{
+                            ie: false,
+                            header: 'Alerts',
+                            service_id: 276,
+                            post_type: 4,
+                            limit: 5,
+                            results:{&quot;pageable&quot;:{&quot;current_page&quot;:1,&quot;data&quot;:[{&quot;id&quot;:7787,&quot;title&quot;:&quot;Notice of Waiver of Patent-Related Timing Deadlines at the USPTO under The Coronavirus Aid, Relief and Economic Security Act&quot;,&quot;slug&quot;:&quot;notice-of-waiver-of-patent-related-timing-deadlines-at-the-uspto-under-the-coronavirus-aid-relief-and-economic-security-act&quot;,&quot;published_at&quot;:&quot;2020-04-01T00:00:00.000000Z&quot;,&quot;alt_display_date&quot;:&quot;April 1, 2020&quot;,&quot;default_images&quot;:null,&quot;name&quot;:&quot;Notice of Waiver of Patent-Related Timing Deadlines at the USPTO under The Coronavirus Aid, Relief and Economic Security Act&quot;,&quot;custom_record_images&quot;:[{&quot;id&quot;:5771,&quot;template_id&quot;:null,&quot;template_image_id&quot;:&quot;1968&quot;,&quot;foreign_id&quot;:&quot;7787&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\Post&quot;,&quot;name&quot;:&quot;Detail Image&quot;,&quot;tag&quot;:&quot;detail_image&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2020-04-01T15:21:59.763000Z&quot;,&quot;updated_at&quot;:&quot;2020-04-01T15:21:59.763000Z&quot;,&quot;format&quot;:null,&quot;width&quot;:&quot;1280&quot;,&quot;height&quot;:&quot;800&quot;,&quot;resolution&quot;:null,&quot;image&quot;:{&quot;id&quot;:6960,&quot;document_id&quot;:&quot;23220&quot;,&quot;foreign_id&quot;:&quot;5771&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\TemplateImage&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2020-04-01T15:21:59.767000Z&quot;,&quot;updated_at&quot;:&quot;2025-09-16T14:19:38.423000Z&quot;,&quot;label&quot;:null,&quot;document&quot;:{&quot;id&quot;:23220,&quot;user_id&quot;:&quot;20&quot;,&quot;type&quot;:&quot;image\/jpeg&quot;,&quot;name&quot;:&quot;Detail Image: Notice of Waiver of Patent-Related Timing Deadlines at the USPTO under The Coronavirus Aid, Relief and Economic Security Act&quot;,&quot;short_description&quot;:null,&quot;description&quot;:null,&quot;server_name&quot;:&quot;0urQyONmlZFgddBaogb4PXdlu78z8RPObsqDvysB&quot;,&quot;server_ext&quot;:&quot;jpg&quot;,&quot;client_name&quot;:&quot;Alert_56&quot;,&quot;client_ext&quot;:&quot;jpg&quot;,&quot;file_size&quot;:&quot;24795&quot;,&quot;pixel_width&quot;:&quot;660&quot;,&quot;pixel_height&quot;:&quot;413&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-09-16T14:19:38.413000Z&quot;,&quot;updated_at&quot;:&quot;2025-09-16T14:19:38.413000Z&quot;,&quot;standalone&quot;:&quot;0&quot;,&quot;image_alt_tag&quot;:null,&quot;link&quot;:&quot;https:\/\/www.nelsonmullins.com\/storage\/0urQyONmlZFgddBaogb4PXdlu78z8RPObsqDvysB.jpg&quot;,&quot;is_image&quot;:true}}}],&quot;post_categories&quot;:[],&quot;post_collections&quot;:[{&quot;id&quot;:10000,&quot;name&quot;:&quot;Additional Kohlerackles Alerts&quot;,&quot;slug&quot;:&quot;additional_nelson_mullins_alerts&quot;,&quot;description&quot;:&quot;&lt;p&gt;View additional Kohlerackles alerts on a range of topics, including financial services, healthcare, tax and technology.&lt;\/p&gt;&quot;,&quot;external_url&quot;:null,&quot;post_type_id&quot;:&quot;4&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2017-06-30T20:03:20.000000Z&quot;,&quot;updated_at&quot;:&quot;2025-11-20T14:28:12.457000Z&quot;,&quot;sort&quot;:&quot;1&quot;,&quot;display_status_id&quot;:&quot;1&quot;,&quot;subscribe_link&quot;:null,&quot;overlay_color&quot;:&quot;light-text&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;7787&quot;,&quot;collection_id&quot;:&quot;10000&quot;,&quot;created_at&quot;:&quot;2020-04-01T13:10:20.677000Z&quot;,&quot;updated_at&quot;:&quot;2020-04-01T13:10:20.677000Z&quot;}}],&quot;post_roles&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;Co-Author&quot;,&quot;is_displayed&quot;:&quot;0&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:&quot;2019-01-07T17:14:37.060000Z&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;7787&quot;,&quot;post_role_id&quot;:&quot;2&quot;,&quot;person_id&quot;:&quot;1462&quot;,&quot;display_on_bio&quot;:&quot;1&quot;,&quot;sort&quot;:&quot;1&quot;,&quot;created_at&quot;:&quot;2020-04-03T14:46:21.160000Z&quot;,&quot;updated_at&quot;:&quot;2020-04-03T14:46:21.160000Z&quot;}},{&quot;id&quot;:2,&quot;name&quot;:&quot;Co-Author&quot;,&quot;is_displayed&quot;:&quot;0&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:&quot;2019-01-07T17:14:37.060000Z&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;7787&quot;,&quot;post_role_id&quot;:&quot;2&quot;,&quot;person_id&quot;:&quot;1087&quot;,&quot;display_on_bio&quot;:&quot;1&quot;,&quot;sort&quot;:&quot;2&quot;,&quot;created_at&quot;:&quot;2020-04-03T14:47:02.733000Z&quot;,&quot;updated_at&quot;:&quot;2020-04-03T14:47:02.733000Z&quot;}},{&quot;id&quot;:2,&quot;name&quot;:&quot;Co-Author&quot;,&quot;is_displayed&quot;:&quot;0&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:&quot;2019-01-07T17:14:37.060000Z&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;7787&quot;,&quot;post_role_id&quot;:&quot;2&quot;,&quot;person_id&quot;:&quot;2840&quot;,&quot;display_on_bio&quot;:&quot;1&quot;,&quot;sort&quot;:&quot;3&quot;,&quot;created_at&quot;:&quot;2020-04-03T14:47:40.067000Z&quot;,&quot;updated_at&quot;:&quot;2020-04-03T14:47:40.067000Z&quot;}}],&quot;post_type&quot;:null}],&quot;first_page_url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=1&quot;,&quot;from&quot;:1,&quot;last_page&quot;:1,&quot;last_page_url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=1&quot;,&quot;links&quot;:[{&quot;url&quot;:null,&quot;label&quot;:&quot;\u0026laquo; Previous&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=1&quot;,&quot;label&quot;:&quot;1&quot;,&quot;active&quot;:true},{&quot;url&quot;:null,&quot;label&quot;:&quot;Next \u0026raquo;&quot;,&quot;active&quot;:false}],&quot;next_page_url&quot;:null,&quot;path&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property&quot;,&quot;per_page&quot;:5,&quot;prev_page_url&quot;:null,&quot;to&quot;:1,&quot;total&quot;:1}},
+                            thisView: 'frontend.services.show',
+                            thisModel: 'Page',
+                            thisId: 5
+                        }"></pageablepostlist>
+                                                                <pageablepostlist v-bind:config="{
+                            ie: false,
+                            header: 'Blogs',
+                            service_id: 276,
+                            post_type: 1,
+                            limit: 5,
+                            results:{&quot;pageable&quot;:{&quot;current_page&quot;:1,&quot;data&quot;:[{&quot;id&quot;:11881,&quot;title&quot;:&quot;Game On: Taking Advantage of Multiple IP Protections in the Gaming Industry&quot;,&quot;slug&quot;:&quot;gameon-taking-advantage-of-multiple-ip-protections-in-the-gaming-industry&quot;,&quot;published_at&quot;:&quot;2023-08-25T00:00:00.000000Z&quot;,&quot;alt_display_date&quot;:&quot;&quot;,&quot;default_images&quot;:null,&quot;name&quot;:&quot;Game On: Taking Advantage of Multiple IP Protections in the Gaming Industry&quot;,&quot;custom_record_images&quot;:[],&quot;post_categories&quot;:[],&quot;post_collections&quot;:[{&quot;id&quot;:10032,&quot;name&quot;:&quot;Cards on the Table&quot;,&quot;slug&quot;:&quot;cards-on-the-table&quot;,&quot;description&quot;:&quot;&lt;p&gt;Cards on the Table provides the latest legal news, analysis and insights relevant to casino, iGaming, sports betting, and fantasy sports operators, mobile app and video game developers, and gaming vendors. &lt;a href=../_https_/www.nelsonmullins.com/services/gaming2.html#main\&quot; target=\&quot;_blank\&quot;&gt;You can learn more about the practice here.&lt;\/a&gt;&lt;\/p&gt;&quot;,&quot;external_url&quot;:null,&quot;post_type_id&quot;:&quot;1&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2023-06-27T12:10:09.797000Z&quot;,&quot;updated_at&quot;:&quot;2025-11-20T14:41:33.353000Z&quot;,&quot;sort&quot;:&quot;18&quot;,&quot;display_status_id&quot;:&quot;1&quot;,&quot;subscribe_link&quot;:&quot;https:\/\/connect.nelsonmullins.com\/6\/5614\/landing-pages\/web-preferences.asp&quot;,&quot;overlay_color&quot;:&quot;light-text&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;11881&quot;,&quot;collection_id&quot;:&quot;10032&quot;,&quot;created_at&quot;:&quot;2023-08-23T10:11:03.087000Z&quot;,&quot;updated_at&quot;:&quot;2023-08-23T10:11:03.087000Z&quot;}}],&quot;post_roles&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;Co-Author&quot;,&quot;is_displayed&quot;:&quot;0&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:&quot;2019-01-07T17:14:37.060000Z&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;11881&quot;,&quot;post_role_id&quot;:&quot;2&quot;,&quot;person_id&quot;:&quot;979&quot;,&quot;display_on_bio&quot;:&quot;0&quot;,&quot;sort&quot;:&quot;1&quot;,&quot;created_at&quot;:&quot;2023-08-23T10:14:20.827000Z&quot;,&quot;updated_at&quot;:&quot;2023-08-23T10:14:20.827000Z&quot;}},{&quot;id&quot;:2,&quot;name&quot;:&quot;Co-Author&quot;,&quot;is_displayed&quot;:&quot;0&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:&quot;2019-01-07T17:14:37.060000Z&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;11881&quot;,&quot;post_role_id&quot;:&quot;2&quot;,&quot;person_id&quot;:&quot;4040&quot;,&quot;display_on_bio&quot;:&quot;0&quot;,&quot;sort&quot;:&quot;2&quot;,&quot;created_at&quot;:&quot;2023-08-23T10:14:31.527000Z&quot;,&quot;updated_at&quot;:&quot;2023-08-23T10:14:31.527000Z&quot;}}],&quot;post_type&quot;:null}],&quot;first_page_url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=1&quot;,&quot;from&quot;:1,&quot;last_page&quot;:1,&quot;last_page_url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=1&quot;,&quot;links&quot;:[{&quot;url&quot;:null,&quot;label&quot;:&quot;\u0026laquo; Previous&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=1&quot;,&quot;label&quot;:&quot;1&quot;,&quot;active&quot;:true},{&quot;url&quot;:null,&quot;label&quot;:&quot;Next \u0026raquo;&quot;,&quot;active&quot;:false}],&quot;next_page_url&quot;:null,&quot;path&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property&quot;,&quot;per_page&quot;:5,&quot;prev_page_url&quot;:null,&quot;to&quot;:1,&quot;total&quot;:1}},
+                            thisView: 'frontend.services.show',
+                            thisModel: 'Page',
+                            thisId: 5
+                        }"></pageablepostlist>
+                                                                <pageablepostlist v-bind:config="{
+                            ie: false,
+                            header: 'Events/Speaking Engagements',
+                            service_id: 276,
+                            post_type: 'event',
+                            limit: 5,
+                            results:{&quot;pageable&quot;:{&quot;current_page&quot;:1,&quot;data&quot;:[{&quot;id&quot;:3296,&quot;name&quot;:&quot;Performance \u0026 Potential: The Path to Promotion \u0026 Growth&quot;,&quot;slug&quot;:&quot;performance-and-potential-the-path-to-promotion-and-growth&quot;,&quot;date_started&quot;:&quot;2020-10-01T00:00:00.000000Z&quot;,&quot;date_ended&quot;:null,&quot;alt_display_date&quot;:&quot;Oct. 1, 2020&quot;,&quot;default_images&quot;:{&quot;detail_image&quot;:{&quot;id&quot;:2218,&quot;template_id&quot;:null,&quot;template_image_id&quot;:&quot;1946&quot;,&quot;foreign_id&quot;:&quot;19&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\Page&quot;,&quot;name&quot;:&quot;Detail Image&quot;,&quot;tag&quot;:&quot;detail_image&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2017-07-31T12:39:19.000000Z&quot;,&quot;updated_at&quot;:&quot;2018-04-08T14:27:05.000000Z&quot;,&quot;format&quot;:null,&quot;width&quot;:&quot;1280&quot;,&quot;height&quot;:&quot;800&quot;,&quot;resolution&quot;:null,&quot;image&quot;:{&quot;id&quot;:2609,&quot;document_id&quot;:&quot;2855&quot;,&quot;foreign_id&quot;:&quot;2218&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\TemplateImage&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2017-07-31T12:39:19.000000Z&quot;,&quot;updated_at&quot;:&quot;2017-07-31T12:39:19.000000Z&quot;,&quot;label&quot;:null,&quot;document&quot;:{&quot;id&quot;:2855,&quot;user_id&quot;:&quot;5&quot;,&quot;type&quot;:&quot;image\/jpeg&quot;,&quot;name&quot;:&quot;Detail Image: Events Detail&quot;,&quot;short_description&quot;:&quot;Image uploaded for pages ID 19&quot;,&quot;description&quot;:null,&quot;server_name&quot;:&quot;afbd7e2a56ca30839e5d23187f2eae72&quot;,&quot;server_ext&quot;:&quot;jpeg&quot;,&quot;client_name&quot;:&quot;event_default_2&quot;,&quot;client_ext&quot;:&quot;jpg&quot;,&quot;file_size&quot;:&quot;729926&quot;,&quot;pixel_width&quot;:&quot;1280&quot;,&quot;pixel_height&quot;:&quot;800&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2017-07-31T12:39:19.000000Z&quot;,&quot;updated_at&quot;:&quot;2025-11-13T21:42:52.230000Z&quot;,&quot;standalone&quot;:&quot;0&quot;,&quot;image_alt_tag&quot;:&quot;Financial Data - Stock Market, Trading and Investments, Business and Economy&quot;,&quot;link&quot;:&quot;https:\/\/www.nelsonmullins.com\/storage\/afbd7e2a56ca30839e5d23187f2eae72.jpeg&quot;,&quot;is_image&quot;:true}}}}},{&quot;id&quot;:2810,&quot;name&quot;:&quot;Practice Tips:  From Cloud Computing to Harvesting the Value of IP&quot;,&quot;slug&quot;:&quot;practice-tips-from-cloud-computing-to-harvesting-the-value-of-ip&quot;,&quot;date_started&quot;:&quot;2019-02-13T00:00:00.000000Z&quot;,&quot;date_ended&quot;:null,&quot;alt_display_date&quot;:&quot;February 13, 2019&quot;,&quot;default_images&quot;:{&quot;detail_image&quot;:{&quot;id&quot;:2218,&quot;template_id&quot;:null,&quot;template_image_id&quot;:&quot;1946&quot;,&quot;foreign_id&quot;:&quot;19&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\Page&quot;,&quot;name&quot;:&quot;Detail Image&quot;,&quot;tag&quot;:&quot;detail_image&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2017-07-31T12:39:19.000000Z&quot;,&quot;updated_at&quot;:&quot;2018-04-08T14:27:05.000000Z&quot;,&quot;format&quot;:null,&quot;width&quot;:&quot;1280&quot;,&quot;height&quot;:&quot;800&quot;,&quot;resolution&quot;:null,&quot;image&quot;:{&quot;id&quot;:2609,&quot;document_id&quot;:&quot;2855&quot;,&quot;foreign_id&quot;:&quot;2218&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\TemplateImage&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2017-07-31T12:39:19.000000Z&quot;,&quot;updated_at&quot;:&quot;2017-07-31T12:39:19.000000Z&quot;,&quot;label&quot;:null,&quot;document&quot;:{&quot;id&quot;:2855,&quot;user_id&quot;:&quot;5&quot;,&quot;type&quot;:&quot;image\/jpeg&quot;,&quot;name&quot;:&quot;Detail Image: Events Detail&quot;,&quot;short_description&quot;:&quot;Image uploaded for pages ID 19&quot;,&quot;description&quot;:null,&quot;server_name&quot;:&quot;afbd7e2a56ca30839e5d23187f2eae72&quot;,&quot;server_ext&quot;:&quot;jpeg&quot;,&quot;client_name&quot;:&quot;event_default_2&quot;,&quot;client_ext&quot;:&quot;jpg&quot;,&quot;file_size&quot;:&quot;729926&quot;,&quot;pixel_width&quot;:&quot;1280&quot;,&quot;pixel_height&quot;:&quot;800&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2017-07-31T12:39:19.000000Z&quot;,&quot;updated_at&quot;:&quot;2025-11-13T21:42:52.230000Z&quot;,&quot;standalone&quot;:&quot;0&quot;,&quot;image_alt_tag&quot;:&quot;Financial Data - Stock Market, Trading and Investments, Business and Economy&quot;,&quot;link&quot;:&quot;https:\/\/www.nelsonmullins.com\/storage\/afbd7e2a56ca30839e5d23187f2eae72.jpeg&quot;,&quot;is_image&quot;:true}}}}}],&quot;first_page_url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=1&quot;,&quot;from&quot;:1,&quot;last_page&quot;:1,&quot;last_page_url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=1&quot;,&quot;links&quot;:[{&quot;url&quot;:null,&quot;label&quot;:&quot;\u0026laquo; Previous&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=1&quot;,&quot;label&quot;:&quot;1&quot;,&quot;active&quot;:true},{&quot;url&quot;:null,&quot;label&quot;:&quot;Next \u0026raquo;&quot;,&quot;active&quot;:false}],&quot;next_page_url&quot;:null,&quot;path&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property&quot;,&quot;per_page&quot;:5,&quot;prev_page_url&quot;:null,&quot;to&quot;:2,&quot;total&quot;:2}},
+                            thisView: 'frontend.services.show',
+                             thisModel: 'Page',
+                            thisId: 5
+                        }"></pageablepostlist>
+                                                                <pageablepostlist v-bind:config="{
+                            ie: false,
+                            header: 'News',
+                            service_id: 276,
+                            post_type: 3,
+                            limit: 5,
+                            results:{&quot;pageable&quot;:{&quot;current_page&quot;:1,&quot;data&quot;:[{&quot;id&quot;:13638,&quot;title&quot;:&quot;Fifteen Kohlerackles Partners Named 2025 Top Lawyers by Boston Magazine&quot;,&quot;slug&quot;:&quot;fifteen-nelson-mullins-partners-named-2025-top-lawyers-by-boston-magazine&quot;,&quot;published_at&quot;:&quot;2025-11-25T00:00:00.000000Z&quot;,&quot;alt_display_date&quot;:&quot;December 2025\/January 2026&quot;,&quot;default_images&quot;:null,&quot;name&quot;:&quot;Fifteen Kohlerackles Partners Named 2025 Top Lawyers by Boston Magazine&quot;,&quot;custom_record_images&quot;:[{&quot;id&quot;:12775,&quot;template_id&quot;:null,&quot;template_image_id&quot;:&quot;1991&quot;,&quot;foreign_id&quot;:&quot;13638&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\Post&quot;,&quot;name&quot;:&quot;Detail Image&quot;,&quot;tag&quot;:&quot;detail_image&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-11-25T15:16:47.947000Z&quot;,&quot;updated_at&quot;:&quot;2025-11-25T15:16:47.947000Z&quot;,&quot;format&quot;:null,&quot;width&quot;:&quot;1280&quot;,&quot;height&quot;:&quot;800&quot;,&quot;resolution&quot;:null,&quot;image&quot;:{&quot;id&quot;:15050,&quot;document_id&quot;:&quot;23738&quot;,&quot;foreign_id&quot;:&quot;12775&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\TemplateImage&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-11-25T15:16:48.033000Z&quot;,&quot;updated_at&quot;:&quot;2025-11-25T15:16:48.033000Z&quot;,&quot;label&quot;:null,&quot;document&quot;:{&quot;id&quot;:23738,&quot;user_id&quot;:&quot;88&quot;,&quot;type&quot;:&quot;image\/jpeg&quot;,&quot;name&quot;:&quot;Detail Image: Fifteen Kohlerackles Partners Named 2025 Top Lawyers by Boston Magazine&quot;,&quot;short_description&quot;:null,&quot;description&quot;:null,&quot;server_name&quot;:&quot;eO0JpjVTYtYlgOorAUzYcPe1RAt4jq5aj2LAGJ2U&quot;,&quot;server_ext&quot;:&quot;jpg&quot;,&quot;client_name&quot;:&quot;#199784_Awards_DETAIL&quot;,&quot;client_ext&quot;:&quot;jpg&quot;,&quot;file_size&quot;:&quot;75527&quot;,&quot;pixel_width&quot;:&quot;660&quot;,&quot;pixel_height&quot;:&quot;413&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-11-25T15:16:47.937000Z&quot;,&quot;updated_at&quot;:&quot;2025-11-25T15:17:01.080000Z&quot;,&quot;standalone&quot;:&quot;0&quot;,&quot;image_alt_tag&quot;:&quot;Group of trophies in a row&quot;,&quot;link&quot;:&quot;https:\/\/www.nelsonmullins.com\/storage\/eO0JpjVTYtYlgOorAUzYcPe1RAt4jq5aj2LAGJ2U.jpg&quot;,&quot;is_image&quot;:true}}}],&quot;post_categories&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Press Releases&quot;,&quot;slug&quot;:&quot;press_releases&quot;,&quot;description&quot;:null,&quot;collection_id&quot;:&quot;2&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;13638&quot;,&quot;category_id&quot;:&quot;1&quot;,&quot;created_at&quot;:&quot;2025-11-24T21:02:43.257000Z&quot;,&quot;updated_at&quot;:&quot;2025-11-24T21:02:43.257000Z&quot;}}],&quot;post_collections&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;News&quot;,&quot;slug&quot;:&quot;news&quot;,&quot;description&quot;:null,&quot;external_url&quot;:null,&quot;post_type_id&quot;:&quot;3&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;display_status_id&quot;:null,&quot;subscribe_link&quot;:null,&quot;overlay_color&quot;:null,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;13638&quot;,&quot;collection_id&quot;:&quot;2&quot;,&quot;created_at&quot;:&quot;2025-11-24T21:02:43.247000Z&quot;,&quot;updated_at&quot;:&quot;2025-11-24T21:02:43.247000Z&quot;}}],&quot;post_roles&quot;:[],&quot;post_type&quot;:null},{&quot;id&quot;:13043,&quot;title&quot;:&quot;Kohlerackles Grows In Houston With Osha Bergman IP Duo&quot;,&quot;slug&quot;:&quot;nelson-mullins-grows-in-houston-with-osha-bergman-ip-duo&quot;,&quot;published_at&quot;:&quot;2025-02-03T00:00:00.000000Z&quot;,&quot;alt_display_date&quot;:&quot;&quot;,&quot;default_images&quot;:null,&quot;name&quot;:&quot;Kohlerackles Grows In Houston With Osha Bergman IP Duo&quot;,&quot;custom_record_images&quot;:[{&quot;id&quot;:11863,&quot;template_id&quot;:null,&quot;template_image_id&quot;:&quot;1991&quot;,&quot;foreign_id&quot;:&quot;13043&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\Post&quot;,&quot;name&quot;:&quot;Detail Image&quot;,&quot;tag&quot;:&quot;detail_image&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-02-03T16:32:26.780000Z&quot;,&quot;updated_at&quot;:&quot;2025-02-03T16:32:26.780000Z&quot;,&quot;format&quot;:null,&quot;width&quot;:&quot;1280&quot;,&quot;height&quot;:&quot;800&quot;,&quot;resolution&quot;:null,&quot;image&quot;:{&quot;id&quot;:14034,&quot;document_id&quot;:&quot;21600&quot;,&quot;foreign_id&quot;:&quot;11863&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\TemplateImage&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-02-03T16:32:26.793000Z&quot;,&quot;updated_at&quot;:&quot;2025-02-04T08:00:19.610000Z&quot;,&quot;label&quot;:null,&quot;document&quot;:{&quot;id&quot;:21600,&quot;user_id&quot;:&quot;20&quot;,&quot;type&quot;:&quot;image\/jpeg&quot;,&quot;name&quot;:&quot;Detail Image: Kohlerackles Grows In Houston With Osha Bergman IP Duo&quot;,&quot;short_description&quot;:null,&quot;description&quot;:null,&quot;server_name&quot;:&quot;n55mULUdYpr05mtUZ3K7douVTHNpirPqk2U4A611&quot;,&quot;server_ext&quot;:&quot;jpg&quot;,&quot;client_name&quot;:&quot;News_90&quot;,&quot;client_ext&quot;:&quot;jpg&quot;,&quot;file_size&quot;:&quot;32400&quot;,&quot;pixel_width&quot;:&quot;660&quot;,&quot;pixel_height&quot;:&quot;413&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-02-04T08:00:19.607000Z&quot;,&quot;updated_at&quot;:&quot;2025-02-04T08:00:19.607000Z&quot;,&quot;standalone&quot;:&quot;0&quot;,&quot;image_alt_tag&quot;:null,&quot;link&quot;:&quot;https:\/\/www.nelsonmullins.com\/storage\/n55mULUdYpr05mtUZ3K7douVTHNpirPqk2U4A611.jpg&quot;,&quot;is_image&quot;:true}}}],&quot;post_categories&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;In the News&quot;,&quot;slug&quot;:&quot;in_the_news&quot;,&quot;description&quot;:null,&quot;collection_id&quot;:&quot;2&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;13043&quot;,&quot;category_id&quot;:&quot;2&quot;,&quot;created_at&quot;:&quot;2025-02-03T13:56:27.353000Z&quot;,&quot;updated_at&quot;:&quot;2025-02-03T13:56:27.353000Z&quot;}}],&quot;post_collections&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;News&quot;,&quot;slug&quot;:&quot;news&quot;,&quot;description&quot;:null,&quot;external_url&quot;:null,&quot;post_type_id&quot;:&quot;3&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;display_status_id&quot;:null,&quot;subscribe_link&quot;:null,&quot;overlay_color&quot;:null,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;13043&quot;,&quot;collection_id&quot;:&quot;2&quot;,&quot;created_at&quot;:&quot;2025-02-03T13:56:27.347000Z&quot;,&quot;updated_at&quot;:&quot;2025-02-03T13:56:27.347000Z&quot;}}],&quot;post_roles&quot;:[],&quot;post_type&quot;:null},{&quot;id&quot;:13034,&quot;title&quot;:&quot;Kohlerackles Continues Robust Growth in Houston with Pick Up of Two Intellectual Property Partners&quot;,&quot;slug&quot;:&quot;nelson-mullins-continues-robust-growth-in-houston-with-pick-up-of-two-intellectual-property-partners&quot;,&quot;published_at&quot;:&quot;2025-01-29T00:00:00.000000Z&quot;,&quot;alt_display_date&quot;:&quot;&quot;,&quot;default_images&quot;:null,&quot;name&quot;:&quot;Kohlerackles Continues Robust Growth in Houston with Pick Up of Two Intellectual Property Partners&quot;,&quot;custom_record_images&quot;:[{&quot;id&quot;:11847,&quot;template_id&quot;:null,&quot;template_image_id&quot;:&quot;1991&quot;,&quot;foreign_id&quot;:&quot;13034&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\Post&quot;,&quot;name&quot;:&quot;Detail Image&quot;,&quot;tag&quot;:&quot;detail_image&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-01-29T12:42:43.933000Z&quot;,&quot;updated_at&quot;:&quot;2025-01-29T12:42:43.933000Z&quot;,&quot;format&quot;:null,&quot;width&quot;:&quot;1280&quot;,&quot;height&quot;:&quot;800&quot;,&quot;resolution&quot;:null,&quot;image&quot;:{&quot;id&quot;:14018,&quot;document_id&quot;:&quot;21572&quot;,&quot;foreign_id&quot;:&quot;11847&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\TemplateImage&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-01-29T12:42:43.943000Z&quot;,&quot;updated_at&quot;:&quot;2025-01-30T12:42:15.580000Z&quot;,&quot;label&quot;:null,&quot;document&quot;:{&quot;id&quot;:21572,&quot;user_id&quot;:&quot;20&quot;,&quot;type&quot;:&quot;image\/jpeg&quot;,&quot;name&quot;:&quot;Detail Image: Kohlerackles Continues Robust Growth in Houston with Pick Up of Two Intellectual Property Partners&quot;,&quot;short_description&quot;:null,&quot;description&quot;:null,&quot;server_name&quot;:&quot;OOC5lmm0KrXQHKkkD7fViNRUehBtinfUuLOUyp5X&quot;,&quot;server_ext&quot;:&quot;jpg&quot;,&quot;client_name&quot;:&quot;News_89&quot;,&quot;client_ext&quot;:&quot;jpg&quot;,&quot;file_size&quot;:&quot;53842&quot;,&quot;pixel_width&quot;:&quot;660&quot;,&quot;pixel_height&quot;:&quot;413&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-01-30T12:42:15.570000Z&quot;,&quot;updated_at&quot;:&quot;2025-01-30T12:42:20.590000Z&quot;,&quot;standalone&quot;:&quot;0&quot;,&quot;image_alt_tag&quot;:&quot;&quot;,&quot;link&quot;:&quot;https:\/\/www.nelsonmullins.com\/storage\/OOC5lmm0KrXQHKkkD7fViNRUehBtinfUuLOUyp5X.jpg&quot;,&quot;is_image&quot;:true}}}],&quot;post_categories&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Press Releases&quot;,&quot;slug&quot;:&quot;press_releases&quot;,&quot;description&quot;:null,&quot;collection_id&quot;:&quot;2&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;13034&quot;,&quot;category_id&quot;:&quot;1&quot;,&quot;created_at&quot;:&quot;2025-01-28T17:15:08.847000Z&quot;,&quot;updated_at&quot;:&quot;2025-01-28T17:15:08.847000Z&quot;}}],&quot;post_collections&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;News&quot;,&quot;slug&quot;:&quot;news&quot;,&quot;description&quot;:null,&quot;external_url&quot;:null,&quot;post_type_id&quot;:&quot;3&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;display_status_id&quot;:null,&quot;subscribe_link&quot;:null,&quot;overlay_color&quot;:null,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;13034&quot;,&quot;collection_id&quot;:&quot;2&quot;,&quot;created_at&quot;:&quot;2025-01-28T17:15:08.843000Z&quot;,&quot;updated_at&quot;:&quot;2025-01-28T17:15:08.843000Z&quot;}}],&quot;post_roles&quot;:[],&quot;post_type&quot;:null},{&quot;id&quot;:12626,&quot;title&quot;:&quot;Kohlerackles Partner Jane Remillard Named Finalist for New England IP Attorney of the Year Award&quot;,&quot;slug&quot;:&quot;nelson-mullins-partner-jane-remillard-named-finalist-for-new-england-ip-attorney-of-the-year-award&quot;,&quot;published_at&quot;:&quot;2024-07-30T00:00:00.000000Z&quot;,&quot;alt_display_date&quot;:&quot;&quot;,&quot;default_images&quot;:null,&quot;name&quot;:&quot;Kohlerackles Partner Jane Remillard Named Finalist for New England IP Attorney of the Year Award&quot;,&quot;custom_record_images&quot;:[{&quot;id&quot;:11273,&quot;template_id&quot;:null,&quot;template_image_id&quot;:&quot;1991&quot;,&quot;foreign_id&quot;:&quot;12626&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\Post&quot;,&quot;name&quot;:&quot;Detail Image&quot;,&quot;tag&quot;:&quot;detail_image&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2024-07-30T10:23:12.363000Z&quot;,&quot;updated_at&quot;:&quot;2024-07-30T10:23:12.363000Z&quot;,&quot;format&quot;:null,&quot;width&quot;:&quot;1280&quot;,&quot;height&quot;:&quot;800&quot;,&quot;resolution&quot;:null,&quot;image&quot;:{&quot;id&quot;:13352,&quot;document_id&quot;:&quot;20504&quot;,&quot;foreign_id&quot;:&quot;11273&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\TemplateImage&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2024-07-30T10:23:12.377000Z&quot;,&quot;updated_at&quot;:&quot;2024-07-30T15:45:59.677000Z&quot;,&quot;label&quot;:null,&quot;document&quot;:{&quot;id&quot;:20504,&quot;user_id&quot;:&quot;20&quot;,&quot;type&quot;:&quot;image\/jpeg&quot;,&quot;name&quot;:&quot;Detail Image: Kohlerackles Partner Jane Remillard Named Finalist for New England IP Attorney of the Year Award&quot;,&quot;short_description&quot;:null,&quot;description&quot;:null,&quot;server_name&quot;:&quot;RgH3FdQn8SQjPZchXiDSwftwwOqRq1KCQJUKnddW&quot;,&quot;server_ext&quot;:&quot;jpg&quot;,&quot;client_name&quot;:&quot;News_56&quot;,&quot;client_ext&quot;:&quot;jpg&quot;,&quot;file_size&quot;:&quot;29625&quot;,&quot;pixel_width&quot;:&quot;660&quot;,&quot;pixel_height&quot;:&quot;413&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2024-07-30T15:45:59.673000Z&quot;,&quot;updated_at&quot;:&quot;2024-07-30T15:45:59.673000Z&quot;,&quot;standalone&quot;:&quot;0&quot;,&quot;image_alt_tag&quot;:null,&quot;link&quot;:&quot;https:\/\/www.nelsonmullins.com\/storage\/RgH3FdQn8SQjPZchXiDSwftwwOqRq1KCQJUKnddW.jpg&quot;,&quot;is_image&quot;:true}}}],&quot;post_categories&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;In the News&quot;,&quot;slug&quot;:&quot;in_the_news&quot;,&quot;description&quot;:null,&quot;collection_id&quot;:&quot;2&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;12626&quot;,&quot;category_id&quot;:&quot;2&quot;,&quot;created_at&quot;:&quot;2024-07-26T12:59:13.783000Z&quot;,&quot;updated_at&quot;:&quot;2024-07-26T12:59:13.783000Z&quot;}}],&quot;post_collections&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;News&quot;,&quot;slug&quot;:&quot;news&quot;,&quot;description&quot;:null,&quot;external_url&quot;:null,&quot;post_type_id&quot;:&quot;3&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;display_status_id&quot;:null,&quot;subscribe_link&quot;:null,&quot;overlay_color&quot;:null,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;12626&quot;,&quot;collection_id&quot;:&quot;2&quot;,&quot;created_at&quot;:&quot;2024-07-26T12:59:13.780000Z&quot;,&quot;updated_at&quot;:&quot;2024-07-26T12:59:13.780000Z&quot;}}],&quot;post_roles&quot;:[],&quot;post_type&quot;:null},{&quot;id&quot;:12517,&quot;title&quot;:&quot;Kohlerackles Trademark Attorney Named Among WTR Global Leaders 2024&quot;,&quot;slug&quot;:&quot;nelson-mullins-trademark-attorney-named-among-wtr-global-leaders-2024&quot;,&quot;published_at&quot;:&quot;2024-06-07T00:00:00.000000Z&quot;,&quot;alt_display_date&quot;:&quot;&quot;,&quot;default_images&quot;:null,&quot;name&quot;:&quot;Kohlerackles Trademark Attorney Named Among WTR Global Leaders 2024&quot;,&quot;custom_record_images&quot;:[{&quot;id&quot;:11153,&quot;template_id&quot;:null,&quot;template_image_id&quot;:&quot;1991&quot;,&quot;foreign_id&quot;:&quot;12517&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\Post&quot;,&quot;name&quot;:&quot;Detail Image&quot;,&quot;tag&quot;:&quot;detail_image&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2024-06-07T09:30:50.237000Z&quot;,&quot;updated_at&quot;:&quot;2024-06-07T09:30:50.237000Z&quot;,&quot;format&quot;:null,&quot;width&quot;:&quot;1280&quot;,&quot;height&quot;:&quot;800&quot;,&quot;resolution&quot;:null,&quot;image&quot;:{&quot;id&quot;:13220,&quot;document_id&quot;:&quot;20263&quot;,&quot;foreign_id&quot;:&quot;11153&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\TemplateImage&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2024-06-07T09:30:50.247000Z&quot;,&quot;updated_at&quot;:&quot;2024-06-10T08:39:28.987000Z&quot;,&quot;label&quot;:null,&quot;document&quot;:{&quot;id&quot;:20263,&quot;user_id&quot;:&quot;20&quot;,&quot;type&quot;:&quot;image\/jpeg&quot;,&quot;name&quot;:&quot;Detail Image: Kohlerackles Trademark Attorney Named Among WTR Global Leaders 2024&quot;,&quot;short_description&quot;:null,&quot;description&quot;:null,&quot;server_name&quot;:&quot;esZommoPsf81zN7KRu1HEVPpbXv3Sl9bBTxD2Y85&quot;,&quot;server_ext&quot;:&quot;jpg&quot;,&quot;client_name&quot;:&quot;PR_114&quot;,&quot;client_ext&quot;:&quot;jpg&quot;,&quot;file_size&quot;:&quot;31361&quot;,&quot;pixel_width&quot;:&quot;660&quot;,&quot;pixel_height&quot;:&quot;413&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2024-06-10T08:39:28.953000Z&quot;,&quot;updated_at&quot;:&quot;2024-06-10T08:39:28.953000Z&quot;,&quot;standalone&quot;:&quot;0&quot;,&quot;image_alt_tag&quot;:null,&quot;link&quot;:&quot;https:\/\/www.nelsonmullins.com\/storage\/esZommoPsf81zN7KRu1HEVPpbXv3Sl9bBTxD2Y85.jpg&quot;,&quot;is_image&quot;:true}}}],&quot;post_categories&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Press Releases&quot;,&quot;slug&quot;:&quot;press_releases&quot;,&quot;description&quot;:null,&quot;collection_id&quot;:&quot;2&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;12517&quot;,&quot;category_id&quot;:&quot;1&quot;,&quot;created_at&quot;:&quot;2024-06-06T15:44:55.613000Z&quot;,&quot;updated_at&quot;:&quot;2024-06-06T15:44:55.613000Z&quot;}}],&quot;post_collections&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;News&quot;,&quot;slug&quot;:&quot;news&quot;,&quot;description&quot;:null,&quot;external_url&quot;:null,&quot;post_type_id&quot;:&quot;3&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;display_status_id&quot;:null,&quot;subscribe_link&quot;:null,&quot;overlay_color&quot;:null,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;12517&quot;,&quot;collection_id&quot;:&quot;2&quot;,&quot;created_at&quot;:&quot;2024-06-06T15:44:55.610000Z&quot;,&quot;updated_at&quot;:&quot;2024-06-06T15:44:55.610000Z&quot;}}],&quot;post_roles&quot;:[],&quot;post_type&quot;:null}],&quot;first_page_url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=1&quot;,&quot;from&quot;:1,&quot;last_page&quot;:11,&quot;last_page_url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=11&quot;,&quot;links&quot;:[{&quot;url&quot;:null,&quot;label&quot;:&quot;\u0026laquo; Previous&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=1&quot;,&quot;label&quot;:&quot;1&quot;,&quot;active&quot;:true},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=2&quot;,&quot;label&quot;:&quot;2&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=3&quot;,&quot;label&quot;:&quot;3&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=4&quot;,&quot;label&quot;:&quot;4&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=5&quot;,&quot;label&quot;:&quot;5&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=6&quot;,&quot;label&quot;:&quot;6&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=7&quot;,&quot;label&quot;:&quot;7&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=8&quot;,&quot;label&quot;:&quot;8&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=9&quot;,&quot;label&quot;:&quot;9&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=10&quot;,&quot;label&quot;:&quot;10&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=11&quot;,&quot;label&quot;:&quot;11&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=2&quot;,&quot;label&quot;:&quot;Next \u0026raquo;&quot;,&quot;active&quot;:false}],&quot;next_page_url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property?page=2&quot;,&quot;path&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property&quot;,&quot;per_page&quot;:5,&quot;prev_page_url&quot;:null,&quot;to&quot;:5,&quot;total&quot;:55}},
+                            thisView: 'frontend.services.show',
+                            thisModel: 'Page',
+                            thisId: 5
+                        }"></pageablepostlist>
+                                            
+                        
+    				<div class="col-md-4 attorney-tab-articles">
+                        <div class="nm-button-yellow"><a href="../insights/alerts.html">Visit Insights</a></div>
+                                        </div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div> 
+    
+    
+    
+    	
+    	<div class="card aside-why">
+    		<div class="card-header" role="tab" id="headingSeven">
+    			<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">Why Kohlerackles?</a></h5>
+    		</div>
+    
+    		<div id="collapseSeven" class="collapse" role="tabpanel" aria-labelledby="headingSeven">
+    			<div class="card-block">
+    				<div class="row attorney-tab-info">
+    					<div class="col-md-8">
+    						<ul>
+    	<li><strong>Deep knowledge of the law and science</strong></li>
+    	<li><strong>Seasoned trial attorneys</strong> &minus; experience and ability trying cases to verdict wherever necessary</li>
+    	<li><strong>Solution-driven</strong>&nbsp;&ndash;&nbsp;helping to achieve business objectives, build and protect strong intellectual property portfolios, commercialize products, and manage risks in connection with intellectual property assets</li>
+    	<li><strong>Quality service and cost efficiency</strong>&nbsp;&ndash; we structure client service relationships using a range of fee arrangements that include predictable fee structures designed to enhance budget predictability</li>
+    </ul>
+    					</div> 
+    				</div>
+    			</div>
+    		</div>
+    	</div> 
+    
+    	<br>
+    
+    		<div class="col-md-4 sidebar">
+    				
+    
+    				
+    				
+    				<div class="aside-contacts">
+    
+    					<h4>Practice Contacts</h4>
+    
+    								                        <a href="../professionals/patrick-kartes.html">
+    	                            <div class="sidebar-contact-photo">
+    	                                <img src="/images/it3ptxOE4YG3KtbDYsMrdkYHSv4vQKUxV9FpyPVE.jpg" alt="Patrick L. Kartes" />	                            </div>
+    	                        </a>
+    	                        <div class="sidebar-contact-details full-width">
+    	                            <h4><a href="../professionals/patrick-kartes.html">Patrick L. Kartes</a></h4>
+    	                            	                                <div class="h5 position">Partner</div>
+    	                            	                            	                                <div class="sidebar-email-icon" style="float: left; margin-right: 10px;">
+    	                                    <a href="#" data-toggle="modal" data-target="#emailModal" data-email="patrick.kartes@nelsonmullins.com" class="email_btn"><img src="/images/detail-email.png" alt="Send Email to Patrick L. Kartes" /></a>
+    	                                </div>
+    	                            	                            	                                	                                	<div style="float: left;">
+    	                                    <p>T 704.417.3036</p>
+    	                                    </div>
+    	                                	                            	                        </div>
+    	                    	                        <a href="../professionals/jane-remillard.html">
+    	                            <div class="sidebar-contact-photo">
+    	                                <img src="/images/x2ugdWp5FjpzFvsEmCreQrMFJUZJm35vJpnysC8k.jpg" alt="Jane E. Remillard" />	                            </div>
+    	                        </a>
+    	                        <div class="sidebar-contact-details full-width">
+    	                            <h4><a href="../professionals/jane-remillard.html">Jane E. Remillard</a></h4>
+    	                            	                                <div class="h5 position">Partner</div>
+    	                            	                            	                                <div class="sidebar-email-icon" style="float: left; margin-right: 10px;">
+    	                                    <a href="#" data-toggle="modal" data-target="#emailModal" data-email="jane.remillard@nelsonmullins.com" class="email_btn"><img src="/images/detail-email.png" alt="Send Email to Jane E. Remillard" /></a>
+    	                                </div>
+    	                            	                            	                                	                                	<div style="float: left;">
+    	                                    <p>T 617.217.4628</p>
+    	                                    </div>
+    	                                	                            	                        </div>
+    	                    
+    
+    							
+    						<div class="nm-button-yellow">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Related Professionals</a>
+                            </div>
+    
+                            					</div>
+    
+    				
+    
+    			</div>
+    
+    
+    		
+    		</div> 
+    
+    
+    
+    	</div> 
+    </div> 
+    
+    </div> 
+    
+    				<div class="container hidden-print">
+    					
+    <section class="row bottom-carousel">
+    	<div class="col-md-12 bottom-carousel-wrapper">
+    		<section id="bottom-carousel" class="aside carousel slide multi" data-ride="carousel" data-interval="false" data-itemcount-l="2" data-itemcount-m="2" data-itemcount-s="1" aria-roledescription="carousel" aria-labelledby="aside249">
+    		    
+                <h2 id="aside249" class="d-inline-block">Highlights from Insights</h2>
+    		    <ol class="carousel-indicators circle">
+    			                
+                  <li class="carousel-circle active dot-1">
+                    <button type="button" class="btn-carousel" data-target="#bottom-carousel" data-slide-to="0" aria-label="Slide 1" aria-current="true"></button>
+                  </li>                
+    				              
+                  <li class="carousel-circle  dot-2">
+                    <button type="button" class="btn-carousel" data-target="#bottom-carousel" data-slide-to="1" aria-label="Slide 2" aria-current="false"></button>
+                  </li>                
+    				              
+                  <li class="carousel-circle  dot-3">
+                    <button type="button" class="btn-carousel" data-target="#bottom-carousel" data-slide-to="2" aria-label="Slide 3" aria-current="false"></button>
+                  </li>                
+    				            </ol>
+                
+    
+    			<div class="carousel-inner" aria-live="polite">
+                    				                                                <div class="row carousel-item active" role="group" aria-roledescription="slide" aria-label="Slide 1 of 3">
+                    					<div class="col-12 col-md-6">
+                                                                            <img src="/images/ohdpvaLVtm2FONsiglaiLxq6N0Owi4O40e34qL9b.jpg" alt="gavel on law books" />                                            						
+    						<div class="photo-gradient"></div>
+    						<div class="carousel-caption">
+    															<a href="../insights/insights/navigating-california-s-climate-disclosure-laws-your-complete-guide-to-sb-253-and-sb-261.html"
+    														>
+                                                            Navigating California’s Climate Disclosure Laws: Your Complete Guide to SB...
+                                                            
+                                </a>
+    							<div class="caption-date">
+    																	December 2, 2025
+    															</div>
+    						</div>
+    					</div>
+                        				                					<div class="col-12 col-md-6">
+                                                                            <img src="/images/qd5IYrDqccPfoJYxEh0r6blgftNNhc1KB1PBlTWl.jpg" alt="Construction site and development" />                                            						
+    						<div class="photo-gradient"></div>
+    						<div class="carousel-caption">
+    															<a href="../insights/insights/nmrs-attorneys-published-in-florida-bar-journal-on-ccna-procurements.html"
+    														>
+                                                            NMRS Attorneys Published in Florida Bar Journal on CCNA Procurements
+                                                            
+                                </a>
+    							<div class="caption-date">
+    																	November/December 2025
+    															</div>
+    						</div>
+    					</div>
+                                            </div>
+                        				                                                <div class="row carousel-item " role="group" aria-roledescription="slide" aria-label="Slide 2 of 3">
+                    					<div class="col-12 col-md-6">
+                                                                            <img src="/images/Jc7KbwbGvTjOLhbjU9RbQZK3aT6GcA64o6dOcWRW.jpg" alt="football" />                                            						
+    						<div class="photo-gradient"></div>
+    						<div class="carousel-caption">
+    															<a href="../insights/insights/prime-equity-and-the-nil-era-shedeur-sanders-contract-ushers-in-a-new-legal-framework-for-pro-athlete-compensation.html"
+    														>
+                                                            “Prime Equity” and the NIL Era: Shedeur Sanders’ Contract Ushers...
+                                                            
+                                </a>
+    							<div class="caption-date">
+    																	September 3, 2025
+    															</div>
+    						</div>
+    					</div>
+                        				                					<div class="col-12 col-md-6">
+                                                                            <img src="/images/Lht62fS0RwzCc7jmGm6kLFoJJaBwAtrjlZZl60aD.jpg" alt="" />                                            						
+    						<div class="photo-gradient"></div>
+    						<div class="carousel-caption">
+    															<a href="../insights/alerts/additional_nelson_mullins_alerts/all/fdot-announces-small-business-growth-program-following-dbe-program-updates.html"
+                                							>
+                                                            FDOT Announces Small Business Growth Program Following DBE Program Updates
+                                                            
+                                </a>
+    							<div class="caption-date">
+    																	November 24, 2025
+    															</div>
+    						</div>
+    					</div>
+                                            </div>
+                        				                                                <div class="row carousel-item " role="group" aria-roledescription="slide" aria-label="Slide 3 of 3">
+                    					<div class="col-12 col-md-6">
+                                                                            <img src="/images/Lc9cz7XPTgv1Tcl7av5lixHNL9U6efAXba6QCp3X.jpg" alt="" />                                            						
+    						<div class="photo-gradient"></div>
+    						<div class="carousel-caption">
+    															<a href="../insights/alerts/nelson-mullins-affordable-housing-news/all/hud-continuum-of-care-funding-gap-risks-and-recommendations.html"
+                                							>
+                                                            HUD Continuum of Care Funding Gap: Risks and Recommendations
+                                                            
+                                </a>
+    							<div class="caption-date">
+    																	November 24, 2025
+    															</div>
+    						</div>
+    					</div>
+                        				                					<div class="col-12 col-md-6">
+                                                                            <img src="/images/Lc9cz7XPTgv1Tcl7av5lixHNL9U6efAXba6QCp3X.jpg" alt="" />                                            						
+    						<div class="photo-gradient"></div>
+    						<div class="carousel-caption">
+    															<a href="../insights/alerts/nelson-mullins-affordable-housing-news/all/hud-extends-compliance-dates-for-energy-efficiency-standards-in-hud-and-usda-financed-housing.html"
+                                							>
+                                                            HUD Extends Compliance Dates for Energy Efficiency Standards in HUD-...
+                                                            
+                                </a>
+    							<div class="caption-date">
+    																	November 14, 2025
+    															</div>
+    						</div>
+    					</div>
+                                            </div>
+                        							</div>
+            </section>
+    	</div>
+    </section>
+    
+    				</div>
+    
+            
+        </main>
+  </main>
 </template>
 
 <script setup>
-import ServiceDetailLayout from '@/components/ServiceDetailLayout.vue'
-
-const tabs = ["Overview","Professionals","Related Practice Areas","Related Industries","Insights"]
-const sections = [{"heading":"Litigating and resolving a wide range of disputes","text":"From the beginning of an issue, we seek to find business solutions to clients’ problems. Sometimes that requires us to demonstrate our trial skills in the courtroom. Many times it allows us to resolve IP issues without litigation. Our experience includes patent infringement, trademark and trade dress infringement and dilution, misappropriation of trade secrets and unfair competition, and copyright infringement."},{"heading":"Understanding the science, relaying complex matters to judges and juries","text":"Kohlerackels’ IP group includes attorneys registered to practice before the U.S. Patent and Trademark Office, attorneys with technical degrees, former judicial clerks with the U.S. Court of Appeals for the Federal Circuit, former Patent Examiners, and thought leaders in intellectual property law."},{"heading":"Clients span industry sectors and range from entrepreneurs to research institutions to established household names","text":"Clients from many high-profile industries select us to work side-by-side with them, including medical and research institutions, global specialty chemical companies, financial institutions, electronic commerce, telecommunications, computer software, pharmaceuticals, biotechnology, manufacturing, and outdoor industry sectors."},{"heading":"Broad experience includes creating and protecting large patent and trademark portfolios, and managing risks through due diligence","text":"We bring clients a team experienced in helping to ensure that intellectual property is protected by patents, trademarks, copyrights, or trade secrets.","items":["Patent preparation, prosecution and portfolio management","Trademark clearance, registration and enforcement","Copyright and trade secret protection","IP due diligence and risk management"]},{"heading":"Efficiencies through project management and technology","text":"We use disciplined project management, docketing and technology to help clients manage complex portfolios, deadlines, transactions and litigation efficiently."}]
-const why = {"text":"Our IP team combines legal, technical and business perspectives to help clients protect innovation while advancing commercial objectives."}
-const contacts = [{"name":"Patrick L. Kartes","role":"Practice Contact"},{"name":"Jane E. Remillard","role":"Practice Contact"}]
+// This page intentionally preserves the original service-page HTML structure.
+// Shared header and footer are provided by App.vue.
 </script>
+
+<style scoped>
+.legacy-service-page {
+  width: 100%;
+}
+</style>
