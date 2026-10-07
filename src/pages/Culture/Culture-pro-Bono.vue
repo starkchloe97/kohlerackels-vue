@@ -28,18 +28,17 @@
             <div class="container featured-tabs">
                 <ul class="nav nav-tabs">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/culture">Overview</a>
+                        <RouterLink class="nav-link active" aria-current="page" to="/culture">Overview</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <!-- <RouterLink to="/CultureProBono"> Pro Bono </RouterLink> -->
-                        <a class="nav-link " href="/CultureProBono">Pro Bono</a>
+                        <RouterLink class="nav-link " to="/CultureProBono">Pro Bono</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="culture/culture_engagement_opportunity.html">Engagement and
-                            Opportunity</a>
+                        <RouterLink class="nav-link " to="/EngagementAndOpportunity">Engagement and
+                            Opportunity</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="culture/culture_community_service.html">Community Service</a>
+                        <a class="nav-link " href="/CommunityServices">Community Service</a>
                     </li>
                 </ul>
             </div>
@@ -73,17 +72,18 @@
             <div class="container featured-tabs">
                 <ul class="nav nav-tabs">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/culture">Overview</a>
+                        <RouterLink class="nav-link active" aria-current="page" to="/culture">Overview</RouterLink>
                     </li>
                     <li class="nav-item">
                         <RouterLink to="/CultureProBono" class="nav-link"> Pro Bono </RouterLink>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="culture/culture_engagement_opportunity.html">Engagement and
-                            Opportunity</a>
+                        <RouterLink class="nav-link " to="/EngagementAndOpportunity">Engagement and
+                            Opportunity</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="culture/culture_community_service.html">Community Service</a>
+                        <RouterLink class="nav-link " to="/CommunityServices">Community Service
+                            </RouterLink>
                     </li>
                 </ul>
             </div>
@@ -120,7 +120,7 @@
                                 those who serve the law shall serve the poor and disadvantaged.</p>
 
 
-                            <div class="pre-content" contenteditable="true">
+                            <div class="pre-content" contenteditable="false">
                                 <details class="content-expand-wrapper-ck" data-bordered="" data-collapse="true"
                                     data-color="" data-cssclass="content-expand-wrapper-ck" data-hidesummary=""
                                     data-maxheight="" data-monospace="" data-wrap="true" undefined="">
@@ -397,19 +397,12 @@
                     </div>
 
                     <!-- Sidebar -->
-                    <div class="col-md-7 diversity-contacts">
-
-
-                        <!-- Contact records and initial slides are configured at the end of this file. -->
-                        <RightSideShortSlider title="PRO BONO CONTACTS" :contacts="proBonoContacts"
-                            :initial-index="3" />
-                        <RightSideShortSlider title="ENGAGEMENT AND OPPORTUNITY CONTACTS" :contacts="engagementContacts"
-                            :initial-index="2" />
-                        <RightSideShortSlider title="COMMUNITY SERVICE CONTACTS" :contacts="communityContacts" />
-
-
-
-                    </div>
+                   <div data-v-a2324b3f="" class="col-md-7 diversity-contacts">
+        <!-- Contact records and initial slides are configured at the end of this file. -->
+        <SingleImageCarousal />
+        <youtubeVideoSection />
+        <galleryImageCarousal />
+      </div>
 
                 </div>
 
@@ -444,7 +437,7 @@
 
                                 <p>&nbsp;</p>
 
-                                <div class="pre-content" contenteditable="true">
+                                <div class="pre-content" contenteditable="false">
                                     <details class="content-expand-wrapper-ck" data-bordered="" data-collapse="true"
                                         data-color="" data-cssclass="content-expand-wrapper-ck" data-hidesummary=""
                                         data-maxheight="" data-monospace="" data-wrap="true" undefined="">
@@ -644,7 +637,7 @@
 
 
             <div class="card-header non-accordion">
-                <h5 class="closed"><a class="nav-link " href="culture/culture_engagement_opportunity.html"
+                <h5 class="closed"><a class="nav-link " href="/EngagementAndOpportunity"
                         role="tab">Engagement and Opportunity</a></h5>
 
 
@@ -653,7 +646,7 @@
 
 
             <div class="card-header non-accordion">
-                <h5 class="closed"><a class="nav-link " href="culture/culture_community_service.html"
+                <h5 class="closed"><a class="nav-link " href="/CommunityServices"
                         role="tab">Community Service</a></h5>
 
 
@@ -683,6 +676,10 @@
 <script setup>
 import Carousel from '@/components/Carousel.vue';
 import RightSideShortSlider from '@/components/Right-side-short-slider-two.vue'
+import galleryImageCarousal from '../../components/gallery-image-carousal.vue'
+import youtubeVideoSection from '../../components/youtube-video-section.vue'
+import SingleImageCarousal from '../../components/Single-Image-carousal.vue';
+
 
 // Edit these lists to change the contact details, images, or first slide.
 const proBonoContacts = [
@@ -705,14 +702,14 @@ const proBonoContacts = [
         name: 'Katherine A. Lawler',
         title: 'Partner',
         phone: 'T 443.392.9405',
-        photo: '/images/c2W180V468666kT8EYz4kVVXSP2AByzLWr1Bgqy6.jpg',
+        photo: '/images/katherineAlawler.jpg',
     },
     {
         id: 'norah-rogers',
         name: 'Norah C. Rogers',
         title: 'Pro Bono Manager',
         phone: 'T 803.255.9546',
-        photo: '/images/3159c8eb968d004fd09f64c7254b4e67.jpg',
+        photo: '/images/3159c8eb968d004fd09f64c7254b4e67.jpg', 
     },
 ]
 

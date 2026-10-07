@@ -269,6 +269,9 @@ onBeforeUnmount(() => {
 </script>
 
 <style scoped>
+.row {
+  gap: 0px;
+}
 #bottom-carousel {
   position: relative;
 }

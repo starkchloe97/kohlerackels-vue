@@ -12,6 +12,8 @@ import OtherLocation from "./pages/locations/Other-location.vue";
 import StatesPractice from "./pages/locations/States-practice.vue";
 import History from "./pages/History.vue";
 import CultureProBono from "./pages/Culture/Culture-pro-Bono.vue";
+import EngagementAndOpportunity from "./pages/Culture/Engagement-and-opportunity.vue";
+import CommunityServices from "./pages/Community-Services.vue";
 
 export default createRouter({
   history: createWebHistory(),
@@ -30,6 +32,8 @@ export default createRouter({
     { path: "/StatesPractice", component: StatesPractice },
     { path: "/History", component: History },
     { path: "/CultureProBono", component: CultureProBono },
+    { path: "/EngagementAndOpportunity", component: EngagementAndOpportunity },
+    { path: "/CommunityServices", component: CommunityServices },
     
   ],
 });

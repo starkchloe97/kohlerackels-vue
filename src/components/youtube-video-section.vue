@@ -48,7 +48,7 @@
           aria-label="Next video"
           @click="nextVideo"
         ></button>
-      </div>
+      </div> 
     </div>
   </section>
 </template>

@@ -991,7 +991,7 @@ pre code {
   .row {
     margin-right: -15px;
     margin-left: -15px;
-    gap: 80px
+    gap:80px
 
   }
 }
@@ -22860,12 +22860,12 @@ body
 
 .featured-tabs .nav-tabs .nav-link {
   margin: 0;
-  padding: 0 20px 15px;
-  border: 0;
-  background: transparent;
-  color: #757575;
-  font-size: 18px;
-  line-height: 26px;
+    padding: 0px 13px 11px;
+    border: 0;
+    background: transparent;
+    color: #757575;
+    font-size: 15px;
+    line-height: 20px;
 }
 
 .featured-tabs .nav-tabs .nav-link::after {

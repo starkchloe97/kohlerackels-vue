@@ -37,7 +37,7 @@
 						<a class="nav-link " href="/locations">Locations</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link " href="firm/history.html">History</a>
+						<a class="nav-link " href="/History">History</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link " href="/culture">Culture</a>
@@ -585,7 +585,7 @@
 
 
 			<div class="card-header non-accordion">
-				<h5 class="no_plus"><a class="nav-link " href="firm/history.html" role="tab">History</a></h5>
+				<h5 class="no_plus"><a class="nav-link " href="/History" role="tab">History</a></h5>
 
 
 			</div>
@@ -625,6 +625,11 @@
 </template>
 
 <style scoped>
+    .row {
+        margin-right: -15px;
+        margin-left: -15px;
+        gap: 0px; 
+    }
 </style>
 
 <script setup>

@@ -135,24 +135,24 @@ onBeforeUnmount(() => {
 
 .contact-slide {
   position: relative;
-  display: flex;
-  min-height: 250px;
-  align-items: center;
-  overflow: hidden;
-  background: #fff;
+    display: flex;
+    min-height: 220px;
+    align-items: center;
+    overflow: hidden;
+    background: #fff;
 }
 
 .contact-details {
   position: relative;
   z-index: 1;
   width: 58%;
-  padding: 24px 0 24px 38px;
+  padding: 24px 0 24px 20px;
 }
 
 .contact-details h3 {
   margin: 0;
   color: #080808;
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 1.15;
 }
@@ -160,7 +160,7 @@ onBeforeUnmount(() => {
 .contact-title {
   margin: 0 0 4px;
   color: #555;
-  font-size: 23px;
+  font-size: 15px;
   line-height: 1.2;
 }
 
