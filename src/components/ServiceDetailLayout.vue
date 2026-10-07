@@ -92,7 +92,7 @@
                 <div class="sidebar-aside-container service-cta">
                   <h3 class="sidebar-title sidebar-title-with-first">Get in touch</h3>
                   <p>Contact our team to discuss how we can help with your legal needs.</p>
-                  <RouterLink to="/contact" class="nm-button-yellow service-contact-button">GET IN TOUCH</RouterLink>
+                  <a href="mailto:hello@kohlerackels.com" class="nm-button-yellow service-contact-button">GET IN TOUCH</a>
                 </div>
               </aside>
             </div>
