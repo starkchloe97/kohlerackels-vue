@@ -1,8 +1,8 @@
 <template>
-  <main class="legacy-service-page">
+  <div class="legacy-service-page">
     <div class="row featured-top cropped-feature practice-area">
     		<div class="featured-background">            
-    			<img src="/images/oGexHrH2iWmumsvVnRkfqPZ8yVgKLOeZR540eF8x.jpg" alt="Image of a blue sphere surrounded by a silver cage" />		</div>
+    			<img src="/images/firmoverview.jpg" alt="Image of a blue sphere surrounded by a silver cage" />		</div>
     		<div class="photo-gradient"></div>
     
     		<div class="container featured-container">
@@ -75,12 +75,12 @@
     <p dir="ltr">Kohlerackles&rsquo; IP group includes attorneys registered to practice before the U.S. Patent and Trademark Office, attorneys with technical degrees, including electrical engineering, biochemistry, chemistry, and mechanical engineering. Our team also includes former judicial clerks with the U.S. Court of Appeals for the Federal Circuit and former Patent Examiners, and attorneys who serve as thought leaders, through roles as adjunct intellectual property law professors at local law schools and authors of various publications.&nbsp;</p>
     
     <hr />
-    <h4 class="featured-subhead" dir="ltr">Clients span industry sectors and range from entrepreneurs to research institutions to established household names<meta charset="utf-8" /></h4>
+    <h4 class="featured-subhead" dir="ltr">Clients span industry sectors and range from entrepreneurs to research institutions to established household names</h4>
     
     <p>Clients from many of today&rsquo;s high-profile industries select us to work side-by-side with them, including medical and research institutions, global specialty chemical companies, financial institutions, and clients in a range of business areas, including: electronic commerce, telecommunications, computer software, pharmaceuticals, biotechnology, manufacturing, and outdoor industry sectors.&nbsp;</p>
     
     <hr />
-    <h4 class="featured-subhead" dir="ltr">Broad experience includes creating and protecting large patent and trademark portfolios, and managing risks through due diligence<meta charset="utf-8" /></h4>
+    <h4 class="featured-subhead" dir="ltr">Broad experience includes creating and protecting large patent and trademark portfolios, and managing risks through due diligence</h4>
     
     <p>We bring to clients a team experienced in helping to ensure that a client&rsquo;s intellectual property is protected, whether by patents, trademarks, copyrights, or trade secrets.</p>
     
@@ -450,12 +450,12 @@
     <p dir="ltr">Kohlerackles&rsquo; IP group includes attorneys registered to practice before the U.S. Patent and Trademark Office, attorneys with technical degrees, including electrical engineering, biochemistry, chemistry, and mechanical engineering. Our team also includes former judicial clerks with the U.S. Court of Appeals for the Federal Circuit and former Patent Examiners, and attorneys who serve as thought leaders, through roles as adjunct intellectual property law professors at local law schools and authors of various publications.&nbsp;</p>
     
     <hr />
-    <h4 class="featured-subhead" dir="ltr">Clients span industry sectors and range from entrepreneurs to research institutions to established household names<meta charset="utf-8" /></h4>
+    <h4 class="featured-subhead" dir="ltr">Clients span industry sectors and range from entrepreneurs to research institutions to established household names</h4>
     
     <p>Clients from many of today&rsquo;s high-profile industries select us to work side-by-side with them, including medical and research institutions, global specialty chemical companies, financial institutions, and clients in a range of business areas, including: electronic commerce, telecommunications, computer software, pharmaceuticals, biotechnology, manufacturing, and outdoor industry sectors.&nbsp;</p>
     
     <hr />
-    <h4 class="featured-subhead" dir="ltr">Broad experience includes creating and protecting large patent and trademark portfolios, and managing risks through due diligence<meta charset="utf-8" /></h4>
+    <h4 class="featured-subhead" dir="ltr">Broad experience includes creating and protecting large patent and trademark portfolios, and managing risks through due diligence</h4>
     
     <p>We bring to clients a team experienced in helping to ensure that a client&rsquo;s intellectual property is protected, whether by patents, trademarks, copyrights, or trade secrets.</p>
     
@@ -880,7 +880,7 @@
     
             
         </main>
-  </main>
+  </div>
 </template>
 
 <script setup>
