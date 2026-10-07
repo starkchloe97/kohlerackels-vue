@@ -34,6 +34,14 @@ export default createRouter({
     { path: "/CultureProBono", component: CultureProBono },
     { path: "/EngagementAndOpportunity", component: EngagementAndOpportunity },
     { path: "/CommunityServices", component: CommunityServices },
+    { path: "/services/intellectual-property", component: IntellectualProperty },
+    { path: "/services/intellectual-property/litigation", component: IntellectualPropertyLitigation },
+    { path: "/services/intellectual-property/patent-counseling", component: PatentCounselingAndProcurement },
+    { path: "/services/intellectual-property/life-sciences", component: LifeSciencesIP },
+    { path: "/services/intellectual-property/nmwatch", component: NMWatch },
+    { path: "/services/intellectual-property/trademarks-copyrights", component: TrademarksAndCopyrights },
+    { path: "/services/intellectual-property/transactions", component: IntellectualPropertyTransactions },
+    { path: "/services/intellectual-property/patent-litigation", component: PatentLitigation },
     
   ],
 });
