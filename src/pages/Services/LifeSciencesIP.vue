@@ -1,8 +1,8 @@
 <template>
-  <main class="legacy-service-page">
+  <div class="legacy-service-page">
     <div class="row featured-top cropped-feature practice-area">
     		<div class="featured-background">            
-    			<img src="/images/3mfg8b7Oge5txbP7gfo45LwJMiaHUEyPXcyS4Mn3.jpg" alt="Image depicting a network of interconnected dots" />		</div>
+    			<img src="/images/firmoverview.jpg" alt="Image depicting a network of interconnected dots" />		</div>
     		<div class="photo-gradient"></div>
     
     		<div class="container featured-container">
@@ -1077,7 +1077,7 @@
     
             
         </main>
-  </main>
+  </div>
 </template>
 
 <script setup>
