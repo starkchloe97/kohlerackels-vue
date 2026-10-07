@@ -431,12 +431,12 @@
                                 <div class="practice-category-children not-this">
 
                                     <div class="practices-category">
-                                        <a href="services/intellectual_property.html">Intellectual Property</a>
+                                        <RouterLink to="/services/intellectual-property">Intellectual Property</RouterLink>
                                     </div>
 
                                     <div class="practices-category">
-                                        <a href="services/intellectual_property_litigation.html">Intellectual Property
-                                            Litigation</a>
+                                        <RouterLink to="/services/intellectual-property/litigation">Intellectual Property
+                                            Litigation</RouterLink>
                                     </div>
 
                                     <button class="practices-category w-100 bg-transparent border-0 text-left"
@@ -445,9 +445,9 @@
                                         Patent Counseling and Procurement
                                     </button>
                                     <ul class="practices-subcategories ">
-                                        <li><a href="services/patent-counseling-and-procurement.html">Patent Counseling
-                                                and Procurement</a></li>
-                                        <li><a href="services/life_sciences_-_ip.html">Life Sciences - IP</a></li>
+                                        <li><RouterLink to="/services/intellectual-property/patent-counseling">Patent Counseling
+                                                and Procurement</RouterLink></li>
+                                        <li><RouterLink to="/services/intellectual-property/life-sciences">Life Sciences - IP</RouterLink></li>
 
                                     </ul>
 
@@ -457,11 +457,20 @@
                                         Trademarks &amp; Copyrights
                                     </button>
                                     <ul class="practices-subcategories ">
-                                        <li><a href="services/trademarks_and_copyrights.html">Trademarks &amp;
-                                                Copyrights</a></li>
-                                        <li><a href="services/nmwatch-tm.html">NMWatch™</a></li>
+                                        <li><RouterLink to="/services/intellectual-property/trademarks-copyrights">Trademarks &amp;
+                                                Copyrights</RouterLink></li>
+                                        <li><RouterLink to="/services/intellectual-property/nmwatch">NMWatch™</RouterLink></li>
 
                                     </ul>
+                                    <div class="practices-category">
+                                        <RouterLink to="/services/intellectual-property/transactions">Intellectual Property Transactions</RouterLink>
+                                    </div>
+
+                                    <div class="practices-category">
+                                        <RouterLink to="/services/intellectual-property/patent-litigation">Patent Litigation</RouterLink>
+                                    </div>
+
+
                                 </div>
                             </div>
                             <hr>
