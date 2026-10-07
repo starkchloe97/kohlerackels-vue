@@ -14,6 +14,14 @@ import History from "./pages/History.vue";
 import CultureProBono from "./pages/Culture/Culture-pro-Bono.vue";
 import EngagementAndOpportunity from "./pages/Culture/Engagement-and-opportunity.vue";
 import CommunityServices from "./pages/Community-Services.vue";
+import IntellectualProperty from "@/pages/Services/IntellectualProperty.vue";
+import IntellectualPropertyLitigation from "@/pages/Services/IntellectualPropertyLitigation.vue";
+import PatentCounselingAndProcurement from "@/pages/Services/PatentCounselingAndProcurement.vue";
+import LifeSciencesIP from "@/pages/Services/LifeSciencesIP.vue";
+import NMWatch from "@/pages/Services/NMWatch.vue";
+import TrademarksAndCopyrights from "@/pages/Services/TrademarksAndCopyrights.vue";
+import IntellectualPropertyTransactions from "@/pages/Services/IntellectualPropertyTransactions.vue";
+import PatentLitigation from "@/pages/Services/PatentLitigation.vue";
 
 export default createRouter({
   history: createWebHistory(),
