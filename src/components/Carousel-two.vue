@@ -269,8 +269,12 @@ onBeforeUnmount(() => {
 </script>
 
 <style scoped>
+.row{
+  gap: 0px;
+}
 #bottom-carousel {
   position: relative;
+  padding-top: 25px;
 }
 
 /* Viewport: clips the slides that are off-screen.

@@ -182,13 +182,13 @@
         </section>
         <img src="/images/Opportunitity/text-image.png" alt="" class="img">
         <!-- <SingleImageCarousal /> -->
-        <RightSideShortSlider title="PRO BONO CONTACTS" :contacts="proBonoContacts" :initial-index="3" />
-        <RightSideShortSlider title="COMMUNITY SERVICE CONTACTS" :contacts="communityContacts" />
-        <RightSideShortSlider title="PRO BONO CONTACTS" :contacts="proBonoContacts" :initial-index="3" />
-        <RightSideShortSlider title="PRO BONO CONTACTS" :contacts="proBonoContacts" :initial-index="3" />
-        <RightSideShortSlider title="PRO BONO CONTACTS" :contacts="proBonoContacts" :initial-index="3" />
-        <RightSideShortSlider title="COMMUNITY SERVICE CONTACTS" :contacts="communityContacts" />
-        <RightSideShortSlider title="PRO BONO CONTACTS" :contacts="proBonoContacts" :initial-index="3" />
+        <RightSideShortSlider title="ENGAGEMENT AND OPPORTUNITY CONTACTS" :contacts="engagementContacts" :initial-index="2" />
+        <RightSideShortSlider title="Chief Engagement and Opportunity Partner" :contacts="communityContacts" />
+        <RightSideShortSlider title="AANAPI" :contacts="AANAPI" :initial-index="2" />
+        <RightSideShortSlider title="BRIDGE – Together" :contacts="BRIDGETogether" :initial-index="3" />
+        <RightSideShortSlider title="LGBTQ+" :contacts="LGBTQ" :initial-index="3" />
+        <RightSideShortSlider title="Yisell Rodriguez" :contacts="YisellRodriguez" />
+        <RightSideShortSlider title="WOGO" :contacts="WOGO" :initial-index="3" />
       </div>
     </div>
 
@@ -240,16 +240,138 @@ const proBonoContacts = [
     },
 ]
 
+const engagementContacts = [
+    {
+        id: 'brandee-kowalzyk',
+        name: 'Brandee J. Kowalzyk',
+        title: 'Partner',
+        phone: 'T 404.322.6040',
+        photo: '/images/da85d12b699cbff7431fef2f0fa8c724.jpg',
+    },
+    {
+        id: 'patrece-simmons',
+        name: 'Patrece Simmons',
+        title: 'Engagement and Opportunity Coordinator',
+        phone: 'T 803.255.9205',
+        photo: '/images/simmons.jpg',
+    },
+    {
+        id: 'katerina-taylor',
+        name: 'Katerina (Kat) Y. Taylor',
+        title: 'Director of Engagement and Opportunity',
+        phone: 'T 404.322.6465',
+        photo: '/images/katerina.jpg',
+    },
+]
 
 const communityContacts = [
     {
-        id: 'elisa-smith-kodish',
-        name: 'Elisa Smith Kodish',
-        title: 'Pro Bono Partner',
-        phone: 'T 404.322.6160',
-        photo: '/images/Lh812PsEnE9sofSZGILxaH7bABv8kCJB72qdJx6P.jpg',
+        id: 'Michael A. Brown',
+        name: 'Michael A. Brown',
+        title: 'Partner',
+        phone: 'T 443.392.9401',
+        photo: '/images/Opportunitity/Michael-A-Brown.jpg',
     },
 ]
+
+const AANAPI = [
+    {
+        id: 'Blake A. Gansborg',
+        name: 'Blake A. Gansborg',
+        title: 'Partner',
+        phone: 'T 303.583.9914',
+        photo: '/images/Opportunitity/Blake-A.jpg',
+    },
+    {
+        id: 'Richard H. Otera',
+        name: 'Richard H. Otera',
+        title: 'Partner',
+        phone: 'T T 424.221.7402',
+        photo: '/images/Opportunitity/Richard.jpg',
+    },
+    {
+        id: 'Franklin Chou',
+        name: 'Franklin Chou',
+        title: 'Senior Associate',
+        phone: 'T 212.413.9035',
+        photo: '/images/Opportunitity/Franklin-Chou.jpg',
+    },
+]
+
+const BRIDGETogether = [
+    {
+        id: 'Deborah',
+        name: 'Deborah St. Lawrence Thompson',
+        title: 'Partner',
+        phone: 'T 443.392.9403',
+        photo: '/images/Opportunitity/Deborah-St-Lawrence-Thompson.jpg',
+    },
+    {
+        id: 'Bridget',
+        name: 'Bridget E. Harris',
+        title: 'Senior Associate',
+        phone: 'T 469.484.6064',
+        photo: '/images/Opportunitity/Bridget.jpg',
+    },
+    {
+        id: 'Josh-Myers',
+        name: 'Josh Myers',
+        title: 'Senior Associate',
+        phone: 'T 202.689.2807',
+        photo: '/images/Opportunitity/Josh-Myers.jpg',
+    },
+]
+
+const LGBTQ = [
+    {
+        id: 'Heather',
+        name: 'Heather M. Lambert',
+        title: 'Partner',
+        phone: 'T 804.533.3868',
+        photo: '/images/Opportunitity/Heather.jpg',
+    },
+    {
+        id: 'Lyndsey',
+        name: 'Lyndsey Stults',
+        title: 'Partner',
+        phone: 'T 617.217.4704',
+        photo: '/images/Opportunitity/Lyndsey-Stults.jpg',
+    },
+]
+const YisellRodriguez = [
+    {
+        id: 'Yisell',
+        name: 'Yisell Rodriguez',
+        title: 'Partner',
+        phone: 'T 407.669.4290',
+        photo: '/images/Opportunitity/Yisell-Rodriguez.jpg',
+    },
+]
+
+const WOGO = [
+    {
+        id: 'Heather',
+        name: 'Heather Toft',
+        title: 'Partner',
+        phone: 'T 404.322.6152',
+        photo: '/images/Opportunitity/Heather-Toft.jpg',
+    },
+    {
+        id: 'Alicia',
+        name: 'Alicia N. Ritchie',
+        title: 'Partner',
+        phone: 'T 443.392.9458',
+        photo: '/images/Opportunitity/Alicia.jpg',
+    },
+    {
+        id: 'Suzanne',
+        name: 'Suzanne Swaner',
+        title: 'Parthner',
+        phone: 'T 469.484.6168',
+        photo: '/images/Opportunitity/Suzanne-Swaner.jpg',
+    },
+]
+
 </script>
 
 <style scoped>

@@ -610,8 +610,7 @@
 
 
                             <!-- Contact records and initial slides are configured at the end of this file. -->
-                             <RightSideShortSlider title="PRO BONO CONTACTS" :contacts="proBonoContacts" :initial-index="3" />
-                            <RightSideShortSlider title="ENGAGEMENT AND OPPORTUNITY CONTACTS"
+                           
                                 :contacts="engagementContacts" :initial-index="2" />
                             <RightSideShortSlider title="COMMUNITY SERVICE CONTACTS" :contacts="communityContacts" />
 
@@ -688,60 +687,6 @@ import SingleImageCarousal from '@/components/Single-Image-carousal.vue';
 
 
 // Edit these lists to change the contact details, images, or first slide.
-const proBonoContacts = [
-    {
-        id: 'emily-guerrero',
-        name: 'Emily Guerrero',
-        title: 'Pro Bono Coordinator',
-        phone: 'T 843.534.4102',
-        photo: '/images/FCSluFnd4rD1mZVKMSlYbCYrqYf2gm67X5MSs4Pe.jpg',
-    },
-    {
-        id: 'elisa-smith-kodish',
-        name: 'Elisa Smith Kodish',
-        title: 'Pro Bono Partner',
-        phone: 'T 404.322.6160',
-        photo: '/images/Lh812PsEnE9sofSZGILxaH7bABv8kCJB72qdJx6P.jpg',
-    },
-    {
-        id: 'katherine-lawler',
-        name: 'Katherine A. Lawler',
-        title: 'Partner',
-        phone: 'T 443.392.9405',
-        photo: '/images/c2W180V468666kT8EYz4kVVXSP2AByzLWr1Bgqy6.jpg',
-    },
-    {
-        id: 'norah-rogers',
-        name: 'Norah C. Rogers',
-        title: 'Pro Bono Manager',
-        phone: 'T 803.255.9546',
-        photo: '/images/3159c8eb968d004fd09f64c7254b4e67.jpg',
-    },
-]
-
-const engagementContacts = [
-    {
-        id: 'brandee-kowalzyk',
-        name: 'Brandee J. Kowalzyk',
-        title: 'Partner',
-        phone: 'T 404.322.6040',
-        photo: '/images/da85d12b699cbff7431fef2f0fa8c724.jpg',
-    },
-    {
-        id: 'patrece-simmons',
-        name: 'Patrece Simmons',
-        title: 'Engagement and Opportunity Coordinator',
-        phone: 'T 803.255.9205',
-        photo: '/images/simmons.jpg',
-    },
-    {
-        id: 'katerina-taylor',
-        name: 'Katerina (Kat) Y. Taylor',
-        title: 'Director of Engagement and Opportunity',
-        phone: 'T 404.322.6465',
-        photo: '/images/katerina.jpg',
-    },
-]
 
 const communityContacts = [
     {
