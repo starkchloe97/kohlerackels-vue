@@ -14,10 +14,10 @@
     					
     					<div class="capabilities-icon-row">
     					    <button type="button" class="bg-transparent border-0 p-0 print-btn">
-    						<img src="/images/detail-print.png" class="icon-print" alt="Print"/>
+    						<img src="/images/firmoverview.jpg" class="icon-print" alt="Print"/>
                             </button>
     		                <a href="../tools/generate/Service/276/intellectual-property.pdf" 
-    							 ><img src="/images/detail-pdf.png" class="icon-pdf-direct border-0" alt="PDF" /></a>
+    							 ><img src="/images/firmoverview.jpg" class="icon-pdf-direct border-0" alt="PDF" /></a>
     					    
     					</div>
     					<h4 class="featured-subhead" color="#363636" font-family="Quattrocento Sans" font-size="2.8125rem" line-height="2.5rem" margin-bottom="30px" position="relative">Kohlerackles combines experience, a command of the U.S. Patent &amp; Trademark Office and other regulatory agency processes, PTAB and trial skills, and an appreciation for the importance of innovation to your business to help achieve results.</h4>
@@ -132,14 +132,14 @@
                                                     	<div class="sidebar-aside-container">
                                 <a href="../professionals/patrick-kartes.html">
                                     <div class="sidebar-contact-photo">
-                                        <img src="/images/it3ptxOE4YG3KtbDYsMrdkYHSv4vQKUxV9FpyPVE.jpg" alt="Patrick L. Kartes" />                                </div>
+                                        <img src="/images/firmoverview.jpg" alt="Patrick L. Kartes" />                                </div>
                                 </a>
                                 <div class="sidebar-contact-details full-width">
                                     <h4><a href="../professionals/patrick-kartes.html">Patrick L. Kartes</a></h4>
                                                                         <div class="h5 position">Partner</div>
                                                                                                         <div class="h5">Co-Chair</div>
                                                                                                         <div class="sidebar-email-icon">
-                                            <a href="#" data-toggle="modal" data-target="#emailModal" data-email="patrick.kartes@nelsonmullins.com" class="email_btn"><img src="/images/detail-email.png" alt="Send Email to Patrick L. Kartes" /></a>
+                                            <a href="#" data-toggle="modal" data-target="#emailModal" data-email="patrick.kartes@nelsonmullins.com" class="email_btn"><img src="/images/firmoverview.jpg" alt="Send Email to Patrick L. Kartes" /></a>
                                         </div>
                                                                                                                                             	<div class="sidebar-phone">
                                             <p>T 704.417.3036</p>
@@ -150,14 +150,14 @@
                                                                               	<div class="sidebar-aside-container">
                                 <a href="../professionals/jane-remillard.html">
                                     <div class="sidebar-contact-photo">
-                                        <img src="/images/x2ugdWp5FjpzFvsEmCreQrMFJUZJm35vJpnysC8k.jpg" alt="Jane E. Remillard" />                                </div>
+                                        <img src="/images/firmoverview.jpg" alt="Jane E. Remillard" />                                </div>
                                 </a>
                                 <div class="sidebar-contact-details full-width">
                                     <h4><a href="../professionals/jane-remillard.html">Jane E. Remillard</a></h4>
                                                                         <div class="h5 position">Partner</div>
                                                                                                         <div class="h5">Co-Chair</div>
                                                                                                         <div class="sidebar-email-icon">
-                                            <a href="#" data-toggle="modal" data-target="#emailModal" data-email="jane.remillard@nelsonmullins.com" class="email_btn"><img src="/images/detail-email.png" alt="Send Email to Jane E. Remillard" /></a>
+                                            <a href="#" data-toggle="modal" data-target="#emailModal" data-email="jane.remillard@nelsonmullins.com" class="email_btn"><img src="/images/firmoverview.jpg" alt="Send Email to Jane E. Remillard" /></a>
                                         </div>
                                                                                                                                             	<div class="sidebar-phone">
                                             <p>T 617.217.4628</p>
@@ -182,13 +182,13 @@
             <div class="aside carousel slide multi">
                             <div class="slick slick-single">
                                                                             <div class="item">
-                                                        <a href="#"><img src="/images/1Bgt7C44D7gzRaQNzKrextbynyUHivY54DFWRxqz.jpg" alt="Best Lawyers Best Law Firms 2025 Badge, litigation intellectual property" class="img-fluid lozad" /></a>
+                                                        <a href="#"><img src="/images/firmoverview.jpg" alt="Best Lawyers Best Law Firms 2025 Badge, litigation intellectual property" class="img-fluid lozad" /></a>
                                                     </div>
                                                                                     <div class="item">
-                                                        <a href="#"><img src="/images/QopJIYnTZPOpNx394mrC1qdUNLI7IjxuUOXqH6c6.jpg" alt="Best Lawyers Best Law Firms 2025 Badge, patent law" class="img-fluid lozad" /></a>
+                                                        <a href="#"><img src="/images/firmoverview.jpg" alt="Best Lawyers Best Law Firms 2025 Badge, patent law" class="img-fluid lozad" /></a>
                                                     </div>
                                                                                     <div class="item">
-                                                        <a href="#"><img src="/images/sNNJ2MjybC6rLnoYcJYWEsdSS9UD3WZOPmzhM7Cm.jpg" alt="Best Lawyers Best Law Firms 2025 Badge, trademark law" class="img-fluid lozad" /></a>
+                                                        <a href="#"><img src="/images/firmoverview.jpg" alt="Best Lawyers Best Law Firms 2025 Badge, trademark law" class="img-fluid lozad" /></a>
                                                     </div>
                                                                     </div>
                         </div>
@@ -476,13 +476,13 @@
             <div class="aside carousel slide multi">
                             <div class="slick slick-single">
                                                                             <div class="item">
-                                                        <a href="#"><img src="/images/1Bgt7C44D7gzRaQNzKrextbynyUHivY54DFWRxqz.jpg" alt="Best Lawyers Best Law Firms 2025 Badge, litigation intellectual property" class="img-fluid lozad" /></a>
+                                                        <a href="#"><img src="/images/firmoverview.jpg" alt="Best Lawyers Best Law Firms 2025 Badge, litigation intellectual property" class="img-fluid lozad" /></a>
                                                     </div>
                                                                                     <div class="item">
-                                                        <a href="#"><img src="/images/QopJIYnTZPOpNx394mrC1qdUNLI7IjxuUOXqH6c6.jpg" alt="Best Lawyers Best Law Firms 2025 Badge, patent law" class="img-fluid lozad" /></a>
+                                                        <a href="#"><img src="/images/firmoverview.jpg" alt="Best Lawyers Best Law Firms 2025 Badge, patent law" class="img-fluid lozad" /></a>
                                                     </div>
                                                                                     <div class="item">
-                                                        <a href="#"><img src="/images/sNNJ2MjybC6rLnoYcJYWEsdSS9UD3WZOPmzhM7Cm.jpg" alt="Best Lawyers Best Law Firms 2025 Badge, trademark law" class="img-fluid lozad" /></a>
+                                                        <a href="#"><img src="/images/firmoverview.jpg" alt="Best Lawyers Best Law Firms 2025 Badge, trademark law" class="img-fluid lozad" /></a>
                                                     </div>
                                                                     </div>
                         </div>
@@ -707,13 +707,13 @@
     
     								                        <a href="../professionals/patrick-kartes.html">
     	                            <div class="sidebar-contact-photo">
-    	                                <img src="/images/it3ptxOE4YG3KtbDYsMrdkYHSv4vQKUxV9FpyPVE.jpg" alt="Patrick L. Kartes" />	                            </div>
+    	                                <img src="/images/firmoverview.jpg" alt="Patrick L. Kartes" />	                            </div>
     	                        </a>
     	                        <div class="sidebar-contact-details full-width">
     	                            <h4><a href="../professionals/patrick-kartes.html">Patrick L. Kartes</a></h4>
     	                            	                                <div class="h5 position">Partner</div>
     	                            	                            	                                <div class="sidebar-email-icon" style="float: left; margin-right: 10px;">
-    	                                    <a href="#" data-toggle="modal" data-target="#emailModal" data-email="patrick.kartes@nelsonmullins.com" class="email_btn"><img src="/images/detail-email.png" alt="Send Email to Patrick L. Kartes" /></a>
+    	                                    <a href="#" data-toggle="modal" data-target="#emailModal" data-email="patrick.kartes@nelsonmullins.com" class="email_btn"><img src="/images/firmoverview.jpg" alt="Send Email to Patrick L. Kartes" /></a>
     	                                </div>
     	                            	                            	                                	                                	<div style="float: left;">
     	                                    <p>T 704.417.3036</p>
@@ -721,13 +721,13 @@
     	                                	                            	                        </div>
     	                    	                        <a href="../professionals/jane-remillard.html">
     	                            <div class="sidebar-contact-photo">
-    	                                <img src="/images/x2ugdWp5FjpzFvsEmCreQrMFJUZJm35vJpnysC8k.jpg" alt="Jane E. Remillard" />	                            </div>
+    	                                <img src="/images/firmoverview.jpg" alt="Jane E. Remillard" />	                            </div>
     	                        </a>
     	                        <div class="sidebar-contact-details full-width">
     	                            <h4><a href="../professionals/jane-remillard.html">Jane E. Remillard</a></h4>
     	                            	                                <div class="h5 position">Partner</div>
     	                            	                            	                                <div class="sidebar-email-icon" style="float: left; margin-right: 10px;">
-    	                                    <a href="#" data-toggle="modal" data-target="#emailModal" data-email="jane.remillard@nelsonmullins.com" class="email_btn"><img src="/images/detail-email.png" alt="Send Email to Jane E. Remillard" /></a>
+    	                                    <a href="#" data-toggle="modal" data-target="#emailModal" data-email="jane.remillard@nelsonmullins.com" class="email_btn"><img src="/images/firmoverview.jpg" alt="Send Email to Jane E. Remillard" /></a>
     	                                </div>
     	                            	                            	                                	                                	<div style="float: left;">
     	                                    <p>T 617.217.4628</p>
@@ -783,7 +783,7 @@
     			<div class="carousel-inner" aria-live="polite">
                     				                                                <div class="row carousel-item active" role="group" aria-roledescription="slide" aria-label="Slide 1 of 3">
                     					<div class="col-12 col-md-6">
-                                                                            <img src="/images/ohdpvaLVtm2FONsiglaiLxq6N0Owi4O40e34qL9b.jpg" alt="gavel on law books" />                                            						
+                                                                            <img src="/images/firmoverview.jpg" alt="gavel on law books" />                                            						
     						<div class="photo-gradient"></div>
     						<div class="carousel-caption">
     															<a href="../insights/insights/navigating-california-s-climate-disclosure-laws-your-complete-guide-to-sb-253-and-sb-261.html"
@@ -797,7 +797,7 @@
     						</div>
     					</div>
                         				                					<div class="col-12 col-md-6">
-                                                                            <img src="/images/qd5IYrDqccPfoJYxEh0r6blgftNNhc1KB1PBlTWl.jpg" alt="Construction site and development" />                                            						
+                                                                            <img src="/images/firmoverview.jpg" alt="Construction site and development" />                                            						
     						<div class="photo-gradient"></div>
     						<div class="carousel-caption">
     															<a href="../insights/insights/nmrs-attorneys-published-in-florida-bar-journal-on-ccna-procurements.html"
@@ -813,7 +813,7 @@
                                             </div>
                         				                                                <div class="row carousel-item " role="group" aria-roledescription="slide" aria-label="Slide 2 of 3">
                     					<div class="col-12 col-md-6">
-                                                                            <img src="/images/Jc7KbwbGvTjOLhbjU9RbQZK3aT6GcA64o6dOcWRW.jpg" alt="football" />                                            						
+                                                                            <img src="/images/firmoverview.jpg" alt="football" />                                            						
     						<div class="photo-gradient"></div>
     						<div class="carousel-caption">
     															<a href="../insights/insights/prime-equity-and-the-nil-era-shedeur-sanders-contract-ushers-in-a-new-legal-framework-for-pro-athlete-compensation.html"
@@ -827,7 +827,7 @@
     						</div>
     					</div>
                         				                					<div class="col-12 col-md-6">
-                                                                            <img src="/images/Lht62fS0RwzCc7jmGm6kLFoJJaBwAtrjlZZl60aD.jpg" alt="" />                                            						
+                                                                            <img src="/images/firmoverview.jpg" alt="" />                                            						
     						<div class="photo-gradient"></div>
     						<div class="carousel-caption">
     															<a href="../insights/alerts/additional_nelson_mullins_alerts/all/fdot-announces-small-business-growth-program-following-dbe-program-updates.html"
@@ -843,7 +843,7 @@
                                             </div>
                         				                                                <div class="row carousel-item " role="group" aria-roledescription="slide" aria-label="Slide 3 of 3">
                     					<div class="col-12 col-md-6">
-                                                                            <img src="/images/Lc9cz7XPTgv1Tcl7av5lixHNL9U6efAXba6QCp3X.jpg" alt="" />                                            						
+                                                                            <img src="/images/firmoverview.jpg" alt="" />                                            						
     						<div class="photo-gradient"></div>
     						<div class="carousel-caption">
     															<a href="../insights/alerts/nelson-mullins-affordable-housing-news/all/hud-continuum-of-care-funding-gap-risks-and-recommendations.html"
@@ -857,7 +857,7 @@
     						</div>
     					</div>
                         				                					<div class="col-12 col-md-6">
-                                                                            <img src="/images/Lc9cz7XPTgv1Tcl7av5lixHNL9U6efAXba6QCp3X.jpg" alt="" />                                            						
+                                                                            <img src="/images/firmoverview.jpg" alt="" />                                            						
     						<div class="photo-gradient"></div>
     						<div class="carousel-caption">
     															<a href="../insights/alerts/nelson-mullins-affordable-housing-news/all/hud-extends-compliance-dates-for-energy-efficiency-standards-in-hud-and-usda-financed-housing.html"
