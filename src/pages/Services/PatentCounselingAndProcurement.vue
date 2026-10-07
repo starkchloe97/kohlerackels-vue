@@ -1,8 +1,8 @@
 <template>
-  <main class="legacy-service-page">
+  <div class="legacy-service-page">
     <div class="row featured-top cropped-feature practice-area">
     		<div class="featured-background">            
-    			<img src="/images/wDEnxHEusUDdedpUFnhdrBmzqzhYoB3et5dNeeyC.jpg" alt="Image of a blue sphere surrounded by a network of silver lines" />		</div>
+    			<img src="/images/firmoverview.jpg" alt="Image of a blue sphere surrounded by a network of silver lines" />		</div>
     		<div class="photo-gradient"></div>
     
     		<div class="container featured-container">
@@ -950,7 +950,7 @@
     
             
         </main>
-  </main>
+  </div>
 </template>
 
 <script setup>
