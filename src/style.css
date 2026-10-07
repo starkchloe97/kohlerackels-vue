@@ -22889,3 +22889,103 @@ body
   bottom: -8px;
   background: #427aa9;
 }
+
+/* Service detail tabs and panels */
+.legacy-service-page .featured-tabs {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1360px;
+  padding: 0 15px 25px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.legacy-service-page .featured-tabs .nav-tabs {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  margin: 0;
+  border-bottom: 1px solid #9d9da5;
+}
+
+.legacy-service-page .featured-tabs .nav-tabs .nav-item {
+  display: flex !important;
+  flex: 0 0 auto;
+  margin: 0;
+}
+
+.legacy-service-page .featured-tabs .nav-tabs .nav-link {
+  position: relative;
+  margin: 0;
+  padding: 0 13px 11px;
+  border: 0;
+  background: transparent;
+  color: #757575;
+  font-family: "Quattrocento Sans", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.legacy-service-page .featured-tabs .nav-tabs .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #777;
+  transform: translateX(-50%);
+}
+
+.legacy-service-page .featured-tabs .nav-tabs .nav-link.active {
+  color: #000;
+}
+
+.legacy-service-page .featured-tabs .nav-tabs .nav-link.active::after {
+  background: #427aa9;
+}
+
+.legacy-service-page .section-subnav > .container {
+  width: 100%;
+  max-width: 1360px;
+}
+
+@media (max-width: 767px) {
+  .legacy-service-page .featured-tabs {
+    display: block;
+    padding: 0 15px 18px;
+  }
+
+  .legacy-service-page .featured-tabs .nav-tabs {
+    overflow-x: auto;
+    overflow-y: visible;
+    scrollbar-width: none;
+  }
+
+  .legacy-service-page .featured-tabs .nav-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .legacy-service-page .featured-tabs .nav-tabs .nav-link {
+    padding: 0 10px 10px;
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .legacy-service-page .featured-tabs .nav-tabs .nav-link::after {
+    bottom: -7px;
+    width: 16px;
+    height: 16px;
+  }
+
+  .legacy-service-page .tab-content.white-back-sub {
+    display: block;
+  }
+
+  .legacy-service-page .section-subnav > .container {
+    max-width: none;
+  }
+}

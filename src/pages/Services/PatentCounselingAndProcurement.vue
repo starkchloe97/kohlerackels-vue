@@ -234,13 +234,7 @@
     		<div class="row attorney-tab-info">
     			
                 <div class="col-md-8">
-                    <pageablelist v-bind:config="{
-                        pageableData: '/professionals?limit=45&service=289',
-                        sort: [{'parameter':'position', 'name':'Position'},{'parameter':'last_name', 'name':'Name'},{'parameter':'location', 'name':'Location'}],
-                        thisView: 'frontend.services.show',
-                        thisModel: 'Service',
-                        thisId: 289
-                    }"></pageablelist>
+                    <ProfessionalsDirectory :config="{ thisId: 289 }" />
                 </div>
                 
     
@@ -834,6 +828,7 @@
 <script setup>
 import { handleServicePageInteraction } from '@/utils/servicePageInteractions.js'
 import Carousel from '@/components/Carousel.vue'
+import ProfessionalsDirectory from '@/components/ProfessionalsDirectory.vue'
 import { serviceInsights } from '@/config/serviceInsights.js'
 </script>
 
