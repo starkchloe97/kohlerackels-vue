@@ -1,21 +1,1115 @@
 <template>
-  <ServiceDetailLayout
-    title="Intellectual Property Litigation"
-    eyebrow="Services"
-    intro-title="Practical, client-centric approach to IP litigation"
-    intro="Whether you are seeking to enforce your intellectual property against infringers, defend against accusations of IP infringement, analyze your IP portfolios to monetize intellectual property rights, or clear activities to avoid IP litigation, our team works with you to address your business objectives through IP litigation."
-    :tabs="tabs"
-    :sections="sections"
-    :why="why"
-    :contacts="contacts"
-  />
+  <main class="legacy-service-page">
+    <div class="row featured-top cropped-feature practice-area">
+    		<div class="featured-background">            
+    			<img src="/images/iIbfrfjmGwoSXrlTm8F0NK1DPnLbNDMvGwo1VFeQ.jpg" alt="Image of a blue sphere surrounded by a silver cage" />		</div>
+    		<div class="photo-gradient"></div>
+    
+    		<div class="container featured-container">
+    
+    			<div class="row">
+    				<div class="col-md-7 featured-content">
+    				<h1 class="featured-section">Intellectual Property Litigation</h1>
+    				   <h2 class="featured-title">Practical, client-centric approach to IP litigation</h2>
+    					
+    					<div class="capabilities-icon-row">
+    					    <button type="button" class="bg-transparent border-0 p-0 print-btn">
+    						<img src="/images/detail-print.png" class="icon-print" alt="Print"/>
+                            </button>
+    		                <a href="../tools/generate/Service/277/intellectual-property-litigation.pdf" 
+    							 ><img src="/images/detail-pdf.png" class="icon-pdf-direct border-0" alt="PDF" /></a>
+    					    
+    					</div>
+    					<h4 class="featured-subhead">Whether you are seeking to</h4>
+    
+    <ul>
+    	<li>enforce your intellectual property (patents, trademarks, copyrights, or trade secrets) against infringers</li>
+    	<li>defend against accusations of IP infringement</li>
+    	<li>analyze your IP portfolios to monetize the intellectual property rights you have</li>
+    	<li>clear your activities to avoid IP litigation</li>
+    </ul>
+    
+    <p>our team works with you to address your business objectives through IP litigation.&nbsp;</p>
+    				</div>
+    			</div>
+    
+    		</div>
+    		
+    		<div class="container featured-tabs">
+    			<ul class="nav nav-tabs" role="tablist" aria-owns="professionals-side-tab">
+    				<li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="overview-tab" data-toggle="tab" data-target="#overview" type="button" role="tab" aria-controls="overview" aria-selected="true">Overview</button>
+    				</li>
+    				<li class="nav-item" role="presentation">
+                        <button class="nav-link" id="professionals-tab" data-toggle="tab" data-target="#professionals" type="button" role="tab" aria-controls="professionals" aria-selected="false">Professionals</button>
+    				</li>
+    								<li class="nav-item" role="presentation">					
+                        <button class="nav-link" id="practice-areas-tab" data-toggle="tab" data-target="#practice-areas" type="button" role="tab" aria-controls="practice-areas" aria-selected="false">Related Practice Areas</button>
+    				</li>
+    												<li class="nav-item" role="presentation">
+                        <button class="nav-link" id="industries-tab" data-toggle="tab" data-target="#industries" type="button" role="tab" aria-controls="industries" aria-selected="false">Related Industries</button>
+    				</li>
+    				                                <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="insights-tab" data-toggle="tab" data-target="#insights" type="button" role="tab" aria-controls="insights" aria-selected="false">Insights</button>
+                    </li>
+                    								<li class="nav-item" role="presentation">
+                        <button class="nav-link" id="experience-tab" data-toggle="tab" data-target="#experience" type="button" role="tab" aria-controls="experience" aria-selected="false">Experience</button>
+    				</li>
+    				                                                			</ul>
+    		</div> 
+    
+    	</div> 
+    
+    	
+    	<div class="row section-subnav">
+    	<div class="container">
+    
+    		
+    		<div class="tab-content white-back-sub">
+    
+    			
+    			<div class="tab-pane active sidebar-wrapper" id="overview" role="tabpanel" aria-labelledby="overview-tab">
+    			<div class="row attorney-tab-info">
+    				<div class="col-md-8 content-inner">
+    					<div>
+    <h3 class="top-body-subhead">We help clients</h3>
+    
+    <ul>
+    	<li>Litigate IP infringement suits (both foreign and domestic), including
+    	<ul>
+    		<li>Defending patent, trademark, copyright infringement claims, and claims of trade secret violations</li>
+    		<li>Enforcing your patents, trademarks, copyrights, and trade secrets against competitors/infringers</li>
+    	</ul>
+    	</li>
+    	<li>Proactively seek, and defend against, administrative remedies to defeat and maintain intellectual property rights, including
+    	<ul>
+    		<li><em>Inter partes</em> and continuous business method reviews and post grant reviews at the U.S. Patent and Trademark Office</li>
+    		<li>Patent opposition proceedings at the European Patent Office</li>
+    		<li>Trademark opposition and cancellation proceedings at the U.S. Trademark Office</li>
+    		<li>Domain name disputes at the Internet Corporation for Assigned Names and Numbers (ICANN)</li>
+    	</ul>
+    	</li>
+    	<li>Establish IP matrices or &ldquo;webs&rdquo; to help identify would-be infringers/violators</li>
+    	<li>Conduct early case&nbsp;assessments, including considering the risks of bringing and defending IP litigation with a real-world perspective of the costs involved and the likelihood of success</li>
+    </ul>
+    
+    <h3 class="body-subhead">Interdisciplinary team</h3>
+    
+    <ul class="collapseList collapseTo_3">
+    	<li>Seasoned IP litigators to effectively staff IP litigation, both large and small, efficiently and cost-effectively
+    	<ul>
+    		<li>IP litigators who have tried cases to jury verdict or judge ruling</li>
+    		<li>IP litigators who are both registered patent attorneys and &ldquo;stand-up&rdquo; courtroom lawyers, and who have chemical, pharmaceutical, software, electrical and mechanical engineering degrees and/or experience</li>
+    		<li>IP litigators with substantial stand-up trial experience advocating cases at the Federal Circuit</li>
+    		<li>Former clerks who served on the Court of Appeals for the Federal Circuit as well as district court clerks</li>
+    	</ul>
+    	</li>
+    	<li>30+ patent attorneys and paralegals to assist our IP litigators when needed to provide technical assistance in IP litigation</li>
+    	<li>Highly regarded general business litigators across the Firm&rsquo;s platform, including pharmaceutical litigators, to associate when needed to provide additional depth, experience, and case-specific insights</li>
+    </ul>
+    
+    <h3 class="body-subhead">Our IP litigation spans the range of public and private companies and business sectors</h3>
+    
+    <p>Our clients come from many industry sectors and are both large (Fortune 500) and small, and range from entrepreneurs, start-ups, and medium-sized private venture-backed companies to established household names.&nbsp; Areas in which we have litigated IP cases include</p>
+    
+    <ul class="collapseList collapseTo_5">
+    	<li>Pharmaceuticals</li>
+    	<li>Automotive components</li>
+    	<li>Personal watercraft</li>
+    	<li>Software</li>
+    	<li>Drill chucks</li>
+    	<li>Flame retardant cloth</li>
+    	<li>Nutritional products</li>
+    	<li>Golf equipment</li>
+    	<li>Colored dyes</li>
+    	<li>College sports teams</li>
+    	<li>Jewelry makers</li>
+    	<li>Drink dispensers</li>
+    	<li>Gaming technology</li>
+    	<li>Wound care supplies and devices</li>
+    	<li>License plate recognition equipment</li>
+    	<li>Prenatal vitamins</li>
+    	<li>Clothing</li>
+    </ul>
+    </div>
+    
+    <div>
+    <h3 class="body-subhead">Our IP litigation experience helps you &nbsp;</h3>
+    </div>
+    
+    <ul class="collapseList collapseTo_5">
+    	<li><strong>Be ahead of the curve</strong> whether averting trespass on your intellectual property or defending against threats from others</li>
+    	<li><strong>Partner with courtroom IP litigators who have a deep </strong>sense for your business</li>
+    	<li><strong>Understand</strong> <strong>the pros and cons </strong>of IP litigation from lawyers who understand it and practice it daily</li>
+    	<li><strong>Choose between a range of alternative fee arrangements or hourly billing</strong>, both of which offer substantial value given our rate structures, geographic footprint, and cost-efficient service model</li>
+    	<li><strong>Implement a patent litigation strategy</strong> that embraces and addresses business needs and objectives&nbsp;to help give you a competitive advantage&nbsp;</li>
+    	<li><strong>Conduct early case assessments </strong>to determine best course strategies for each IP litigation matter</li>
+    	<li><strong>Seek or defend against temporary restraining orders and preliminary injunctions </strong>in a manner that often decides the ultimate outcome of the case</li>
+    	<li><strong>Utilize the Firm&rsquo;s e-discovery division, </strong><strong><a href="#" target="_blank">Kohlerackles Encompass</a><em>,&nbsp;</em></strong>to develop your strategy and implement discovery and review processes that improve litigation readiness</li>
+    	<li><strong>Stay informed </strong>about your choices during IP litigation with constant communication from your litigators</li>
+    	<li><strong>Take action </strong>quickly and efficiently when necessary</li>
+    	<li><strong>Make informed decisions </strong>about spending and resources for your IP litigation</li>
+    	<li><strong>Identify, assess, and address business risks</strong> every step of the way</li>
+    	<li><strong>Respond and advance strategies</strong> in connection with district court, appellate and PTO proceedings</li>
+    	<li><strong>Benefit from the experience of the Firm&rsquo;s seasoned business litigators</strong> who we associate with on particular IP litigation matters.&nbsp;</li>
+    	<li><strong>Enter into settlements</strong> when your business objectives dictate&nbsp;</li>
+    	<li><strong>Stay at the top or take your IP litigation to the next level </strong>with experienced courtroom lawyers who tailor their litigation strategies to the particular matter at hand&nbsp;</li>
+    	<li><strong>Try the case </strong>when the litigation dictates going all the way&nbsp;</li>
+    </ul>
+    
+    					
+    
+    
+    					
+    					
+                       
+    				</div> 
+    
+    				<div class="col-md-4 sidebar-inner">
+    
+    					
+    					<div class="sidebar-aside-container">
+                            
+                            
+    						<div class="aside-why">
+    							<h2>Why Kohlerackles?</h2>
+    							<ul>
+    	<li>Practical understanding of business objectives</li>
+    	<li>Cost efficiency and budget predictability</li>
+    	<li>Deep bench of experienced courtroom attorneys</li>
+    	<li>Cross-firm and multi-disciplinary team</li>
+    	<li>Nimbleness and ability to adapt to all types of IP litigation scenarios</li>
+    </ul>
+    
+    						</div>
+    					</div>
+    
+    					
+    										<div class="aside-contacts">
+    						<div class="sidebar-title-with-first">
+      						<h3 class="sidebar-title">GET IN TOUCH</h3>
+      						<h4>Practice Contacts</h4>
+    
+                                                    	<div class="sidebar-aside-container">
+                                <a href="../professionals/john-mcelwaine.html">
+                                    <div class="sidebar-contact-photo">
+                                        <img src="/images/14ab318f8115bc91da598f82b05cfb53.jpg" alt="John C. McElwaine" />                                </div>
+                                </a>
+                                <div class="sidebar-contact-details full-width">
+                                    <h4><a href="../professionals/john-mcelwaine.html">John C. McElwaine</a></h4>
+                                                                        <div class="h5 position">Partner</div>
+                                                                                                                                        <div class="sidebar-email-icon">
+                                            <a href="#" data-toggle="modal" data-target="#emailModal" data-email="john.mcelwaine@nelsonmullins.com" class="email_btn"><img src="/images/detail-email.png" alt="Send Email to John C. McElwaine" /></a>
+                                        </div>
+                                                                                                                                            	<div class="sidebar-phone">
+                                            <p>T 843.534.4302</p>
+                                           </div>
+                                                                                                    </div>
+                              </div>
+                                                        	</div> 
+                                                      					</div>
+    					
+                        <button class="nav-link nm-button-yellow" id="professionals-side-tab" data-toggle="tab" data-target="#professionals" type="button" aria-controls="professionals">Related Professionals</button>                        
+                        
+                        <div class="nm-button-yellow visible-print-block"><a href="../insights/alerts.html">Visit Insights</a></div>
+                        
+    
+                        					
+    					
+    
+    					
+    
+                        
+                                            
+    <div class="sidebar-aside-container" style='margin-bottom:40px;'>
+    
+    					
+    			    				    		<a href="#"><img src="/images/PCd0CMd7yDIbmj0uPctZXd2dG9SAro19kU6q0xnz.jpg" class="img-fluid" alt="Best Lawyers Best Law Firms 2025 Badge, litigation intellectual property" /></a>
+    			    	
+    						
+    		</div>
+    	
+                        
+    				</div> 
+    
+    			</div>
+    
+    		</div>
+    
+    		
+    		<div class="tab-pane" id="professionals" role="tabpanel" aria-labelledby="professionals-tab">
+    		<div class="row attorney-tab-info">
+    			
+                <div class="col-md-8">
+                    <pageablelist v-bind:config="{
+                        pageableData: '/professionals?limit=45&service=277',
+                        sort: [{'parameter':'position', 'name':'Position'},{'parameter':'last_name', 'name':'Name'},{'parameter':'location', 'name':'Location'}],
+                        thisView: 'frontend.services.show',
+                        thisModel: 'Service',
+                        thisId: 277
+                    }"></pageablelist>
+                </div>
+                
+    
+    			<div class="col-md-4 sidebar hidden-print">
+    				
+    				<div class="sidebar-aside-container hidden-print">
+    					<div class="aside-why hidden-print">
+    						<h2>Why Kohlerackles?</h2>
+    						<ul>
+    	<li>Practical understanding of business objectives</li>
+    	<li>Cost efficiency and budget predictability</li>
+    	<li>Deep bench of experienced courtroom attorneys</li>
+    	<li>Cross-firm and multi-disciplinary team</li>
+    	<li>Nimbleness and ability to adapt to all types of IP litigation scenarios</li>
+    </ul>
+    					</div>
+    				</div>
+    			</div> 
+    	
+    		</div>
+    		</div> 
+    
+    		
+    				<div class="tab-pane" id="practice-areas" role="tabpanel" aria-labelledby="practice-areas-tab">
+    				<div class="row mt-3 pt-1 mb-5">
+    				<div class="col-md-8 capabilities-practices">
+    				<div class="row">
+                        <div class="col-md-12 practice-column related-industries-tab-info">
+    					<ul class="list-inline">
+    													<li>
+                                                                    <a href="appellate_practice_and_legal_strategies.html">Appellate Practice &amp; Legal Strategies</a>
+                                                                </li>
+    													<li>
+                                                                    <a href="bankruptcy_creditors_rights_and_restructuring.html">Bankruptcy, Creditors&#039; Rights &amp; Restructuring</a>
+                                                                </li>
+    													<li>
+                                                                    <a href="corporate_and_securities.html">Corporate &amp; Securities</a>
+                                                                </li>
+    													<li>
+                                                                    <a href="cybersecurity_and_data_breach_response.html">Cybersecurity &amp; Data Breach Response</a>
+                                                                </li>
+    													<li>
+                                                                    <a href="cybersecurity-and-data-privacy.html">Cybersecurity &amp; Data Privacy</a>
+                                                                </li>
+    													<li>
+                                                                    <a href="#" >E-Discovery - Encompass</a>
+                                                                </li>
+    													<li>
+                                                                    <a href="e-discovery-and-information-governance.html">E-Discovery &amp; Information Governance</a>
+                                                                </li>
+    													<li>
+                                                                    <a href="global-privacy-and-security.html">Global Privacy &amp; Security</a>
+                                                                </li>
+    													<li>
+                                                                    <a href="life_sciences_-_ip.html">Life Sciences - IP</a>
+                                                                </li>
+    													<li>
+                                                                    <a href="patent-counseling-and-procurement.html">Patent Counseling and Procurement</a>
+                                                                </li>
+    													<li>
+                                                                    <a href="trademarks_and_copyrights.html">Trademarks &amp; Copyrights</a>
+                                                                </li>
+    													<li>
+                                                                    <a href="white-collar-defense-and-government-investigations.html">White Collar Defense &amp; Government Investigations</a>
+                                                                </li>
+    						                    </ul>
+                </div>
+    				</div>
+    				
+    
+    				</div> 
+    
+    				<div class="col-md-4 sidebar hidden-print">
+    					
+    					<div class="sidebar-aside-container hidden-print">
+    						<div class="aside-why hidden-print">
+    							<h2>Why Kohlerackles?</h2>
+    							<ul>
+    	<li>Practical understanding of business objectives</li>
+    	<li>Cost efficiency and budget predictability</li>
+    	<li>Deep bench of experienced courtroom attorneys</li>
+    	<li>Cross-firm and multi-disciplinary team</li>
+    	<li>Nimbleness and ability to adapt to all types of IP litigation scenarios</li>
+    </ul>
+    						</div>
+    					</div>
+    				</div> 
+    
+    			</div>
+    		</div> 
+    		
+    				
+    		<div class="tab-pane" id="industries" role="tabpanel" aria-labelledby="industries-tab">
+    			<div class="row mt-3 pt-1 mb-5">
+                    <div class="col-md-8 related-industries-tab-info">
+    				<ul class="list-inline">
+    											<li>
+                                                            <a href="consumer_products_and_retail.html">Consumer Products &amp; Retail</a>
+                                                        </li>
+    											<li>
+                                                            <a href="life-sciences-pharmaceuticals-and-medical-devices.html">Life Sciences, Pharmaceuticals &amp; Medical Devices</a>
+                                                        </li>
+    											<li>
+                                                            <a href="manufacturing.html">Manufacturing</a>
+                                                        </li>
+    					            </ul></div>	
+    
+    				<div class="col-md-4 sidebar hidden-print">
+    					
+    					<div class="sidebar-aside-container hidden-print">
+    						<div class="aside-why hidden-print">
+    							<h2>Why Kohlerackles?</h2>
+    							<ul>
+    	<li>Practical understanding of business objectives</li>
+    	<li>Cost efficiency and budget predictability</li>
+    	<li>Deep bench of experienced courtroom attorneys</li>
+    	<li>Cross-firm and multi-disciplinary team</li>
+    	<li>Nimbleness and ability to adapt to all types of IP litigation scenarios</li>
+    </ul>
+    						</div>
+    					</div>
+    				</div> 
+    
+    			</div>
+    		</div> 
+    		
+    		
+            <div class="tab-pane" id="insights" role="tabpanel" aria-labelledby="insights-tab">
+                <div class="row attorney-tab-info">
+                    <div class="col-md-8 attorney-tab-articles">
+                                            <pageablepostlist v-bind:config="{
+                            ie: false,
+                            header: 'News',
+                            service_id: 277,
+                            post_type: 3,
+                            limit: 5,
+                            results:{&quot;pageable&quot;:{&quot;current_page&quot;:1,&quot;data&quot;:[{&quot;id&quot;:13510,&quot;title&quot;:&quot;Five Kohlerackles Partners Among 2026 Lawdragon 500 Leading Litigators in America&quot;,&quot;slug&quot;:&quot;five-nelson-mullins-partners-among-2026-lawdragon-500-leading-litigators-in-america&quot;,&quot;published_at&quot;:&quot;2025-09-09T00:00:00.000000Z&quot;,&quot;alt_display_date&quot;:&quot;&quot;,&quot;default_images&quot;:null,&quot;name&quot;:&quot;Five Kohlerackles Partners Among 2026 Lawdragon 500 Leading Litigators in America&quot;,&quot;custom_record_images&quot;:[{&quot;id&quot;:12453,&quot;template_id&quot;:null,&quot;template_image_id&quot;:&quot;1991&quot;,&quot;foreign_id&quot;:&quot;13510&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\Post&quot;,&quot;name&quot;:&quot;Detail Image&quot;,&quot;tag&quot;:&quot;detail_image&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-09-09T16:32:13.867000Z&quot;,&quot;updated_at&quot;:&quot;2025-09-09T16:32:13.867000Z&quot;,&quot;format&quot;:null,&quot;width&quot;:&quot;1280&quot;,&quot;height&quot;:&quot;800&quot;,&quot;resolution&quot;:null,&quot;image&quot;:{&quot;id&quot;:14709,&quot;document_id&quot;:&quot;23186&quot;,&quot;foreign_id&quot;:&quot;12453&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\TemplateImage&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-09-09T16:32:13.883000Z&quot;,&quot;updated_at&quot;:&quot;2025-09-09T16:32:13.883000Z&quot;,&quot;label&quot;:null,&quot;document&quot;:{&quot;id&quot;:23186,&quot;user_id&quot;:&quot;88&quot;,&quot;type&quot;:&quot;image\/jpeg&quot;,&quot;name&quot;:&quot;Detail Image: Five Kohlerackles Partners Among 2026 Lawdragon 500 Leading Litigators in America&quot;,&quot;short_description&quot;:null,&quot;description&quot;:null,&quot;server_name&quot;:&quot;fB0YIPgbjyf6EhFopkEepMmRb4mOvUuyAlXsWofH&quot;,&quot;server_ext&quot;:&quot;jpg&quot;,&quot;client_name&quot;:&quot;#201466_NM_Lawdragon_InTheNews_Social_DETAIL&quot;,&quot;client_ext&quot;:&quot;jpg&quot;,&quot;file_size&quot;:&quot;18817&quot;,&quot;pixel_width&quot;:&quot;660&quot;,&quot;pixel_height&quot;:&quot;413&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-09-09T16:32:13.863000Z&quot;,&quot;updated_at&quot;:&quot;2025-09-09T16:32:41.293000Z&quot;,&quot;standalone&quot;:&quot;0&quot;,&quot;image_alt_tag&quot;:&quot;Exterior building with sun reflection&quot;,&quot;link&quot;:&quot;https:\/\/www.nelsonmullins.com\/storage\/fB0YIPgbjyf6EhFopkEepMmRb4mOvUuyAlXsWofH.jpg&quot;,&quot;is_image&quot;:true}}}],&quot;post_categories&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Press Releases&quot;,&quot;slug&quot;:&quot;press_releases&quot;,&quot;description&quot;:null,&quot;collection_id&quot;:&quot;2&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;13510&quot;,&quot;category_id&quot;:&quot;1&quot;,&quot;created_at&quot;:&quot;2025-09-08T15:57:20.877000Z&quot;,&quot;updated_at&quot;:&quot;2025-09-08T15:57:20.877000Z&quot;}}],&quot;post_collections&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;News&quot;,&quot;slug&quot;:&quot;news&quot;,&quot;description&quot;:null,&quot;external_url&quot;:null,&quot;post_type_id&quot;:&quot;3&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;display_status_id&quot;:null,&quot;subscribe_link&quot;:null,&quot;overlay_color&quot;:null,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;13510&quot;,&quot;collection_id&quot;:&quot;2&quot;,&quot;created_at&quot;:&quot;2025-09-08T15:57:20.873000Z&quot;,&quot;updated_at&quot;:&quot;2025-09-08T15:57:20.873000Z&quot;}}],&quot;post_roles&quot;:[],&quot;post_type&quot;:null},{&quot;id&quot;:13043,&quot;title&quot;:&quot;Kohlerackles Grows In Houston With Osha Bergman IP Duo&quot;,&quot;slug&quot;:&quot;nelson-mullins-grows-in-houston-with-osha-bergman-ip-duo&quot;,&quot;published_at&quot;:&quot;2025-02-03T00:00:00.000000Z&quot;,&quot;alt_display_date&quot;:&quot;&quot;,&quot;default_images&quot;:null,&quot;name&quot;:&quot;Kohlerackles Grows In Houston With Osha Bergman IP Duo&quot;,&quot;custom_record_images&quot;:[{&quot;id&quot;:11863,&quot;template_id&quot;:null,&quot;template_image_id&quot;:&quot;1991&quot;,&quot;foreign_id&quot;:&quot;13043&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\Post&quot;,&quot;name&quot;:&quot;Detail Image&quot;,&quot;tag&quot;:&quot;detail_image&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-02-03T16:32:26.780000Z&quot;,&quot;updated_at&quot;:&quot;2025-02-03T16:32:26.780000Z&quot;,&quot;format&quot;:null,&quot;width&quot;:&quot;1280&quot;,&quot;height&quot;:&quot;800&quot;,&quot;resolution&quot;:null,&quot;image&quot;:{&quot;id&quot;:14034,&quot;document_id&quot;:&quot;21600&quot;,&quot;foreign_id&quot;:&quot;11863&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\TemplateImage&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-02-03T16:32:26.793000Z&quot;,&quot;updated_at&quot;:&quot;2025-02-04T08:00:19.610000Z&quot;,&quot;label&quot;:null,&quot;document&quot;:{&quot;id&quot;:21600,&quot;user_id&quot;:&quot;20&quot;,&quot;type&quot;:&quot;image\/jpeg&quot;,&quot;name&quot;:&quot;Detail Image: Kohlerackles Grows In Houston With Osha Bergman IP Duo&quot;,&quot;short_description&quot;:null,&quot;description&quot;:null,&quot;server_name&quot;:&quot;n55mULUdYpr05mtUZ3K7douVTHNpirPqk2U4A611&quot;,&quot;server_ext&quot;:&quot;jpg&quot;,&quot;client_name&quot;:&quot;News_90&quot;,&quot;client_ext&quot;:&quot;jpg&quot;,&quot;file_size&quot;:&quot;32400&quot;,&quot;pixel_width&quot;:&quot;660&quot;,&quot;pixel_height&quot;:&quot;413&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-02-04T08:00:19.607000Z&quot;,&quot;updated_at&quot;:&quot;2025-02-04T08:00:19.607000Z&quot;,&quot;standalone&quot;:&quot;0&quot;,&quot;image_alt_tag&quot;:null,&quot;link&quot;:&quot;https:\/\/www.nelsonmullins.com\/storage\/n55mULUdYpr05mtUZ3K7douVTHNpirPqk2U4A611.jpg&quot;,&quot;is_image&quot;:true}}}],&quot;post_categories&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;In the News&quot;,&quot;slug&quot;:&quot;in_the_news&quot;,&quot;description&quot;:null,&quot;collection_id&quot;:&quot;2&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;13043&quot;,&quot;category_id&quot;:&quot;2&quot;,&quot;created_at&quot;:&quot;2025-02-03T13:56:27.353000Z&quot;,&quot;updated_at&quot;:&quot;2025-02-03T13:56:27.353000Z&quot;}}],&quot;post_collections&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;News&quot;,&quot;slug&quot;:&quot;news&quot;,&quot;description&quot;:null,&quot;external_url&quot;:null,&quot;post_type_id&quot;:&quot;3&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;display_status_id&quot;:null,&quot;subscribe_link&quot;:null,&quot;overlay_color&quot;:null,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;13043&quot;,&quot;collection_id&quot;:&quot;2&quot;,&quot;created_at&quot;:&quot;2025-02-03T13:56:27.347000Z&quot;,&quot;updated_at&quot;:&quot;2025-02-03T13:56:27.347000Z&quot;}}],&quot;post_roles&quot;:[],&quot;post_type&quot;:null},{&quot;id&quot;:13034,&quot;title&quot;:&quot;Kohlerackles Continues Robust Growth in Houston with Pick Up of Two Intellectual Property Partners&quot;,&quot;slug&quot;:&quot;nelson-mullins-continues-robust-growth-in-houston-with-pick-up-of-two-intellectual-property-partners&quot;,&quot;published_at&quot;:&quot;2025-01-29T00:00:00.000000Z&quot;,&quot;alt_display_date&quot;:&quot;&quot;,&quot;default_images&quot;:null,&quot;name&quot;:&quot;Kohlerackles Continues Robust Growth in Houston with Pick Up of Two Intellectual Property Partners&quot;,&quot;custom_record_images&quot;:[{&quot;id&quot;:11847,&quot;template_id&quot;:null,&quot;template_image_id&quot;:&quot;1991&quot;,&quot;foreign_id&quot;:&quot;13034&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\Post&quot;,&quot;name&quot;:&quot;Detail Image&quot;,&quot;tag&quot;:&quot;detail_image&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-01-29T12:42:43.933000Z&quot;,&quot;updated_at&quot;:&quot;2025-01-29T12:42:43.933000Z&quot;,&quot;format&quot;:null,&quot;width&quot;:&quot;1280&quot;,&quot;height&quot;:&quot;800&quot;,&quot;resolution&quot;:null,&quot;image&quot;:{&quot;id&quot;:14018,&quot;document_id&quot;:&quot;21572&quot;,&quot;foreign_id&quot;:&quot;11847&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\TemplateImage&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-01-29T12:42:43.943000Z&quot;,&quot;updated_at&quot;:&quot;2025-01-30T12:42:15.580000Z&quot;,&quot;label&quot;:null,&quot;document&quot;:{&quot;id&quot;:21572,&quot;user_id&quot;:&quot;20&quot;,&quot;type&quot;:&quot;image\/jpeg&quot;,&quot;name&quot;:&quot;Detail Image: Kohlerackles Continues Robust Growth in Houston with Pick Up of Two Intellectual Property Partners&quot;,&quot;short_description&quot;:null,&quot;description&quot;:null,&quot;server_name&quot;:&quot;OOC5lmm0KrXQHKkkD7fViNRUehBtinfUuLOUyp5X&quot;,&quot;server_ext&quot;:&quot;jpg&quot;,&quot;client_name&quot;:&quot;News_89&quot;,&quot;client_ext&quot;:&quot;jpg&quot;,&quot;file_size&quot;:&quot;53842&quot;,&quot;pixel_width&quot;:&quot;660&quot;,&quot;pixel_height&quot;:&quot;413&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-01-30T12:42:15.570000Z&quot;,&quot;updated_at&quot;:&quot;2025-01-30T12:42:20.590000Z&quot;,&quot;standalone&quot;:&quot;0&quot;,&quot;image_alt_tag&quot;:&quot;&quot;,&quot;link&quot;:&quot;https:\/\/www.nelsonmullins.com\/storage\/OOC5lmm0KrXQHKkkD7fViNRUehBtinfUuLOUyp5X.jpg&quot;,&quot;is_image&quot;:true}}}],&quot;post_categories&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Press Releases&quot;,&quot;slug&quot;:&quot;press_releases&quot;,&quot;description&quot;:null,&quot;collection_id&quot;:&quot;2&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;13034&quot;,&quot;category_id&quot;:&quot;1&quot;,&quot;created_at&quot;:&quot;2025-01-28T17:15:08.847000Z&quot;,&quot;updated_at&quot;:&quot;2025-01-28T17:15:08.847000Z&quot;}}],&quot;post_collections&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;News&quot;,&quot;slug&quot;:&quot;news&quot;,&quot;description&quot;:null,&quot;external_url&quot;:null,&quot;post_type_id&quot;:&quot;3&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;display_status_id&quot;:null,&quot;subscribe_link&quot;:null,&quot;overlay_color&quot;:null,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;13034&quot;,&quot;collection_id&quot;:&quot;2&quot;,&quot;created_at&quot;:&quot;2025-01-28T17:15:08.843000Z&quot;,&quot;updated_at&quot;:&quot;2025-01-28T17:15:08.843000Z&quot;}}],&quot;post_roles&quot;:[],&quot;post_type&quot;:null},{&quot;id&quot;:12781,&quot;title&quot;:&quot;Boston Magazine Names 14 Kohlerackles Attorneys on 2024 Top Lawyers List&quot;,&quot;slug&quot;:&quot;boston-magazine-names-14-nelson-mullins-attorneys-on-2024-top-lawyers-list&quot;,&quot;published_at&quot;:&quot;2024-11-19T00:00:00.000000Z&quot;,&quot;alt_display_date&quot;:&quot;December 2024\/January 2025&quot;,&quot;default_images&quot;:null,&quot;name&quot;:&quot;Boston Magazine Names 14 Kohlerackles Attorneys on 2024 Top Lawyers List&quot;,&quot;custom_record_images&quot;:[{&quot;id&quot;:11671,&quot;template_id&quot;:null,&quot;template_image_id&quot;:&quot;1991&quot;,&quot;foreign_id&quot;:&quot;12781&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\Post&quot;,&quot;name&quot;:&quot;Detail Image&quot;,&quot;tag&quot;:&quot;detail_image&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2024-11-08T10:32:23.450000Z&quot;,&quot;updated_at&quot;:&quot;2024-11-08T10:32:23.450000Z&quot;,&quot;format&quot;:null,&quot;width&quot;:&quot;1280&quot;,&quot;height&quot;:&quot;800&quot;,&quot;resolution&quot;:null,&quot;image&quot;:{&quot;id&quot;:13772,&quot;document_id&quot;:&quot;21148&quot;,&quot;foreign_id&quot;:&quot;11671&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\TemplateImage&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2024-11-08T10:32:23.460000Z&quot;,&quot;updated_at&quot;:&quot;2024-11-08T10:32:23.460000Z&quot;,&quot;label&quot;:null,&quot;document&quot;:{&quot;id&quot;:21148,&quot;user_id&quot;:&quot;83&quot;,&quot;type&quot;:&quot;image\/jpeg&quot;,&quot;name&quot;:&quot;Detail Image: Boston Magazine Names 14 Kohlerackles Attorneys on Top Lawyers List&quot;,&quot;short_description&quot;:null,&quot;description&quot;:null,&quot;server_name&quot;:&quot;T4vC2fN1Zcdqen8bTNYKOEFgE4AUq1ShRrq7ZBwW&quot;,&quot;server_ext&quot;:&quot;jpg&quot;,&quot;client_name&quot;:&quot;#162079_BostonMag_14_NM_Detail_11.5.24x1&quot;,&quot;client_ext&quot;:&quot;jpg&quot;,&quot;file_size&quot;:&quot;53017&quot;,&quot;pixel_width&quot;:&quot;660&quot;,&quot;pixel_height&quot;:&quot;413&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2024-11-08T10:32:23.413000Z&quot;,&quot;updated_at&quot;:&quot;2024-11-08T10:32:23.413000Z&quot;,&quot;standalone&quot;:&quot;0&quot;,&quot;image_alt_tag&quot;:null,&quot;link&quot;:&quot;https:\/\/www.nelsonmullins.com\/storage\/T4vC2fN1Zcdqen8bTNYKOEFgE4AUq1ShRrq7ZBwW.jpg&quot;,&quot;is_image&quot;:true}}}],&quot;post_categories&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Press Releases&quot;,&quot;slug&quot;:&quot;press_releases&quot;,&quot;description&quot;:null,&quot;collection_id&quot;:&quot;2&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;12781&quot;,&quot;category_id&quot;:&quot;1&quot;,&quot;created_at&quot;:&quot;2024-11-04T10:39:32.177000Z&quot;,&quot;updated_at&quot;:&quot;2024-11-04T10:39:32.177000Z&quot;}}],&quot;post_collections&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;News&quot;,&quot;slug&quot;:&quot;news&quot;,&quot;description&quot;:null,&quot;external_url&quot;:null,&quot;post_type_id&quot;:&quot;3&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;display_status_id&quot;:null,&quot;subscribe_link&quot;:null,&quot;overlay_color&quot;:null,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;12781&quot;,&quot;collection_id&quot;:&quot;2&quot;,&quot;created_at&quot;:&quot;2024-11-04T10:39:32.173000Z&quot;,&quot;updated_at&quot;:&quot;2024-11-04T10:39:32.173000Z&quot;}}],&quot;post_roles&quot;:[],&quot;post_type&quot;:null},{&quot;id&quot;:12733,&quot;title&quot;:&quot;New Benchmark Litigation Rankings for 2025 Honor Firm and its Litigators&quot;,&quot;slug&quot;:&quot;new-benchmark-litigation-rankings-for-2025-honor-firm-and-its-litigators&quot;,&quot;published_at&quot;:&quot;2024-10-03T00:00:00.000000Z&quot;,&quot;alt_display_date&quot;:&quot;&quot;,&quot;default_images&quot;:null,&quot;name&quot;:&quot;New Benchmark Litigation Rankings for 2025 Honor Firm and its Litigators&quot;,&quot;custom_record_images&quot;:[{&quot;id&quot;:11475,&quot;template_id&quot;:null,&quot;template_image_id&quot;:&quot;1991&quot;,&quot;foreign_id&quot;:&quot;12733&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\Post&quot;,&quot;name&quot;:&quot;Detail Image&quot;,&quot;tag&quot;:&quot;detail_image&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2024-10-02T15:31:20.207000Z&quot;,&quot;updated_at&quot;:&quot;2024-10-02T15:31:20.207000Z&quot;,&quot;format&quot;:null,&quot;width&quot;:&quot;1280&quot;,&quot;height&quot;:&quot;800&quot;,&quot;resolution&quot;:null,&quot;image&quot;:{&quot;id&quot;:13570,&quot;document_id&quot;:&quot;20864&quot;,&quot;foreign_id&quot;:&quot;11475&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\TemplateImage&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2024-10-02T15:31:20.220000Z&quot;,&quot;updated_at&quot;:&quot;2024-10-07T07:50:20.947000Z&quot;,&quot;label&quot;:null,&quot;document&quot;:{&quot;id&quot;:20864,&quot;user_id&quot;:&quot;20&quot;,&quot;type&quot;:&quot;image\/jpeg&quot;,&quot;name&quot;:&quot;Detail Image: New Benchmark Litigation Rankings for 2025 Honor Firm and its Litigators&quot;,&quot;short_description&quot;:null,&quot;description&quot;:null,&quot;server_name&quot;:&quot;sNZWO8zwn4Dd7Fk4uCcCZItzp1Q5GcSzweyyGWaW&quot;,&quot;server_ext&quot;:&quot;jpg&quot;,&quot;client_name&quot;:&quot;PR_135&quot;,&quot;client_ext&quot;:&quot;jpg&quot;,&quot;file_size&quot;:&quot;16629&quot;,&quot;pixel_width&quot;:&quot;660&quot;,&quot;pixel_height&quot;:&quot;413&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2024-10-07T07:50:20.943000Z&quot;,&quot;updated_at&quot;:&quot;2024-10-07T07:50:20.943000Z&quot;,&quot;standalone&quot;:&quot;0&quot;,&quot;image_alt_tag&quot;:null,&quot;link&quot;:&quot;https:\/\/www.nelsonmullins.com\/storage\/sNZWO8zwn4Dd7Fk4uCcCZItzp1Q5GcSzweyyGWaW.jpg&quot;,&quot;is_image&quot;:true}}}],&quot;post_categories&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Press Releases&quot;,&quot;slug&quot;:&quot;press_releases&quot;,&quot;description&quot;:null,&quot;collection_id&quot;:&quot;2&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;12733&quot;,&quot;category_id&quot;:&quot;1&quot;,&quot;created_at&quot;:&quot;2024-10-02T10:59:11.430000Z&quot;,&quot;updated_at&quot;:&quot;2024-10-02T10:59:11.430000Z&quot;}}],&quot;post_collections&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;News&quot;,&quot;slug&quot;:&quot;news&quot;,&quot;description&quot;:null,&quot;external_url&quot;:null,&quot;post_type_id&quot;:&quot;3&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;display_status_id&quot;:null,&quot;subscribe_link&quot;:null,&quot;overlay_color&quot;:null,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;12733&quot;,&quot;collection_id&quot;:&quot;2&quot;,&quot;created_at&quot;:&quot;2024-10-02T10:59:11.410000Z&quot;,&quot;updated_at&quot;:&quot;2024-10-02T10:59:11.410000Z&quot;}}],&quot;post_roles&quot;:[],&quot;post_type&quot;:null}],&quot;first_page_url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property_litigation?page=1&quot;,&quot;from&quot;:1,&quot;last_page&quot;:8,&quot;last_page_url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property_litigation?page=8&quot;,&quot;links&quot;:[{&quot;url&quot;:null,&quot;label&quot;:&quot;\u0026laquo; Previous&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property_litigation?page=1&quot;,&quot;label&quot;:&quot;1&quot;,&quot;active&quot;:true},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property_litigation?page=2&quot;,&quot;label&quot;:&quot;2&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property_litigation?page=3&quot;,&quot;label&quot;:&quot;3&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property_litigation?page=4&quot;,&quot;label&quot;:&quot;4&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property_litigation?page=5&quot;,&quot;label&quot;:&quot;5&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property_litigation?page=6&quot;,&quot;label&quot;:&quot;6&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property_litigation?page=7&quot;,&quot;label&quot;:&quot;7&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property_litigation?page=8&quot;,&quot;label&quot;:&quot;8&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property_litigation?page=2&quot;,&quot;label&quot;:&quot;Next \u0026raquo;&quot;,&quot;active&quot;:false}],&quot;next_page_url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property_litigation?page=2&quot;,&quot;path&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property_litigation&quot;,&quot;per_page&quot;:5,&quot;prev_page_url&quot;:null,&quot;to&quot;:5,&quot;total&quot;:39}},
+                            thisView: 'frontend.services.show',
+                            thisModel: 'Page',
+                            thisId: 5
+                        }"></pageablepostlist>
+                                                                                                                                                
+                    </div>
+    
+                    <div class="col-md-4 attorney-tab-articles hidden-print">
+                        <div class="nm-button-yellow"><a href="../insights/alerts.html">Visit Insights</a></div>
+                                        </div>
+    
+                </div>
+            </div>
+    
+    
+    
+    
+    
+    		
+    		<div class="tab-pane" id="experience" role="tabpanel" aria-labelledby="experience-tab">
+    						<h2 class="visible-print-block">Experience</h2>
+    			<div class="row attorney-tab-info">
+    					<div class="col-md-8">
+    						<p>Following is a selected sampling of matters and is provided for informational purposes only. Past success does not indicate the likelihood of success in any future matter.</p>
+    						<h3 class="top-body-subhead">Appellate Experience</h3>
+    
+    <ul class="collapseList collapseTo_5">
+    	<li>Argued appeal involving indigo dyes (Fed. Cir.)</li>
+    	<li>Argued appeal involving radio frequency tag technology (Fed. Cir.)</li>
+    	<li>Argued appeal involving reverse auction business method patent (Fed. Cir.)</li>
+    	<li>Argued appeal involving tactile warning surface panels (Fed. Cir.)</li>
+    	<li>Consulted regarding appeal involving influenza treatments (Fed. Cir.)</li>
+    	<li>Filed briefs in an appeal involving fire retardant fabrics (Fed. Cir.)</li>
+    	<li>Argued appeal involving college sports trademarks (Fed. Cir.)</li>
+    	<li>Argued appeal involving wound irrigation system (Fed. Cir.)</li>
+    </ul>
+    
+    <h3 class="body-subhead">Patent District Court Litigation Experience</h3>
+    
+    <ul class="collapseList collapseTo_5">
+    	<li><strong>Patent litigation defense in matter involving drink dispenser fitments</strong> (N.D. Ill.) &nbsp;&ndash; &nbsp;represented client against preliminary injunction and patent infringement accusations and settled the action before having to defend against preliminary injunction</li>
+    	<li><strong>Patent litigation involving the enforcement of sweepstakes gaming technology patents </strong>(E.D.N.C.) &ndash; represented the patent owner in asserted multiple patents concerning sweepstakes technology against a competitor and resolved the case by settlement</li>
+    	<li><strong>Patent litigation defense in matter involving pipe fittings </strong>(C.D. Cal.) &ndash;&nbsp;represented manufacturing client in defense of patent infringement allegations involving pipe fittings used in disposal of chemical corrosive waste&nbsp;</li>
+    	<li><strong>Patent litigation defense in matter involving multi-rated capacitor </strong>(M.D. Fla.) &ndash;&nbsp;defendants located in different states in this patent infringement case involving a multi-rated capacitor</li>
+    	<li><strong>Case asserting patent infringement in matter involving fasteners for composite lumber </strong>(D. Mass.) &ndash;&nbsp;represented plaintiff asserting patent infringement relating to fasteners for composite lumber&nbsp;</li>
+    	<li><strong>Case asserting patent infringement involving glass and carbon composite tactile warning surfaces</strong> (D. Mass.) &ndash;&nbsp;represented plaintiff in a patent infringement case relating to glass and carbon composite tactile warning surfaces for aiding the visually impaired&nbsp;</li>
+    	<li><strong>Representing media company client in matter asserting patent infringement </strong>(E.D. Tenn.) &ndash; represented plaintiff in case relating to television and internet reverse auction technology</li>
+    	<li><strong>Patent litigation defense in matter involving flame retardant fabric technology </strong>(M.D.N.C.) &ndash;&nbsp;representing international manufacturing company in matter relating to flame retardant fabric technology</li>
+    	<li><strong>Patent infringement defense in case involving claims by non-practicing entity</strong> (S.D. Fla.) &ndash;&nbsp;represented individual and company defendants in the competitive gaming industry in patent infringement action&nbsp;</li>
+    	<li><strong>Represented New Zealand Company in patent litigation defense</strong>&nbsp;&ndash;&nbsp;represented client in defense of matter involving a patent directed to a honey based wound dressing.&nbsp; During the course of the litigation, we filed a petition for <em>inter partes&nbsp;</em>review of the patent in suit, and shortly after the grant of IPR Petition the matter was settled&nbsp;</li>
+    	<li><strong>Patent litigation defense for software client </strong>(E.D. Tex.) &ndash;&nbsp;represented client in matter involving software that includes digital data structures for storing identifying information and encrypted digital secrets that allows trustees to access the encrypted digital secrets upon verification of identifying information; the matter was dismissed&nbsp;</li>
+    	<li><strong>Case asserting patent infringement and involving multi-year reexamination defense filing </strong>(M.D.N.C.) &ndash;&nbsp;represented client as plaintiff in patent infringement case.&nbsp; After confirmation of the patent in multi-year patent reexamination and further litigation, the case was resolved by settlement</li>
+    	<li><strong>Defeated preliminary injunction for pharmaceutical industry client in defense of patent litigation</strong> (D.N.J.) &ndash;&nbsp;represented our pharmaceutical client in this patent infringement case related to prenatal vitamins - formulation patents.&nbsp; On behalf of our client, we prevailed in defeating preliminary injunction on both no likelihood of success as to validity and no irreparable harm with respect to four patents after a 2-day evidentiary hearing</li>
+    	<li><strong>Patent infringement defense</strong> <strong>for pharmaceutical client</strong> (D.N.J.) &ndash;&nbsp;represented our client in a patent infringement case related to prenatal vitamins - formulation patents.&nbsp; The case was resolved by settlement</li>
+    	<li><strong>Patent litigation defense matter involving menu, reservation, and ordering systems</strong> (E.D. Tex.) &ndash;&nbsp;represented client as defendant in patent infringement case related to online menu, reservation, and ordering systems.&nbsp; The case was resolved by settlement</li>
+    	<li><strong>Patent infringement defense</strong> <strong>matter involving tire balancing methods and machines </strong>(E.D. Mo.) &ndash;&nbsp;represented our client in a patent infringement case involving infringement allegations concerning tire balancing machines.&nbsp; The case was resolved by settlement</li>
+    	<li><strong>Declaratory judgment action for pharmaceutical client</strong> <strong>in matter involving Italian patent owner</strong> (E.D. Va.) &ndash;&nbsp;represented client as plaintiff in this declaratory judgment action against Italian patent owner of prenatal vitamin formulation patent.&nbsp; The case was resolved by settlement</li>
+    	<li><strong>Patent litigation defense matter involving locomotive braking systems</strong> (D. S.C.) &ndash;&nbsp;represented defendant locomotive parts manufacturer in patent infringement case related to braking systems for trains and locomotives.&nbsp; The case was resolved by settlement after summary judgment hearing</li>
+    	<li><strong>Declaratory judgment action for avionics systems manufacturing client</strong> (D. Mass.) &ndash;&nbsp;represented client as plaintiff in this declaratory judgment action related to aircraft cockpit instrumentation technology.&nbsp; The case was resolved by settlement&nbsp;</li>
+    	<li><strong>Patent litigation defense matter involving license plate recognition technology</strong> (E.D. Tex.) &ndash; represented company and municipality defendants in this patent infringement case brought by a non-practicing entity and related to license plate recognition technology.&nbsp; The case was resolved by settlement&nbsp;</li>
+    	<li><strong>Patent litigation defense matter involving doors</strong> (S.D. Miss.) &ndash; represented company in this patent infringement case brought by competitor related to technology for making doors.&nbsp; The case was resolved by settlement</li>
+    	<li><strong>Patent litigation defense matter involving food and drink dispensers</strong> (D. S.C.) &ndash;&nbsp;represented defendant client against allegations that its dispensers infringed a patent related to temperature-controlled food dispensers.&nbsp; The case was resolved by settlement&nbsp;</li>
+    	<li><strong>Patent litigation defense matter for pharmaceutical client involving allegations of infringement</strong> (W.D. Tex.) &ndash;&nbsp;represented defendant client in this patent infringement case related to iron supplements. The case was resolved by settlement</li>
+    	<li><strong>Case brought by non-practicing entity against healthcare industry client </strong>(E.D. Tex.) &ndash;&nbsp;represented defendant client in this patent infringement case brought by a non-practicing entity and related to patient treatment and monitoring methods. The case was resolved by settlement&nbsp;&nbsp;</li>
+    	<li><strong>Patent litigation defense matter relating to flame retardant fabric technology</strong> (M.D.N.C.) &ndash;&nbsp;represented defendant client in this patent infringement case related to flame retardant fabric technology.&nbsp; The case was resolved by settlement</li>
+    	<li><strong>Resolved patent litigation defense matter relating to financial institution transactions</strong> (E.D. Tex.) &ndash;&nbsp;represented defendant client in this patent infringement case related to financial institution transactions.&nbsp; The case was resolved by settlement</li>
+    </ul>
+    
+    <h3 class="body-subhead">Trademark and False Advertising (Lanham Act) Litigation Experience</h3>
+    
+    <ul class="collapseList collapseTo_5">
+    	<li><strong>Plaintiff representation in two false advertising (Lanham Act) litigations relating to prenatal supplements</strong> (N.D. Ga.) &ndash; representing maker of prenatal vitamins against two competitors for making false and/or misleading advertising statements regarding nutritional facts and DHA amounts</li>
+    	<li><strong>Trademark, Copyright, and Trade Secret Litigation</strong> (M.D.N.C. and M.D. Fla.) &ndash; represented a sweepstakes technology company in asserting trademark, copyright, and trade secret claims against allegedly pirated software and obtained an ex parte seizure of the infringing goods, a temporary restraining order, and a preliminary injunction</li>
+    	<li><strong>Obtained a TRO and Summary Judgment in matter for automotive clients </strong>(S.D. Fla.) &ndash;&nbsp;represented U.S. and foreign clients as plaintiffs in this trademark infringement case related to personal watercraft and jet boats.&nbsp; On behalf of our clients, we obtained temporary restraining order and preliminary injunction against defendants for trademark infringement during the world&#39;s largest watercraft show and later obtained summary judgment with damages and costs awarded to our client</li>
+    	<li><strong>Trademark defense litigation relating to disaster recovery services</strong> (S.D.N.Y.) &ndash;&nbsp;represented our defendant client in this case involving trademark infringement allegations related to disaster recovery services.&nbsp; On behalf of our client, we obtained dismissal of NY litigation&nbsp;</li>
+    	<li><strong>Trademark infringement litigation matter </strong>(D.S.C.) &ndash;&nbsp;represented defendant client in this trademark infringement allegation matter related to tax preparation services.&nbsp; The case was resolved by settlement</li>
+    	<li><strong>Trademark infringement and counterfeiting matter involving cigarettes </strong>(D.S.C.) &ndash;&nbsp;represented plaintiff cigarette manufacturer against counterfeiter.&nbsp; Secured consent judgment for damages and injunction</li>
+    	<li><strong>Matter involving claims of trademark infringement and Anti-Cybersquatting Consumer Protection Act</strong> (S.D. Fla) &ndash;&nbsp;client in defense of a case involving claims of trademark infringement and violation of the Anti-Cybersquatting Consumer Protection Act (ACPA), in which we obtained dismissal of ACPA claims.&nbsp; Ultimately settled the remaining trademark claims</li>
+    	<li><strong>Severed automotive industry client from group of defendants and resolved copyright and trademark infringement case </strong>&ndash; represented client in successfully severing the client from a large group of defendants in a copyright and trademark infringement case.&nbsp; Case resolved by settlement&nbsp;</li>
+    	<li><strong>Trademark infringement, cybersquatting and unfair competition and unfair trade matter </strong>&ndash;&nbsp;represented plaintiff in a case against a competitor involving trademark infringement and cybersquatting under the Lanham Act, 15 U.S.C. &sect; 1125, and for unfair competition and unfair trade practices under New York statutory and common law&nbsp;</li>
+    	<li>Plaintiff representation in grey-market trademark infringement case&nbsp;&ndash;&nbsp;represented plaintiffs in the motorized products manufacturing industry in a grey-marketed trademark infringement case</li>
+    	<li><strong>SEO/Web Host infringement matter&nbsp;</strong>(D.S.C.) &ndash;&nbsp;represented plaintiff in a jury trial that obtained statutory damages</li>
+    </ul>
+    
+    <h3 class="body-subhead">Copyright and Trade Secret Matters</h3>
+    
+    <ul class="collapseList collapseTo_5">
+    	<li><strong>Defendant representation in case involving copyright infringement allegations (D.S.C.)</strong> &ndash; representing clothing manufacturer accused of violating 50 copyrights</li>
+    	<li><strong>Defendant and counterclaim plaintiff representation in case involving copyright infringement allegations (N.D. Ga.)</strong> &ndash; representing clothing manufacturer executive accusing competitor clothing manufacturer of infringing her copyright while defending executive against copyright infringement claims</li>
+    	<li><strong>Defendant representation in case involving trade secrets (D.N.J.)</strong> &ndash; representing prenatal vitamin manufacturer against allegations of trade secret violations made by a former licensor</li>
+    	<li><strong>Plaintiff representation in case involving upholstery fabric for furniture (M.D.N.C) &nbsp;</strong>&ndash;<strong>&nbsp;</strong>represented plaintiff in a case alleging copyright infringement of upholstery fabric designs against U.S. furniture manufacturer and Chinese fabric maker.&nbsp;&nbsp;Settled with furniture manufacturer and obtaining monetary judgment and injunction against fabric maker</li>
+    	<li><strong>Plaintiff representation in case involving licensing and sale of IP and other assets (W.D.N.C) </strong>&ndash;&nbsp;&nbsp;Kohlerackles represented plaintiffs in a case alleging alleged breach of a contract related to the licensing and sale of certain intellectual property and other assets</li>
+    	<li><strong>Plaintiff representation to obtain consent order of injunction (M.D.N.C.)</strong> &ndash;&nbsp;represented plaintiff in copyright infringement case involving allegations that defendant was selling integrated circuits loaded with unauthorized copies of plaintiff&#39;s copyrighted firmware.&nbsp;&nbsp;The case resolved with the entry of a consent order enjoining reproduction or distribution of the subject firmware by the defendant</li>
+    	<li><strong>Plaintiff representation to obtain consent preliminary and temporary injunction (E.D. Tex.)</strong> &ndash;&nbsp;represented plaintiff client in the gaming industry involving infringement of copyright software and designs.&nbsp;&nbsp;The case was resolved with the entry of a consent preliminary and temporary injunction against the defendant</li>
+    	<li><strong>Litigation defense in matter alleging trade secret theft allegations relating to mechanical valve systems (D.S.C.)</strong> &ndash;&nbsp;represented defendant in this case involving trade secret theft allegations related to mechanical valve systems. The case was resolved by settlement</li>
+    	<li><strong>Copyright litigation defense related to insurance industry (N.D. Ga.) </strong>&ndash; represented defendant in this case that involved copyright infringement allegations related to the insurance industry. The case was resolved by settlement&nbsp;</li>
+    	<li><strong>Copyright litigation defense related to architectural designs (D.S.C.)</strong> &ndash;&nbsp;represented defendant against allegations of copyright infringement regarding multiple architectural house designs.&nbsp;&nbsp;The case was resolved by settlement&nbsp;</li>
+    	<li><strong>Copyright litigation defense involving stained glass designs (N.D. Cal.)</strong> &ndash;&nbsp;represented defendant in matter involving plaintiff&rsquo;s contentions that several copyrighted stained glass designs were being used without authorization in certain products.&nbsp;&nbsp;The case was resolved by settlement</li>
+    </ul>
+    
+    <h3 class="body-subhead">International IP Litigation</h3>
+    
+    <ul>
+    	<li><strong>Patent litigation in Milan, Italy&nbsp;</strong>&ndash;<strong>&nbsp;</strong>represented defendant in a patent infringement case pending in Milan, Italy in which both parties have asserted claims of patent infringement.&nbsp; Defendant prevailed on all dispositive issues at trial except one and prevailed on appeal on the remaining issue</li>
+    	<li><strong>Copyright litigation matter in Paris, France</strong> (Tribunal de Grande, Paris) &ndash;&nbsp; selected and supervised European counsel in a copyright infringement case in France alleging that defendant sold an infringing light fixture&nbsp;&nbsp;</li>
+    </ul>
+    
+    <h3 class="body-subhead">Inter Partes Review Experience Before the USPTO</h3>
+    
+    <ul>
+    	<li><strong>Inter partes review during pendency of litigation </strong>&ndash;<strong>&nbsp;</strong>filed <em>inter partes</em> review on behalf of the petitioners, regarding a patent during the pendency of the related lawsuit. The PTAB instituted the IPR, and the case settled shortly thereafter</li>
+    	<li><strong>Covered business method review </strong>(PTAB) &ndash; represented patent owner in pending covered business method review involving television and internet reverse auction technology&nbsp;</li>
+    	<li><strong>Inter partes review involving patent related to flame retardant fabric technology</strong> (PTAB) &ndash;&nbsp;represents petitioner textile manufacturer in an instituted <em>inter partes</em> review involving a patent related to flame retardant fabric technology</li>
+    	<li><strong>Covered Business Method Review involving sweepstakes gaming systems</strong> &ndash; Kohlerackles served as co-counsel in a proceeding that challenged, and ultimately invalidated, two patents concerning sweepstakes gaming technology</li>
+    </ul>
+    				</div> 
+    
+    				<div class="col-md-4 sidebar hidden-print">
+    					
+    					<div class="sidebar-aside-container">
+    						<div class="aside-why">
+    							<h2>Why Kohlerackles?</h2>
+    							<ul>
+    	<li>Practical understanding of business objectives</li>
+    	<li>Cost efficiency and budget predictability</li>
+    	<li>Deep bench of experienced courtroom attorneys</li>
+    	<li>Cross-firm and multi-disciplinary team</li>
+    	<li>Nimbleness and ability to adapt to all types of IP litigation scenarios</li>
+    </ul>
+    						</div>
+    					</div>
+    				</div> 
+    
+    			</div>
+    			
+    		</div> 
+    
+            
+    		<div class="tab-pane" id="awards" role="tabpanel" aria-labelledby="awards-tab">
+    					</div> 
+            
+                    
+    
+            
+    	</div> 
+    
+    
+    
+    
+    
+    
+    
+    	
+    	<div class="row attorney-accordion capabilities-accordion">
+    		<div id="accordion" role="tablist" aria-multiselectable="true">
+    
+    
+    			
+    			<div class="card">
+    				<div class="card-header" role="tab" id="headingOne">
+    					<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Overview</a></h5>
+    				</div>
+    
+    				<div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+    					<div class="card-block">
+    						<div class="row attorney-tab-info">
+    						<div class="col-md-8">
+    							<div>
+    <h3 class="top-body-subhead">We help clients</h3>
+    
+    <ul>
+    	<li>Litigate IP infringement suits (both foreign and domestic), including
+    	<ul>
+    		<li>Defending patent, trademark, copyright infringement claims, and claims of trade secret violations</li>
+    		<li>Enforcing your patents, trademarks, copyrights, and trade secrets against competitors/infringers</li>
+    	</ul>
+    	</li>
+    	<li>Proactively seek, and defend against, administrative remedies to defeat and maintain intellectual property rights, including
+    	<ul>
+    		<li><em>Inter partes</em> and continuous business method reviews and post grant reviews at the U.S. Patent and Trademark Office</li>
+    		<li>Patent opposition proceedings at the European Patent Office</li>
+    		<li>Trademark opposition and cancellation proceedings at the U.S. Trademark Office</li>
+    		<li>Domain name disputes at the Internet Corporation for Assigned Names and Numbers (ICANN)</li>
+    	</ul>
+    	</li>
+    	<li>Establish IP matrices or &ldquo;webs&rdquo; to help identify would-be infringers/violators</li>
+    	<li>Conduct early case&nbsp;assessments, including considering the risks of bringing and defending IP litigation with a real-world perspective of the costs involved and the likelihood of success</li>
+    </ul>
+    
+    <h3 class="body-subhead">Interdisciplinary team</h3>
+    
+    <ul class="collapseList collapseTo_3">
+    	<li>Seasoned IP litigators to effectively staff IP litigation, both large and small, efficiently and cost-effectively
+    	<ul>
+    		<li>IP litigators who have tried cases to jury verdict or judge ruling</li>
+    		<li>IP litigators who are both registered patent attorneys and &ldquo;stand-up&rdquo; courtroom lawyers, and who have chemical, pharmaceutical, software, electrical and mechanical engineering degrees and/or experience</li>
+    		<li>IP litigators with substantial stand-up trial experience advocating cases at the Federal Circuit</li>
+    		<li>Former clerks who served on the Court of Appeals for the Federal Circuit as well as district court clerks</li>
+    	</ul>
+    	</li>
+    	<li>30+ patent attorneys and paralegals to assist our IP litigators when needed to provide technical assistance in IP litigation</li>
+    	<li>Highly regarded general business litigators across the Firm&rsquo;s platform, including pharmaceutical litigators, to associate when needed to provide additional depth, experience, and case-specific insights</li>
+    </ul>
+    
+    <h3 class="body-subhead">Our IP litigation spans the range of public and private companies and business sectors</h3>
+    
+    <p>Our clients come from many industry sectors and are both large (Fortune 500) and small, and range from entrepreneurs, start-ups, and medium-sized private venture-backed companies to established household names.&nbsp; Areas in which we have litigated IP cases include</p>
+    
+    <ul class="collapseList collapseTo_5">
+    	<li>Pharmaceuticals</li>
+    	<li>Automotive components</li>
+    	<li>Personal watercraft</li>
+    	<li>Software</li>
+    	<li>Drill chucks</li>
+    	<li>Flame retardant cloth</li>
+    	<li>Nutritional products</li>
+    	<li>Golf equipment</li>
+    	<li>Colored dyes</li>
+    	<li>College sports teams</li>
+    	<li>Jewelry makers</li>
+    	<li>Drink dispensers</li>
+    	<li>Gaming technology</li>
+    	<li>Wound care supplies and devices</li>
+    	<li>License plate recognition equipment</li>
+    	<li>Prenatal vitamins</li>
+    	<li>Clothing</li>
+    </ul>
+    </div>
+    
+    <div>
+    <h3 class="body-subhead">Our IP litigation experience helps you &nbsp;</h3>
+    </div>
+    
+    <ul class="collapseList collapseTo_5">
+    	<li><strong>Be ahead of the curve</strong> whether averting trespass on your intellectual property or defending against threats from others</li>
+    	<li><strong>Partner with courtroom IP litigators who have a deep </strong>sense for your business</li>
+    	<li><strong>Understand</strong> <strong>the pros and cons </strong>of IP litigation from lawyers who understand it and practice it daily</li>
+    	<li><strong>Choose between a range of alternative fee arrangements or hourly billing</strong>, both of which offer substantial value given our rate structures, geographic footprint, and cost-efficient service model</li>
+    	<li><strong>Implement a patent litigation strategy</strong> that embraces and addresses business needs and objectives&nbsp;to help give you a competitive advantage&nbsp;</li>
+    	<li><strong>Conduct early case assessments </strong>to determine best course strategies for each IP litigation matter</li>
+    	<li><strong>Seek or defend against temporary restraining orders and preliminary injunctions </strong>in a manner that often decides the ultimate outcome of the case</li>
+    	<li><strong>Utilize the Firm&rsquo;s e-discovery division, </strong><strong><a href="#" target="_blank">Kohlerackles Encompass</a><em>,&nbsp;</em></strong>to develop your strategy and implement discovery and review processes that improve litigation readiness</li>
+    	<li><strong>Stay informed </strong>about your choices during IP litigation with constant communication from your litigators</li>
+    	<li><strong>Take action </strong>quickly and efficiently when necessary</li>
+    	<li><strong>Make informed decisions </strong>about spending and resources for your IP litigation</li>
+    	<li><strong>Identify, assess, and address business risks</strong> every step of the way</li>
+    	<li><strong>Respond and advance strategies</strong> in connection with district court, appellate and PTO proceedings</li>
+    	<li><strong>Benefit from the experience of the Firm&rsquo;s seasoned business litigators</strong> who we associate with on particular IP litigation matters.&nbsp;</li>
+    	<li><strong>Enter into settlements</strong> when your business objectives dictate&nbsp;</li>
+    	<li><strong>Stay at the top or take your IP litigation to the next level </strong>with experienced courtroom lawyers who tailor their litigation strategies to the particular matter at hand&nbsp;</li>
+    	<li><strong>Try the case </strong>when the litigation dictates going all the way&nbsp;</li>
+    </ul>
+                                
+    <div class="sidebar-aside-container" style='margin-bottom:40px;'>
+    
+    					
+    			    				    		<a href="#"><img src="/images/PCd0CMd7yDIbmj0uPctZXd2dG9SAro19kU6q0xnz.jpg" class="img-fluid" alt="Best Lawyers Best Law Firms 2025 Badge, litigation intellectual property" /></a>
+    			    	
+    						
+    		</div>
+    	
+    						</div> 
+    					</div>
+    				</div>
+    			</div>
+    		</div> 
+    
+    
+    
+    					<div class="card">
+    				<div class="card-header" role="tab" id="headingThree">
+    					<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Related Practices</a></h5>
+    				</div>
+    
+    				<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+    					<div class="card-block">
+    						<div class="row attorney-tab-info">
+    						<div class="col-md-8 related-industries-tab-info">
+    
+    															<p>
+                                                                    <a href="appellate_practice_and_legal_strategies.html">Appellate Practice &amp; Legal Strategies</a>
+                                    								</p>
+    															<p>
+                                                                    <a href="bankruptcy_creditors_rights_and_restructuring.html">Bankruptcy, Creditors&#039; Rights &amp; Restructuring</a>
+                                    								</p>
+    															<p>
+                                                                    <a href="corporate_and_securities.html">Corporate &amp; Securities</a>
+                                    								</p>
+    															<p>
+                                                                    <a href="cybersecurity_and_data_breach_response.html">Cybersecurity &amp; Data Breach Response</a>
+                                    								</p>
+    															<p>
+                                                                    <a href="cybersecurity-and-data-privacy.html">Cybersecurity &amp; Data Privacy</a>
+                                    								</p>
+    															<p>
+                                                                    <a href="#" >E-Discovery - Encompass</a>
+                                    								</p>
+    															<p>
+                                                                    <a href="e-discovery-and-information-governance.html">E-Discovery &amp; Information Governance</a>
+                                    								</p>
+    															<p>
+                                                                    <a href="global-privacy-and-security.html">Global Privacy &amp; Security</a>
+                                    								</p>
+    															<p>
+                                                                    <a href="life_sciences_-_ip.html">Life Sciences - IP</a>
+                                    								</p>
+    															<p>
+                                                                    <a href="patent-counseling-and-procurement.html">Patent Counseling and Procurement</a>
+                                    								</p>
+    															<p>
+                                                                    <a href="trademarks_and_copyrights.html">Trademarks &amp; Copyrights</a>
+                                    								</p>
+    															<p>
+                                                                    <a href="white-collar-defense-and-government-investigations.html">White Collar Defense &amp; Government Investigations</a>
+                                    								</p>
+    							
+    						</div>	
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    		
+    
+    
+    					<div class="card">
+    				<div class="card-header" role="tab" id="headingEight">
+    					<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">Related Industries</a></h5>
+    				</div>
+    
+    				<div id="collapseEight" class="collapse" role="tabpanel" aria-labelledby="headingEight">
+    					<div class="card-block">
+    						<div class="row attorney-tab-info">
+    						<div class="col-md-8 related-industries-tab-info">
+    														<p>
+                                                                    <a href="consumer_products_and_retail.html">Consumer Products &amp; Retail</a>
+                                    							</p>
+    													<p>
+                                                                    <a href="life-sciences-pharmaceuticals-and-medical-devices.html">Life Sciences, Pharmaceuticals &amp; Medical Devices</a>
+                                    							</p>
+    													<p>
+                                                                    <a href="manufacturing.html">Manufacturing</a>
+                                    							</p>
+    												</div>	
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    		
+    
+    
+    		
+            <div class="card">
+                <div class="card-header" role="tab" id="headingTwo">
+                    <h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Professionals</a></h5>
+                </div>
+                <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="card-block">
+                        <div class="row attorney-tab-info">
+                            <div class="col-md-8">
+                                <pageablelist v-bind:config="{
+                                    pageableData: '/professionals?service=277',
+                                    sort: [{'parameter':'position', 'name':'Position'},{'parameter':'last_name', 'name':'Name'},{'parameter':'location', 'name':'Location'}],
+                                    thisView: 'frontend.services.show',
+                                    thisModel: 'Service',
+                                    thisId: 277
+                                }"></pageablelist>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+    
+    
+    
+    
+    	
+    	<div class="card">
+    		<div class="card-header" role="tab" id="headingFive">
+    			<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Insights</a></h5>
+    		</div>
+    
+    		<div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive">
+    			<div class="card-block">
+    				<div class="row attorney-tab-info">
+    					<div class="col-lg-8 attorney-tab-articles">
+    					                                                                                                    <pageablepostlist v-bind:config="{
+                            ie: false,
+                            header: 'News',
+                            service_id: 277,
+                            post_type: 3,
+                            limit: 5,
+                            results:{&quot;pageable&quot;:{&quot;current_page&quot;:1,&quot;data&quot;:[{&quot;id&quot;:13510,&quot;title&quot;:&quot;Five Kohlerackles Partners Among 2026 Lawdragon 500 Leading Litigators in America&quot;,&quot;slug&quot;:&quot;five-nelson-mullins-partners-among-2026-lawdragon-500-leading-litigators-in-america&quot;,&quot;published_at&quot;:&quot;2025-09-09T00:00:00.000000Z&quot;,&quot;alt_display_date&quot;:&quot;&quot;,&quot;default_images&quot;:null,&quot;name&quot;:&quot;Five Kohlerackles Partners Among 2026 Lawdragon 500 Leading Litigators in America&quot;,&quot;custom_record_images&quot;:[{&quot;id&quot;:12453,&quot;template_id&quot;:null,&quot;template_image_id&quot;:&quot;1991&quot;,&quot;foreign_id&quot;:&quot;13510&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\Post&quot;,&quot;name&quot;:&quot;Detail Image&quot;,&quot;tag&quot;:&quot;detail_image&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-09-09T16:32:13.867000Z&quot;,&quot;updated_at&quot;:&quot;2025-09-09T16:32:13.867000Z&quot;,&quot;format&quot;:null,&quot;width&quot;:&quot;1280&quot;,&quot;height&quot;:&quot;800&quot;,&quot;resolution&quot;:null,&quot;image&quot;:{&quot;id&quot;:14709,&quot;document_id&quot;:&quot;23186&quot;,&quot;foreign_id&quot;:&quot;12453&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\TemplateImage&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-09-09T16:32:13.883000Z&quot;,&quot;updated_at&quot;:&quot;2025-09-09T16:32:13.883000Z&quot;,&quot;label&quot;:null,&quot;document&quot;:{&quot;id&quot;:23186,&quot;user_id&quot;:&quot;88&quot;,&quot;type&quot;:&quot;image\/jpeg&quot;,&quot;name&quot;:&quot;Detail Image: Five Kohlerackles Partners Among 2026 Lawdragon 500 Leading Litigators in America&quot;,&quot;short_description&quot;:null,&quot;description&quot;:null,&quot;server_name&quot;:&quot;fB0YIPgbjyf6EhFopkEepMmRb4mOvUuyAlXsWofH&quot;,&quot;server_ext&quot;:&quot;jpg&quot;,&quot;client_name&quot;:&quot;#201466_NM_Lawdragon_InTheNews_Social_DETAIL&quot;,&quot;client_ext&quot;:&quot;jpg&quot;,&quot;file_size&quot;:&quot;18817&quot;,&quot;pixel_width&quot;:&quot;660&quot;,&quot;pixel_height&quot;:&quot;413&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-09-09T16:32:13.863000Z&quot;,&quot;updated_at&quot;:&quot;2025-09-09T16:32:41.293000Z&quot;,&quot;standalone&quot;:&quot;0&quot;,&quot;image_alt_tag&quot;:&quot;Exterior building with sun reflection&quot;,&quot;link&quot;:&quot;https:\/\/www.nelsonmullins.com\/storage\/fB0YIPgbjyf6EhFopkEepMmRb4mOvUuyAlXsWofH.jpg&quot;,&quot;is_image&quot;:true}}}],&quot;post_categories&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Press Releases&quot;,&quot;slug&quot;:&quot;press_releases&quot;,&quot;description&quot;:null,&quot;collection_id&quot;:&quot;2&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;13510&quot;,&quot;category_id&quot;:&quot;1&quot;,&quot;created_at&quot;:&quot;2025-09-08T15:57:20.877000Z&quot;,&quot;updated_at&quot;:&quot;2025-09-08T15:57:20.877000Z&quot;}}],&quot;post_collections&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;News&quot;,&quot;slug&quot;:&quot;news&quot;,&quot;description&quot;:null,&quot;external_url&quot;:null,&quot;post_type_id&quot;:&quot;3&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;display_status_id&quot;:null,&quot;subscribe_link&quot;:null,&quot;overlay_color&quot;:null,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;13510&quot;,&quot;collection_id&quot;:&quot;2&quot;,&quot;created_at&quot;:&quot;2025-09-08T15:57:20.873000Z&quot;,&quot;updated_at&quot;:&quot;2025-09-08T15:57:20.873000Z&quot;}}],&quot;post_roles&quot;:[],&quot;post_type&quot;:null},{&quot;id&quot;:13043,&quot;title&quot;:&quot;Kohlerackles Grows In Houston With Osha Bergman IP Duo&quot;,&quot;slug&quot;:&quot;nelson-mullins-grows-in-houston-with-osha-bergman-ip-duo&quot;,&quot;published_at&quot;:&quot;2025-02-03T00:00:00.000000Z&quot;,&quot;alt_display_date&quot;:&quot;&quot;,&quot;default_images&quot;:null,&quot;name&quot;:&quot;Kohlerackles Grows In Houston With Osha Bergman IP Duo&quot;,&quot;custom_record_images&quot;:[{&quot;id&quot;:11863,&quot;template_id&quot;:null,&quot;template_image_id&quot;:&quot;1991&quot;,&quot;foreign_id&quot;:&quot;13043&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\Post&quot;,&quot;name&quot;:&quot;Detail Image&quot;,&quot;tag&quot;:&quot;detail_image&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-02-03T16:32:26.780000Z&quot;,&quot;updated_at&quot;:&quot;2025-02-03T16:32:26.780000Z&quot;,&quot;format&quot;:null,&quot;width&quot;:&quot;1280&quot;,&quot;height&quot;:&quot;800&quot;,&quot;resolution&quot;:null,&quot;image&quot;:{&quot;id&quot;:14034,&quot;document_id&quot;:&quot;21600&quot;,&quot;foreign_id&quot;:&quot;11863&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\TemplateImage&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-02-03T16:32:26.793000Z&quot;,&quot;updated_at&quot;:&quot;2025-02-04T08:00:19.610000Z&quot;,&quot;label&quot;:null,&quot;document&quot;:{&quot;id&quot;:21600,&quot;user_id&quot;:&quot;20&quot;,&quot;type&quot;:&quot;image\/jpeg&quot;,&quot;name&quot;:&quot;Detail Image: Kohlerackles Grows In Houston With Osha Bergman IP Duo&quot;,&quot;short_description&quot;:null,&quot;description&quot;:null,&quot;server_name&quot;:&quot;n55mULUdYpr05mtUZ3K7douVTHNpirPqk2U4A611&quot;,&quot;server_ext&quot;:&quot;jpg&quot;,&quot;client_name&quot;:&quot;News_90&quot;,&quot;client_ext&quot;:&quot;jpg&quot;,&quot;file_size&quot;:&quot;32400&quot;,&quot;pixel_width&quot;:&quot;660&quot;,&quot;pixel_height&quot;:&quot;413&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-02-04T08:00:19.607000Z&quot;,&quot;updated_at&quot;:&quot;2025-02-04T08:00:19.607000Z&quot;,&quot;standalone&quot;:&quot;0&quot;,&quot;image_alt_tag&quot;:null,&quot;link&quot;:&quot;https:\/\/www.nelsonmullins.com\/storage\/n55mULUdYpr05mtUZ3K7douVTHNpirPqk2U4A611.jpg&quot;,&quot;is_image&quot;:true}}}],&quot;post_categories&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;In the News&quot;,&quot;slug&quot;:&quot;in_the_news&quot;,&quot;description&quot;:null,&quot;collection_id&quot;:&quot;2&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;13043&quot;,&quot;category_id&quot;:&quot;2&quot;,&quot;created_at&quot;:&quot;2025-02-03T13:56:27.353000Z&quot;,&quot;updated_at&quot;:&quot;2025-02-03T13:56:27.353000Z&quot;}}],&quot;post_collections&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;News&quot;,&quot;slug&quot;:&quot;news&quot;,&quot;description&quot;:null,&quot;external_url&quot;:null,&quot;post_type_id&quot;:&quot;3&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;display_status_id&quot;:null,&quot;subscribe_link&quot;:null,&quot;overlay_color&quot;:null,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;13043&quot;,&quot;collection_id&quot;:&quot;2&quot;,&quot;created_at&quot;:&quot;2025-02-03T13:56:27.347000Z&quot;,&quot;updated_at&quot;:&quot;2025-02-03T13:56:27.347000Z&quot;}}],&quot;post_roles&quot;:[],&quot;post_type&quot;:null},{&quot;id&quot;:13034,&quot;title&quot;:&quot;Kohlerackles Continues Robust Growth in Houston with Pick Up of Two Intellectual Property Partners&quot;,&quot;slug&quot;:&quot;nelson-mullins-continues-robust-growth-in-houston-with-pick-up-of-two-intellectual-property-partners&quot;,&quot;published_at&quot;:&quot;2025-01-29T00:00:00.000000Z&quot;,&quot;alt_display_date&quot;:&quot;&quot;,&quot;default_images&quot;:null,&quot;name&quot;:&quot;Kohlerackles Continues Robust Growth in Houston with Pick Up of Two Intellectual Property Partners&quot;,&quot;custom_record_images&quot;:[{&quot;id&quot;:11847,&quot;template_id&quot;:null,&quot;template_image_id&quot;:&quot;1991&quot;,&quot;foreign_id&quot;:&quot;13034&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\Post&quot;,&quot;name&quot;:&quot;Detail Image&quot;,&quot;tag&quot;:&quot;detail_image&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-01-29T12:42:43.933000Z&quot;,&quot;updated_at&quot;:&quot;2025-01-29T12:42:43.933000Z&quot;,&quot;format&quot;:null,&quot;width&quot;:&quot;1280&quot;,&quot;height&quot;:&quot;800&quot;,&quot;resolution&quot;:null,&quot;image&quot;:{&quot;id&quot;:14018,&quot;document_id&quot;:&quot;21572&quot;,&quot;foreign_id&quot;:&quot;11847&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\TemplateImage&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-01-29T12:42:43.943000Z&quot;,&quot;updated_at&quot;:&quot;2025-01-30T12:42:15.580000Z&quot;,&quot;label&quot;:null,&quot;document&quot;:{&quot;id&quot;:21572,&quot;user_id&quot;:&quot;20&quot;,&quot;type&quot;:&quot;image\/jpeg&quot;,&quot;name&quot;:&quot;Detail Image: Kohlerackles Continues Robust Growth in Houston with Pick Up of Two Intellectual Property Partners&quot;,&quot;short_description&quot;:null,&quot;description&quot;:null,&quot;server_name&quot;:&quot;OOC5lmm0KrXQHKkkD7fViNRUehBtinfUuLOUyp5X&quot;,&quot;server_ext&quot;:&quot;jpg&quot;,&quot;client_name&quot;:&quot;News_89&quot;,&quot;client_ext&quot;:&quot;jpg&quot;,&quot;file_size&quot;:&quot;53842&quot;,&quot;pixel_width&quot;:&quot;660&quot;,&quot;pixel_height&quot;:&quot;413&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2025-01-30T12:42:15.570000Z&quot;,&quot;updated_at&quot;:&quot;2025-01-30T12:42:20.590000Z&quot;,&quot;standalone&quot;:&quot;0&quot;,&quot;image_alt_tag&quot;:&quot;&quot;,&quot;link&quot;:&quot;https:\/\/www.nelsonmullins.com\/storage\/OOC5lmm0KrXQHKkkD7fViNRUehBtinfUuLOUyp5X.jpg&quot;,&quot;is_image&quot;:true}}}],&quot;post_categories&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Press Releases&quot;,&quot;slug&quot;:&quot;press_releases&quot;,&quot;description&quot;:null,&quot;collection_id&quot;:&quot;2&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;13034&quot;,&quot;category_id&quot;:&quot;1&quot;,&quot;created_at&quot;:&quot;2025-01-28T17:15:08.847000Z&quot;,&quot;updated_at&quot;:&quot;2025-01-28T17:15:08.847000Z&quot;}}],&quot;post_collections&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;News&quot;,&quot;slug&quot;:&quot;news&quot;,&quot;description&quot;:null,&quot;external_url&quot;:null,&quot;post_type_id&quot;:&quot;3&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;display_status_id&quot;:null,&quot;subscribe_link&quot;:null,&quot;overlay_color&quot;:null,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;13034&quot;,&quot;collection_id&quot;:&quot;2&quot;,&quot;created_at&quot;:&quot;2025-01-28T17:15:08.843000Z&quot;,&quot;updated_at&quot;:&quot;2025-01-28T17:15:08.843000Z&quot;}}],&quot;post_roles&quot;:[],&quot;post_type&quot;:null},{&quot;id&quot;:12781,&quot;title&quot;:&quot;Boston Magazine Names 14 Kohlerackles Attorneys on 2024 Top Lawyers List&quot;,&quot;slug&quot;:&quot;boston-magazine-names-14-nelson-mullins-attorneys-on-2024-top-lawyers-list&quot;,&quot;published_at&quot;:&quot;2024-11-19T00:00:00.000000Z&quot;,&quot;alt_display_date&quot;:&quot;December 2024\/January 2025&quot;,&quot;default_images&quot;:null,&quot;name&quot;:&quot;Boston Magazine Names 14 Kohlerackles Attorneys on 2024 Top Lawyers List&quot;,&quot;custom_record_images&quot;:[{&quot;id&quot;:11671,&quot;template_id&quot;:null,&quot;template_image_id&quot;:&quot;1991&quot;,&quot;foreign_id&quot;:&quot;12781&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\Post&quot;,&quot;name&quot;:&quot;Detail Image&quot;,&quot;tag&quot;:&quot;detail_image&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2024-11-08T10:32:23.450000Z&quot;,&quot;updated_at&quot;:&quot;2024-11-08T10:32:23.450000Z&quot;,&quot;format&quot;:null,&quot;width&quot;:&quot;1280&quot;,&quot;height&quot;:&quot;800&quot;,&quot;resolution&quot;:null,&quot;image&quot;:{&quot;id&quot;:13772,&quot;document_id&quot;:&quot;21148&quot;,&quot;foreign_id&quot;:&quot;11671&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\TemplateImage&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2024-11-08T10:32:23.460000Z&quot;,&quot;updated_at&quot;:&quot;2024-11-08T10:32:23.460000Z&quot;,&quot;label&quot;:null,&quot;document&quot;:{&quot;id&quot;:21148,&quot;user_id&quot;:&quot;83&quot;,&quot;type&quot;:&quot;image\/jpeg&quot;,&quot;name&quot;:&quot;Detail Image: Boston Magazine Names 14 Kohlerackles Attorneys on Top Lawyers List&quot;,&quot;short_description&quot;:null,&quot;description&quot;:null,&quot;server_name&quot;:&quot;T4vC2fN1Zcdqen8bTNYKOEFgE4AUq1ShRrq7ZBwW&quot;,&quot;server_ext&quot;:&quot;jpg&quot;,&quot;client_name&quot;:&quot;#162079_BostonMag_14_NM_Detail_11.5.24x1&quot;,&quot;client_ext&quot;:&quot;jpg&quot;,&quot;file_size&quot;:&quot;53017&quot;,&quot;pixel_width&quot;:&quot;660&quot;,&quot;pixel_height&quot;:&quot;413&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2024-11-08T10:32:23.413000Z&quot;,&quot;updated_at&quot;:&quot;2024-11-08T10:32:23.413000Z&quot;,&quot;standalone&quot;:&quot;0&quot;,&quot;image_alt_tag&quot;:null,&quot;link&quot;:&quot;https:\/\/www.nelsonmullins.com\/storage\/T4vC2fN1Zcdqen8bTNYKOEFgE4AUq1ShRrq7ZBwW.jpg&quot;,&quot;is_image&quot;:true}}}],&quot;post_categories&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Press Releases&quot;,&quot;slug&quot;:&quot;press_releases&quot;,&quot;description&quot;:null,&quot;collection_id&quot;:&quot;2&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;12781&quot;,&quot;category_id&quot;:&quot;1&quot;,&quot;created_at&quot;:&quot;2024-11-04T10:39:32.177000Z&quot;,&quot;updated_at&quot;:&quot;2024-11-04T10:39:32.177000Z&quot;}}],&quot;post_collections&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;News&quot;,&quot;slug&quot;:&quot;news&quot;,&quot;description&quot;:null,&quot;external_url&quot;:null,&quot;post_type_id&quot;:&quot;3&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;display_status_id&quot;:null,&quot;subscribe_link&quot;:null,&quot;overlay_color&quot;:null,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;12781&quot;,&quot;collection_id&quot;:&quot;2&quot;,&quot;created_at&quot;:&quot;2024-11-04T10:39:32.173000Z&quot;,&quot;updated_at&quot;:&quot;2024-11-04T10:39:32.173000Z&quot;}}],&quot;post_roles&quot;:[],&quot;post_type&quot;:null},{&quot;id&quot;:12733,&quot;title&quot;:&quot;New Benchmark Litigation Rankings for 2025 Honor Firm and its Litigators&quot;,&quot;slug&quot;:&quot;new-benchmark-litigation-rankings-for-2025-honor-firm-and-its-litigators&quot;,&quot;published_at&quot;:&quot;2024-10-03T00:00:00.000000Z&quot;,&quot;alt_display_date&quot;:&quot;&quot;,&quot;default_images&quot;:null,&quot;name&quot;:&quot;New Benchmark Litigation Rankings for 2025 Honor Firm and its Litigators&quot;,&quot;custom_record_images&quot;:[{&quot;id&quot;:11475,&quot;template_id&quot;:null,&quot;template_image_id&quot;:&quot;1991&quot;,&quot;foreign_id&quot;:&quot;12733&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\Post&quot;,&quot;name&quot;:&quot;Detail Image&quot;,&quot;tag&quot;:&quot;detail_image&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2024-10-02T15:31:20.207000Z&quot;,&quot;updated_at&quot;:&quot;2024-10-02T15:31:20.207000Z&quot;,&quot;format&quot;:null,&quot;width&quot;:&quot;1280&quot;,&quot;height&quot;:&quot;800&quot;,&quot;resolution&quot;:null,&quot;image&quot;:{&quot;id&quot;:13570,&quot;document_id&quot;:&quot;20864&quot;,&quot;foreign_id&quot;:&quot;11475&quot;,&quot;foreign_type&quot;:&quot;App\\Models\\TemplateImage&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2024-10-02T15:31:20.220000Z&quot;,&quot;updated_at&quot;:&quot;2024-10-07T07:50:20.947000Z&quot;,&quot;label&quot;:null,&quot;document&quot;:{&quot;id&quot;:20864,&quot;user_id&quot;:&quot;20&quot;,&quot;type&quot;:&quot;image\/jpeg&quot;,&quot;name&quot;:&quot;Detail Image: New Benchmark Litigation Rankings for 2025 Honor Firm and its Litigators&quot;,&quot;short_description&quot;:null,&quot;description&quot;:null,&quot;server_name&quot;:&quot;sNZWO8zwn4Dd7Fk4uCcCZItzp1Q5GcSzweyyGWaW&quot;,&quot;server_ext&quot;:&quot;jpg&quot;,&quot;client_name&quot;:&quot;PR_135&quot;,&quot;client_ext&quot;:&quot;jpg&quot;,&quot;file_size&quot;:&quot;16629&quot;,&quot;pixel_width&quot;:&quot;660&quot;,&quot;pixel_height&quot;:&quot;413&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:&quot;2024-10-07T07:50:20.943000Z&quot;,&quot;updated_at&quot;:&quot;2024-10-07T07:50:20.943000Z&quot;,&quot;standalone&quot;:&quot;0&quot;,&quot;image_alt_tag&quot;:null,&quot;link&quot;:&quot;https:\/\/www.nelsonmullins.com\/storage\/sNZWO8zwn4Dd7Fk4uCcCZItzp1Q5GcSzweyyGWaW.jpg&quot;,&quot;is_image&quot;:true}}}],&quot;post_categories&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Press Releases&quot;,&quot;slug&quot;:&quot;press_releases&quot;,&quot;description&quot;:null,&quot;collection_id&quot;:&quot;2&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;12733&quot;,&quot;category_id&quot;:&quot;1&quot;,&quot;created_at&quot;:&quot;2024-10-02T10:59:11.430000Z&quot;,&quot;updated_at&quot;:&quot;2024-10-02T10:59:11.430000Z&quot;}}],&quot;post_collections&quot;:[{&quot;id&quot;:2,&quot;name&quot;:&quot;News&quot;,&quot;slug&quot;:&quot;news&quot;,&quot;description&quot;:null,&quot;external_url&quot;:null,&quot;post_type_id&quot;:&quot;3&quot;,&quot;deleted_at&quot;:null,&quot;created_at&quot;:null,&quot;updated_at&quot;:null,&quot;sort&quot;:&quot;0&quot;,&quot;display_status_id&quot;:null,&quot;subscribe_link&quot;:null,&quot;overlay_color&quot;:null,&quot;pivot&quot;:{&quot;post_id&quot;:&quot;12733&quot;,&quot;collection_id&quot;:&quot;2&quot;,&quot;created_at&quot;:&quot;2024-10-02T10:59:11.410000Z&quot;,&quot;updated_at&quot;:&quot;2024-10-02T10:59:11.410000Z&quot;}}],&quot;post_roles&quot;:[],&quot;post_type&quot;:null}],&quot;first_page_url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property_litigation?page=1&quot;,&quot;from&quot;:1,&quot;last_page&quot;:8,&quot;last_page_url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property_litigation?page=8&quot;,&quot;links&quot;:[{&quot;url&quot;:null,&quot;label&quot;:&quot;\u0026laquo; Previous&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property_litigation?page=1&quot;,&quot;label&quot;:&quot;1&quot;,&quot;active&quot;:true},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property_litigation?page=2&quot;,&quot;label&quot;:&quot;2&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property_litigation?page=3&quot;,&quot;label&quot;:&quot;3&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property_litigation?page=4&quot;,&quot;label&quot;:&quot;4&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property_litigation?page=5&quot;,&quot;label&quot;:&quot;5&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property_litigation?page=6&quot;,&quot;label&quot;:&quot;6&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property_litigation?page=7&quot;,&quot;label&quot;:&quot;7&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property_litigation?page=8&quot;,&quot;label&quot;:&quot;8&quot;,&quot;active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property_litigation?page=2&quot;,&quot;label&quot;:&quot;Next \u0026raquo;&quot;,&quot;active&quot;:false}],&quot;next_page_url&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property_litigation?page=2&quot;,&quot;path&quot;:&quot;https:\/\/www.nelsonmullins.com\/services\/intellectual_property_litigation&quot;,&quot;per_page&quot;:5,&quot;prev_page_url&quot;:null,&quot;to&quot;:5,&quot;total&quot;:39}},
+                            thisView: 'frontend.services.show',
+                            thisModel: 'Page',
+                            thisId: 5
+                        }"></pageablepostlist>
+                                            
+                        
+    				<div class="col-md-4 attorney-tab-articles">
+                        <div class="nm-button-yellow"><a href="../insights/alerts.html">Visit Insights</a></div>
+                                        </div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div> 
+    
+    	
+    	<div class="card">
+    		<div class="card-header" role="tab" id="headingSix">
+    			<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">Experience</a></h5>
+    		</div>
+    
+    		<div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix">
+    			<div class="card-block">
+    				<div class="row attorney-tab-info">
+    					<div class="col-md-8">
+    						<p>Following is a selected sampling of matters and is provided for informational purposes only. Past success does not indicate the likelihood of success in any future matter.</p>
+    						<h3 class="top-body-subhead">Appellate Experience</h3>
+    
+    <ul class="collapseList collapseTo_5">
+    	<li>Argued appeal involving indigo dyes (Fed. Cir.)</li>
+    	<li>Argued appeal involving radio frequency tag technology (Fed. Cir.)</li>
+    	<li>Argued appeal involving reverse auction business method patent (Fed. Cir.)</li>
+    	<li>Argued appeal involving tactile warning surface panels (Fed. Cir.)</li>
+    	<li>Consulted regarding appeal involving influenza treatments (Fed. Cir.)</li>
+    	<li>Filed briefs in an appeal involving fire retardant fabrics (Fed. Cir.)</li>
+    	<li>Argued appeal involving college sports trademarks (Fed. Cir.)</li>
+    	<li>Argued appeal involving wound irrigation system (Fed. Cir.)</li>
+    </ul>
+    
+    <h3 class="body-subhead">Patent District Court Litigation Experience</h3>
+    
+    <ul class="collapseList collapseTo_5">
+    	<li><strong>Patent litigation defense in matter involving drink dispenser fitments</strong> (N.D. Ill.) &nbsp;&ndash; &nbsp;represented client against preliminary injunction and patent infringement accusations and settled the action before having to defend against preliminary injunction</li>
+    	<li><strong>Patent litigation involving the enforcement of sweepstakes gaming technology patents </strong>(E.D.N.C.) &ndash; represented the patent owner in asserted multiple patents concerning sweepstakes technology against a competitor and resolved the case by settlement</li>
+    	<li><strong>Patent litigation defense in matter involving pipe fittings </strong>(C.D. Cal.) &ndash;&nbsp;represented manufacturing client in defense of patent infringement allegations involving pipe fittings used in disposal of chemical corrosive waste&nbsp;</li>
+    	<li><strong>Patent litigation defense in matter involving multi-rated capacitor </strong>(M.D. Fla.) &ndash;&nbsp;defendants located in different states in this patent infringement case involving a multi-rated capacitor</li>
+    	<li><strong>Case asserting patent infringement in matter involving fasteners for composite lumber </strong>(D. Mass.) &ndash;&nbsp;represented plaintiff asserting patent infringement relating to fasteners for composite lumber&nbsp;</li>
+    	<li><strong>Case asserting patent infringement involving glass and carbon composite tactile warning surfaces</strong> (D. Mass.) &ndash;&nbsp;represented plaintiff in a patent infringement case relating to glass and carbon composite tactile warning surfaces for aiding the visually impaired&nbsp;</li>
+    	<li><strong>Representing media company client in matter asserting patent infringement </strong>(E.D. Tenn.) &ndash; represented plaintiff in case relating to television and internet reverse auction technology</li>
+    	<li><strong>Patent litigation defense in matter involving flame retardant fabric technology </strong>(M.D.N.C.) &ndash;&nbsp;representing international manufacturing company in matter relating to flame retardant fabric technology</li>
+    	<li><strong>Patent infringement defense in case involving claims by non-practicing entity</strong> (S.D. Fla.) &ndash;&nbsp;represented individual and company defendants in the competitive gaming industry in patent infringement action&nbsp;</li>
+    	<li><strong>Represented New Zealand Company in patent litigation defense</strong>&nbsp;&ndash;&nbsp;represented client in defense of matter involving a patent directed to a honey based wound dressing.&nbsp; During the course of the litigation, we filed a petition for <em>inter partes&nbsp;</em>review of the patent in suit, and shortly after the grant of IPR Petition the matter was settled&nbsp;</li>
+    	<li><strong>Patent litigation defense for software client </strong>(E.D. Tex.) &ndash;&nbsp;represented client in matter involving software that includes digital data structures for storing identifying information and encrypted digital secrets that allows trustees to access the encrypted digital secrets upon verification of identifying information; the matter was dismissed&nbsp;</li>
+    	<li><strong>Case asserting patent infringement and involving multi-year reexamination defense filing </strong>(M.D.N.C.) &ndash;&nbsp;represented client as plaintiff in patent infringement case.&nbsp; After confirmation of the patent in multi-year patent reexamination and further litigation, the case was resolved by settlement</li>
+    	<li><strong>Defeated preliminary injunction for pharmaceutical industry client in defense of patent litigation</strong> (D.N.J.) &ndash;&nbsp;represented our pharmaceutical client in this patent infringement case related to prenatal vitamins - formulation patents.&nbsp; On behalf of our client, we prevailed in defeating preliminary injunction on both no likelihood of success as to validity and no irreparable harm with respect to four patents after a 2-day evidentiary hearing</li>
+    	<li><strong>Patent infringement defense</strong> <strong>for pharmaceutical client</strong> (D.N.J.) &ndash;&nbsp;represented our client in a patent infringement case related to prenatal vitamins - formulation patents.&nbsp; The case was resolved by settlement</li>
+    	<li><strong>Patent litigation defense matter involving menu, reservation, and ordering systems</strong> (E.D. Tex.) &ndash;&nbsp;represented client as defendant in patent infringement case related to online menu, reservation, and ordering systems.&nbsp; The case was resolved by settlement</li>
+    	<li><strong>Patent infringement defense</strong> <strong>matter involving tire balancing methods and machines </strong>(E.D. Mo.) &ndash;&nbsp;represented our client in a patent infringement case involving infringement allegations concerning tire balancing machines.&nbsp; The case was resolved by settlement</li>
+    	<li><strong>Declaratory judgment action for pharmaceutical client</strong> <strong>in matter involving Italian patent owner</strong> (E.D. Va.) &ndash;&nbsp;represented client as plaintiff in this declaratory judgment action against Italian patent owner of prenatal vitamin formulation patent.&nbsp; The case was resolved by settlement</li>
+    	<li><strong>Patent litigation defense matter involving locomotive braking systems</strong> (D. S.C.) &ndash;&nbsp;represented defendant locomotive parts manufacturer in patent infringement case related to braking systems for trains and locomotives.&nbsp; The case was resolved by settlement after summary judgment hearing</li>
+    	<li><strong>Declaratory judgment action for avionics systems manufacturing client</strong> (D. Mass.) &ndash;&nbsp;represented client as plaintiff in this declaratory judgment action related to aircraft cockpit instrumentation technology.&nbsp; The case was resolved by settlement&nbsp;</li>
+    	<li><strong>Patent litigation defense matter involving license plate recognition technology</strong> (E.D. Tex.) &ndash; represented company and municipality defendants in this patent infringement case brought by a non-practicing entity and related to license plate recognition technology.&nbsp; The case was resolved by settlement&nbsp;</li>
+    	<li><strong>Patent litigation defense matter involving doors</strong> (S.D. Miss.) &ndash; represented company in this patent infringement case brought by competitor related to technology for making doors.&nbsp; The case was resolved by settlement</li>
+    	<li><strong>Patent litigation defense matter involving food and drink dispensers</strong> (D. S.C.) &ndash;&nbsp;represented defendant client against allegations that its dispensers infringed a patent related to temperature-controlled food dispensers.&nbsp; The case was resolved by settlement&nbsp;</li>
+    	<li><strong>Patent litigation defense matter for pharmaceutical client involving allegations of infringement</strong> (W.D. Tex.) &ndash;&nbsp;represented defendant client in this patent infringement case related to iron supplements. The case was resolved by settlement</li>
+    	<li><strong>Case brought by non-practicing entity against healthcare industry client </strong>(E.D. Tex.) &ndash;&nbsp;represented defendant client in this patent infringement case brought by a non-practicing entity and related to patient treatment and monitoring methods. The case was resolved by settlement&nbsp;&nbsp;</li>
+    	<li><strong>Patent litigation defense matter relating to flame retardant fabric technology</strong> (M.D.N.C.) &ndash;&nbsp;represented defendant client in this patent infringement case related to flame retardant fabric technology.&nbsp; The case was resolved by settlement</li>
+    	<li><strong>Resolved patent litigation defense matter relating to financial institution transactions</strong> (E.D. Tex.) &ndash;&nbsp;represented defendant client in this patent infringement case related to financial institution transactions.&nbsp; The case was resolved by settlement</li>
+    </ul>
+    
+    <h3 class="body-subhead">Trademark and False Advertising (Lanham Act) Litigation Experience</h3>
+    
+    <ul class="collapseList collapseTo_5">
+    	<li><strong>Plaintiff representation in two false advertising (Lanham Act) litigations relating to prenatal supplements</strong> (N.D. Ga.) &ndash; representing maker of prenatal vitamins against two competitors for making false and/or misleading advertising statements regarding nutritional facts and DHA amounts</li>
+    	<li><strong>Trademark, Copyright, and Trade Secret Litigation</strong> (M.D.N.C. and M.D. Fla.) &ndash; represented a sweepstakes technology company in asserting trademark, copyright, and trade secret claims against allegedly pirated software and obtained an ex parte seizure of the infringing goods, a temporary restraining order, and a preliminary injunction</li>
+    	<li><strong>Obtained a TRO and Summary Judgment in matter for automotive clients </strong>(S.D. Fla.) &ndash;&nbsp;represented U.S. and foreign clients as plaintiffs in this trademark infringement case related to personal watercraft and jet boats.&nbsp; On behalf of our clients, we obtained temporary restraining order and preliminary injunction against defendants for trademark infringement during the world&#39;s largest watercraft show and later obtained summary judgment with damages and costs awarded to our client</li>
+    	<li><strong>Trademark defense litigation relating to disaster recovery services</strong> (S.D.N.Y.) &ndash;&nbsp;represented our defendant client in this case involving trademark infringement allegations related to disaster recovery services.&nbsp; On behalf of our client, we obtained dismissal of NY litigation&nbsp;</li>
+    	<li><strong>Trademark infringement litigation matter </strong>(D.S.C.) &ndash;&nbsp;represented defendant client in this trademark infringement allegation matter related to tax preparation services.&nbsp; The case was resolved by settlement</li>
+    	<li><strong>Trademark infringement and counterfeiting matter involving cigarettes </strong>(D.S.C.) &ndash;&nbsp;represented plaintiff cigarette manufacturer against counterfeiter.&nbsp; Secured consent judgment for damages and injunction</li>
+    	<li><strong>Matter involving claims of trademark infringement and Anti-Cybersquatting Consumer Protection Act</strong> (S.D. Fla) &ndash;&nbsp;client in defense of a case involving claims of trademark infringement and violation of the Anti-Cybersquatting Consumer Protection Act (ACPA), in which we obtained dismissal of ACPA claims.&nbsp; Ultimately settled the remaining trademark claims</li>
+    	<li><strong>Severed automotive industry client from group of defendants and resolved copyright and trademark infringement case </strong>&ndash; represented client in successfully severing the client from a large group of defendants in a copyright and trademark infringement case.&nbsp; Case resolved by settlement&nbsp;</li>
+    	<li><strong>Trademark infringement, cybersquatting and unfair competition and unfair trade matter </strong>&ndash;&nbsp;represented plaintiff in a case against a competitor involving trademark infringement and cybersquatting under the Lanham Act, 15 U.S.C. &sect; 1125, and for unfair competition and unfair trade practices under New York statutory and common law&nbsp;</li>
+    	<li>Plaintiff representation in grey-market trademark infringement case&nbsp;&ndash;&nbsp;represented plaintiffs in the motorized products manufacturing industry in a grey-marketed trademark infringement case</li>
+    	<li><strong>SEO/Web Host infringement matter&nbsp;</strong>(D.S.C.) &ndash;&nbsp;represented plaintiff in a jury trial that obtained statutory damages</li>
+    </ul>
+    
+    <h3 class="body-subhead">Copyright and Trade Secret Matters</h3>
+    
+    <ul class="collapseList collapseTo_5">
+    	<li><strong>Defendant representation in case involving copyright infringement allegations (D.S.C.)</strong> &ndash; representing clothing manufacturer accused of violating 50 copyrights</li>
+    	<li><strong>Defendant and counterclaim plaintiff representation in case involving copyright infringement allegations (N.D. Ga.)</strong> &ndash; representing clothing manufacturer executive accusing competitor clothing manufacturer of infringing her copyright while defending executive against copyright infringement claims</li>
+    	<li><strong>Defendant representation in case involving trade secrets (D.N.J.)</strong> &ndash; representing prenatal vitamin manufacturer against allegations of trade secret violations made by a former licensor</li>
+    	<li><strong>Plaintiff representation in case involving upholstery fabric for furniture (M.D.N.C) &nbsp;</strong>&ndash;<strong>&nbsp;</strong>represented plaintiff in a case alleging copyright infringement of upholstery fabric designs against U.S. furniture manufacturer and Chinese fabric maker.&nbsp;&nbsp;Settled with furniture manufacturer and obtaining monetary judgment and injunction against fabric maker</li>
+    	<li><strong>Plaintiff representation in case involving licensing and sale of IP and other assets (W.D.N.C) </strong>&ndash;&nbsp;&nbsp;Kohlerackles represented plaintiffs in a case alleging alleged breach of a contract related to the licensing and sale of certain intellectual property and other assets</li>
+    	<li><strong>Plaintiff representation to obtain consent order of injunction (M.D.N.C.)</strong> &ndash;&nbsp;represented plaintiff in copyright infringement case involving allegations that defendant was selling integrated circuits loaded with unauthorized copies of plaintiff&#39;s copyrighted firmware.&nbsp;&nbsp;The case resolved with the entry of a consent order enjoining reproduction or distribution of the subject firmware by the defendant</li>
+    	<li><strong>Plaintiff representation to obtain consent preliminary and temporary injunction (E.D. Tex.)</strong> &ndash;&nbsp;represented plaintiff client in the gaming industry involving infringement of copyright software and designs.&nbsp;&nbsp;The case was resolved with the entry of a consent preliminary and temporary injunction against the defendant</li>
+    	<li><strong>Litigation defense in matter alleging trade secret theft allegations relating to mechanical valve systems (D.S.C.)</strong> &ndash;&nbsp;represented defendant in this case involving trade secret theft allegations related to mechanical valve systems. The case was resolved by settlement</li>
+    	<li><strong>Copyright litigation defense related to insurance industry (N.D. Ga.) </strong>&ndash; represented defendant in this case that involved copyright infringement allegations related to the insurance industry. The case was resolved by settlement&nbsp;</li>
+    	<li><strong>Copyright litigation defense related to architectural designs (D.S.C.)</strong> &ndash;&nbsp;represented defendant against allegations of copyright infringement regarding multiple architectural house designs.&nbsp;&nbsp;The case was resolved by settlement&nbsp;</li>
+    	<li><strong>Copyright litigation defense involving stained glass designs (N.D. Cal.)</strong> &ndash;&nbsp;represented defendant in matter involving plaintiff&rsquo;s contentions that several copyrighted stained glass designs were being used without authorization in certain products.&nbsp;&nbsp;The case was resolved by settlement</li>
+    </ul>
+    
+    <h3 class="body-subhead">International IP Litigation</h3>
+    
+    <ul>
+    	<li><strong>Patent litigation in Milan, Italy&nbsp;</strong>&ndash;<strong>&nbsp;</strong>represented defendant in a patent infringement case pending in Milan, Italy in which both parties have asserted claims of patent infringement.&nbsp; Defendant prevailed on all dispositive issues at trial except one and prevailed on appeal on the remaining issue</li>
+    	<li><strong>Copyright litigation matter in Paris, France</strong> (Tribunal de Grande, Paris) &ndash;&nbsp; selected and supervised European counsel in a copyright infringement case in France alleging that defendant sold an infringing light fixture&nbsp;&nbsp;</li>
+    </ul>
+    
+    <h3 class="body-subhead">Inter Partes Review Experience Before the USPTO</h3>
+    
+    <ul>
+    	<li><strong>Inter partes review during pendency of litigation </strong>&ndash;<strong>&nbsp;</strong>filed <em>inter partes</em> review on behalf of the petitioners, regarding a patent during the pendency of the related lawsuit. The PTAB instituted the IPR, and the case settled shortly thereafter</li>
+    	<li><strong>Covered business method review </strong>(PTAB) &ndash; represented patent owner in pending covered business method review involving television and internet reverse auction technology&nbsp;</li>
+    	<li><strong>Inter partes review involving patent related to flame retardant fabric technology</strong> (PTAB) &ndash;&nbsp;represents petitioner textile manufacturer in an instituted <em>inter partes</em> review involving a patent related to flame retardant fabric technology</li>
+    	<li><strong>Covered Business Method Review involving sweepstakes gaming systems</strong> &ndash; Kohlerackles served as co-counsel in a proceeding that challenged, and ultimately invalidated, two patents concerning sweepstakes gaming technology</li>
+    </ul>
+    
+    					</div> 
+    
+    
+    
+    				</div>
+    			</div>
+    		</div>
+    	</div> 
+    
+    
+    	
+    	<div class="card aside-why">
+    		<div class="card-header" role="tab" id="headingSeven">
+    			<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">Why Kohlerackles?</a></h5>
+    		</div>
+    
+    		<div id="collapseSeven" class="collapse" role="tabpanel" aria-labelledby="headingSeven">
+    			<div class="card-block">
+    				<div class="row attorney-tab-info">
+    					<div class="col-md-8">
+    						<ul>
+    	<li>Practical understanding of business objectives</li>
+    	<li>Cost efficiency and budget predictability</li>
+    	<li>Deep bench of experienced courtroom attorneys</li>
+    	<li>Cross-firm and multi-disciplinary team</li>
+    	<li>Nimbleness and ability to adapt to all types of IP litigation scenarios</li>
+    </ul>
+    					</div> 
+    				</div>
+    			</div>
+    		</div>
+    	</div> 
+    
+    	<br>
+    
+    		<div class="col-md-4 sidebar">
+    				
+    
+    				
+    				
+    				<div class="aside-contacts">
+    
+    					<h4>Practice Contacts</h4>
+    
+    								                        <a href="../professionals/john-mcelwaine.html">
+    	                            <div class="sidebar-contact-photo">
+    	                                <img src="/images/14ab318f8115bc91da598f82b05cfb53.jpg" alt="John C. McElwaine" />	                            </div>
+    	                        </a>
+    	                        <div class="sidebar-contact-details full-width">
+    	                            <h4><a href="../professionals/john-mcelwaine.html">John C. McElwaine</a></h4>
+    	                            	                                <div class="h5 position">Partner</div>
+    	                            	                            	                                <div class="sidebar-email-icon" style="float: left; margin-right: 10px;">
+    	                                    <a href="#" data-toggle="modal" data-target="#emailModal" data-email="john.mcelwaine@nelsonmullins.com" class="email_btn"><img src="/images/detail-email.png" alt="Send Email to John C. McElwaine" /></a>
+    	                                </div>
+    	                            	                            	                                	                                	<div style="float: left;">
+    	                                    <p>T 843.534.4302</p>
+    	                                    </div>
+    	                                	                            	                        </div>
+    	                    
+    
+    							
+    						<div class="nm-button-yellow">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Related Professionals</a>
+                            </div>
+    
+                            					</div>
+    
+    				
+    
+    			</div>
+    
+    
+    		
+    		</div> 
+    
+    
+    
+    	</div> 
+    </div> 
+    
+    </div> 
+    
+    				<div class="container hidden-print">
+    					
+    <section class="row bottom-carousel">
+    	<div class="col-md-12 bottom-carousel-wrapper">
+    		<section id="bottom-carousel" class="aside carousel slide multi" data-ride="carousel" data-interval="false" data-itemcount-l="2" data-itemcount-m="2" data-itemcount-s="1" aria-roledescription="carousel" aria-labelledby="aside249">
+    		    
+                <h2 id="aside249" class="d-inline-block">Highlights from Insights</h2>
+    		    <ol class="carousel-indicators circle">
+    			                
+                  <li class="carousel-circle active dot-1">
+                    <button type="button" class="btn-carousel" data-target="#bottom-carousel" data-slide-to="0" aria-label="Slide 1" aria-current="true"></button>
+                  </li>                
+    				              
+                  <li class="carousel-circle  dot-2">
+                    <button type="button" class="btn-carousel" data-target="#bottom-carousel" data-slide-to="1" aria-label="Slide 2" aria-current="false"></button>
+                  </li>                
+    				              
+                  <li class="carousel-circle  dot-3">
+                    <button type="button" class="btn-carousel" data-target="#bottom-carousel" data-slide-to="2" aria-label="Slide 3" aria-current="false"></button>
+                  </li>                
+    				            </ol>
+                
+    
+    			<div class="carousel-inner" aria-live="polite">
+                    				                                                <div class="row carousel-item active" role="group" aria-roledescription="slide" aria-label="Slide 1 of 3">
+                    					<div class="col-12 col-md-6">
+                                                                            <img src="/images/ohdpvaLVtm2FONsiglaiLxq6N0Owi4O40e34qL9b.jpg" alt="gavel on law books" />                                            						
+    						<div class="photo-gradient"></div>
+    						<div class="carousel-caption">
+    															<a href="../insights/insights/navigating-california-s-climate-disclosure-laws-your-complete-guide-to-sb-253-and-sb-261.html"
+    														>
+                                                            Navigating California’s Climate Disclosure Laws: Your Complete Guide to SB...
+                                                            
+                                </a>
+    							<div class="caption-date">
+    																	December 2, 2025
+    															</div>
+    						</div>
+    					</div>
+                        				                					<div class="col-12 col-md-6">
+                                                                            <img src="/images/qd5IYrDqccPfoJYxEh0r6blgftNNhc1KB1PBlTWl.jpg" alt="Construction site and development" />                                            						
+    						<div class="photo-gradient"></div>
+    						<div class="carousel-caption">
+    															<a href="../insights/insights/nmrs-attorneys-published-in-florida-bar-journal-on-ccna-procurements.html"
+    														>
+                                                            NMRS Attorneys Published in Florida Bar Journal on CCNA Procurements
+                                                            
+                                </a>
+    							<div class="caption-date">
+    																	November/December 2025
+    															</div>
+    						</div>
+    					</div>
+                                            </div>
+                        				                                                <div class="row carousel-item " role="group" aria-roledescription="slide" aria-label="Slide 2 of 3">
+                    					<div class="col-12 col-md-6">
+                                                                            <img src="/images/Jc7KbwbGvTjOLhbjU9RbQZK3aT6GcA64o6dOcWRW.jpg" alt="football" />                                            						
+    						<div class="photo-gradient"></div>
+    						<div class="carousel-caption">
+    															<a href="../insights/insights/prime-equity-and-the-nil-era-shedeur-sanders-contract-ushers-in-a-new-legal-framework-for-pro-athlete-compensation.html"
+    														>
+                                                            “Prime Equity” and the NIL Era: Shedeur Sanders’ Contract Ushers...
+                                                            
+                                </a>
+    							<div class="caption-date">
+    																	September 3, 2025
+    															</div>
+    						</div>
+    					</div>
+                        				                					<div class="col-12 col-md-6">
+                                                                            <img src="/images/Lht62fS0RwzCc7jmGm6kLFoJJaBwAtrjlZZl60aD.jpg" alt="" />                                            						
+    						<div class="photo-gradient"></div>
+    						<div class="carousel-caption">
+    															<a href="../insights/alerts/additional_nelson_mullins_alerts/all/fdot-announces-small-business-growth-program-following-dbe-program-updates.html"
+                                							>
+                                                            FDOT Announces Small Business Growth Program Following DBE Program Updates
+                                                            
+                                </a>
+    							<div class="caption-date">
+    																	November 24, 2025
+    															</div>
+    						</div>
+    					</div>
+                                            </div>
+                        				                                                <div class="row carousel-item " role="group" aria-roledescription="slide" aria-label="Slide 3 of 3">
+                    					<div class="col-12 col-md-6">
+                                                                            <img src="/images/Lc9cz7XPTgv1Tcl7av5lixHNL9U6efAXba6QCp3X.jpg" alt="" />                                            						
+    						<div class="photo-gradient"></div>
+    						<div class="carousel-caption">
+    															<a href="../insights/alerts/nelson-mullins-affordable-housing-news/all/hud-continuum-of-care-funding-gap-risks-and-recommendations.html"
+                                							>
+                                                            HUD Continuum of Care Funding Gap: Risks and Recommendations
+                                                            
+                                </a>
+    							<div class="caption-date">
+    																	November 24, 2025
+    															</div>
+    						</div>
+    					</div>
+                        				                					<div class="col-12 col-md-6">
+                                                                            <img src="/images/Lc9cz7XPTgv1Tcl7av5lixHNL9U6efAXba6QCp3X.jpg" alt="" />                                            						
+    						<div class="photo-gradient"></div>
+    						<div class="carousel-caption">
+    															<a href="../insights/alerts/nelson-mullins-affordable-housing-news/all/hud-extends-compliance-dates-for-energy-efficiency-standards-in-hud-and-usda-financed-housing.html"
+                                							>
+                                                            HUD Extends Compliance Dates for Energy Efficiency Standards in HUD-...
+                                                            
+                                </a>
+    							<div class="caption-date">
+    																	November 14, 2025
+    															</div>
+    						</div>
+    					</div>
+                                            </div>
+                        							</div>
+            </section>
+    	</div>
+    </section>
+    
+    				</div>
+    
+            
+        </main>
+  </main>
 </template>
 
 <script setup>
-import ServiceDetailLayout from '@/components/ServiceDetailLayout.vue'
-
-const tabs = ["Overview","Professionals","Related Practice Areas","Related Industries","Insights"]
-const sections = [{"heading":"We help clients","items":["Litigate IP infringement suits, both foreign and domestic","Defend patent, trademark, copyright infringement claims, and claims of trade secret violations","Enforce patents, trademarks, copyrights, and trade secrets against competitors and infringers","Seek and defend against administrative remedies involving intellectual property rights","Handle patent opposition and trademark opposition or cancellation proceedings","Establish IP matrices or “webs” to help identify would-be infringers"]},{"heading":"Interdisciplinary team","text":"Our team brings together litigators, patent attorneys, technical professionals and attorneys experienced before the U.S. Patent and Trademark Office and federal courts."},{"heading":"Our IP litigation spans the range of public and private companies and business sectors","text":"We represent clients across technology, life sciences, manufacturing, consumer products, financial services and other industries."},{"heading":"Our IP litigation experience helps you","items":["Protect valuable intellectual property assets","Resolve disputes efficiently and strategically","Manage litigation risk while preserving commercial relationships","Pursue business-focused outcomes through trial, settlement, arbitration and mediation"]}]
-const why = {"text":"We combine courtroom experience with technical knowledge and commercial judgment to develop litigation strategies aligned with each client’s objectives."}
-const contacts = [{"name":"John C. McElwaine","role":"Practice Contact"}]
+// This page intentionally preserves the original service-page HTML structure.
+// Shared header and footer are provided by App.vue.
 </script>
+
+<style scoped>
+.legacy-service-page {
+  width: 100%;
+}
+</style>
