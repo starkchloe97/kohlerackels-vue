@@ -32,16 +32,16 @@
         <div class="container featured-tabs">
           <ul class="nav nav-tabs">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/firm">Overview</a>
+              <RouterLink class="nav-link" exact-active-class="active" to="/culture">Overview</RouterLink>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="/CultureProBono">Pro Bono</a>
+              <RouterLink class="nav-link" exact-active-class="active" to="/CultureProBono">Pro Bono</RouterLink>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="/EngagementAndOpportunity">Engagement and opportunity</a>
+              <RouterLink class="nav-link" exact-active-class="active" to="/EngagementAndOpportunity">Engagement and opportunity</RouterLink>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="/CommunityServices">Community Service</a>
+              <RouterLink class="nav-link" exact-active-class="active" to="/CommunityServices">Community Service</RouterLink>
             </li>
           </ul>
         </div>

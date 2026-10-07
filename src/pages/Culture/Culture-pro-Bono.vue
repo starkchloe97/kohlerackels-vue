@@ -39,24 +39,35 @@
         <ul class="nav nav-tabs">
           <li class="nav-item">
             <RouterLink
-              class="nav-link active"
-              aria-current="page"
+              class="nav-link"
+              exact-active-class="active"
               to="/culture"
               >Overview</RouterLink
             >
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link" to="/CultureProBono"
+            <RouterLink
+              class="nav-link"
+              exact-active-class="active"
+              to="/CultureProBono"
               >Pro Bono</RouterLink
             >
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link" to="/EngagementAndOpportunity"
+            <RouterLink
+              class="nav-link"
+              exact-active-class="active"
+              to="/EngagementAndOpportunity"
               >Engagement and Opportunity</RouterLink
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/CommunityServices">Community Service</a>
+            <RouterLink
+              class="nav-link"
+              exact-active-class="active"
+              to="/CommunityServices"
+              >Community Service</RouterLink
+            >
           </li>
         </ul>
       </div>
@@ -97,24 +108,34 @@
         <ul class="nav nav-tabs">
           <li class="nav-item">
             <RouterLink
-              class="nav-link active"
-              aria-current="page"
+              class="nav-link"
+              exact-active-class="active"
               to="/culture"
               >Overview</RouterLink
             >
           </li>
           <li class="nav-item">
-            <RouterLink to="/CultureProBono" class="nav-link">
+            <RouterLink
+              to="/CultureProBono"
+              class="nav-link"
+              exact-active-class="active"
+            >
               Pro Bono
             </RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link" to="/EngagementAndOpportunity"
+            <RouterLink
+              class="nav-link"
+              exact-active-class="active"
+              to="/EngagementAndOpportunity"
               >Engagement and Opportunity</RouterLink
             >
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link" to="/CommunityServices"
+            <RouterLink
+              class="nav-link"
+              exact-active-class="active"
+              to="/CommunityServices"
               >Community Service
             </RouterLink>
           </li>

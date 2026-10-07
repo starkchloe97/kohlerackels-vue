@@ -22,7 +22,6 @@
 
           <div class="hero-container">
             <div class="hero-copy">
-              <p class="hero-kicker">Kohlerackels</p>
               <h1 v-html="slide.title"></h1>
               <p class="hero-lead">{{ slide.text }}</p>
             </div>
@@ -32,11 +31,23 @@
 
       <div class="hero-container hero-controls-container">
         <div class="hero-controls" aria-label="Hero carousel controls">
-          <button type="button" aria-label="Previous slide" @click="previousHero">‹</button>
-          <button type="button" :aria-label="heroPlaying ? 'Pause slideshow' : 'Play slideshow'" @click="toggleHero">
-            <span aria-hidden="true">{{ heroPlaying ? 'Ⅱ' : '▶' }}</span>
+          <button class="hero-control hero-arrow hero-prev" type="button" aria-label="Previous slide" @click="previousHero">
+            ‹
           </button>
-          <button type="button" aria-label="Next slide" @click="nextHero">›</button>
+          <button class="hero-control hero-arrow hero-next" type="button" aria-label="Next slide" @click="nextHero">
+            ›
+          </button>
+          <button
+            class="hero-control hero-toggle"
+            type="button"
+            :aria-label="heroPlaying ? 'Pause slideshow' : 'Play slideshow'"
+            @click="toggleHero"
+          >
+            <span
+              :class="{ 'pause-icon': heroPlaying }"
+              aria-hidden="true"
+            >{{ heroPlaying ? '' : '▶' }}</span>
+          </button>
 
           <div class="hero-dots">
             <button
@@ -260,7 +271,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  top: 30%;
+  top: 22%;
   height: auto;
   pointer-events: none;
 }
@@ -269,55 +280,100 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 8px;
+  gap: 10px;
   width: 50%;
   pointer-events: auto;
 }
 
 .hero-controls > button {
-  width: 28px;
-  height: 28px;
+  display: inline-flex;
+  flex: 0 0 22px;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 24px;
   border: 0;
   padding: 0;
   background: transparent;
-  color: #355989;
-  font: 400 25px/1 "Quattrocento Sans", sans-serif;
+  color: #999;
+  cursor: pointer;
+}
+
+.hero-arrow {
+  font-size: 0;
+}
+
+.hero-arrow::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  border: solid currentColor;
+  border-width: 0 3px 3px 0;
+}
+
+.hero-prev::before {
+  transform: translateX(2px) rotate(135deg);
+}
+
+.hero-next::before {
+  transform: translateX(-2px) rotate(-45deg);
+}
+
+.hero-toggle span {
+  font: 700 22px/1 Arial, sans-serif;
+}
+
+.hero-toggle .pause-icon {
+  width: 14px;
+  height: 24px;
+  background: linear-gradient(
+    to right,
+    currentColor 0 4px,
+    transparent 4px 9px,
+    currentColor 9px 13px,
+    transparent 13px
+  );
 }
 
 .hero-controls > button:hover {
-  color: #c28b14;
+  color: #355989;
+}
+
+.hero-controls > button:focus-visible,
+.hero-dots button:focus-visible {
+  outline: 2px solid #355989;
+  outline-offset: 3px;
 }
 
 .hero-dots {
   display: flex;
   align-items: center;
-  gap: 6px;
-  margin-left: 3px;
+  gap: 11px;
+  margin-left: 1px;
 }
 
 .hero-dots button {
   position: relative;
-  width: 18px;
-  height: 18px;
+  flex: 0 0 23px;
+  width: 23px;
+  height: 23px;
   border: 0;
   padding: 0;
   background: transparent;
+  cursor: pointer;
 }
 
 .hero-dots button::before {
   content: "";
   position: absolute;
-  width: 9px;
-  height: 9px;
-  top: 4.5px;
-  left: 4.5px;
-  border: 1px solid #355989;
+  inset: 0;
   border-radius: 50%;
-  background: transparent;
+  background: #999;
 }
 
 .hero-dots button.active::before {
-  background: #355989;
+  background: #29485f;
 }
 
 .news-section {
@@ -383,11 +439,11 @@
   top: 50%;
   transform: translateY(-50%);
   z-index: 5;
-  width: 48px;
-  height: 48px;
+  width: 44px;
+  height: 44px;
   border: 1px solid rgba(255,255,255,.45);
   border-radius: 50%;
-  background: rgba(0,0,0,.12);
+  background:rgb(255 255 255 / 20%);
   color: #fff;
   font: 400 32px/1 "Quattrocento Sans", sans-serif;
 }
@@ -446,7 +502,7 @@
 .practice-card h2 {
   margin: 0;
   color: #0d2f5e;
-  font: 600 22px/1.2 "Montserrat", sans-serif;
+  font: 600 23px/1.2 "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: .02em;
 }
@@ -480,7 +536,7 @@
 }
 
 .focus-rule {
-  display: block;
+  display: none;
   width: 165px;
   height: 2px;
   margin-bottom: 16px;
@@ -515,7 +571,7 @@
 .focus-button.active {
   padding: 12px 26px;
   border-radius: 28px;
-  background: #023e82;
+  background:#577FAC;
   color: #fff;
 }
 

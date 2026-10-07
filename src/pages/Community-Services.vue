@@ -29,17 +29,17 @@
             <div class="container featured-tabs">
                 <ul class="nav nav-tabs">
                     <li class="nav-item">
-                        <RouterLink class="nav-link active" aria-current="page" to="/culture">Overview</RouterLink>
+                        <RouterLink class="nav-link" exact-active-class="active" to="/culture">Overview</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <RouterLink class="nav-link " to="/CultureProBono">Pro Bono</RouterLink>
+                        <RouterLink class="nav-link" exact-active-class="active" to="/CultureProBono">Pro Bono</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <RouterLink class="nav-link " to="/EngagementAndOpportunity">Engagement and
+                        <RouterLink class="nav-link" exact-active-class="active" to="/EngagementAndOpportunity">Engagement and
                             Opportunity</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="/CommunityServices">Community Service</a>
+                        <RouterLink class="nav-link" exact-active-class="active" to="/CommunityServices">Community Service</RouterLink>
                     </li>
                 </ul>
             </div>
@@ -73,17 +73,17 @@
             <div class="container featured-tabs">
                 <ul class="nav nav-tabs">
                     <li class="nav-item">
-                        <RouterLink class="nav-link active" aria-current="page" to="/culture">Overview</RouterLink>
+                        <RouterLink class="nav-link" exact-active-class="active" to="/culture">Overview</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <RouterLink to="/CultureProBono" class="nav-link"> Pro Bono </RouterLink>
+                        <RouterLink to="/CultureProBono" class="nav-link" exact-active-class="active"> Pro Bono </RouterLink>
                     </li>
                     <li class="nav-item">
-                        <RouterLink class="nav-link " to="/EngagementAndOpportunity">Engagement and
+                        <RouterLink class="nav-link" exact-active-class="active" to="/EngagementAndOpportunity">Engagement and
                             Opportunity</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <RouterLink class="nav-link " to="/CommunityServices">Community Service
+                        <RouterLink class="nav-link" exact-active-class="active" to="/CommunityServices">Community Service
                         </RouterLink>
                     </li>
                 </ul>
@@ -401,10 +401,10 @@
                     <!-- Sidebar -->
                     <div data-v-a2324b3f="" class="col-md-5 diversity-contacts">
                         <!-- Contact records and initial slides are configured at the end of this file. -->
-                        <SingleImageCarousal />
+                       <RightSideShortSlider title="COMMUNITY SERVICE CONTACTS  " :contacts="communityContacts" />
                         <!-- <youtubeVideoSection /> -->
-                        <galleryImageCarousal />
-                        <galleryImageCarousal />
+                        <CommunityHowWeSupport />
+                        <CommunityServiceInAction />
                     </div>
 
                 </div>
@@ -610,10 +610,6 @@
 
 
                             <!-- Contact records and initial slides are configured at the end of this file. -->
-                           
-                                :contacts="engagementContacts" :initial-index="2" />
-                            <RightSideShortSlider title="COMMUNITY SERVICE CONTACTS" :contacts="communityContacts" />
-
 
 
                         </div>
@@ -674,16 +670,56 @@
 .row {
   margin-right: -15px;
   margin-left: -15px;
-  /* gap: 0px; */
+  gap: 0px;
+}
+
+.contact-photo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 38%;
+    height: 93%;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.contact-details h3{
+    margin: 0;
+    color: #080808;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.15;
+}
+.contact-title{
+    margin: 0 0 4px;
+    color: #555;
+    font-size: 19px;
+    line-height: 1.2;
+}
+
+.contact-email{
+    display: block;
+    flex: 0 0 40px;
+    width: 24px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.contact-phone {
+    position: static !important;
+    visibility: visible !important;
+    color: #454545;
+    font-size: 17px;
+    text-decoration: none;
+    white-space: nowrap;
 }
 </style>
 
 <script setup>
 import Carousel from '@/components/Carousel.vue';
 import RightSideShortSlider from '@/components/Right-side-short-slider-two.vue'
-import galleryImageCarousal from '@/components/gallery-image-carousal.vue'
-// import youtubeVideoSection from '@/components/youtube-video-section.vue'
-import SingleImageCarousal from '@/components/Single-Image-carousal.vue';
+import CommunityHowWeSupport from '../components/Community-How-we-support.vue';
+import CommunityServiceInAction from '../components/Community-Service-in-action.vue';
 
 
 // Edit these lists to change the contact details, images, or first slide.

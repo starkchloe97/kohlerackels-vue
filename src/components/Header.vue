@@ -73,7 +73,7 @@
   color: #111;
   text-decoration: none;
   font-family: "Open Sans", Arial, sans-serif;
-  font-size: 19px;
+  font-size: 30px;
   font-weight: 300;
   transition: color .2s ease;
 }

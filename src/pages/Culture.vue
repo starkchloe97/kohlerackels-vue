@@ -25,18 +25,17 @@
             <div class="container featured-tabs">
                 <ul class="nav nav-tabs">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/culture">Overview</a>
+                        <RouterLink class="nav-link" exact-active-class="active" to="/culture">Overview</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <!-- <RouterLink to="/CultureProBono"> Pro Bono </RouterLink> -->
-                         <a class="nav-link " href="/CultureProBono">Pro Bono</a>
+                        <RouterLink class="nav-link" exact-active-class="active" to="/CultureProBono">Pro Bono</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="culture/culture_engagement_opportunity">Engagement and
-                            Opportunity</a>
+                        <RouterLink class="nav-link" exact-active-class="active" to="/EngagementAndOpportunity">Engagement and
+                            Opportunity</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="culture/culture_community_service.html">Community Service</a>
+                        <RouterLink class="nav-link" exact-active-class="active" to="/CommunityServices">Community Service</RouterLink>
                     </li>
                 </ul>
             </div>
@@ -67,18 +66,17 @@
             <div class="container featured-tabs">
                 <ul class="nav nav-tabs">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/culture">Overview</a>
+                        <RouterLink class="nav-link" exact-active-class="active" to="/culture">Overview</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <!-- <RouterLink to="/CultureProBono" class="nav-link"> Pro Bono </RouterLink> -->
-                         <a class="nav-link " href="/CultureProBono">Pro Bono</a>
+                        <RouterLink class="nav-link" exact-active-class="active" to="/CultureProBono">Pro Bono</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="culture/culture_engagement_opportunity">Engagement and
-                            Opportunity</a>
+                        <RouterLink class="nav-link" exact-active-class="active" to="/EngagementAndOpportunity">Engagement and
+                            Opportunity</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="culture/culture_community_service.html">Community Service</a>
+                        <RouterLink class="nav-link" exact-active-class="active" to="/CommunityServices">Community Service</RouterLink>
                     </li>
                 </ul>
             </div>

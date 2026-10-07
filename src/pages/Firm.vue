@@ -31,19 +31,19 @@
 			<div class="container featured-tabs">
 				<ul class="nav nav-tabs">
 					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="/firm">Overview</a>
+						<RouterLink class="nav-link" exact-active-class="active" to="/firm">Overview</RouterLink>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link " href="/locations">Locations</a>
+						<RouterLink class="nav-link" exact-active-class="active" to="/locations">Locations</RouterLink>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link " href="/History">History</a>
+						<RouterLink class="nav-link" exact-active-class="active" to="/History">History</RouterLink>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link " href="/culture">Culture</a>
+						<RouterLink class="nav-link" exact-active-class="active" to="/culture">Culture</RouterLink>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link " href="/careers">Careers</a>
+						<RouterLink class="nav-link" exact-active-class="active" to="/careers">Careers</RouterLink>
 					</li>
 				</ul>
 			</div>
@@ -76,19 +76,19 @@
 			<div class="container featured-tabs">row firm-message
 				<ul class="nav nav-tabs">
 					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="/firm">Overview</a>
+						<RouterLink class="nav-link" exact-active-class="active" to="/firm">Overview</RouterLink>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link " href="/locations">Locations</a>
+						<RouterLink class="nav-link" exact-active-class="active" to="/locations">Locations</RouterLink>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link " href="/History">History</a>
+						<RouterLink class="nav-link" exact-active-class="active" to="/History">History</RouterLink>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link " href="/culture">Culture</a>
+						<RouterLink class="nav-link" exact-active-class="active" to="/culture">Culture</RouterLink>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link " href="/careers">Careers</a>
+						<RouterLink class="nav-link" exact-active-class="active" to="/careers">Careers</RouterLink>
 					</li>
 				</ul>
 			</div>
