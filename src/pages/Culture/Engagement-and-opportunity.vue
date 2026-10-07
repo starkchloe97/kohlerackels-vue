@@ -6,7 +6,7 @@
 
       <div class="row featured-top desktop_background_banner">
         <div class="featured-background firm">
-          <img src="/images/Firm-Engagement-and-Opportunity.jpg" alt="" />
+          <img src="/images/Firm-Engagement-and-Opportunity.jpg" alt="" /> 
         </div>
         <div class="photo-gradient"></div>
         <div class="container featured-container">
@@ -47,12 +47,12 @@
         </div>
       </div><!-- /end of DESKTOP featured top -->
 
-
-
       <!-- <slider /> -->
     </div>
 
-    <div data-v-a2324b3f="" class="row">
+    <div class="main-container container">
+
+      <div data-v-a2324b3f="" class="row">
       <div data-v-a2324b3f="" class="col-md-7">
         <TwoImageCarousal />
         <div data-v-a2324b3f="" class="culture-intro">
@@ -175,6 +175,11 @@
       <div data-v-a2324b3f="" class="col-md-5 diversity-contacts">
         <!-- Contact records and initial slides are configured at the end of this file. -->
         <OpportunityVideoCard/>
+        <section class="diversity-resources" aria-labelledby="diversity-resources-title">
+          <h2 id="diversity-resources-title">Resources</h2>
+          <a class="diversity-resources-link">Current Job Opportunities with Kohlerackels</a>
+          <a class="diversity-resources-link">Our Engagement and Opportunity Statement</a>
+        </section>
         <img src="/images/Opportunitity/text-image.png" alt="" class="img">
         <!-- <SingleImageCarousal /> -->
         <RightSideShortSlider title="PRO BONO CONTACTS" :contacts="proBonoContacts" :initial-index="3" />
@@ -186,13 +191,16 @@
         <RightSideShortSlider title="PRO BONO CONTACTS" :contacts="proBonoContacts" :initial-index="3" />
       </div>
     </div>
+
+    </div>
+    
   </div>
 
   <Carousel />
 </template>
 
 <script setup>
-import SingleImageCarousal from '../../components/Single-Image-carousal.vue';
+// import SingleImageCarousal from '../../components/Single-Image-carousal.vue';
 import Carousel from '../../components/Carousel.vue';
 import TwoImageCarousal from '../../components/two-image-carousal.vue';
 import OpportunityVideoCard from '../../components/Opportunity-video-card.vue';
@@ -245,13 +253,53 @@ const communityContacts = [
 </script>
 
 <style scoped>
+.main-container {
+  isolation: isolate;
+  padding: 35px 0px;
+}
+
+.main-container::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+  background-color: #E8EDF1;
+}
+
+.diversity-resources {
+  margin: 30px 0;
+}
+
+.diversity-resources h2 {
+  margin: 0 0 18px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #888;
+  color: #111;
+  font-size: 27px;
+}
+
+.diversity-resources-link {
+  display: block;
+  margin-bottom: 26px;
+  color: #3d719b !important;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.35;
+  cursor: pointer;
+}
+.diversity-resources-link :hover{
+  color: #111;
+}
+
 .img{
   width:100%;
-  /* padding-left:25px; */
+  padding:25px 0px;
 }
 .row {
-  margin-right: -15px;
-  margin-left: -15px;
   gap: 0px;
 }
 

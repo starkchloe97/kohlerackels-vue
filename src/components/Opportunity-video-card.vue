@@ -54,7 +54,7 @@ const embedUrl = computed(() => `https://www.youtube.com/embed/${props.videoId}`
 
 .video-card__body {
   box-sizing: border-box;
-  /* padding: calc(var(--u) * 25) calc(var(--u) * 25) calc(var(--u) * 44); */
+  padding: calc(var(--u) * 25) calc(var(--u) * 25) calc(var(--u) * 44);
   background: #fff;
 }
 

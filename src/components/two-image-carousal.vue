@@ -7,33 +7,33 @@ const props = defineProps({
         type: Array,
         default: () => [
             {
-                title: 'We Are NM – High Potentials: Katie Baker',
-                image: '/images/Opportunity/image1.jpg',
+                title: 'We Are NM – High Potentials: Abe Kannof',
+                image: '/images/Opportunitity/image1.jpg', 
                 href: '#',
             },
             {
                 title: 'We are NM – High Potentials: Amy Cheng',
-                image: 'public/images/Pro-Bono-Images/test.jpg',
-                href: '#',
-            },
-            {
-                title: 'We Are NM – High Potentials: Katie Baker',
-                image: '/images/Opportunity/image5.jpg',
+                image: '/images/Pro-Bono-Images/test.jpg',
                 href: '#',
             },
             {
                 title: 'Kohlerackels Awarded 2024 U.S. Anti-Racism Program of the Year',
-                image: '/images/Opportunity/image2.jpg',
+                image: '/images/Opportunitity/image2.jpg',
                 href: '#',
             },
             {
                 title: 'Partner Frances Hyewon Kim-Chriscoe Named a "20 Under 40" By...',
-                image: '/images/Opportunity/image4.jpg',
+                image: '/images/Opportunitity/image4.jpg',
                 href: '#',
             },
             {
                 title: 'Atlanta Partner Amy B. Cheng Receives OCA-Georgia Community Service Award',
-                image: '/images/Opportunity/image3.jpg',
+                image: '/images/Opportunitity/image3.jpg',
+                href: '#',
+            },
+            {
+                title: 'We Are NM – High Potentials: Katie Baker',
+                image: '/images/Opportunitity/image5.jpg',
                 href: '#',
             },
 
@@ -186,12 +186,12 @@ onBeforeUnmount(stop)
     overflow: hidden;
     margin-top: calc(var(--u) * 6);
     padding: 0 calc(var(--u) * 10);
-    font-size: calc(var(--u) * 20);
+    font-size: calc(var(--u) * 24);
     font-weight: 700;
     line-height: 1.45;
     text-align: center;
     color: #44739f;
-    -webkit-line-clamp: 2;
+    /* -webkit-line-clamp: 2; */
     -webkit-box-orient: vertical;
 }
 

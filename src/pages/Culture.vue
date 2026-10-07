@@ -591,7 +591,7 @@ const proBonoContacts = [
         name: 'Katherine A. Lawler',
         title: 'Partner',
         phone: 'T 443.392.9405',
-        photo: '/images/c2W180V468666kT8EYz4kVVXSP2AByzLWr1Bgqy6.jpg',
+        photo: '/images/katherineAlawler.jpg',
     },
     {
         id: 'norah-rogers',
