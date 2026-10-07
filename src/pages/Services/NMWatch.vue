@@ -1,8 +1,8 @@
 <template>
-  <main class="legacy-service-page">
+  <div class="legacy-service-page">
     <div class="row featured-top cropped-feature practice-area">
     		<div class="featured-background">            
-    			<img src="/images/lOT0PRUh1l7w6oYcmGz3lk5L80grVUHXLWxClvdz.jpg" alt="" />		</div>
+    			<img src="/images/firmoverview.jpg" alt="" />		</div>
     		<div class="photo-gradient"></div>
     
     		<div class="container featured-container">
@@ -742,7 +742,7 @@
     
             
         </main>
-  </main>
+  </div>
 </template>
 
 <script setup>
