@@ -19,7 +19,13 @@
       class="directory-row"
     >
       <div class="directory-person">
-        <span class="directory-avatar" aria-hidden="true">{{ initials(person.name) }}</span>
+        <img
+          v-if="person.image"
+          class="directory-avatar"
+          :src="person.image"
+          :alt="person.name"
+        >
+        <span v-else class="directory-avatar" aria-hidden="true">{{ initials(person.name) }}</span>
         <div class="directory-person-details">
           <h3>{{ person.name }}</h3>
           <p>{{ person.role }}</p>
@@ -29,8 +35,8 @@
 
       <div class="directory-contact">
         <div class="directory-actions" aria-hidden="true">
-          <span class="directory-action directory-vcard"></span>
-          <span class="directory-action directory-email"></span>
+          <img class="directory-action" src="/images/detail-vcard.png" alt="">
+          <img class="directory-action" src="/images/detail-email.png" alt="">
         </div>
         <span class="directory-phone">T {{ person.phone }}</span>
       </div>
@@ -60,58 +66,58 @@ const props = defineProps({
   config: { type: Object, default: () => ({}) }
 })
 
-const profile = (id, name, role, phone, location) => ({ id, name, role, phone, location })
+const profile = (id, name, role, phone, location, image) => ({ id, name, role, phone, location, image })
 
 const profiles = {
-  'patrick-kartes': profile('patrick-kartes', 'Patrick L. Kartes', 'Partner', '704.417.3036', 'Charlotte, NC'),
-  'jane-remillard': profile('jane-remillard', 'Jane E. Remillard', 'Partner', '617.217.4628', 'Boston, MA'),
-  'jim-dudukovich': profile('jim-dudukovich', 'Jim Dudukovich', 'Partner', '404.322.6002', 'Atlanta, GA'),
-  'nichole-hayden': profile('nichole-hayden', 'Nichole Hayden', 'Partner', '704.417.3234', 'Charlotte, NC'),
-  'susan-jackson': profile('susan-jackson', 'Susan Jackson', 'Partner', '704.417.3126', 'Charlotte, NC'),
-  'jason-kraus': profile('jason-kraus', 'Jason Kraus', 'Partner', '612.464.7549', 'Minneapolis, MN'),
-  'anthony-laurentano': profile('anthony-laurentano', 'Anthony A. Laurentano', 'Partner', '617.217.4624', 'Boston, MA'),
-  'lisa-margonis': profile('lisa-margonis', 'Lisa Margonis', 'Partner', '346.646.5514', 'Houston, TX'),
-  'david-ogles': profile('david-ogles', 'David Ogles', 'Partner', '312.376.1042', 'Chicago, IL'),
-  'edward-sandor': profile('edward-sandor', 'Edward Sandor', 'Partner', '612.464.7554', 'Minneapolis, MN'),
-  'jill-sloper': profile('jill-sloper', 'Jill Gorny Sloper', 'Partner', '617.217.4630', 'Boston, MA'),
-  'darnell-cage': profile('darnell-cage', 'Darnell M. Cage', 'Counsel', '612.464.7449', 'Minneapolis, MN'),
-  'grant-mcneilly': profile('grant-mcneilly', 'Grant McNeilly', 'Counsel', '612.464.7395', 'Minneapolis, MN'),
-  'matthew-zehrer': profile('matthew-zehrer', 'Matthew Zehrer', 'Counsel', '612.464.7446', 'Minneapolis, MN'),
-  'geordie-zug': profile('geordie-zug', 'Charles G. "Geordie" Zug', 'Counsel', '803.255.9565', 'Columbia, SC'),
-  'jonathan-todd': profile('jonathan-todd', 'Jonathan Todd', 'Senior Associate', '864.373.2215', 'Greenville, SC'),
-  'alexa-venters': profile('alexa-venters', 'Alexa Venters', 'Senior Associate', '704.417.3022', 'Charlotte, NC'),
-  'zahra-asadi': profile('zahra-asadi', 'Zahra Asadi', 'Associate', '704.417.3242', 'Charlotte, NC'),
-  'chris-frank': profile('chris-frank', 'Christopher L. Frank, Ph.D.', 'Technical Specialist', '617.217.4635', 'Boston, MA'),
-  'mitchell-lowe': profile('mitchell-lowe', 'J. Mitchell Lowe', 'Associate', '346.646.3883', 'Houston, TX'),
-  'carter-rummel': profile('carter-rummel', 'Carter Rummel', 'Associate', '704.417.3025', 'Charlotte, NC'),
-  'chris-casavale': profile('chris-casavale', 'Christopher D. Casavale', 'Partner', '843.534.4252', 'Charleston, SC; Washington, D.C.'),
-  'david-dukes': profile('david-dukes', 'David E. Dukes', 'Partner', '803.255.9451', 'Columbia, SC; Charleston, SC'),
-  'debbie-durban': profile('debbie-durban', 'Debbie Whittle Durban', 'Partner', '803.255.9465', 'Columbia, SC; Charlotte, NC'),
-  'erik-janitens': profile('erik-janitens', 'Erik Janitens', 'Partner', '346.646.3830', 'Houston, TX'),
-  'mark-jones': profile('mark-jones', 'J. Mark Jones', 'Partner', '803.255.9424', 'Columbia, SC'),
-  'neil-jones': profile('neil-jones', 'Neil C. Jones', 'Partner', '864.373.2260', 'Greenville, SC'),
-  'craig-killen': profile('craig-killen', 'Craig N. Killen', 'Partner', '704.417.3127', 'Charlotte, NC; Columbia, SC'),
-  'george-mahfood': profile('george-mahfood', 'George G. Mahfood', 'Partner', '305.373.9427', 'Miami, FL; New York, NY'),
-  'wade-malone': profile('wade-malone', 'S. Wade Malone', 'Partner', '404.322.6257', 'Atlanta, GA'),
-  'brian-oberst': profile('brian-oberst', 'Brian Oberst', 'Partner', '612.464.7545', 'Minneapolis, MN'),
-  'robert-mcwilliams': profile('robert-mcwilliams', 'Robert H. McWilliams, Jr.', 'Partner', '803.255.9380', 'Columbia, SC; Charlotte, NC'),
-  'ashley-summer': profile('ashley-summer', 'Ashley B. Summer', 'Partner', '212.413.9036', 'New York, NY; Greenville, SC'),
-  'tammy-terry': profile('tammy-terry', 'Tammy Terry', 'Partner', '346.646.5389', 'Houston, TX'),
-  'mark-vanderbroek': profile('mark-vanderbroek', 'Mark S. VanderBroek', 'Partner', '404.322.6675', 'Atlanta, GA'),
-  'lucas-westby': profile('lucas-westby', 'Lucas A. Westby', 'Partner', '404.322.6237', 'Atlanta, GA'),
-  'kelly-whitehart': profile('kelly-whitehart', 'Kelly L. Whitehart', 'Partner', '404.322.6107', 'Atlanta, GA'),
-  'anna-adams': profile('anna-adams', 'Anna M. Adams', 'Counsel', '303.583.9903', 'Denver, CO'),
-  'john-veysey': profile('john-veysey', 'P. John Veysey', 'Counsel', '617.217.4645', 'Boston, MA; Torrance, CA'),
-  'cameron-panepinto': profile('cameron-panepinto', 'Cameron Panepinto', 'Senior Associate', '617.217.4718', 'Boston, MA'),
-  'dylan-hartsook': profile('dylan-hartsook', 'T. Dylan Hartsook', 'Associate', '312.376.1009', 'Chicago, IL'),
-  'halley-herbst': profile('halley-herbst', 'Halley Herbst', 'Associate', '303.583.9925', 'New York, NY'),
-  'chance-siller': profile('chance-siller', 'Chance Siller', 'Associate', '346.646.5842', 'Houston, TX'),
-  'jeanne-digiorgio': profile('jeanne-digiorgio', 'Jeanne M. DiGiorgio', 'Counsel', '617.217.4620', 'Boston, MA'),
-  'jay-fee': profile('jay-fee', 'Jay W. Fee', 'Partner', '617.217.4774', 'Boston, MA'),
-  'holly-collins': profile('holly-collins', 'Holly L. Collins', 'Counsel', '407.669.4251', 'Orlando, FL'),
-  'david-babb': profile('david-babb', 'David C. Babb', 'Senior Associate', '469.484.6301', 'Dallas, TX'),
-  'mariah-emmons': profile('mariah-emmons', 'Mariah Emmons', 'Senior Associate', '619.489.3142', 'San Diego, CA'),
-  'john-mcelwaine': profile('john-mcelwaine', 'John C. McElwaine', 'Partner', '843.534.4302', 'Charleston, SC; Washington, D.C.')
+  'patrick-kartes': profile('patrick-kartes', 'Patrick L. Kartes', 'Partner', '704.417.3036', 'Charlotte, NC', '/images/Patrick.jpg'),
+  'jane-remillard': profile('jane-remillard', 'Jane E. Remillard', 'Partner', '617.217.4628', 'Boston, MA', '/images/Jane-Remillard.jpg'),
+  'jim-dudukovich': profile('jim-dudukovich', 'Jim Dudukovich', 'Partner', '404.322.6002', 'Atlanta, GA' , '/images/jim.jpg'),
+  'nichole-hayden': profile('nichole-hayden', 'Nichole Hayden', 'Partner', '704.417.3234', 'Charlotte, NC', '/images/Nichole.jpg'),
+  'susan-jackson': profile('susan-jackson', 'Susan Jackson', 'Partner', '704.417.3126', 'Charlotte, NC', '/images/Susan.jpeg'),
+  'jason-kraus': profile('jason-kraus', 'Jason Kraus', 'Partner', '612.464.7549', 'Minneapolis, MN', '/images/Jason.jpg'),
+  'anthony-laurentano': profile('anthony-laurentano', 'Anthony A. Laurentano', 'Partner', '617.217.4624', 'Boston, MA', '/images/Anthony.jpeg'),
+  'lisa-margonis': profile('lisa-margonis', 'Lisa Margonis', 'Partner', '346.646.5514', 'Houston, TX', '/images/Lisa-M.jpg'),
+  'david-ogles': profile('david-ogles', 'David Ogles', 'Partner', '312.376.1042', 'Chicago, IL', '/images/David.jpg'),
+  'edward-sandor': profile('edward-sandor', 'Edward Sandor', 'Partner', '612.464.7554', 'Minneapolis, MN', '/images/Edward.jpg'),
+  'jill-sloper': profile('jill-sloper', 'Jill Gorny Sloper', 'Partner', '617.217.4630', 'Boston, MA', '/images/Jill-Gorny.jpeg'),
+  'darnell-cage': profile('darnell-cage', 'Darnell M. Cage', 'Counsel', '612.464.7449', 'Minneapolis, MN', '/images/Darnell.jpg'),
+  'grant-mcneilly': profile('grant-mcneilly', 'Grant McNeilly', 'Counsel', '612.464.7395', 'Minneapolis, MN', '/images/Grant.jpg'),
+  'matthew-zehrer': profile('matthew-zehrer', 'Matthew Zehrer', 'Counsel', '612.464.7446', 'Minneapolis, MN', '/images/Matthew.jpg'),
+  'geordie-zug': profile('geordie-zug', 'Charles G. "Geordie" Zug', 'Counsel', '803.255.9565', 'Columbia, SC', '/images/Charles-G.jpeg'),
+  'jonathan-todd': profile('jonathan-todd', 'Jonathan Todd', 'Senior Associate', '864.373.2215', 'Greenville, SC', '/images/Jonathan.jpeg'),
+  'alexa-venters': profile('alexa-venters', 'Alexa Venters', 'Senior Associate', '704.417.3022', 'Charlotte, NC', '/images/Alexa.jpg'),
+  'zahra-asadi': profile('zahra-asadi', 'Zahra Asadi', 'Associate', '704.417.3242', 'Charlotte, NC', '/images/Zahra.jpg'),
+  'chris-frank': profile('chris-frank', 'Christopher L. Frank, Ph.D.', 'Technical Specialist', '617.217.4635', 'Boston, MA', '/images/Christopher.jpeg'),
+  'mitchell-lowe': profile('mitchell-lowe', 'J. Mitchell Lowe', 'Associate', '346.646.3883', 'Houston, TX', '/images/J-Mitchell.jpg'),
+  'carter-rummel': profile('carter-rummel', 'Carter Rummel', 'Associate', '704.417.3025', 'Charlotte, NC', '/images/Carter.jpg'),
+  'chris-casavale': profile('chris-casavale', 'Christopher D. Casavale', 'Partner', '843.534.4252', 'Charleston, SC; Washington, D.C.', '/images/Christopher-D-Casavale.jpeg'),
+  'david-dukes': profile('david-dukes', 'David E. Dukes', 'Partner', '803.255.9451', 'Columbia, SC; Charleston, SC', '/images/david-dukes.jpeg'),
+  'debbie-durban': profile('debbie-durban', 'Debbie Whittle Durban', 'Partner', '803.255.9465', 'Columbia, SC; Charlotte, NC', '/images/debbie-white-durban.jpeg'),
+  'erik-janitens': profile('erik-janitens', 'Erik Janitens', 'Partner', '346.646.3830', 'Houston, TX', '/images/Erik-Janitens.jpg'),
+  'mark-jones': profile('mark-jones', 'J. Mark Jones', 'Partner', '803.255.9424', 'Columbia, SC', '/images/J-Mark-jones.jpg'),
+  'neil-jones': profile('neil-jones', 'Neil C. Jones', 'Partner', '864.373.2260', 'Greenville, SC', '/images/Neil-Jones.jpeg'),
+  'craig-killen': profile('craig-killen', 'Craig N. Killen', 'Partner', '704.417.3127', 'Charlotte, NC; Columbia, SC', '/images/Craig-Killer.jpeg'),
+  'george-mahfood': profile('george-mahfood', 'George G. Mahfood', 'Partner', '305.373.9427', 'Miami, FL; New York, NY', '/images/George-Mahfood.jpeg'),
+  'wade-malone': profile('wade-malone', 'S. Wade Malone', 'Partner', '404.322.6257', 'Atlanta, GA', '/images/Wade-Malone.jpeg'),
+  'brian-oberst': profile('brian-oberst', 'Brian Oberst', 'Partner', '612.464.7545', 'Minneapolis, MN', '/images/Brain-Obsert.jpg'),
+  'robert-mcwilliams': profile('robert-mcwilliams', 'Robert H. McWilliams, Jr.', 'Partner', '803.255.9380', 'Columbia, SC; Charlotte, NC', '/images/Robert-McWilliams.jpeg'),
+  'ashley-summer': profile('ashley-summer', 'Ashley B. Summer', 'Partner', '212.413.9036', 'New York, NY; Greenville, SC', '/images/Ashley-summer.jpeg'),
+  'tammy-terry': profile('tammy-terry', 'Tammy Terry', 'Partner', '346.646.5389', 'Houston, TX', '/images/Tammy-Terry.jpg'),
+  'mark-vanderbroek': profile('mark-vanderbroek', 'Mark S. VanderBroek', 'Partner', '404.322.6675', 'Atlanta, GA', '/images/MarkS.jpeg'),
+  'lucas-westby': profile('lucas-westby', 'Lucas A. Westby', 'Partner', '404.322.6237', 'Atlanta, GA', '/images/Lucas-Westby.jpeg'),
+  'kelly-whitehart': profile('kelly-whitehart', 'Kelly L. Whitehart', 'Partner', '404.322.6107', 'Atlanta, GA', '/images/Kelly.jpeg'),
+  'anna-adams': profile('anna-adams', 'Anna M. Adams', 'Counsel', '303.583.9903', 'Denver, CO', '/images/Anna-Adams.jpg'),
+  'john-veysey': profile('john-veysey', 'P. John Veysey', 'Counsel', '617.217.4645', 'Boston, MA; Torrance, CA', '/images/John-veysey.jpeg'),
+  'cameron-panepinto': profile('cameron-panepinto', 'Cameron Panepinto', 'Senior Associate', '617.217.4718', 'Boston, MA', '/images/Cameron.jpg'),
+  'dylan-hartsook': profile('dylan-hartsook', 'T. Dylan Hartsook', 'Associate', '312.376.1009', 'Chicago, IL', '/images/Dylan-hartsook.jpg'),
+  'halley-herbst': profile('halley-herbst', 'Halley Herbst', 'Associate', '303.583.9925', 'New York, NY', '/images/Halley.jpg'),
+  'chance-siller': profile('chance-siller', 'Chance Siller', 'Associate', '346.646.5842', 'Houston, TX', '/images/Chance-Siller.jpg'),
+  'jeanne-digiorgio': profile('jeanne-digiorgio', 'Jeanne M. DiGiorgio', 'Counsel', '617.217.4620', 'Boston, MA', ''),
+  'jay-fee': profile('jay-fee', 'Jay W. Fee', 'Partner', '617.217.4774', 'Boston, MA', ''),
+  'holly-collins': profile('holly-collins', 'Holly L. Collins', 'Counsel', '407.669.4251', 'Orlando, FL', ''),
+  'david-babb': profile('david-babb', 'David C. Babb', 'Senior Associate', '469.484.6301', 'Dallas, TX', ''),
+  'mariah-emmons': profile('mariah-emmons', 'Mariah Emmons', 'Senior Associate', '619.489.3142', 'San Diego, CA', ''),
+  'john-mcelwaine': profile('john-mcelwaine', 'John C. McElwaine', 'Partner', '843.534.4302', 'Charleston, SC; Washington, D.C.', '/images/John-C.jpeg')
 }
 
 const serviceProfiles = {
@@ -176,9 +182,9 @@ function initials(name) {
   align-items: center;
   justify-content: space-between;
   border-top: 1px solid #777779;
-  padding: 14px 0 8px;
+  padding: 14px 0 20px;
   color: #666;
-  font-size: 13px;
+  font-size: 18px;
 }
 
 .directory-controls label {
@@ -186,10 +192,10 @@ function initials(name) {
 }
 
 .directory-controls select {
-  max-width: 105px;
+  max-width: 140px;
   border: 0;
   background: transparent;
-  color: #444;
+  color: #111;
   font: inherit;
 }
 
@@ -197,30 +203,31 @@ function initials(name) {
   display: grid;
   grid-template-columns: 53% 25% 22%;
   align-items: center;
-  min-height: 68px;
+  min-height: 195px;
   border-top: 1px solid #777779;
-  padding: 6px 0;
-  font-size: 13px;
+  padding: 15px 0;
+  font-size: 18px;
 }
 
 .directory-person {
   display: flex;
   min-width: 0;
   align-items: center;
-  gap: 12px;
+  gap: 15px;
 }
 
 .directory-avatar {
   display: flex;
-  flex: 0 0 50px;
-  width: 50px;
-  height: 50px;
+  flex: 0 0 125px;
+  width: 125px;
+  height: 153px;
   align-items: center;
   justify-content: center;
+  object-fit: cover;
   background: #e4e8eb;
   color: #577188;
   font-family: "Quattrocento Sans", Arial, sans-serif;
-  font-size: 16px;
+  font-size: 26px;
   font-weight: 700;
 }
 
@@ -230,17 +237,17 @@ function initials(name) {
 
 .directory-person h3 {
   margin: 0;
-  color: #101c2e;
-  font-family: "Quattrocento Sans", Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.05;
+  color: #111;
+  font-family: "Open Sans", Arial, sans-serif !important;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.11
 }
 
 .directory-person p {
-  margin: 4px 0 0;
-  color: #777;
-  font-size: 11px;
+  margin: 24px 0 0;
+  color: #888;
+  font-size: 16px;
 }
 
 .directory-mobile-location {
@@ -249,48 +256,29 @@ function initials(name) {
 
 .directory-contact {
   align-self: center;
-  color: #777;
-  font-size: 10px;
+  color: #222;
+  font-size: 14px;
 }
 
 .directory-actions {
   display: flex;
-  gap: 5px;
-  margin-bottom: 4px;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 9px;
 }
 
 .directory-action {
-  display: inline-flex;
-  width: 16px;
-  height: 13px;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  background: #e9a600;
-  color: #fff;
-  font-size: 8px;
-  line-height: 1;
-}
-
-.directory-vcard::before {
-  width: 8px;
-  height: 7px;
-  border: 1px solid #fff;
-  content: "";
-}
-
-.directory-email::before {
-  width: 9px;
-  height: 6px;
-  border: 1px solid #fff;
-  content: "";
+  display: block;
+  width: 35px;
+  height: 27px;
+  object-fit: contain;
 }
 
 .directory-location {
-  color: #6484a0;
+  color: #52799e;
   font-family: "Quattrocento Sans", Arial, sans-serif;
-  font-size: 11px;
-  text-align: right;
+  font-size: 15px;
+  text-align: left;
 }
 
 .directory-controls-bottom {

@@ -13994,7 +13994,7 @@ button.nm-button-yellow {
   width: 100%;
   border: 0;
   font-family: "Quattrocento Sans";
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   padding: 10px;
   margin-bottom: 1.65em;
   text-align: center;
@@ -19472,8 +19472,8 @@ ul li div .attorney-tab-read-more {
 
 /*	This is to fix a faulty CKEditor style that is already in loaded content	*/
 .attorney-tab-info ul {
-  padding: 0 1em !important;
-  margin-left: 0.25em !important;
+  /* padding: 0 1em !important; */
+  /* margin-left: 0.25em !important; */
   margin-bottom: 1.5em !important;
 }
 
