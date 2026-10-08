@@ -16,7 +16,7 @@
                                     toward&nbsp;the same goals is a fundamental attribute of our client service
                                     model.</span></p>
 
-                            <p>Kohlerackels is also committed to serving the public welfare and leading within our
+                            <p>{{ $siteInfo.SITE_NAME }} is also committed to serving the public welfare and leading within our
                                 profession.</p>
                         </div>
                     </div>
@@ -57,7 +57,7 @@
                                     toward&nbsp;the same goals is a fundamental attribute of our client service
                                     model.</span></p>
 
-                            <p>Kohlerackels is also committed to serving the public welfare and leading within our
+                            <p>{{ $siteInfo.SITE_NAME }} is also committed to serving the public welfare and leading within our
                                 profession.</p>
                         </div>
                     </div>
@@ -124,7 +124,7 @@
                                     <summary class="pre-title">Historic Impact Litigation</summary>
 
                                     <div class="pre-content">
-                                        <p>Kohlerackels has a legacy of taking on large-scale litigation matters to
+                                        <p>{{ $siteInfo.SITE_NAME }} has a legacy of taking on large-scale litigation matters to
                                             promote the well-being of disadvantaged classes of individuals.<br />
                                             <br />
                                             <strong>Advocacy for Prisoners with Mental Health Illnesses</strong><br />
@@ -136,7 +136,7 @@
                                             ill offenders in the prison facilities.<br />
                                             <br />
                                             <strong>Protecting the Rights of School Children</strong><br />
-                                            In Abbeville County School District v. State of South Carolina, Kohlerackels
+                                            In Abbeville County School District v. State of South Carolina, {{ $siteInfo.SITE_NAME }}
                                             represents a group of rural school districts, students and taxpayers in a
                                             groundbreaking lawsuit challenging the funding of public schools and the
                                             adequacy of the overall education system. The Supreme Court found the entire
@@ -154,7 +154,7 @@
                                     </summary>
 
                                     <div class="pre-content">
-                                        <p>Kohlerackels has proactively created and maintained robust programs to
+                                        <p>{{ $siteInfo.SITE_NAME }} has proactively created and maintained robust programs to
                                             provide simple wills and healthcare directives free of charge to first
                                             responders who put their lives on the line to serve and protect.<br />
                                             <br />
@@ -179,29 +179,29 @@
                                 <details class="content-expand-wrapper-ck" data-bordered="" data-collapse="true"
                                     data-color="" data-cssclass="content-expand-wrapper-ck" data-hidesummary=""
                                     data-maxheight="" data-monospace="" data-wrap="true" open="" undefined="">
-                                    <summary class="pre-title">Pipeline Initiatives &amp; Kohlerackels Dick Riley
+                                    <summary class="pre-title">Pipeline Initiatives &amp; {{ $siteInfo.SITE_NAME }} Dick Riley
                                         Scholarship Program</summary>
 
                                     <div class="pre-content">
                                         <p>The Firm sponsors and participates in several recruitment initiatives.</p>
 
-                                        <p><strong>Kohlerackels Dick Riley Scholarship Program -</strong>&nbsp;the
+                                        <p><strong>{{ $siteInfo.SITE_NAME }} Dick Riley Scholarship Program -</strong>&nbsp;the
                                             merit-based program is open to all&nbsp;2L law students. Factors considered
                                             include a wide array of student backgrounds, characteristics, life
                                             experiences, and perspectives that may be reflected in beliefs - whether
                                             political, economic, social or philosophical. Awardees will receive a
                                             $10,000 scholarship and a salaried summer associate position at one of the
                                             firm&rsquo;s offices. The selection process coincides with
-                                            Kohlerackels&rsquo; regular summer associate recruiting process.</p>
+                                            {{ $siteInfo.SITE_NAME }}&rsquo; regular summer associate recruiting process.</p>
 
-                                        <p>Kohlerackels partners with Claflin University (a HBCU in Orangeburg, SC) for
+                                        <p>{{ $siteInfo.SITE_NAME }} partners with Claflin University (a HBCU in Orangeburg, SC) for
                                             pre-law scholarships.</p>
 
-                                        <p>The <strong>Kohlerackels M&amp;A Externship Program</strong> provides 2L and
+                                        <p>The <strong>{{ $siteInfo.SITE_NAME }} M&amp;A Externship Program</strong> provides 2L and
                                             3L students from the University of Georgia School of Law with work
                                             experience in mergers and acquisitions for academic credit. During the fall
                                             and spring semesters, externs work side by side with Atlanta attorneys from
-                                            Kohlerackels&rsquo; Corporate Group to gain exposure to the entire M&amp;A
+                                            {{ $siteInfo.SITE_NAME }}&rsquo; Corporate Group to gain exposure to the entire M&amp;A
                                             process as they become involved in a variety of matters related to a
                                             transaction.&nbsp;</p>
 
@@ -212,14 +212,14 @@
                                             opportunities to participate as clerks for the summer with law firms and
                                             judges.</p>
 
-                                        <p>Kohlerackels holds a <strong>Practical Skills Workshop</strong> in our
+                                        <p>{{ $siteInfo.SITE_NAME }} holds a <strong>Practical Skills Workshop</strong> in our
                                             Columbia, S.C. office. Attendees included students from the Black Students
                                             Association at University of South Carolina School of Law and Charleston
                                             School of Law along with in-house and outside attorneys to help facilitate
                                             the event. The workshop was created to help better equip the students to
                                             succeed in law school and transition smoothly to the practice of law.</p>
 
-                                        <p>Kohlerackels participates in the <strong>Southeastern Minority Job Fair
+                                        <p>{{ $siteInfo.SITE_NAME }} participates in the <strong>Southeastern Minority Job Fair
                                                 (SEMJF)</strong>. SEMJF provides legal employers throughout the United
                                             States an opportunity to interview second- and third-year law students, as
                                             well as recent graduates, from over 50+ ABA-approved southeastern law
@@ -228,7 +228,7 @@
                                         <p>Our firm participates in the National LGBTQ+ Bar Association&rsquo;s annual
                                             Lavender <strong>Law&reg; Career Fair.</strong></p>
 
-                                        <p>Kohlerackels has a <strong>Pipeline Outreach Program</strong> which is aimed
+                                        <p>{{ $siteInfo.SITE_NAME }} has a <strong>Pipeline Outreach Program</strong> which is aimed
                                             at undergraduate students and helping&nbsp;them understand opportunities of
                                             a career in law.</p>
                                     </div>
@@ -240,7 +240,7 @@
                                     <summary class="pre-title">Leadership Council on Legal Diversity</summary>
 
                                     <div class="pre-content">
-                                        <p>Kohlerackels is a member of the Leadership Council on Legal Diversity, an
+                                        <p>{{ $siteInfo.SITE_NAME }} is a member of the Leadership Council on Legal Diversity, an
                                             organization of more than 200 corporate chief legal officers and law firm
                                             managing partners.&nbsp;We participate in the LCLD&#39;s Fellows program and
                                             in LCLD&#39;s 1L Scholars Program.</p>
@@ -253,7 +253,7 @@
                                     <summary class="pre-title">Packages for Peacekeepers</summary>
 
                                     <div class="pre-content">
-                                        <p>For over 20 years the firm has packed and sent over 300 &ldquo;Kohlerackels
+                                        <p>For over 20 years the firm has packed and sent over 300 &ldquo;{{ $siteInfo.SITE_NAME }}
                                             care packages&rdquo; to military personnel overseas serving on the front
                                             lines of defense.</p>
                                     </div>
@@ -331,7 +331,7 @@
                                         <summary class="pre-title">Historic Impact Litigation</summary>
 
                                         <div class="pre-content">
-                                            <p>Kohlerackels has a legacy of taking on large-scale litigation matters to
+                                            <p>{{ $siteInfo.SITE_NAME }} has a legacy of taking on large-scale litigation matters to
                                                 promote the well-being of disadvantaged classes of individuals.<br />
                                                 <br />
                                                 <strong>Advocacy for Prisoners with Mental Health
@@ -346,7 +346,7 @@
                                                 <br />
                                                 <strong>Protecting the Rights of School Children</strong><br />
                                                 In Abbeville County School District v. State of South Carolina,
-                                                Kohlerackels represents a group of rural school districts, students and
+                                                {{ $siteInfo.SITE_NAME }} represents a group of rural school districts, students and
                                                 taxpayers in a groundbreaking lawsuit challenging the funding of public
                                                 schools and the adequacy of the overall education system. The Supreme
                                                 Court found the entire public education system to be constitutionally
@@ -364,7 +364,7 @@
                                         </summary>
 
                                         <div class="pre-content">
-                                            <p>Kohlerackels has proactively created and maintained robust programs to
+                                            <p>{{ $siteInfo.SITE_NAME }} has proactively created and maintained robust programs to
                                                 provide simple wills and healthcare directives free of charge to first
                                                 responders who put their lives on the line to serve and protect.<br />
                                                 <br />
@@ -390,30 +390,30 @@
                                     <details class="content-expand-wrapper-ck" data-bordered="" data-collapse="true"
                                         data-color="" data-cssclass="content-expand-wrapper-ck" data-hidesummary=""
                                         data-maxheight="" data-monospace="" data-wrap="true" open="" undefined="">
-                                        <summary class="pre-title">Pipeline Initiatives &amp; Kohlerackels Dick Riley
+                                        <summary class="pre-title">Pipeline Initiatives &amp; {{ $siteInfo.SITE_NAME }} Dick Riley
                                             Scholarship Program</summary>
 
                                         <div class="pre-content">
                                             <p>The Firm sponsors and participates in several recruitment initiatives.
                                             </p>
 
-                                            <p><strong>Kohlerackels Dick Riley Scholarship Program -</strong>&nbsp;the
+                                            <p><strong>{{ $siteInfo.SITE_NAME }} Dick Riley Scholarship Program -</strong>&nbsp;the
                                                 merit-based program is open to all&nbsp;2L law students. Factors
                                                 considered include a wide array of student backgrounds, characteristics,
                                                 life experiences, and perspectives that may be reflected in beliefs -
                                                 whether political, economic, social or philosophical. Awardees will
                                                 receive a $10,000 scholarship and a salaried summer associate position
                                                 at one of the firm&rsquo;s offices. The selection process coincides with
-                                                Kohlerackels&rsquo; regular summer associate recruiting process.</p>
+                                                {{ $siteInfo.SITE_NAME }}&rsquo; regular summer associate recruiting process.</p>
 
-                                            <p>Kohlerackels partners with Claflin University (a HBCU in Orangeburg, SC)
+                                            <p>{{ $siteInfo.SITE_NAME }} partners with Claflin University (a HBCU in Orangeburg, SC)
                                                 for pre-law scholarships.</p>
 
-                                            <p>The <strong>Kohlerackels M&amp;A Externship Program</strong> provides 2L
+                                            <p>The <strong>{{ $siteInfo.SITE_NAME }} M&amp;A Externship Program</strong> provides 2L
                                                 and 3L students from the University of Georgia School of Law with work
                                                 experience in mergers and acquisitions for academic credit. During the
                                                 fall and spring semesters, externs work side by side with Atlanta
-                                                attorneys from Kohlerackels&rsquo; Corporate Group to gain exposure to
+                                                attorneys from {{ $siteInfo.SITE_NAME }}&rsquo; Corporate Group to gain exposure to
                                                 the entire M&amp;A process as they become involved in a variety of
                                                 matters related to a transaction.&nbsp;</p>
 
@@ -424,7 +424,7 @@
                                                 Georgia &mdash; opportunities to participate as clerks for the summer
                                                 with law firms and judges.</p>
 
-                                            <p>Kohlerackels holds a <strong>Practical Skills Workshop</strong> in our
+                                            <p>{{ $siteInfo.SITE_NAME }} holds a <strong>Practical Skills Workshop</strong> in our
                                                 Columbia, S.C. office. Attendees included students from the Black
                                                 Students Association at University of South Carolina School of Law and
                                                 Charleston School of Law along with in-house and outside attorneys to
@@ -432,7 +432,7 @@
                                                 the students to succeed in law school and transition smoothly to the
                                                 practice of law.</p>
 
-                                            <p>Kohlerackels participates in the <strong>Southeastern Minority Job Fair
+                                            <p>{{ $siteInfo.SITE_NAME }} participates in the <strong>Southeastern Minority Job Fair
                                                     (SEMJF)</strong>. SEMJF provides legal employers throughout the
                                                 United States an opportunity to interview second- and third-year law
                                                 students, as well as recent graduates, from over 50+ ABA-approved
@@ -442,7 +442,7 @@
                                             <p>Our firm participates in the National LGBTQ+ Bar Association&rsquo;s
                                                 annual Lavender <strong>Law&reg; Career Fair.</strong></p>
 
-                                            <p>Kohlerackels has a <strong>Pipeline Outreach Program</strong> which is
+                                            <p>{{ $siteInfo.SITE_NAME }} has a <strong>Pipeline Outreach Program</strong> which is
                                                 aimed at undergraduate students and helping&nbsp;them understand
                                                 opportunities of a career in law.</p>
                                         </div>
@@ -454,7 +454,7 @@
                                         <summary class="pre-title">Leadership Council on Legal Diversity</summary>
 
                                         <div class="pre-content">
-                                            <p>Kohlerackels is a member of the Leadership Council on Legal Diversity, an
+                                            <p>{{ $siteInfo.SITE_NAME }} is a member of the Leadership Council on Legal Diversity, an
                                                 organization of more than 200 corporate chief legal officers and law
                                                 firm managing partners.&nbsp;We participate in the LCLD&#39;s Fellows
                                                 program and in LCLD&#39;s 1L Scholars Program.</p>
@@ -468,7 +468,7 @@
 
                                         <div class="pre-content">
                                             <p>For over 20 years the firm has packed and sent over 300
-                                                &ldquo;Kohlerackels care packages&rdquo; to military personnel overseas
+                                                &ldquo;{{ $siteInfo.SITE_NAME }} care packages&rdquo; to military personnel overseas
                                                 serving on the front lines of defense.</p>
                                         </div>
                                     </details>

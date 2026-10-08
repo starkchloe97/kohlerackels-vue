@@ -8,7 +8,7 @@
       </nav>
 
       <p>
-        Copyright &copy;2025 Kohlerackels Riley &amp; Scarborough LLP - Attorneys and Counselors at Law.
+        Copyright &copy;2025 {{ $siteInfo.SITE_NAME }} Riley &amp; Scarborough LLP - Attorneys and Counselors at Law.
         All rights reserved.<br>
         For informational purposes only. Past success does not indicate the likelihood of success
         in any future legal representation.
@@ -68,7 +68,3 @@
   }
 }
 </style>
-
-<script setup>
-import { SITE_NAME } from '@/config/siteInfo'
-</script>

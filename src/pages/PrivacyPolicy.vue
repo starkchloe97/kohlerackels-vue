@@ -18,12 +18,12 @@
 					</p>
 
 					<hr />
-					<p>kohlerackels, Riley &amp; Scarborough LLP and its affiliates (collectively,
-						&ldquo;Kohlerackels&rdquo;) want you to be familiar with how we collect, use, share, or
+					<p>{{ $siteInfo.SITE_NAME.toLowerCase() }}, Riley &amp; Scarborough LLP and its affiliates (collectively,
+						&ldquo;{{ $siteInfo.SITE_NAME }}&rdquo;) want you to be familiar with how we collect, use, share, or
 						otherwise process information that relates to you (&ldquo;Personal Information&rdquo;). This
 						Privacy Notice informs you of our practices in connection with Personal Information that: we
 						collect, both online and offline, including in connection with the services that we provide; our
-						main website (<a href="/">www.kohlerackels.com</a>); and other websites, mobile applications,
+						main website (<a :href="$siteInfo.SITE_URL">{{ $siteInfo.SITE_URL }}</a>); and other websites, mobile applications,
 						and digital communications (like email) that display or link to this Privacy Notice
 						(collectively, &ldquo;Services&rdquo;).</p>
 
@@ -33,7 +33,7 @@
 
 					<p>Because we are a law firm, we process information relating to individuals during our legal
 						representation of a client. This Privacy Notice does not apply to information which you may
-						provide to Kohlerackels in attorney-client relationships or that is protected by
+						provide to {{ $siteInfo.SITE_NAME }} in attorney-client relationships or that is protected by
 						confidentiality, the attorney-client privilege, the attorney work product doctrine, or any other
 						applicable protection. While we do commonly process personal information during our legal
 						representation of a client, such processing is performed on behalf of and at the direction of
@@ -43,7 +43,7 @@
 						Privacy Notice.</p>
 
 					<p>If you have any questions or comments about the Privacy Notice or our privacy practices, please
-						contact us at <a href="mailto:info@kohlerackels.com">info@kohlerackels.com</a>.</p>
+						contact us at <a :href="`mailto:${$siteInfo.SITE_EMAIL}`">{{ $siteInfo.SITE_EMAIL }}</a>.</p>
 
 					<hr />
 					<p><strong>Table of Contents</strong>&nbsp;</p>
@@ -81,7 +81,7 @@
 						further described below. This section describes the types of Personal Information that we may
 						have collected in the previous 12 months and from where the information was sourced.</p>
 
-					<p>a)<strong>&nbsp;Information You Voluntarily Provide to Kohlerackels.</strong> We collect Personal
+					<p>a)<strong>&nbsp;Information You Voluntarily Provide to {{ $siteInfo.SITE_NAME }}.</strong> We collect Personal
 						Information that you voluntarily provide to us. This includes, for example, Personal Information
 						you provide when contacting us (including when contacting us on behalf of your employer to
 						obtain our legal services); requesting client alerts, timely updates, event invitations,
@@ -94,7 +94,7 @@
 					<ul>
 						<li><strong>Identifiers,</strong> such as your name, physical address, email address, telephone
 							number, signature, government-issued identification numbers, and account credentials (e.g.,
-							username) if you access or use a Kohlerackels online service, or other similar identifiers.
+							username) if you access or use a {{ $siteInfo.SITE_NAME }} online service, or other similar identifiers.
 						</li>
 						<li><strong>Demographic Information,</strong> which may include Sensitive Personal Information
 							or information about protected classifications, such as your age, gender, race, or national
@@ -402,10 +402,10 @@
 					</ul>
 
 					<p>To exercise the Privacy Rights identified above, please: call us at <a
-							href="tel:1.800.237.2000 ">1.800.237.2000 </a>or email us at <a
-							href="mailto:info@kohlerackels.com">info@kohlerackels.com</a>. If you have questions about
+							:href="`tel:${$siteInfo.SITE_PHONE_RAW}`">{{ $siteInfo.SITE_PHONE }}</a>or email us at <a
+							:href="`mailto:${$siteInfo.SITE_EMAIL}`">{{ $siteInfo.SITE_EMAIL }}</a>. If you have questions about
 						your privacy rights or would like to appeal a decision made concerning a privacy request you
-						submitted, please email us at <a href="mailto:info@kohlerackels.com">info@kohlerackels.com</a>.
+						submitted, please email us at <a :href="`mailto:${$siteInfo.SITE_EMAIL}`">{{ $siteInfo.SITE_EMAIL }}</a>.
 					</p>
 
 					<p><strong>b)&nbsp;Managing Communication Preferences.</strong> If you no longer wish to receive
@@ -510,7 +510,7 @@
 						periodically and will revise the date at the top of this Privacy Notice to reflect the date when
 						such update occurred. If we make any material changes in the way we collect, use, and/or share
 						the Personal Information that you have provided, we will endeavor to provide you with notice
-						before such changes take effect, such as by posting prominent notice on the Kohlerackels
+						before such changes take effect, such as by posting prominent notice on the {{ $siteInfo.SITE_NAME }}
 						website.</p>
 
 					<p><strong>11.&nbsp;Governing Law.</strong> This Privacy Notice is governed by and construed in
@@ -523,15 +523,15 @@
 						however, that if you are not a client, we may not be able to treat the information you send us
 						as confidential or privileged. If you wish to contact us regarding legal or other services,
 						please contact an attorney in one of our offices near you. You can find a list of our offices
-						and our attorneys on our main website (<a href="/">www.kohlerackels.com</a>).</p>
+						and our attorneys on our main website (<a :href="$siteInfo.SITE_URL">{{ $siteInfo.SITE_URL }}</a>).</p>
 
 					<p><strong>If you have questions about our information practices, please contact us using the
 							following methods:</strong></p>
 
 					<ul>
-						<li><strong>Mail: 1320 Main Street, Columbia, SC 29201</strong></li>
-						<li><strong>Telephone: <a href="tel:1.800.237.2000 ">1.800.237.2000</a></strong></li>
-						<li><a href="/"><strong>Email: info@kohlerackels.com&nbsp;</strong></a></li>
+						<li><strong>Mail: {{ $siteInfo.SITE_ADDRESS_ONE_LINE }}</strong></li>
+						<li><strong>Telephone: <a :href="`tel:${$siteInfo.SITE_PHONE_RAW}`">{{ $siteInfo.SITE_PHONE }}</a></strong></li>
+						<li><a :href="`mailto:${$siteInfo.SITE_EMAIL}`"><strong>Email: {{ $siteInfo.SITE_EMAIL }}&nbsp;</strong></a></li>
 					</ul>
 
 					<p><strong>13.&nbsp;Information for California Residents &ndash; California Privacy Rights.
@@ -662,7 +662,7 @@
 							bottom of our website and selecting your preferences, or by broadcasting an Opt-Out
 							Preference Signal, such as the Global Privacy Control (GPC) (on the browsers and/or browser
 							extensions that support such a signal). Please note that even after opting out, your use of
-							our websites may still be tracked by Kohlerackels or our Service Providers.</li>
+							our websites may still be tracked by {{ $siteInfo.SITE_NAME }} or our Service Providers.</li>
 					</ul>
 
 					<p>The chart below summarizes the categories of Personal Information disclosed that may be
@@ -730,8 +730,8 @@
 					<ul>
 						<li><strong>How to Submit a Request to Know, Request to Delete, or Request to Correct.</strong>
 							You may submit a Request to Know or a Request to Delete by: (1) contacting us at this
-							toll-free number, <a href="tel:1.800.237.2000 ">1.800.237.2000</a>, by (2) emailing us at <a
-								href="mailto:info@kohlerackels.com">info@kohlerackels.com</a>.</li>
+							toll-free number, <a :href="`tel:${$siteInfo.SITE_PHONE_RAW}`">{{ $siteInfo.SITE_PHONE }}</a>, by (2) emailing us at <a
+								:href="`mailto:${$siteInfo.SITE_EMAIL}`">{{ $siteInfo.SITE_EMAIL }}</a>.</li>
 						<li><strong>How to Submit a Request to Opt-Out of &ldquo;Selling&rdquo; or
 								&ldquo;Sharing&rdquo;.</strong> You may submit a Request to Opt-Out by following the
 							instructions outlined above in the &ldquo;Request to Opt-Out of the &lsquo;Selling&rsquo; or
@@ -740,7 +740,7 @@
 							to act on your behalf, may submit a request relating to your Personal Information. To
 							authorize an agent to submit a request on your behalf, please provide written authorization
 							signed by you and your designated agent and contact us at <a
-								href="mailto:info@kohlerackels.com">info@kohlerackels.com</a> for additional
+								:href="`mailto:${$siteInfo.SITE_EMAIL}`">{{ $siteInfo.SITE_EMAIL }}</a> for additional
 							instructions.</li>
 						<li><strong>Verification.</strong> To protect your privacy, we will take steps to reasonably
 							verify your identity before fulfilling your request. These steps may involve asking you to
@@ -752,7 +752,7 @@
 					<p><strong>f)&nbsp;California Shine the Light.</strong> California residents may request information
 						concerning the categories of Personal Information, if any, we share with third parties or
 						affiliates for their direct marketing purposes. If you would like more information, please
-						contact us at: <a href="mailto:info@kohlerackels.com">info@kohlerackels.com</a>.</p>
+						contact us at: <a :href="`mailto:${$siteInfo.SITE_EMAIL}`">{{ $siteInfo.SITE_EMAIL }}</a>.</p>
 
 					<p>g)&nbsp;<strong>Do Not Track Disclosure. </strong>Some browsers offer a &ldquo;Do Not
 						Track&rdquo; privacy preference. Generally, when a user turns on the Do Not Track Signal, their
@@ -765,9 +765,9 @@
 					<p>For questions, comments or inquiries regarding the collection, processing and storage of your
 						Personal Information by us, please contact us via e-mail or phone at:</p>
 
-					<p><a href="/">info@kohlerackels.com</a>&nbsp;</p>
+					<p><a :href="`mailto:${$siteInfo.SITE_EMAIL}`">{{ $siteInfo.SITE_EMAIL }}</a>&nbsp;</p>
 
-					<p><a href="tel:1.800.237.2000 ">1.800.237.2000</a></p>
+					<p><a :href="`tel:${$siteInfo.SITE_PHONE_RAW}`">{{ $siteInfo.SITE_PHONE }}</a></p>
 
 					<p><br />
 						or in writing to:</p>
@@ -788,13 +788,12 @@
 					<div class="aside-general-counsel">
 
 						<h4 class="contact-sidebar-title">Corporate Information</h4>
-						<h5><span>&nbsp;</span>Kohlerackels Riley &amp; Scarborough LLP&nbsp;</h5>
+						<h5><span>&nbsp;</span>{{ $siteInfo.SITE_NAME }} Riley &amp; Scarborough LLP&nbsp;</h5>
 
-						<p><span>&nbsp;</span>Meridian<br />
-							1320 Main Street,&nbsp;17th Floor<br />
-							Columbia, SC 29201</p>
+						<p><span>&nbsp;</span>{{ $siteInfo.SITE_ADDRESS_LINE1 }}<br />
+							{{ $siteInfo.SITE_ADDRESS_LINE2 }}</p>
 
-						<p>T <a class="attorney-phone" href="tel:800.237.2000">1.800.237.2000</a></p>
+						<p>T <a class="attorney-phone" :href="`tel:${$siteInfo.SITE_PHONE_RAW}`">{{ $siteInfo.SITE_PHONE }}</a></p>
 						<div class="aside-spacer"></div>
 
 						<h4 class="contact-sidebar-title">General Counsel</h4>
@@ -807,11 +806,11 @@
 
 
 						<div class="sidebar-email-icon hidden-print">
-							<a class="email_btn" href="#" data-email="dan.sanders@kohlerackels.com">
+							<a class="email_btn" href="#" :data-email="$siteInfo.SITE_EMAIL">
 								<img src="/images/detail-email-lighter.png"
 									alt="Send Email to Daniel S. Sanders, Jr." /></a>
 						</div>
-						<div class="visible-print-block">dan.sanders@kohlerackels.com</div>
+						<div class="visible-print-block">{{ $siteInfo.SITE_EMAIL }}</div>
 
 
 

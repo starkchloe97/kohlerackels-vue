@@ -22243,7 +22243,7 @@ a.skip-main:active {
   max-height: none !important;
 }
 
-/* Kohlerackels page-specific styles migrated from the original HTML inline styles. */
+/* Legacy page-specific styles migrated from the original HTML inline styles. */
 .box-container {
   display: flex;
   gap: 40px;
