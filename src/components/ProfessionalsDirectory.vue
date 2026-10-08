@@ -112,11 +112,11 @@ const profiles = {
   'dylan-hartsook': profile('dylan-hartsook', 'T. Dylan Hartsook', 'Associate', '312.376.1009', 'Chicago, IL', '/images/Dylan-hartsook.jpg'),
   'halley-herbst': profile('halley-herbst', 'Halley Herbst', 'Associate', '303.583.9925', 'New York, NY', '/images/Halley.jpg'),
   'chance-siller': profile('chance-siller', 'Chance Siller', 'Associate', '346.646.5842', 'Houston, TX', '/images/Chance-Siller.jpg'),
-  'jeanne-digiorgio': profile('jeanne-digiorgio', 'Jeanne M. DiGiorgio', 'Counsel', '617.217.4620', 'Boston, MA', ''),
-  'jay-fee': profile('jay-fee', 'Jay W. Fee', 'Partner', '617.217.4774', 'Boston, MA', ''),
-  'holly-collins': profile('holly-collins', 'Holly L. Collins', 'Counsel', '407.669.4251', 'Orlando, FL', ''),
-  'david-babb': profile('david-babb', 'David C. Babb', 'Senior Associate', '469.484.6301', 'Dallas, TX', ''),
-  'mariah-emmons': profile('mariah-emmons', 'Mariah Emmons', 'Senior Associate', '619.489.3142', 'San Diego, CA', ''),
+  'jeanne-digiorgio': profile('jeanne-digiorgio', 'Jeanne M. DiGiorgio', 'Counsel', '617.217.4620', 'Boston, MA', '/images/Jeanne-DiGiorgio.jpeg'),
+  'jay-fee': profile('jay-fee', 'Jay W. Fee', 'Partner', '617.217.4774', 'Boston, MA', '/images/Jay-fee.jpg'),
+  'holly-collins': profile('holly-collins', 'Holly L. Collins', 'Counsel', '407.669.4251', 'Orlando, FL', '/images/Holly-Collins.jpeg'),
+  'david-babb': profile('david-babb', 'David C. Babb', 'Senior Associate', '469.484.6301', 'Dallas, TX', '/images/David-Babb.jpg'),
+  'mariah-emmons': profile('mariah-emmons', 'Mariah Emmons', 'Senior Associate', '619.489.3142', 'San Diego, CA', '/images/Mariah-Emmons.jpg'),
   'john-mcelwaine': profile('john-mcelwaine', 'John C. McElwaine', 'Partner', '843.534.4302', 'Charleston, SC; Washington, D.C.', '/images/John-C.jpeg')
 }
 

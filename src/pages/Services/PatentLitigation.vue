@@ -171,7 +171,7 @@
                                                 <div class="sidebar-email-icon pull-left mr-2"><a href="#"
                                                         data-toggle="modal" data-target="#emailModal"
                                                         data-email="lisa.margonis@nelsonmullins.com"
-                                                        class="email_btn"><img src="/images/firmoverview.jpg"
+                                                        class="email_btn"><img src="/images/detail-email.png"
                                                             alt="Send Email to Lisa Margonis"></a></div>
                                                 <p class="pull-left">T 346.646.5514</p>
                                                 <div class="clearfix"></div>
@@ -188,7 +188,7 @@
                                             <div class="sidebar-email-icon pull-left mr-2"><a href="#"
                                                     data-toggle="modal" data-target="#emailModal"
                                                     data-email="ashley.summer@nelsonmullins.com" class="email_btn"><img
-                                                        src="/images/firmoverview.jpg"
+                                                        src="/images/detail-email.png"
                                                         alt="Send Email to Ashley B. Summer"></a></div>
                                             <p class="pull-left">T 212.413.9036</p>
                                             <div class="clearfix"></div>
@@ -253,15 +253,15 @@
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
                                                                 href="tel:13466463830"><img data-v-f0897244=""
-                                                                    src="/images/firmoverview.jpg"
+                                                                    src="/images/detail-email.png"
                                                                     alt="Call Erik Janitens"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
-                                                                src="/images/firmoverview.jpg"
+                                                                src="/images/detail-vcard.png"
                                                                 alt="Download vCard for Erik Janitens"></a> <a
                                                             data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
                                                             data-email="erik.janitens@nelsonmullins.com"><img
-                                                                data-v-f0897244="" src="/images/firmoverview.jpg"
+                                                                data-v-f0897244="" src="/images/detail-email.png"
                                                                 alt="Send Email to Erik Janitens"></a>
                                                     </div>
                                                     <div data-v-f0897244="" class="search-result-phone hidden-print">T
@@ -300,12 +300,12 @@
                                                                     src="/images/firmoverview.jpg"
                                                                     alt="Call Neil C. Jones"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
-                                                                src="/images/firmoverview.jpg"
+                                                                src="/images/detail-vcard.png"
                                                                 alt="Download vCard for Neil C. Jones"></a> <a
                                                             data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
                                                             data-email="neil.jones@nelsonmullins.com"><img
-                                                                data-v-f0897244="" src="/images/firmoverview.jpg"
+                                                                data-v-f0897244="" src="/images/detail-email.png"
                                                                 alt="Send Email to Neil C. Jones"></a>
                                                     </div>
                                                     <div data-v-f0897244="" class="search-result-phone hidden-print">T
@@ -349,12 +349,12 @@
                                                                     src="/images/firmoverview.jpg"
                                                                     alt="Call Craig N. Killen"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
-                                                                src="/images/firmoverview.jpg"
+                                                                src="/images/detail-vcard.png"
                                                                 alt="Download vCard for Craig N. Killen"></a> <a
                                                             data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
                                                             data-email="craig.killen@nelsonmullins.com"><img
-                                                                data-v-f0897244="" src="/images/firmoverview.jpg"
+                                                                data-v-f0897244="" src="/images/detail-email.png"
                                                                 alt="Send Email to Craig N. Killen"></a>
                                                     </div>
                                                     <div data-v-f0897244="" class="search-result-phone hidden-print">T
@@ -395,12 +395,12 @@
                                                                     src="/images/firmoverview.jpg"
                                                                     alt="Call Lisa Margonis"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
-                                                                src="/images/firmoverview.jpg"
+                                                                src="/images/detail-vcard.png"
                                                                 alt="Download vCard for Lisa Margonis"></a> <a
                                                             data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
                                                             data-email="lisa.margonis@nelsonmullins.com"><img
-                                                                data-v-f0897244="" src="/images/firmoverview.jpg"
+                                                                data-v-f0897244="" src="/images/detail-email.png"
                                                                 alt="Send Email to Lisa Margonis"></a>
                                                     </div>
                                                     <div data-v-f0897244="" class="search-result-phone hidden-print">T
@@ -440,12 +440,12 @@
                                                                     src="/images/firmoverview.jpg"
                                                                     alt="Call Robert H. McWilliams, Jr."></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
-                                                                src="/images/firmoverview.jpg"
+                                                                src="/images/detail-vcard.png"
                                                                 alt="Download vCard for Robert H. McWilliams, Jr."></a>
                                                         <a data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
                                                             data-email="robert.mcwilliams@nelsonmullins.com"><img
-                                                                data-v-f0897244="" src="/images/firmoverview.jpg"
+                                                                data-v-f0897244="" src="/images/detail-email.png"
                                                                 alt="Send Email to Robert H. McWilliams, Jr."></a>
                                                     </div>
                                                     <div data-v-f0897244="" class="search-result-phone hidden-print">T
@@ -488,12 +488,12 @@
                                                                     src="/images/firmoverview.jpg"
                                                                     alt="Call Ashley B. Summer"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
-                                                                src="/images/firmoverview.jpg"
+                                                                src="/images/detail-vcard.png"
                                                                 alt="Download vCard for Ashley B. Summer"></a> <a
                                                             data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
                                                             data-email="ashley.summer@nelsonmullins.com"><img
-                                                                data-v-f0897244="" src="/images/firmoverview.jpg"
+                                                                data-v-f0897244="" src="/images/detail-email.png"
                                                                 alt="Send Email to Ashley B. Summer"></a>
                                                     </div>
                                                     <div data-v-f0897244="" class="search-result-phone hidden-print">T
@@ -535,12 +535,12 @@
                                                                     src="/images/firmoverview.jpg"
                                                                     alt="Call Tammy Terry"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
-                                                                src="/images/firmoverview.jpg"
+                                                                src="/images/detail-vcard.png"
                                                                 alt="Download vCard for Tammy Terry"></a> <a
                                                             data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
                                                             data-email="tammy.terry@nelsonmullins.com"><img
-                                                                data-v-f0897244="" src="/images/firmoverview.jpg"
+                                                                data-v-f0897244="" src="/images/detail-email.png"
                                                                 alt="Send Email to Tammy Terry"></a>
                                                     </div>
                                                     <div data-v-f0897244="" class="search-result-phone hidden-print">T
@@ -579,12 +579,12 @@
                                                                     src="/images/firmoverview.jpg"
                                                                     alt="Call Cameron Panepinto"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
-                                                                src="/images/firmoverview.jpg"
+                                                                src="/images/detail-vcard.png"
                                                                 alt="Download vCard for Cameron Panepinto"></a> <a
                                                             data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
                                                             data-email="cameron.panepinto@nelsonmullins.com"><img
-                                                                data-v-f0897244="" src="/images/firmoverview.jpg"
+                                                                data-v-f0897244="" src="/images/detail-email.png"
                                                                 alt="Send Email to Cameron Panepinto"></a>
                                                     </div>
                                                     <div data-v-f0897244="" class="search-result-phone hidden-print">T
@@ -623,12 +623,12 @@
                                                                     src="/images/firmoverview.jpg"
                                                                     alt="Call Jonathan Todd"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
-                                                                src="/images/firmoverview.jpg"
+                                                                src="/images/detail-vcard.png"
                                                                 alt="Download vCard for Jonathan Todd"></a> <a
                                                             data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
                                                             data-email="jonathan.todd@nelsonmullins.com"><img
-                                                                data-v-f0897244="" src="/images/firmoverview.jpg"
+                                                                data-v-f0897244="" src="/images/detail-email.png"
                                                                 alt="Send Email to Jonathan Todd"></a>
                                                     </div>
                                                     <div data-v-f0897244="" class="search-result-phone hidden-print">T
@@ -667,12 +667,12 @@
                                                                     src="/images/firmoverview.jpg"
                                                                     alt="Call Halley Herbst"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
-                                                                src="/images/firmoverview.jpg"
+                                                                src="/images/detail-vcard.png"
                                                                 alt="Download vCard for Halley Herbst"></a> <a
                                                             data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
                                                             data-email="halley.herbst@nelsonmullins.com"><img
-                                                                data-v-f0897244="" src="/images/firmoverview.jpg"
+                                                                data-v-f0897244="" src="/images/detail-email.png"
                                                                 alt="Send Email to Halley Herbst"></a>
                                                     </div>
                                                     <div data-v-f0897244="" class="search-result-phone hidden-print">T
@@ -711,12 +711,12 @@
                                                                     src="/images/firmoverview.jpg"
                                                                     alt="Call Chance Siller"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
-                                                                src="/images/firmoverview.jpg"
+                                                                src="/images/detail-vcard.png"
                                                                 alt="Download vCard for Chance Siller"></a> <a
                                                             data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
                                                             data-email="chance.siller@nelsonmullins.com"><img
-                                                                data-v-f0897244="" src="/images/firmoverview.jpg"
+                                                                data-v-f0897244="" src="/images/detail-email.png"
                                                                 alt="Send Email to Chance Siller"></a>
                                                     </div>
                                                     <div data-v-f0897244="" class="search-result-phone hidden-print">T
@@ -1208,13 +1208,13 @@
                                                                                 alt="Call Erik Janitens"></a></div> <a
                                                                         data-v-f0897244="" href="#"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/firmoverview.jpg"
+                                                                            src="/images/detail-vcard.png"
                                                                             alt="Download vCard for Erik Janitens"></a>
                                                                     <a data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
                                                                         data-email="erik.janitens@nelsonmullins.com"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/firmoverview.jpg"
+                                                                            src="/images/detail-email.png"
                                                                             alt="Send Email to Erik Janitens"></a>
                                                                 </div>
                                                                 <div data-v-f0897244=""
@@ -1262,13 +1262,13 @@
                                                                                 alt="Call Neil C. Jones"></a></div> <a
                                                                         data-v-f0897244="" href="#"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/firmoverview.jpg"
+                                                                            src="/images/detail-vcard.png"
                                                                             alt="Download vCard for Neil C. Jones"></a>
                                                                     <a data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
                                                                         data-email="neil.jones@nelsonmullins.com"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/firmoverview.jpg"
+                                                                            src="/images/detail-email.png"
                                                                             alt="Send Email to Neil C. Jones"></a>
                                                                 </div>
                                                                 <div data-v-f0897244=""
@@ -1324,13 +1324,13 @@
                                                                                 alt="Call Craig N. Killen"></a></div> <a
                                                                         data-v-f0897244="" href="#"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/firmoverview.jpg"
+                                                                            src="/images/detail-vcard.png"
                                                                             alt="Download vCard for Craig N. Killen"></a>
                                                                     <a data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
                                                                         data-email="craig.killen@nelsonmullins.com"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/firmoverview.jpg"
+                                                                            src="/images/detail-email.png"
                                                                             alt="Send Email to Craig N. Killen"></a>
                                                                 </div>
                                                                 <div data-v-f0897244=""
@@ -1383,13 +1383,13 @@
                                                                                 alt="Call Lisa Margonis"></a></div> <a
                                                                         data-v-f0897244="" href="#"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/firmoverview.jpg"
+                                                                            src="/images/detail-vcard.png"
                                                                             alt="Download vCard for Lisa Margonis"></a>
                                                                     <a data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
                                                                         data-email="lisa.margonis@nelsonmullins.com"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/firmoverview.jpg"
+                                                                            src="/images/detail-email.png"
                                                                             alt="Send Email to Lisa Margonis"></a>
                                                                 </div>
                                                                 <div data-v-f0897244=""
@@ -1439,13 +1439,13 @@
                                                                                 alt="Call Robert H. McWilliams, Jr."></a>
                                                                     </div> <a data-v-f0897244="" href="#"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/firmoverview.jpg"
+                                                                            src="/images/detail-vcard.png"
                                                                             alt="Download vCard for Robert H. McWilliams, Jr."></a>
                                                                     <a data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
                                                                         data-email="robert.mcwilliams@nelsonmullins.com"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/firmoverview.jpg"
+                                                                            src="/images/detail-email.png"
                                                                             alt="Send Email to Robert H. McWilliams, Jr."></a>
                                                                 </div>
                                                                 <div data-v-f0897244=""
@@ -1500,13 +1500,13 @@
                                                                                 alt="Call Ashley B. Summer"></a></div>
                                                                     <a data-v-f0897244="" href="#"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/firmoverview.jpg"
+                                                                            src="/images/detail-vcard.png"
                                                                             alt="Download vCard for Ashley B. Summer"></a>
                                                                     <a data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
                                                                         data-email="ashley.summer@nelsonmullins.com"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/firmoverview.jpg"
+                                                                            src="/images/detail-email.png"
                                                                             alt="Send Email to Ashley B. Summer"></a>
                                                                 </div>
                                                                 <div data-v-f0897244=""
@@ -1559,13 +1559,13 @@
                                                                                 alt="Call Tammy Terry"></a></div> <a
                                                                         data-v-f0897244="" href="#"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/firmoverview.jpg"
+                                                                            src="/images/detail-vcard.png"
                                                                             alt="Download vCard for Tammy Terry"></a> <a
                                                                         data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
                                                                         data-email="tammy.terry@nelsonmullins.com"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/firmoverview.jpg"
+                                                                            src="/images/detail-email.png"
                                                                             alt="Send Email to Tammy Terry"></a>
                                                                 </div>
                                                                 <div data-v-f0897244=""
@@ -1613,13 +1613,13 @@
                                                                                 alt="Call Cameron Panepinto"></a></div>
                                                                     <a data-v-f0897244="" href="#"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/firmoverview.jpg"
+                                                                            src="/images/detail-vcard.png"
                                                                             alt="Download vCard for Cameron Panepinto"></a>
                                                                     <a data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
                                                                         data-email="cameron.panepinto@nelsonmullins.com"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/firmoverview.jpg"
+                                                                            src="/images/detail-email.png"
                                                                             alt="Send Email to Cameron Panepinto"></a>
                                                                 </div>
                                                                 <div data-v-f0897244=""
@@ -1666,13 +1666,13 @@
                                                                                 alt="Call Jonathan Todd"></a></div> <a
                                                                         data-v-f0897244="" href="#"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/firmoverview.jpg"
+                                                                            src="/images/detail-vcard.png"
                                                                             alt="Download vCard for Jonathan Todd"></a>
                                                                     <a data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
                                                                         data-email="jonathan.todd@nelsonmullins.com"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/firmoverview.jpg"
+                                                                            src="/images/detail-email.png"
                                                                             alt="Send Email to Jonathan Todd"></a>
                                                                 </div>
                                                                 <div data-v-f0897244=""
@@ -1720,13 +1720,13 @@
                                                                                 alt="Call Halley Herbst"></a></div> <a
                                                                         data-v-f0897244="" href="#"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/firmoverview.jpg"
+                                                                            src="/images/detail-vcard.png"
                                                                             alt="Download vCard for Halley Herbst"></a>
                                                                     <a data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
                                                                         data-email="halley.herbst@nelsonmullins.com"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/firmoverview.jpg"
+                                                                            src="/images/detail-email.png"
                                                                             alt="Send Email to Halley Herbst"></a>
                                                                 </div>
                                                                 <div data-v-f0897244=""
@@ -1774,13 +1774,13 @@
                                                                                 alt="Call Chance Siller"></a></div> <a
                                                                         data-v-f0897244="" href="#"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/firmoverview.jpg"
+                                                                            src="/images/detail-vcard.png"
                                                                             alt="Download vCard for Chance Siller"></a>
                                                                     <a data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
                                                                         data-email="chance.siller@nelsonmullins.com"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/firmoverview.jpg"
+                                                                            src="/images/detail-email.png"
                                                                             alt="Send Email to Chance Siller"></a>
                                                                 </div>
                                                                 <div data-v-f0897244=""
@@ -1998,7 +1998,7 @@
                                     <div class="sidebar-email-icon" style="float: left; margin-right: 10px;"><a href="#"
                                             data-toggle="modal" data-target="#emailModal"
                                             data-email="lisa.margonis@nelsonmullins.com" class="email_btn"><img
-                                                src="/images/firmoverview.jpg" alt="Send Email to Lisa Margonis"></a>
+                                                src="/images/detail-email.png" alt="Send Email to Lisa Margonis"></a>
                                     </div>
                                     <div style="float: left;">
                                         <p>T 346.646.5514</p>
@@ -2013,7 +2013,7 @@
                                     <div class="sidebar-email-icon" style="float: left; margin-right: 10px;"><a href="#"
                                             data-toggle="modal" data-target="#emailModal"
                                             data-email="ashley.summer@nelsonmullins.com" class="email_btn"><img
-                                                src="/images/firmoverview.jpg" alt="Send Email to Ashley B. Summer"></a>
+                                                src="/images/detail-email.png" alt="Send Email to Ashley B. Summer"></a>
                                     </div>
                                     <div style="float: left;">
                                         <p>T 212.413.9036</p>
@@ -2047,5 +2047,12 @@ import { serviceInsights } from '@/config/serviceInsights.js'
     margin-right: -15px;
     margin-left: -15px;
     gap: 0px;
+}
+
+.search-result-icons {
+    margin: 24px 0px 8px;
+    display: flex;
+    gap: 10px;
+    align-items:center;
 }
 </style>
