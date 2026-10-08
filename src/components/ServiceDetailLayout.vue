@@ -65,7 +65,7 @@
 
                 <template v-if="why">
                   <hr>
-                  <h3 class="body-subhead">{{ why.title || 'Why Kohlerackels?' }}</h3>
+                  <h3 class="body-subhead">{{ why.title || `Why ${$siteInfo.SITE_NAME}?` }}</h3>
                   <p v-if="why.text" class="generic" v-html="why.text"></p>
                   <ul v-if="why.items" class="list-triangle">
                     <li v-for="item in why.items" :key="item" v-html="item"></li>
@@ -92,7 +92,7 @@
                 <div class="sidebar-aside-container service-cta">
                   <h3 class="sidebar-title sidebar-title-with-first">Get in touch</h3>
                   <p>Contact our team to discuss how we can help with your legal needs.</p>
-                  <a href="mailto:hello@kohlerackels.com" class="nm-button-yellow service-contact-button">GET IN TOUCH</a>
+                  <a :href="`mailto:${$siteInfo.SITE_EMAIL}`" class="nm-button-yellow service-contact-button">GET IN TOUCH</a>
                 </div>
               </aside>
             </div>

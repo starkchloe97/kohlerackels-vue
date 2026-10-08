@@ -1,5 +1,6 @@
 <script setup>
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
+import { SITE_NAME } from '@/config/siteInfo.js'
 
 const props = defineProps({
     title: { type: String, default: 'News & Noteworthy' },
@@ -17,7 +18,7 @@ const props = defineProps({
                 href: '#',
             },
             {
-                title: 'Kohlerackels Awarded 2024 U.S. Anti-Racism Program of the Year',
+                title: `${SITE_NAME} Awarded 2024 U.S. Anti-Racism Program of the Year`,
                 image: '/images/Opportunitity/image2.jpg',
                 href: '#',
             },

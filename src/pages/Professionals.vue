@@ -15,7 +15,7 @@
                             <h1 class="featured-section">Professionals</h1>
                             <h2 class="featured-title">A deep understanding of your vision</h2>
                             <div class="featured-details"><span></span>
-                                <p><span class="text-head-blue">At Kohlerackels, we help advance our clients&rsquo;
+                                <p><span class="text-head-blue">At {{ $siteInfo.SITE_NAME }}, we help advance our clients&rsquo;
                                         business goals through flexibility, business sense, and tireless advocacy based
                                         on a deep understanding of their business worlds.</span> &nbsp;</p>
 
@@ -38,7 +38,7 @@
                             <h1 class="featured-section">Professionals</h1>
                             <h2 class="featured-title">A deep understanding of your vision</h2>
                             <div class="featured-details">
-                                <p><span class="text-head-blue">At Kohlerackels, we help advance our clients&rsquo;
+                                <p><span class="text-head-blue">At {{ $siteInfo.SITE_NAME }}, we help advance our clients&rsquo;
                                         business goals through flexibility, business sense, and tireless advocacy based
                                         on a deep understanding of their business worlds.</span> &nbsp;</p>
 

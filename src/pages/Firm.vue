@@ -16,7 +16,7 @@
 						<h2 class="featured-title">Working together toward shared goals</h2>
 						<div class="featured-details">
 							<p><span class="text-head-blue">Flexibility, practical business sense, and tireless advocacy
-									are among Kohlerackels&rsquo; service hallmarks. Our growth over the past
+									are among {{ $siteInfo.SITE_NAME }}&rsquo; service hallmarks. Our growth over the past
 									120&nbsp;years continues to be client-focused.</span></p>
 
 							<p>Our culture and multidisciplinary platform provide our community of clients trusted
@@ -61,7 +61,7 @@
 						<h2 class="featured-title">Working together toward shared goals</h2>
 						<div class="featured-details">
 							<p><span class="text-head-blue">Flexibility, practical business sense, and tireless advocacy
-									are among Kohlerackels&rsquo; service hallmarks. Our growth over the past
+									are among {{ $siteInfo.SITE_NAME }}&rsquo; service hallmarks. Our growth over the past
 									120&nbsp;years continues to be client-focused.</span></p>
 
 							<p>Our culture and multidisciplinary platform provide our community of clients trusted
@@ -112,7 +112,7 @@
 										src="/images/James-firm-component.jpg" alt="" /></div>
 								<div class="col-md-7">
 									<h3>A message from James K. Lehman, Managing Partner</h3>
-									<p>At Kohlerackels, our client relationships are based on a deep understanding of
+									<p>At {{ $siteInfo.SITE_NAME }}, our client relationships are based on a deep understanding of
 										our clients&rsquo; business worlds and up front communications regarding client
 										objectives. &nbsp;Our Firm&rsquo;s 1,000+ legal and business professionals serve
 										as trusted advisors to clients across a broad range of industry sectors,
@@ -131,7 +131,7 @@
 								<summary class="pre-title">Firm Highlights</summary>
 
 								<div class="pre-content">
-									<p>Kohlerackels is a diversified law firm of more than 1,000 attorneys, policy
+									<p>{{ $siteInfo.SITE_NAME }} is a diversified law firm of more than 1,000 attorneys, policy
 										advisors, and professionals with offices across the United States&nbsp;serving
 										clients in more than 100 practice areas.</p>
 
@@ -147,7 +147,7 @@
 										<li>Our intellectual property group has been recognized nationally for IP
 											litigation and provides a full-range of IP services for clients across
 											industry sectors.</li>
-										<li>Our Kohlerackels Encompass team is a dedicated practice group that provides
+										<li>Our {{ $siteInfo.SITE_NAME }} Encompass team is a dedicated practice group that provides
 											integrated e-discovery and information governance services to clients on a
 											flexible and scalable basis, serving as Enterprise E-Discovery Counsel for
 											Fortune 200 clients and empowering focused and defensible strategies with
@@ -173,9 +173,9 @@
 										banking, e-discovery, economic development, securities, finance, tax, estate
 										planning, intellectual property, governmental relations, regulatory, healthcare,
 										environmental, real estate, labor and employment, privacy and security, and
-										white collar crime. &nbsp;Kohlerackels attorneys have handled cases in most
+										white collar crime. &nbsp;{{ $siteInfo.SITE_NAME }} attorneys have handled cases in most
 										states in the United States and have argued before many appellate courts.
-										&nbsp;Kohlerackels&#39; clients range from:</p>
+										&nbsp;{{ $siteInfo.SITE_NAME }}&#39; clients range from:</p>
 
 									<ul>
 										<li>Fortune 500 companies</li>
@@ -194,7 +194,7 @@
 								<summary class="pre-title">Seeking Justice for Those in Need</summary>
 
 								<div class="pre-content">
-									<p>Kohlerackels is committed to serving the most vulnerable in our society with
+									<p>{{ $siteInfo.SITE_NAME }} is committed to serving the most vulnerable in our society with
 										social, economic and legal issues through pro bono service. &nbsp;The Firm
 										engages in complex pro bono litigation, policy and legislative advocacy, and
 										provides individual representation to a diverse group of people and
@@ -215,7 +215,7 @@
 
 								<div class="pre-content">
 									<p>Helping others advocate for what is right and serving our profession and our
-										communities are among the Firm&rsquo;s core values. &nbsp;Kohlerackels&rsquo;
+										communities are among the Firm&rsquo;s core values. &nbsp;{{ $siteInfo.SITE_NAME }}&rsquo;
 										legal team has had past presidents for the American Bar Association and the
 										National Foundation for Judicial Excellence and four past presidents of Lawyers
 										for Civil Justice and DRI-The Voice of the Defense Bar. &nbsp;</p>
@@ -229,9 +229,9 @@
 								</summary>
 
 								<div class="pre-content">
-									<p>In 1999, Kohlerackels Riley &amp; Scarborough Center on Professionalism was
+									<p>In 1999, {{ $siteInfo.SITE_NAME }} Riley &amp; Scarborough Center on Professionalism was
 										established at the University of South Carolina Law School with a gift from the
-										Firm&rsquo;s partners. &nbsp;The Kohlerackels Riley &amp; Scarborough Center on
+										Firm&rsquo;s partners. &nbsp;The {{ $siteInfo.SITE_NAME }} Riley &amp; Scarborough Center on
 										Professionalism advances the public interest by promoting and encouraging high
 										ethical conduct and professionalism by lawyers and judges. &nbsp;Its purpose is
 										to enrich teaching and research on the legal profession and to promote
@@ -300,7 +300,7 @@
 
 
 							<img src="/images/firm-amrican-lawer.jpg" class="img-fluid"
-								alt="Badge for The Am Law 100 ranking Kohlerackels in top 100 firms 2025" />
+								:alt="`Badge for The Am Law 100 ranking ${$siteInfo.SITE_NAME} in top 100 firms 2025`" />
 
 
 						</div>
@@ -351,7 +351,7 @@
 											src="/images/placeholder.svg" alt="" /></div>
 									<div class="col-md-7">
 										<h3>A message from James K. Lehman, Managing Partner</h3>
-										<p>At Kohlerackels, our client relationships are based on a deep understanding
+										<p>At {{ $siteInfo.SITE_NAME }}, our client relationships are based on a deep understanding
 											of our clients&rsquo; business worlds and up front communications regarding
 											client objectives. &nbsp;Our Firm&rsquo;s 1,000+ legal and business
 											professionals serve as trusted advisors to clients across a broad range of
@@ -370,7 +370,7 @@
 									<summary class="pre-title">Firm Highlights</summary>
 
 									<div class="pre-content">
-										<p>Kohlerackels is a diversified law firm of more than 1,000 attorneys, policy
+										<p>{{ $siteInfo.SITE_NAME }} is a diversified law firm of more than 1,000 attorneys, policy
 											advisors, and professionals with offices across the United
 											States&nbsp;serving clients in more than 100 practice areas.</p>
 
@@ -386,7 +386,7 @@
 											<li>Our intellectual property group has been recognized nationally for IP
 												litigation and provides a full-range of IP services for clients across
 												industry sectors.</li>
-											<li>Our Kohlerackels Encompass team is a dedicated practice group that
+											<li>Our {{ $siteInfo.SITE_NAME }} Encompass team is a dedicated practice group that
 												provides integrated e-discovery and information governance services to
 												clients on a flexible and scalable basis, serving as Enterprise
 												E-Discovery Counsel for Fortune 200 clients and empowering focused and
@@ -413,8 +413,8 @@
 											securities, finance, tax, estate planning, intellectual property,
 											governmental relations, regulatory, healthcare, environmental, real estate,
 											labor and employment, privacy and security, and white collar crime.
-											&nbsp;Kohlerackels attorneys have handled cases in most states in the United
-											States and have argued before many appellate courts. &nbsp;Kohlerackels&#39;
+											&nbsp;{{ $siteInfo.SITE_NAME }} attorneys have handled cases in most states in the United
+											States and have argued before many appellate courts. &nbsp;{{ $siteInfo.SITE_NAME }}&#39;
 											clients range from:</p>
 
 										<ul>
@@ -434,7 +434,7 @@
 									<summary class="pre-title">Seeking Justice for Those in Need</summary>
 
 									<div class="pre-content">
-										<p>Kohlerackels is committed to serving the most vulnerable in our society with
+										<p>{{ $siteInfo.SITE_NAME }} is committed to serving the most vulnerable in our society with
 											social, economic and legal issues through pro bono service. &nbsp;The Firm
 											engages in complex pro bono litigation, policy and legislative advocacy, and
 											provides individual representation to a diverse group of people and
@@ -456,7 +456,7 @@
 									<div class="pre-content">
 										<p>Helping others advocate for what is right and serving our profession and our
 											communities are among the Firm&rsquo;s core values.
-											&nbsp;Kohlerackels&rsquo; legal team has had past presidents for the
+											&nbsp;{{ $siteInfo.SITE_NAME }}&rsquo; legal team has had past presidents for the
 											American Bar Association and the National Foundation for Judicial Excellence
 											and four past presidents of Lawyers for Civil Justice and DRI-The Voice of
 											the Defense Bar. &nbsp;</p>
@@ -470,9 +470,9 @@
 										Professionalism</summary>
 
 									<div class="pre-content">
-										<p>In 1999, Kohlerackels Riley &amp; Scarborough Center on Professionalism was
+										<p>In 1999, {{ $siteInfo.SITE_NAME }} Riley &amp; Scarborough Center on Professionalism was
 											established at the University of South Carolina Law School with a gift from
-											the Firm&rsquo;s partners. &nbsp;The Kohlerackels Riley &amp; Scarborough
+											the Firm&rsquo;s partners. &nbsp;The {{ $siteInfo.SITE_NAME }} Riley &amp; Scarborough
 											Center on Professionalism advances the public interest by promoting and
 											encouraging high ethical conduct and professionalism by lawyers and judges.
 											&nbsp;Its purpose is to enrich teaching and research on the legal profession
@@ -541,7 +541,7 @@
 
 
 								<img src="/images/placeholder.svg" class="img-fluid"
-									alt="Badge for The Am Law 100 ranking Kohlerackels in top 100 firms 2025" />
+									:alt="`Badge for The Am Law 100 ranking ${$siteInfo.SITE_NAME} in top 100 firms 2025`" />
 
 
 							</div>

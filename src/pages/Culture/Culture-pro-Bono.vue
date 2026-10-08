@@ -671,7 +671,7 @@
 
                     <div class="pre-content">
                       <p>
-                        Kohlerackels has a legacy of taking on large-scale
+                        {{ $siteInfo.SITE_NAME }} has a legacy of taking on large-scale
                         litigation matters to promote the well-being of
                         disadvantaged classes of individuals.<br />
                         <br />
@@ -691,7 +691,7 @@
                         <strong>Protecting the Rights of School Children</strong
                         ><br />
                         In Abbeville County School District v. State of South
-                        Carolina, Kohlerackels represents a group of rural
+                        Carolina, {{ $siteInfo.SITE_NAME }} represents a group of rural
                         school districts, students and taxpayers in a
                         groundbreaking lawsuit challenging the funding of public
                         schools and the adequacy of the overall education
@@ -722,7 +722,7 @@
 
                     <div class="pre-content">
                       <p>
-                        Kohlerackels has proactively created and maintained
+                        {{ $siteInfo.SITE_NAME }} has proactively created and maintained
                         robust programs to provide simple wills and healthcare
                         directives free of charge to first responders who put
                         their lives on the line to serve and protect.<br />
@@ -765,7 +765,7 @@
                     undefined=""
                   >
                     <summary class="pre-title">
-                      Pipeline Initiatives &amp; Kohlerackels Dick Riley
+                      Pipeline Initiatives &amp; {{ $siteInfo.SITE_NAME }} Dick Riley
                       Scholarship Program
                     </summary>
 
@@ -777,7 +777,7 @@
 
                       <p>
                         <strong
-                          >Kohlerackels Dick Riley Scholarship Program -</strong
+                          >{{ $siteInfo.SITE_NAME }} Dick Riley Scholarship Program -</strong
                         >&nbsp;the merit-based program is open to all&nbsp;2L
                         law students. Factors considered include a wide array of
                         student backgrounds, characteristics, life experiences,
@@ -786,23 +786,23 @@
                         Awardees will receive a $10,000 scholarship and a
                         salaried summer associate position at one of the
                         firm&rsquo;s offices. The selection process coincides
-                        with Kohlerackels&rsquo; regular summer associate
+                        with {{ $siteInfo.SITE_NAME }}&rsquo; regular summer associate
                         recruiting process.
                       </p>
 
                       <p>
-                        Kohlerackels partners with Claflin University (a HBCU in
+                        {{ $siteInfo.SITE_NAME }} partners with Claflin University (a HBCU in
                         Orangeburg, SC) for pre-law scholarships.
                       </p>
 
                       <p>
                         The
-                        <strong>Kohlerackels M&amp;A Externship Program</strong>
+                        <strong>{{ $siteInfo.SITE_NAME }} M&amp;A Externship Program</strong>
                         provides 2L and 3L students from the University of
                         Georgia School of Law with work experience in mergers
                         and acquisitions for academic credit. During the fall
                         and spring semesters, externs work side by side with
-                        Atlanta attorneys from Kohlerackels&rsquo; Corporate
+                        Atlanta attorneys from {{ $siteInfo.SITE_NAME }}&rsquo; Corporate
                         Group to gain exposure to the entire M&amp;A process as
                         they become involved in a variety of matters related to
                         a transaction.&nbsp;
@@ -821,7 +821,7 @@
                       </p>
 
                       <p>
-                        Kohlerackels holds a
+                        {{ $siteInfo.SITE_NAME }} holds a
                         <strong>Practical Skills Workshop</strong> in our
                         Columbia, S.C. office. Attendees included students from
                         the Black Students Association at University of South
@@ -833,7 +833,7 @@
                       </p>
 
                       <p>
-                        Kohlerackels participates in the
+                        {{ $siteInfo.SITE_NAME }} participates in the
                         <strong>Southeastern Minority Job Fair (SEMJF)</strong>.
                         SEMJF provides legal employers throughout the United
                         States an opportunity to interview second- and
@@ -850,7 +850,7 @@
                       </p>
 
                       <p>
-                        Kohlerackels has a
+                        {{ $siteInfo.SITE_NAME }} has a
                         <strong>Pipeline Outreach Program</strong> which is
                         aimed at undergraduate students and helping&nbsp;them
                         understand opportunities of a career in law.
@@ -877,7 +877,7 @@
 
                     <div class="pre-content">
                       <p>
-                        Kohlerackels is a member of the Leadership Council on
+                        {{ $siteInfo.SITE_NAME }} is a member of the Leadership Council on
                         Legal Diversity, an organization of more than 200
                         corporate chief legal officers and law firm managing
                         partners.&nbsp;We participate in the LCLD&#39;s Fellows
@@ -906,7 +906,7 @@
                     <div class="pre-content">
                       <p>
                         For over 20 years the firm has packed and sent over 300
-                        &ldquo;Kohlerackels care packages&rdquo; to military
+                        &ldquo;{{ $siteInfo.SITE_NAME }} care packages&rdquo; to military
                         personnel overseas serving on the front lines of
                         defense.
                       </p>

@@ -3,7 +3,7 @@
     <section
       class="hero"
       aria-roledescription="carousel"
-      aria-label="Kohlerackels Service Information"
+      :aria-label="`${$siteInfo.SITE_NAME} Service Information`"
       @mouseenter="pauseHero"
       @mouseleave="resumeHero"
     >
@@ -144,7 +144,7 @@
     <section class="stats-section">
       <!-- <div class="stats-panel">
         <div class="stats-intro">
-          <img src="/images/home-slide-3.jpeg" alt="Kohlerackels" class="stats-logo">
+          <img src="/images/home-slide-3.jpeg" :alt="SITE_NAME" class="stats-logo">
           <div>
             <p class="stats-est">ESTABLISHED IN 1897</p>
             <h2>A FULL-SERVICE AM LAW 50 FIRM</h2>
@@ -950,9 +950,9 @@ const newsSlides = [
   {
     image: '/images/Slide1.jpg',
     category: 'Featured Insight',
-    title: 'Latest insights from Kohlerackels',
+    title: `Latest insights from ${SITE_NAME}`,
     date: 'August 2026',
-    alt: 'Featured insight from Kohlerackels'
+    alt: `Featured insight from ${SITE_NAME}`
   },
   {
     image: '/images/Slide2.jpg',
@@ -971,9 +971,9 @@ const newsSlides = [
   {
     image: '/images/Slide4.jpg',
     category: 'Press Release',
-    title: 'Kohlerackels Deploys Harvey Across All Practices',
+    title: `${SITE_NAME} Deploys Harvey Across All Practices`,
     date: 'Aug. 24, 2026',
-    alt: 'Kohlerackels Deploys Harvey Across All Practices'
+    alt: `${SITE_NAME} Deploys Harvey Across All Practices`
   }
 ]
 
@@ -996,12 +996,12 @@ const focusItems = [
   {
     key: 'litigation',
     title: 'Trademark Litigation',
-    body: 'Kohlerackels trademark litigation team protects and enforces the world’s most valuable brands in federal and state courts, before the USPTO’s Trademark Trial and Appeal Board, and in dispute forums around the globe. We handle claims of infringement, dilution, and counterfeiting; opposition and cancellation proceedings; domain name and social media disputes; and unfair competition matters. From pre-suit strategy and emergency relief through trial and appeal, we pair deep procedural experience with commercially focused judgment to resolve disputes efficiently and position our clients for long-term brand success.'
+    body: `${SITE_NAME} trademark litigation team protects and enforces the world’s most valuable brands in federal and state courts, before the USPTO’s Trademark Trial and Appeal Board, and in dispute forums around the globe. We handle claims of infringement, dilution, and counterfeiting; opposition and cancellation proceedings; domain name and social media disputes; and unfair competition matters. From pre-suit strategy and emergency relief through trial and appeal, we pair deep procedural experience with commercially focused judgment to resolve disputes efficiently and position our clients for long-term brand success.`
   },
   {
     key: 'clearance',
     title: 'Trademark Clearance, Counseling & Prosecution',
-    body: 'Kohlerackels trademark team, including former U.S. Patent and Trademark Office (USPTO) examining attorneys and former in-house counsel, delivers full lifecycle brand protection – from clearance, filing strategies, and prosecution to maintenance and complex USPTO office action practice. We routinely advise on complex trademark matters, portfolio alignment to business launches and broadcast schedules, and risk calibrated enforcement programs. We manage U.S. and global trademark portfolios, and counsel on portfolio management, trademark licensing, sales and acquisitions, and enforcement strategy. Combining our experience in trademark, copyright, and advertising law and a clear understanding of our clients’ business goals, we provide efficient solutions, practical advice, and outstanding results. Additionally, we help clients with online takeovers and unauthorized reseller enforcement; domain name and social media enforcement and litigation; and acquisition, sale, and licensing.'
+    body: `${SITE_NAME} trademark team, including former U.S. Patent and Trademark Office (USPTO) examining attorneys and former in-house counsel, delivers full lifecycle brand protection – from clearance, filing strategies, and prosecution to maintenance and complex USPTO office action practice. We routinely advise on complex trademark matters, portfolio alignment to business launches and broadcast schedules, and risk calibrated enforcement programs. We manage U.S. and global trademark portfolios, and counsel on portfolio management, trademark licensing, sales and acquisitions, and enforcement strategy. Combining our experience in trademark, copyright, and advertising law and a clear understanding of our clients’ business goals, we provide efficient solutions, practical advice, and outstanding results. Additionally, we help clients with online takeovers and unauthorized reseller enforcement; domain name and social media enforcement and litigation; and acquisition, sale, and licensing.`
   }
 ]
 

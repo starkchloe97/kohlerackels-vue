@@ -21,15 +21,15 @@
 					</p>
 
 					<p>This Notice at Collection (&quot;Notice&quot;) applies to California residents and describes how
-						kohlerackels, Riley &amp; Scarborough LLP and its affiliated businesses (collectively,
-						&quot;Kohlerackels&quot;) collects, uses, and retains information that relates to California
+						{{ $siteInfo.SITE_NAME.toLowerCase() }}, Riley &amp; Scarborough LLP and its affiliated businesses (collectively,
+						&quot;{{ $siteInfo.SITE_NAME }}&quot;) collects, uses, and retains information that relates to California
 						residents (&quot;Personal Information&quot;). We encourage you to read this Notice carefully as
 						it describes our information practices and explains what data rights you may have under
 						California law.</p>
 
 					<p>For more information about our information practices, please visit our Privacy Policy. If you
 						have a disability that prevents or limits your ability to access this notice, please contact us
-						as at 1.800.237.2000 or <a href="mailto:info@kohlerackels.com">info@kohlerackels.com</a>. We
+						at {{ $siteInfo.SITE_PHONE }} or <a :href="`mailto:${$siteInfo.SITE_EMAIL}`">{{ $siteInfo.SITE_EMAIL }}</a>. We
 						will work with you to provide this Notice in an alternative format.</p>
 
 					<hr />
@@ -40,11 +40,11 @@
 					</ol>
 
 					<p class="generic">The types of Personal Information we collect about you depends on how you
-						interact with us&nbsp;and are further described below. Please note that kohlerackels does not
+						interact with us&nbsp;and are further described below. Please note that {{ $siteInfo.SITE_NAME.toLowerCase() }} does not
 						collect &ldquo;sensitive personal&nbsp;information&rdquo; as that term may be defined by
 						applicable law.</p>
 
-					<p class="generic"><strong>a) Information You Voluntarily Provide to Kohlerackels.&nbsp;</strong>We
+					<p class="generic"><strong>a) Information You Voluntarily Provide to {{ $siteInfo.SITE_NAME }}.&nbsp;</strong>We
 						collect Personal Information that you voluntarily provide to us. This includes, for example,
 						Personal Information you provide when contacting us (including when contacting us on behalf of
 						your employer to obtain our legal services); requesting client alerts, timely updates, event
@@ -56,7 +56,7 @@
 						<li>
 							<p class="generic"><strong>Identifiers</strong>, such as your name, physical address, email
 								address, telephone number, signature,&nbsp;government-issued identification numbers, and
-								account credentials (e.g., username) if you&nbsp;access or use a Kohlerackels online
+								account credentials (e.g., username) if you&nbsp;access or use a {{ $siteInfo.SITE_NAME }} online
 								service, or other similar identifiers.</p>
 						</li>
 						<li>
@@ -253,8 +253,8 @@
 					<p>For questions, comments or inquiries regarding the collection, processing and storage of your
 						Personal Information by us, please contact us via e-mail or phone at:</p>
 
-					<p><a href="mailto:info@kohlerackels.com">info@kohlerackels.com</a><br />
-						1.800.237.2000</p>
+					<p><a :href="`mailto:${$siteInfo.SITE_EMAIL}`">{{ $siteInfo.SITE_EMAIL }}</a><br />
+						{{ $siteInfo.SITE_PHONE }}</p>
 
 					<p>or in writing to:</p>
 
@@ -269,13 +269,12 @@
 					<div class="aside-general-counsel">
 
 						<h4 class="contact-sidebar-title">Corporate Information</h4>
-						<h5><span>&nbsp;</span>Kohlerackels Riley &amp; Scarborough LLP&nbsp;</h5>
+						<h5><span>&nbsp;</span>{{ $siteInfo.SITE_NAME }} Riley &amp; Scarborough LLP&nbsp;</h5>
 
-						<p><span>&nbsp;</span>Meridian<br />
-							1320 Main Street,&nbsp;17th Floor<br />
-							Columbia, SC 29201</p>
+						<p><span>&nbsp;</span>{{ $siteInfo.SITE_ADDRESS_LINE1 }}<br />
+							{{ $siteInfo.SITE_ADDRESS_LINE2 }}</p>
 
-						<p>T <a class="attorney-phone" href="tel:800.237.2000">1.800.237.2000</a></p>
+						<p>T <a class="attorney-phone" :href="`tel:${$siteInfo.SITE_PHONE_RAW}`">{{ $siteInfo.SITE_PHONE }}</a></p>
 						<div class="aside-spacer"></div>
 
 						<h4 class="contact-sidebar-title">General Counsel</h4>
@@ -288,11 +287,11 @@
 
 
 						<div class="sidebar-email-icon hidden-print">
-							<a class="email_btn" href="#" data-email="dan.sanders@kohlerackels.com">
+							<a class="email_btn" href="#" :data-email="$siteInfo.SITE_EMAIL">
 								<img src="/images/detail-email-lighter.png"
 									alt="Send Email to Daniel S. Sanders, Jr." /></a>
 						</div>
-						<div class="visible-print-block">dan.sanders@kohlerackels.com</div>
+						<div class="visible-print-block">{{ $siteInfo.SITE_EMAIL }}</div>
 
 
 
