@@ -1,7 +1,7 @@
 <template>
     <div class="legacy-service-page" @click="handleServicePageInteraction">
         <div class="row featured-top cropped-feature practice-area">
-            <div class="featured-background"><img src="/images/firmoverview.jpg"
+            <div class="featured-background"><img src="/images/Intellectual-Property-banner.jpg"
                     alt="Blue shield with checkmark on platforms"></div>
             <div class="photo-gradient"></div>
             <div class="container featured-container">
@@ -110,7 +110,7 @@
                                         and Border Protection strategies</li>
                                 </ul>
                                 <p class="generic" style="margin-bottom: 11px;">Our Patent Litigation attorneys work
-                                    closely with other Nelson Mullins attorneys in:</p>
+                                    closely with other {{ $siteInfo.SITE_NAME }} attorneys in:</p>
                                 <ul>
                                     <li class="generic">Patent Prosecution and Portfolio Management</li>
                                     <li class="generic">Intellectual Property Transactions and Licensing</li>
@@ -141,7 +141,7 @@
                             <div class="col-md-4 sidebar-inner">
                                 <div class="sidebar-aside-container">
                                     <div class="aside-why">
-                                        <h2>Why Nelson Mullins?</h2>
+                                        <h2>Why {{ $siteInfo.SITE_NAME }}?</h2>
                                         <ul>
                                             <li class="generic"><strong>Technically Strong, Trial-Ready</strong>:
                                                 Advanced technical depth paired with proven first-chair trial
@@ -170,7 +170,7 @@
                                                 <div class="h5 position">Partner</div>
                                                 <div class="sidebar-email-icon pull-left mr-2"><a href="#"
                                                         data-toggle="modal" data-target="#emailModal"
-                                                        data-email="lisa.margonis@nelsonmullins.com"
+                                                        :data-email="'lisa.margonis@' + $siteInfo.SITE_EMAIL_DOMAIN"
                                                         class="email_btn"><img src="/images/detail-email.png"
                                                             alt="Send Email to Lisa Margonis"></a></div>
                                                 <p class="pull-left">T 346.646.5514</p>
@@ -187,7 +187,7 @@
                                             <div class="h5 position">Partner</div>
                                             <div class="sidebar-email-icon pull-left mr-2"><a href="#"
                                                     data-toggle="modal" data-target="#emailModal"
-                                                    data-email="ashley.summer@nelsonmullins.com" class="email_btn"><img
+                                                    :data-email="'ashley.summer@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img
                                                         src="/images/detail-email.png"
                                                         alt="Send Email to Ashley B. Summer"></a></div>
                                             <p class="pull-left">T 212.413.9036</p>
@@ -260,7 +260,7 @@
                                                                 alt="Download vCard for Erik Janitens"></a> <a
                                                             data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
-                                                            data-email="erik.janitens@nelsonmullins.com"><img
+                                                            :data-email="'erik.janitens@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                 data-v-f0897244="" src="/images/detail-email.png"
                                                                 alt="Send Email to Erik Janitens"></a>
                                                     </div>
@@ -304,7 +304,7 @@
                                                                 alt="Download vCard for Neil C. Jones"></a> <a
                                                             data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
-                                                            data-email="neil.jones@nelsonmullins.com"><img
+                                                            :data-email="'neil.jones@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                 data-v-f0897244="" src="/images/detail-email.png"
                                                                 alt="Send Email to Neil C. Jones"></a>
                                                     </div>
@@ -353,7 +353,7 @@
                                                                 alt="Download vCard for Craig N. Killen"></a> <a
                                                             data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
-                                                            data-email="craig.killen@nelsonmullins.com"><img
+                                                            :data-email="'craig.killen@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                 data-v-f0897244="" src="/images/detail-email.png"
                                                                 alt="Send Email to Craig N. Killen"></a>
                                                     </div>
@@ -399,7 +399,7 @@
                                                                 alt="Download vCard for Lisa Margonis"></a> <a
                                                             data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
-                                                            data-email="lisa.margonis@nelsonmullins.com"><img
+                                                            :data-email="'lisa.margonis@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                 data-v-f0897244="" src="/images/detail-email.png"
                                                                 alt="Send Email to Lisa Margonis"></a>
                                                     </div>
@@ -444,7 +444,7 @@
                                                                 alt="Download vCard for Robert H. McWilliams, Jr."></a>
                                                         <a data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
-                                                            data-email="robert.mcwilliams@nelsonmullins.com"><img
+                                                            :data-email="'robert.mcwilliams@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                 data-v-f0897244="" src="/images/detail-email.png"
                                                                 alt="Send Email to Robert H. McWilliams, Jr."></a>
                                                     </div>
@@ -492,7 +492,7 @@
                                                                 alt="Download vCard for Ashley B. Summer"></a> <a
                                                             data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
-                                                            data-email="ashley.summer@nelsonmullins.com"><img
+                                                            :data-email="'ashley.summer@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                 data-v-f0897244="" src="/images/detail-email.png"
                                                                 alt="Send Email to Ashley B. Summer"></a>
                                                     </div>
@@ -539,7 +539,7 @@
                                                                 alt="Download vCard for Tammy Terry"></a> <a
                                                             data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
-                                                            data-email="tammy.terry@nelsonmullins.com"><img
+                                                            :data-email="'tammy.terry@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                 data-v-f0897244="" src="/images/detail-email.png"
                                                                 alt="Send Email to Tammy Terry"></a>
                                                     </div>
@@ -583,7 +583,7 @@
                                                                 alt="Download vCard for Cameron Panepinto"></a> <a
                                                             data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
-                                                            data-email="cameron.panepinto@nelsonmullins.com"><img
+                                                            :data-email="'cameron.panepinto@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                 data-v-f0897244="" src="/images/detail-email.png"
                                                                 alt="Send Email to Cameron Panepinto"></a>
                                                     </div>
@@ -627,7 +627,7 @@
                                                                 alt="Download vCard for Jonathan Todd"></a> <a
                                                             data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
-                                                            data-email="jonathan.todd@nelsonmullins.com"><img
+                                                            :data-email="'jonathan.todd@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                 data-v-f0897244="" src="/images/detail-email.png"
                                                                 alt="Send Email to Jonathan Todd"></a>
                                                     </div>
@@ -671,7 +671,7 @@
                                                                 alt="Download vCard for Halley Herbst"></a> <a
                                                             data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
-                                                            data-email="halley.herbst@nelsonmullins.com"><img
+                                                            :data-email="'halley.herbst@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                 data-v-f0897244="" src="/images/detail-email.png"
                                                                 alt="Send Email to Halley Herbst"></a>
                                                     </div>
@@ -715,7 +715,7 @@
                                                                 alt="Download vCard for Chance Siller"></a> <a
                                                             data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
-                                                            data-email="chance.siller@nelsonmullins.com"><img
+                                                            :data-email="'chance.siller@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                 data-v-f0897244="" src="/images/detail-email.png"
                                                                 alt="Send Email to Chance Siller"></a>
                                                     </div>
@@ -756,7 +756,7 @@
                             <div class="col-md-4 sidebar hidden-print">
                                 <div class="sidebar-aside-container hidden-print">
                                     <div class="aside-why hidden-print">
-                                        <h2>Why Nelson Mullins?</h2>
+                                        <h2>Why {{ $siteInfo.SITE_NAME }}?</h2>
                                         <ul>
                                             <li class="generic"><strong>Technically Strong, Trial-Ready</strong>:
                                                 Advanced technical depth paired with proven first-chair trial
@@ -802,7 +802,7 @@
                             <div class="col-md-4 sidebar hidden-print">
                                 <div class="sidebar-aside-container hidden-print">
                                     <div class="aside-why hidden-print">
-                                        <h2>Why Nelson Mullins?</h2>
+                                        <h2>Why {{ $siteInfo.SITE_NAME }}?</h2>
                                         <ul>
                                             <li class="generic"><strong>Technically Strong, Trial-Ready</strong>:
                                                 Advanced technical depth paired with proven first-chair trial
@@ -833,7 +833,7 @@
                             <div class="col-md-4 sidebar hidden-print">
                                 <div class="sidebar-aside-container hidden-print">
                                     <div class="aside-why hidden-print">
-                                        <h2>Why Nelson Mullins?</h2>
+                                        <h2>Why {{ $siteInfo.SITE_NAME }}?</h2>
                                         <ul>
                                             <li class="generic"><strong>Technically Strong, Trial-Ready</strong>:
                                                 Advanced technical depth paired with proven first-chair trial
@@ -867,7 +867,7 @@
                                 <p style="margin-bottom: 11px;">Following is a selected sampling of matters and is
                                     provided for informational purposes only. Past success does not indicate the
                                     likelihood of success in any future matter.</p>
-                                <p class="generic" style="margin-bottom: 11px;">Nelson Mullins’s patent litigation team
+                                <p class="generic" style="margin-bottom: 11px;">{{ $siteInfo.SITE_NAME }}’s patent litigation team
                                     has represented clients in high stakes patent infringement, unfair competition,
                                     deceptive trade practices, and other IP-related business tort cases in all relevant
                                     courts and administrative agencies in the United States, including U.S. District
@@ -968,7 +968,7 @@
                             <div class="col-md-4 sidebar hidden-print">
                                 <div class="sidebar-aside-container">
                                     <div class="aside-why">
-                                        <h2>Why Nelson Mullins?</h2>
+                                        <h2>Why {{ $siteInfo.SITE_NAME }}?</h2>
                                         <ul>
                                             <li class="generic"><strong>Technically Strong, Trial-Ready</strong>:
                                                 Advanced technical depth paired with proven first-chair trial
@@ -1058,7 +1058,7 @@
                                                     and Customs and Border Protection strategies</li>
                                             </ul>
                                             <p class="generic" style="margin-bottom: 11px;">Our Patent Litigation
-                                                attorneys work closely with other Nelson Mullins attorneys in:</p>
+                                                attorneys work closely with other {{ $siteInfo.SITE_NAME }} attorneys in:</p>
                                             <ul>
                                                 <li class="generic">Patent Prosecution and Portfolio Management</li>
                                                 <li class="generic">Intellectual Property Transactions and Licensing
@@ -1212,7 +1212,7 @@
                                                                             alt="Download vCard for Erik Janitens"></a>
                                                                     <a data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
-                                                                        data-email="erik.janitens@nelsonmullins.com"><img
+                                                                        :data-email="'erik.janitens@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                             data-v-f0897244=""
                                                                             src="/images/detail-email.png"
                                                                             alt="Send Email to Erik Janitens"></a>
@@ -1266,7 +1266,7 @@
                                                                             alt="Download vCard for Neil C. Jones"></a>
                                                                     <a data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
-                                                                        data-email="neil.jones@nelsonmullins.com"><img
+                                                                        :data-email="'neil.jones@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                             data-v-f0897244=""
                                                                             src="/images/detail-email.png"
                                                                             alt="Send Email to Neil C. Jones"></a>
@@ -1328,7 +1328,7 @@
                                                                             alt="Download vCard for Craig N. Killen"></a>
                                                                     <a data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
-                                                                        data-email="craig.killen@nelsonmullins.com"><img
+                                                                        :data-email="'craig.killen@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                             data-v-f0897244=""
                                                                             src="/images/detail-email.png"
                                                                             alt="Send Email to Craig N. Killen"></a>
@@ -1387,7 +1387,7 @@
                                                                             alt="Download vCard for Lisa Margonis"></a>
                                                                     <a data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
-                                                                        data-email="lisa.margonis@nelsonmullins.com"><img
+                                                                        :data-email="'lisa.margonis@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                             data-v-f0897244=""
                                                                             src="/images/detail-email.png"
                                                                             alt="Send Email to Lisa Margonis"></a>
@@ -1443,7 +1443,7 @@
                                                                             alt="Download vCard for Robert H. McWilliams, Jr."></a>
                                                                     <a data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
-                                                                        data-email="robert.mcwilliams@nelsonmullins.com"><img
+                                                                        :data-email="'robert.mcwilliams@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                             data-v-f0897244=""
                                                                             src="/images/detail-email.png"
                                                                             alt="Send Email to Robert H. McWilliams, Jr."></a>
@@ -1504,7 +1504,7 @@
                                                                             alt="Download vCard for Ashley B. Summer"></a>
                                                                     <a data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
-                                                                        data-email="ashley.summer@nelsonmullins.com"><img
+                                                                        :data-email="'ashley.summer@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                             data-v-f0897244=""
                                                                             src="/images/detail-email.png"
                                                                             alt="Send Email to Ashley B. Summer"></a>
@@ -1563,7 +1563,7 @@
                                                                             alt="Download vCard for Tammy Terry"></a> <a
                                                                         data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
-                                                                        data-email="tammy.terry@nelsonmullins.com"><img
+                                                                        :data-email="'tammy.terry@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                             data-v-f0897244=""
                                                                             src="/images/detail-email.png"
                                                                             alt="Send Email to Tammy Terry"></a>
@@ -1617,7 +1617,7 @@
                                                                             alt="Download vCard for Cameron Panepinto"></a>
                                                                     <a data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
-                                                                        data-email="cameron.panepinto@nelsonmullins.com"><img
+                                                                        :data-email="'cameron.panepinto@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                             data-v-f0897244=""
                                                                             src="/images/detail-email.png"
                                                                             alt="Send Email to Cameron Panepinto"></a>
@@ -1670,7 +1670,7 @@
                                                                             alt="Download vCard for Jonathan Todd"></a>
                                                                     <a data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
-                                                                        data-email="jonathan.todd@nelsonmullins.com"><img
+                                                                        :data-email="'jonathan.todd@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                             data-v-f0897244=""
                                                                             src="/images/detail-email.png"
                                                                             alt="Send Email to Jonathan Todd"></a>
@@ -1724,7 +1724,7 @@
                                                                             alt="Download vCard for Halley Herbst"></a>
                                                                     <a data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
-                                                                        data-email="halley.herbst@nelsonmullins.com"><img
+                                                                        :data-email="'halley.herbst@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                             data-v-f0897244=""
                                                                             src="/images/detail-email.png"
                                                                             alt="Send Email to Halley Herbst"></a>
@@ -1778,7 +1778,7 @@
                                                                             alt="Download vCard for Chance Siller"></a>
                                                                     <a data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
-                                                                        data-email="chance.siller@nelsonmullins.com"><img
+                                                                        :data-email="'chance.siller@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                             data-v-f0897244=""
                                                                             src="/images/detail-email.png"
                                                                             alt="Send Email to Chance Siller"></a>
@@ -1840,7 +1840,7 @@
                                             <p style="margin-bottom: 11px;">Following is a selected sampling of matters
                                                 and is provided for informational purposes only. Past success does not
                                                 indicate the likelihood of success in any future matter.</p>
-                                            <p class="generic" style="margin-bottom: 11px;">Nelson Mullins’s patent
+                                            <p class="generic" style="margin-bottom: 11px;">{{ $siteInfo.SITE_NAME }}’s patent
                                                 litigation team has represented clients in high stakes patent
                                                 infringement, unfair competition, deceptive trade practices, and other
                                                 IP-related business tort cases in all relevant courts and administrative
@@ -1960,8 +1960,7 @@
                         <div class="card aside-why">
                             <div role="tab" id="headingSeven" class="card-header">
                                 <h5 class="mb-0"><a data-toggle="collapse" data-parent="#accordion" href="#"
-                                        aria-expanded="false" aria-controls="collapseSeven" class="collapsed">Why Nelson
-                                        Mullins?</a></h5>
+                                        aria-expanded="false" aria-controls="collapseSeven" class="collapsed">Why {{ $siteInfo.SITE_NAME }}?</a></h5>
                             </div>
                             <div id="collapseSeven" role="tabpanel" aria-labelledby="headingSeven" class="collapse">
                                 <div class="card-block">
@@ -1997,7 +1996,7 @@
                                     <div class="h5 position">Partner</div>
                                     <div class="sidebar-email-icon" style="float: left; margin-right: 10px;"><a href="#"
                                             data-toggle="modal" data-target="#emailModal"
-                                            data-email="lisa.margonis@nelsonmullins.com" class="email_btn"><img
+                                            :data-email="'lisa.margonis@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img
                                                 src="/images/detail-email.png" alt="Send Email to Lisa Margonis"></a>
                                     </div>
                                     <div style="float: left;">
@@ -2012,7 +2011,7 @@
                                     <div class="h5 position">Partner</div>
                                     <div class="sidebar-email-icon" style="float: left; margin-right: 10px;"><a href="#"
                                             data-toggle="modal" data-target="#emailModal"
-                                            data-email="ashley.summer@nelsonmullins.com" class="email_btn"><img
+                                            :data-email="'ashley.summer@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img
                                                 src="/images/detail-email.png" alt="Send Email to Ashley B. Summer"></a>
                                     </div>
                                     <div style="float: left;">

@@ -2,13 +2,14 @@
   <footer class="site-footer">
     <div class="site-footer-inner">
       <nav class="footer-nav" aria-label="Footer">
-        <a href="#" @click.prevent>DISCLAIMER</a>
+        <!-- <a href="#" @click.prevent>DISCLAIMER</a> -->
+         <RouterLink to="/Disclaimer">DISCLAIMER</RouterLink>
         <RouterLink to="/privacy-policy">PRIVACY POLICY</RouterLink>
         <RouterLink to="/notice-at-collection">NOTICE AT COLLECTION</RouterLink>
       </nav>
 
       <p>
-        Copyright &copy;2025 {{ $siteInfo.SITE_NAME }} Riley &amp; Scarborough LLP - Attorneys and Counselors at Law.
+        Copyright &copy;2007 {{ $siteInfo.SITE_LEGAL_NAME }} - Attorneys and Counselors at Law.
         All rights reserved.<br>
         For informational purposes only. Past success does not indicate the likelihood of success
         in any future legal representation.

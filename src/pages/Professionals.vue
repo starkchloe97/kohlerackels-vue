@@ -30,7 +30,7 @@
             <!-- /end of DESKTOP featured top -->
 
             <div class="row featured-top mobile_background_banner">
-                <img src="/images/placeholder.svg"
+                <img src="/images/professional-section-img.jpeg"
                     alt="Image of two individuals quickly walking down a spiral staircase" />
                 <div class="container featured-container">
                     <div class="row">

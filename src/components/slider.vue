@@ -15,15 +15,15 @@
                                     his grandson Patrick Henry Nelson, III.</div>
                             </li>
                             <li>
-                                <div><time>1920</time><b>Edward Mullins, Sr.</b> joins and the firm becomes <b>Nelson,
-                                        Gettys, and Mullins</b>.</div>
+                                <div><time>1920</time><b>Edward Mullins, Sr.</b> joins the firm, continuing its
+                                    expansion across the Southeast.</div>
                             </li>
                             <li>
-                                <div><time>1938</time>The firm becomes <b>Kohlerackles and Grier</b>.</div>
+                                <div><time>1938</time>The firm continues to grow and expand its practice.</div>
                             </li>
                             <li>
-                                <div><time>1961</time>With the addition of Ed Mullins, Jr. and Claude Scarborough as
-                                    partners, the firm becomes <b>Kohlerackles Grier and Scarborough</b>.</div>
+                                <div><time>1961</time>Ed Mullins, Jr. and Claude Scarborough join as partners,
+                                    expanding the firm&rsquo;s leadership.</div>
                             </li>
                             <li>
                                 <div><time>1964</time><b>Claude Scarborough becomes managing partner</b>, a position he
@@ -41,8 +41,7 @@
                             </li>
                             <li>
                                 <div><time>1987</time>After two terms as South Carolina governor, <b>Richard W. Riley
-                                        and his father and brother join the firm</b>, which becomes Kohlerackles Riley
-                                    &amp; Scarborough LLP.</div>
+                                        and his father and brother join the firm</b>.</div>
                             </li>
                             <li>
                                 <div><time>1990</time><b>The Pro Bono Committee is established</b>. Closing out its
@@ -109,7 +108,7 @@
                                     with the addition of three partners.</div>
                             </li>
                             <li>
-                                <div><time>2024</time>Ten new litigation and corporate attorneys join Kohlerackles in
+                                <div><time>2024</time>Ten new litigation and corporate attorneys join {{ $siteInfo.SITE_NAME }} in
                                     Texas as the firm opens its first office in <b>Houston</b>.</div>
                             </li>
                             <li>&nbsp;</li>

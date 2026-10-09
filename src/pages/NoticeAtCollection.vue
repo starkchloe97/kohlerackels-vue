@@ -21,7 +21,7 @@
 					</p>
 
 					<p>This Notice at Collection (&quot;Notice&quot;) applies to California residents and describes how
-						{{ $siteInfo.SITE_NAME.toLowerCase() }}, Riley &amp; Scarborough LLP and its affiliated businesses (collectively,
+						{{ $siteInfo.SITE_LEGAL_NAME.toLowerCase() }} and its affiliated businesses (collectively,
 						&quot;{{ $siteInfo.SITE_NAME }}&quot;) collects, uses, and retains information that relates to California
 						residents (&quot;Personal Information&quot;). We encourage you to read this Notice carefully as
 						it describes our information practices and explains what data rights you may have under
@@ -269,7 +269,7 @@
 					<div class="aside-general-counsel">
 
 						<h4 class="contact-sidebar-title">Corporate Information</h4>
-						<h5><span>&nbsp;</span>{{ $siteInfo.SITE_NAME }} Riley &amp; Scarborough LLP&nbsp;</h5>
+						<h5><span>&nbsp;</span>{{ $siteInfo.SITE_LEGAL_NAME }}&nbsp;</h5>
 
 						<p><span>&nbsp;</span>{{ $siteInfo.SITE_ADDRESS_LINE1 }}<br />
 							{{ $siteInfo.SITE_ADDRESS_LINE2 }}</p>
@@ -314,7 +314,15 @@
 	</div>
 </template>
 
-<style scoped></style>
+<style scoped>
+
+	    .row {
+        margin-right: -15px;
+        margin-left: -15px;
+        gap: 0px;
+    }
+
+</style>
 
 <script setup>
 import Carousel from '@/components/Carousel.vue';

@@ -142,27 +142,6 @@
     </section>
 
     <section class="stats-section">
-      <!-- <div class="stats-panel">
-        <div class="stats-intro">
-          <img src="/images/home-slide-3.jpeg" :alt="SITE_NAME" class="stats-logo">
-          <div>
-            <p class="stats-est">ESTABLISHED IN 1897</p>
-            <h2>A FULL-SERVICE AM LAW 50 FIRM</h2>
-            <p>
-              A full-service law firm focused on practical advice, trusted relationships,
-              and tireless advocacy for our clients.
-            </p>
-          </div>
-        </div>
-
-        <div class="stats-grid">
-          <article v-for="stat in stats" :key="stat.label" class="stat-card">
-            <span class="stat-icon" aria-hidden="true" v-html="stat.icon"></span>
-            <strong>{{ stat.value }}</strong>
-            <span>{{ stat.label }}</span>
-          </article>
-        </div>
-      </div> -->
       <img src="/images/home-slide-3.jpeg" alt="">
     </section>
   </div>
@@ -383,7 +362,7 @@
 .news-slider {
   position: relative;
   width: min(100% - 40px, 1140px);
-  height: 460px;
+  height: 450px;
   margin: 0 auto;
   overflow: hidden;
   background: #163b66;
@@ -399,7 +378,7 @@
 }
 
 .news-image {
-  object-fit: cover;
+  object-fit:fill;
 }
 
 /* .news-overlay {
@@ -595,7 +574,7 @@
 }
 
 .stats-section {
-  padding: 0 0 85px;
+  padding: 0 0 20px;
 }
 
 .stats-panel {
@@ -717,8 +696,37 @@
     width: min(100% - 32px, 1140px);
   }
 
+  .news-slider {
+    height: clamp(320px, 45vw, 460px);
+  }
+
+  .stats-section > img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
   .focus-inner {
     width: min(100% - 32px, 1084px);
+  }
+}
+
+@media (max-width: 900px) {
+  .practice-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .practice-card:last-child {
+    grid-column: 1 / -1;
+  }
+
+  .focus-inner {
+    grid-template-columns: minmax(220px, .8fr) minmax(0, 1.2fr);
+    gap: 32px;
+  }
+
+  .focus-content {
+    padding: 0 20px 12px;
   }
 }
 
@@ -746,6 +754,8 @@
   .hero-image {
     position: relative;
     order: 1;
+    display: block;
+    flex: none;
     width: 100%;
     height: auto;
     max-width: none;
@@ -759,6 +769,7 @@
   }
 
   .hero-container {
+    order: 2;
     width: 100%;
     height: auto;
   }
@@ -801,8 +812,8 @@
   }
 
   .news-slider {
-    width: 100%;
-    height: 390px;
+    width:100%;
+    height: clamp(220px, 56vw, 400px);
   }
 
   .news-content {
@@ -821,6 +832,10 @@
   .practice-grid {
     grid-template-columns: 1fr;
     gap: 26px;
+  }
+
+  .practice-card:last-child {
+    grid-column: auto;
   }
 
   .practice-card {
@@ -843,11 +858,6 @@
   .focus-content h3 {
     font-size: 27px;
   }
-
-  .stats-section {
-    padding-bottom: 65px;
-  }
-
   .stats-panel {
     padding: 32px 24px;
   }

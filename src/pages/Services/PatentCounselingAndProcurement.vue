@@ -155,7 +155,7 @@
 									portfolio of domestic and international patent application filings.&nbsp; In
 									addition to our work representing clients across the United States and around the
 									globe, we bring to you a network of patent legal contacts around the world.&nbsp;
-									Nelson Mullins also brings to you an IP legal team with experience representing
+									{{ $siteInfo.SITE_NAME }} also brings to you an IP legal team with experience representing
 									clients in transactional proceedings and in IP litigation in the United States,
 									Europe, Asia, and South America.</p>
 
@@ -217,7 +217,7 @@
 
 
 									<div class="aside-why">
-										<h2>Why Nelson Mullins?</h2>
+										<h2>Why {{ $siteInfo.SITE_NAME }}?</h2>
 										<ul>
 											<li>Responsive to business and legal needs</li>
 											<li>Ability to align business objectives with patent strategy</li>
@@ -246,7 +246,7 @@
 												<div class="h5 position">Partner</div>
 												<div class="sidebar-email-icon">
 													<a href="#" data-toggle="modal" data-target="#emailModal"
-														data-email="patrick.kartes@nelsonmullins.com"
+														:data-email="'patrick.kartes@' + $siteInfo.SITE_EMAIL_DOMAIN"
 														class="email_btn"><img src="/images/firmoverview.jpg"
 															alt="Send Email to Patrick L. Kartes" /></a>
 												</div>
@@ -302,7 +302,7 @@
 
 								<div class="sidebar-aside-container hidden-print">
 									<div class="aside-why hidden-print">
-										<h2>Why Nelson Mullins?</h2>
+										<h2>Why {{ $siteInfo.SITE_NAME }}?</h2>
 										<ul>
 											<li>Responsive to business and legal needs</li>
 											<li>Ability to align business objectives with patent strategy</li>
@@ -373,7 +373,7 @@
 
 								<div class="sidebar-aside-container hidden-print">
 									<div class="aside-why hidden-print">
-										<h2>Why Nelson Mullins?</h2>
+										<h2>Why {{ $siteInfo.SITE_NAME }}?</h2>
 										<ul>
 											<li>Responsive to business and legal needs</li>
 											<li>Ability to align business objectives with patent strategy</li>
@@ -412,7 +412,7 @@
 
 								<div class="sidebar-aside-container hidden-print">
 									<div class="aside-why hidden-print">
-										<h2>Why Nelson Mullins?</h2>
+										<h2>Why {{ $siteInfo.SITE_NAME }}?</h2>
 										<ul>
 											<li>Responsive to business and legal needs</li>
 											<li>Ability to align business objectives with patent strategy</li>
@@ -531,7 +531,7 @@
 
 								<div class="sidebar-aside-container">
 									<div class="aside-why">
-										<h2>Why Nelson Mullins?</h2>
+										<h2>Why {{ $siteInfo.SITE_NAME }}?</h2>
 										<ul>
 											<li>Responsive to business and legal needs</li>
 											<li>Ability to align business objectives with patent strategy</li>
@@ -654,7 +654,7 @@
 												maintain a large portfolio of domestic and international patent
 												application filings.&nbsp; In addition to our work representing clients
 												across the United States and around the globe, we bring to you a network
-												of patent legal contacts around the world.&nbsp; Nelson Mullins also
+												of patent legal contacts around the world.&nbsp; {{ $siteInfo.SITE_NAME }} also
 												brings to you an IP legal team with experience representing clients in
 												transactional proceedings and in IP litigation in the United States,
 												Europe, Asia, and South America.</p>
@@ -969,7 +969,7 @@
 							<div class="card-header" role="tab" id="headingSeven">
 								<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion"
 										href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">Why
-										Nelson Mullins?</a></h5>
+										{{ $siteInfo.SITE_NAME }}?</a></h5>
 							</div>
 
 							<div id="collapseSeven" class="collapse" role="tabpanel" aria-labelledby="headingSeven">
@@ -1009,7 +1009,7 @@
 									<div class="h5 position">Partner</div>
 									<div class="sidebar-email-icon" style="float: left; margin-right: 10px;">
 										<a href="#" data-toggle="modal" data-target="#emailModal"
-											data-email="patrick.kartes@nelsonmullins.com" class="email_btn"><img
+											:data-email="'patrick.kartes@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img
 												src="/images/detail-email.png"
 												alt="Send Email to Patrick L. Kartes" /></a>
 									</div>
@@ -1048,6 +1048,7 @@
 </template>
 
 <script setup>
+import { SITE_NAME } from '@/config/siteInfo.js'
 import { handleServicePageInteraction } from '@/utils/servicePageInteractions.js'
 import Carousel from '@/components/Carousel.vue'
 import ProfessionalsDirectory from '@/components/ProfessionalsDirectory.vue'
@@ -1059,10 +1060,10 @@ const insightSections = [
 		title: 'News',
 		total: 5,
 		items: [
-			{ date: 'Oct. 7, 2025', title: 'Two Nelson Mullins Practice Groups, Eight Attorneys Recognized by LMG Life Sciences' },
+			{ date: 'Oct. 7, 2025', title: `Two ${SITE_NAME} Practice Groups, Eight Attorneys Recognized by LMG Life Sciences` },
 			{ date: 'Mar. 5, 2024', title: 'Charlotte IP Partner Susan Jackson Named to Business North Carolina’s 2024 Power List' },
-			{ date: 'Aug. 17, 2023', title: 'Nelson Mullins Partners Shortlisted for LMG Life Sciences Award' },
-			{ date: 'Aug. 3, 2023', title: 'IP Stars Recognizes Nelson Mullins in Latest 2023 Rankings' },
+			{ date: 'Aug. 17, 2023', title: `${SITE_NAME} Partners Shortlisted for LMG Life Sciences Award` },
+			{ date: 'Aug. 3, 2023', title: `IP Stars Recognizes ${SITE_NAME} in Latest 2023 Rankings` },
 			{ date: 'Aug. 2, 2023', title: 'Jason Kraus Selected to the 2023 IAM Patent 1000' }
 		]
 	}

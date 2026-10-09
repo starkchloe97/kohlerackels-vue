@@ -21,7 +21,7 @@ const offices = ref([
 
     <a class="locations__back" :href="backHref">Back to Locations</a>
 
-    <h2 class="locations__subtitle">Kohlerackles Other Locations</h2>
+    <h2 class="locations__subtitle">{{ $siteInfo.SITE_NAME }} Other Locations</h2>
 
     <div v-for="(office, index) in offices" :key="index" class="locations__office">
       <p class="locations__line">{{ office.city }}</p>

@@ -59,7 +59,7 @@ const states = ref([
 
     <a class="locations__back" :href="backHref">Back to Locations</a>
 
-    <h2 class="locations__subtitle">States Where Kohlerackles Attorneys are Admitted to Practice</h2>
+    <h2 class="locations__subtitle">States Where {{ $siteInfo.SITE_NAME }} Attorneys are Admitted to Practice</h2>
 
     <ul class="locations__list">
       <li v-for="(state, index) in states" :key="index" class="locations__item">

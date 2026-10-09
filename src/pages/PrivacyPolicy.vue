@@ -18,7 +18,7 @@
 					</p>
 
 					<hr />
-					<p>{{ $siteInfo.SITE_NAME.toLowerCase() }}, Riley &amp; Scarborough LLP and its affiliates (collectively,
+					<p>{{ $siteInfo.SITE_LEGAL_NAME.toLowerCase() }} and its affiliates (collectively,
 						&ldquo;{{ $siteInfo.SITE_NAME }}&rdquo;) want you to be familiar with how we collect, use, share, or
 						otherwise process information that relates to you (&ldquo;Personal Information&rdquo;). This
 						Privacy Notice informs you of our practices in connection with Personal Information that: we
@@ -788,7 +788,7 @@
 					<div class="aside-general-counsel">
 
 						<h4 class="contact-sidebar-title">Corporate Information</h4>
-						<h5><span>&nbsp;</span>{{ $siteInfo.SITE_NAME }} Riley &amp; Scarborough LLP&nbsp;</h5>
+						<h5><span>&nbsp;</span>{{ $siteInfo.SITE_LEGAL_NAME }}&nbsp;</h5>
 
 						<p><span>&nbsp;</span>{{ $siteInfo.SITE_ADDRESS_LINE1 }}<br />
 							{{ $siteInfo.SITE_ADDRESS_LINE2 }}</p>
@@ -831,7 +831,13 @@
 	</div>
 </template>
 
-<style scoped></style>
+<style scoped>
+	    .row {
+        margin-right: -15px;
+        margin-left: -15px;
+        gap: 0px;
+    }
+</style>
 
 <script setup>
 

@@ -85,7 +85,7 @@
     
     <h3 class="body-subhead">Team with practical business approach and marketplace insights</h3>
     
-    <p>Nelson Mullins&#39; trademark and copyright team members bring to clients a practical, business-focused approach, and broad&nbsp;marketplace insights on emerging IP-related legal requirements.&nbsp; Our team includes attorneys experienced in the following</p>
+    <p>{{ $siteInfo.SITE_NAME }}&#39; trademark and copyright team members bring to clients a practical, business-focused approach, and broad&nbsp;marketplace insights on emerging IP-related legal requirements.&nbsp; Our team includes attorneys experienced in the following</p>
     
     <ul>
     	<li>Navigating the trademark clearance process (in the United States and internationally)</li>
@@ -113,7 +113,7 @@
     
     <p>Equipped with an understanding of our clients&rsquo; businesses and portfolios, we implement fee structures aligned with your needs to help enhance budget predictability.</p>
     
-    <h3 class="body-subhead">Nelson Mullins&rsquo; trademark and copyright practice is built around a core group of attorneys with deep experience who can help you:</h3>
+    <h3 class="body-subhead">{{ $siteInfo.SITE_NAME }}&rsquo; trademark and copyright practice is built around a core group of attorneys with deep experience who can help you:</h3>
     
     <ul class="collapseList collapseTo_3">
     	<li>Clear and register trademarks (in the United States and internationally)</li>
@@ -148,7 +148,7 @@
                             
                             
     						<div class="aside-why">
-							<h2>Why Nelson Mullins?</h2>
+							<h2>Why {{ $siteInfo.SITE_NAME }}?</h2>
     							<ul>
     	<li>Experience in trademark and copyright matters on an international basis</li>
     	<li>Strategic and global IP advice based on an understanding of our clients&rsquo; businesses</li>
@@ -174,7 +174,7 @@
                                     <h4><a href="../professionals/john-mcelwaine.html">John C. McElwaine</a></h4>
                                                                         <div class="h5 position">Partner</div>
                                                                                                                                         <div class="sidebar-email-icon">
-                                            <a href="#" data-toggle="modal" data-target="#emailModal" data-email="john.mcelwaine@nelsonmullins.com" class="email_btn"><img src="/images/detail-email.png" alt="Send Email to John C. McElwaine" />	</a>
+                                            <a href="#" data-toggle="modal" data-target="#emailModal" :data-email="'john.mcelwaine@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img src="/images/detail-email.png" alt="Send Email to John C. McElwaine" />	</a>
                                         </div>
                                                                                                                                             	<div class="sidebar-phone">
                                             <p>T 843.534.4302</p>
@@ -224,7 +224,7 @@
     				
     				<div class="sidebar-aside-container hidden-print">
     					<div class="aside-why hidden-print">
-						<h2>Why Nelson Mullins?</h2>
+						<h2>Why {{ $siteInfo.SITE_NAME }}?</h2>
     						<ul>
     	<li>Experience in trademark and copyright matters on an international basis</li>
     	<li>Strategic and global IP advice based on an understanding of our clients&rsquo; businesses</li>
@@ -289,7 +289,7 @@
     					
     					<div class="sidebar-aside-container hidden-print">
     						<div class="aside-why hidden-print">
-							<h2>Why Nelson Mullins?</h2>
+							<h2>Why {{ $siteInfo.SITE_NAME }}?</h2>
     							<ul>
     	<li>Experience in trademark and copyright matters on an international basis</li>
     	<li>Strategic and global IP advice based on an understanding of our clients&rsquo; businesses</li>
@@ -329,7 +329,7 @@
     					
     					<div class="sidebar-aside-container hidden-print">
     						<div class="aside-why hidden-print">
-							<h2>Why Nelson Mullins?</h2>
+							<h2>Why {{ $siteInfo.SITE_NAME }}?</h2>
     							<ul>
     	<li>Experience in trademark and copyright matters on an international basis</li>
     	<li>Strategic and global IP advice based on an understanding of our clients&rsquo; businesses</li>
@@ -406,7 +406,7 @@
     					
     					<div class="sidebar-aside-container">
     						<div class="aside-why">
-							<h2>Why Nelson Mullins?</h2>
+							<h2>Why {{ $siteInfo.SITE_NAME }}?</h2>
     							<ul>
     	<li>Experience in trademark and copyright matters on an international basis</li>
     	<li>Strategic and global IP advice based on an understanding of our clients&rsquo; businesses</li>
@@ -464,7 +464,7 @@
     
     <h3 class="body-subhead">Team with practical business approach and marketplace insights</h3>
     
-    <p>Nelson Mullins&#39; trademark and copyright team members bring to clients a practical, business-focused approach, and broad&nbsp;marketplace insights on emerging IP-related legal requirements.&nbsp; Our team includes attorneys experienced in the following</p>
+    <p>{{ $siteInfo.SITE_NAME }}&#39; trademark and copyright team members bring to clients a practical, business-focused approach, and broad&nbsp;marketplace insights on emerging IP-related legal requirements.&nbsp; Our team includes attorneys experienced in the following</p>
     
     <ul>
     	<li>Navigating the trademark clearance process (in the United States and internationally)</li>
@@ -492,7 +492,7 @@
     
     <p>Equipped with an understanding of our clients&rsquo; businesses and portfolios, we implement fee structures aligned with your needs to help enhance budget predictability.</p>
     
-    <h3 class="body-subhead">Nelson Mullins&rsquo; trademark and copyright practice is built around a core group of attorneys with deep experience who can help you:</h3>
+    <h3 class="body-subhead">{{ $siteInfo.SITE_NAME }}&rsquo; trademark and copyright practice is built around a core group of attorneys with deep experience who can help you:</h3>
     
     <ul class="collapseList collapseTo_3">
     	<li>Clear and register trademarks (in the United States and internationally)</li>
@@ -710,7 +710,7 @@
     	
     	<div class="card aside-why">
     		<div class="card-header" role="tab" id="headingSeven">
-			<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">Why Nelson Mullins?</a></h5>
+			<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">Why {{ $siteInfo.SITE_NAME }}?</a></h5>
     		</div>
     
     		<div id="collapseSeven" class="collapse" role="tabpanel" aria-labelledby="headingSeven">
@@ -748,7 +748,7 @@
     	                            <h4><a href="../professionals/john-mcelwaine.html">John C. McElwaine</a></h4>
     	                            	                                <div class="h5 position">Partner</div>
     	                            	                            	                                <div class="sidebar-email-icon" style="float: left; margin-right: 10px;">
-    	                                    <a href="#" data-toggle="modal" data-target="#emailModal" data-email="john.mcelwaine@nelsonmullins.com" class="email_btn"><img src="/images/detail-email.png" alt="Send Email to John C. McElwaine" /></a>
+                                            <a href="#" data-toggle="modal" data-target="#emailModal" :data-email="'john.mcelwaine@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img src="/images/detail-email.png" alt="Send Email to John C. McElwaine" /></a>
     	                                </div>
     	                            	                            	                                	                                	<div style="float: left;">
     	                                    <p>T 843.534.4302</p>
@@ -783,6 +783,7 @@
 </template>
 
 <script setup>
+import { SITE_NAME } from '@/config/siteInfo.js'
 import { handleServicePageInteraction } from '@/utils/servicePageInteractions.js'
 import Carousel from '@/components/Carousel.vue'
 import ProfessionalsDirectory from '@/components/ProfessionalsDirectory.vue'
@@ -794,10 +795,10 @@ const insightSections = [
     title: 'News',
     total: 24,
     items: [
-      { date: 'June 7, 2024', title: 'Nelson Mullins Trademark Attorney Named Among WTR Global Leaders 2024' },
+      { date: 'June 7, 2024', title: `${SITE_NAME} Trademark Attorney Named Among WTR Global Leaders 2024` },
       { date: 'April 1, 2024', title: 'AI and Copyright: Preparing Your Business for the Next Wave of Litigation' },
       { date: 'March 5, 2024', title: 'Charlotte IP Partner Susan Jackson Named to Business North Carolina’s 2024 Power List' },
-      { date: 'Oct. 11, 2023', title: 'Nelson Mullins Recognizes Boston Attorneys for Pro Bono Service' },
+      { date: 'Oct. 11, 2023', title: `${SITE_NAME} Recognizes Boston Attorneys for Pro Bono Service` },
       { date: 'Sept. 29, 2023', title: 'Partner John McElwaine Selected to Who’s Who Legal: Intellectual Property Report' }
     ]
   }

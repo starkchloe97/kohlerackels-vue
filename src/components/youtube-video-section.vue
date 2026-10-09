@@ -55,6 +55,7 @@
 
 <script setup>
 import { ref } from 'vue'
+import { SITE_NAME } from '@/config/siteInfo.js'
 
 const props = defineProps({
   video: {
@@ -63,7 +64,7 @@ const props = defineProps({
       title: 'Lawyers for Good Government',
       url: '',
       description:
-        "We're honored to announce that Kohlerackles has received the 2024 Outstanding Pro Bono Partner Award from ",
+        `We're honored to announce that ${SITE_NAME} has received the 2024 Outstanding Pro Bono Partner Award from `,
       link: '',
       linkText: 'Lawyers For Good Government',
       descriptionAfterLink:

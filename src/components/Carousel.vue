@@ -80,6 +80,7 @@
 
 <script setup>
 import { ref, computed, watch, onMounted, onBeforeUnmount } from 'vue'
+import { SITE_NAME } from '@/config/siteInfo.js'
 
 // ---------- Config ----------
 const props = defineProps({
@@ -100,13 +101,14 @@ const defaultItems = [
     href: 'insights/insights/navigating-california-s-climate-disclosure-laws-your-complete-guide-to-sb-253-and-sb-261.html',
     date: 'December 2, 2025',
   },
+
   {
-    image: '/images/qd5IYrDqccPfoJYxEh0r6blgftNNhc1KB1PBlTWl.jpg',
-    alt: 'Construction site and development',
-    title: 'NMRS Attorneys Published in Florida Bar Journal on CCNA Procurements',
-    href: 'insights/insights/nmrs-attorneys-published-in-florida-bar-journal-on-ccna-procurements.html',
-    date: 'November/December 2025',
-  },
+   image: '/images/ohdpvaLVtm2FONsiglaiLxq6N0Owi4O40e34qL9b.jpg',
+   alt: 'gavel on law books',
+   title: 'NMRS Attorneys Published in Florida Bar Journal on CCNA Procurements',
+   href: '/images/NMRS-carousal.jpg',
+   date: 'November/December 2007',
+ },
   {
     image: '/images/carousal-img.jpg',
     alt: 'football',
@@ -114,27 +116,32 @@ const defaultItems = [
     href: 'insights/insights/prime-equity-and-the-nil-era-shedeur-sanders-contract-ushers-in-a-new-legal-framework-for-pro-athlete-compensation.html',
     date: 'September 3, 2025',
   },
+
   {
-    image: '/images/Lht62fS0RwzCc7jmGm6kLFoJJaBwAtrjlZZl60aD.jpg',
-    alt: '',
+    image: '/images/carousal-img.jpg',
+    alt: 'football',
+    title: '“Prime Equity” and the NIL Era: Shedeur Sanders’ Contract Ushers...',
+    href: 'insights/insights/prime-equity-and-the-nil-era-shedeur-sanders-contract-ushers-in-a-new-legal-framework-for-pro-athlete-compensation.html',
+    date: 'September 3, 2025',
+  },
+   {
+    image: '/images/ohdpvaLVtm2FONsiglaiLxq6N0Owi4O40e34qL9b.jpg',
+    alt: 'gavel on law books',
     title: 'FDOT Announces Small Business Growth Program Following DBE Program Updates',
-    href: 'insights/alerts/additional_nelson_mullins_alerts/all/fdot-announces-small-business-growth-program-following-dbe-program-updates.html',
-    date: 'November 24, 2025',
+    href: 'insights/insights/navigating-california-s-climate-disclosure-laws-your-complete-guide-to-sb-253-and-sb-261.html',
+    date: 'November 24, 2007',
   },
+
   {
-    image: '/images/Lc9cz7XPTgv1Tcl7av5lixHNL9U6efAXba6QCp3X.jpg',
-    alt: '',
-    title: 'HUD Continuum of Care Funding Gap: Risks and Recommendations',
-    href: 'insights/alerts/nelson-mullins-affordable-housing-news/all/hud-continuum-of-care-funding-gap-risks-and-recommendations.html',
-    date: 'November 24, 2025',
+    image: '/images/carousal-img.jpg',
+    alt: 'football',
+    title: '“Prime Equity” and the NIL Era: Shedeur Sanders’ Contract Ushers...',
+    href: 'insights/insights/prime-equity-and-the-nil-era-shedeur-sanders-contract-ushers-in-a-new-legal-framework-for-pro-athlete-compensation.html',
+    date: 'September 3, 2025',
   },
-  {
-    image: '/images/Lc9cz7XPTgv1Tcl7av5lixHNL9U6efAXba6QCp3X.jpg',
-    alt: '',
-    title: 'HUD Extends Compliance Dates for Energy Efficiency Standards in HUD-...',
-    href: 'insights/alerts/nelson-mullins-affordable-housing-news/all/hud-extends-compliance-dates-for-energy-efficiency-standards-in-hud-and-usda-financed-housing.html',
-    date: 'November 14, 2025',
-  },
+
+
+
 ]
 
 const items = computed(() => props.items || defaultItems)

@@ -6,7 +6,7 @@
 
 		<div class="row featured-top desktop_background_banner">
 			<div class="featured-background firm">
-				<img src="/images/firmoverview.jpg" alt="" />
+				<img src="/images/Firm-Banner-img.jpg" alt="" />
 			</div>
 			<div class="photo-gradient"></div>
 			<div class="container featured-container">
@@ -225,13 +225,13 @@
 							<details class="content-expand-wrapper-ck" data-bordered="" data-collapse="true"
 								data-color="" data-cssclass="content-expand-wrapper-ck" data-hidesummary=""
 								data-maxheight="" data-monospace="" data-wrap="true" undefined="">
-								<summary class="pre-title">Advancing Ethics Through the NMRS Center on Professionalism
+								<summary class="pre-title">Advancing Ethics Through the {{ $siteInfo.SITE_NAME }} Center on Professionalism
 								</summary>
 
 								<div class="pre-content">
-									<p>In 1999, {{ $siteInfo.SITE_NAME }} Riley &amp; Scarborough Center on Professionalism was
+									<p>In 1999, {{ $siteInfo.SITE_NAME }} Center on Professionalism was
 										established at the University of South Carolina Law School with a gift from the
-										Firm&rsquo;s partners. &nbsp;The {{ $siteInfo.SITE_NAME }} Riley &amp; Scarborough Center on
+										Firm&rsquo;s partners. &nbsp;The {{ $siteInfo.SITE_NAME }} Center on
 										Professionalism advances the public interest by promoting and encouraging high
 										ethical conduct and professionalism by lawyers and judges. &nbsp;Its purpose is
 										to enrich teaching and research on the legal profession and to promote
@@ -265,12 +265,12 @@
 									Atlanta, GA 30363
 								</p>
 								<div class="sidebar-email-icon hidden-print">
-									<a class="email_btn" href="#" data-email="dan.sanders@nelsonmullins.com">
+									<a class="email_btn" href="#" :data-email="'dan.sanders@' + $siteInfo.SITE_EMAIL_DOMAIN">
 										<img src="/images/detail-email-lighter.png"
 											alt="Send Email to Daniel S. Sanders, Jr." />
 									</a>
 								</div>
-								<div class="visible-print-block">dan.sanders@nelsonmullins.com</div>
+								<div class="visible-print-block">{{ 'dan.sanders@' + $siteInfo.SITE_EMAIL_DOMAIN }}</div>
 								<p>T <a href="tel:864.373.2272" class="attorney-phone">864.373.2272</a></p>
 							</div>
 						</div>
@@ -319,7 +319,7 @@
 						<!-- <div class="sidebar-aside-container">	    
 	                <h3 class="sidebar-title" id="fb-fmHMmT3Q9xtS">FIRM BROCHURE</h3>
 
-<div><iframe allow="clipboard-write" allowfullscreen="true" aria-labelledby="fb-fmHMmT3Q9xtS" sandbox="allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms" src="https://e.issuu.com/embed.html?d=firm_brochure_lettersize_print_4.2023&amp;u=nelsonmullins1897"></iframe></div>
+<div><iframe allow="clipboard-write" allowfullscreen="true" aria-labelledby="fb-fmHMmT3Q9xtS" sandbox="allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms" src="https://e.issuu.com/embed.html?d=firm_brochure_lettersize_print_4.2023&amp;u={{ $siteInfo.SITE_NAME.toLowerCase().replace(/\s+/g, '') }}1897"></iframe></div>
         	</div> -->
 						<!-- /aside -->
 
@@ -466,14 +466,13 @@
 								<details class="content-expand-wrapper-ck" data-bordered="" data-collapse="true"
 									data-color="" data-cssclass="content-expand-wrapper-ck" data-hidesummary=""
 									data-maxheight="" data-monospace="" data-wrap="true" undefined="">
-									<summary class="pre-title">Advancing Ethics Through the NMRS Center on
+									<summary class="pre-title">Advancing Ethics Through the {{ $siteInfo.SITE_NAME }} Center on
 										Professionalism</summary>
 
 									<div class="pre-content">
-										<p>In 1999, {{ $siteInfo.SITE_NAME }} Riley &amp; Scarborough Center on Professionalism was
+										<p>In 1999, {{ $siteInfo.SITE_NAME }} Center on Professionalism was
 											established at the University of South Carolina Law School with a gift from
-											the Firm&rsquo;s partners. &nbsp;The {{ $siteInfo.SITE_NAME }} Riley &amp; Scarborough
-											Center on Professionalism advances the public interest by promoting and
+											the Firm&rsquo;s partners. &nbsp;The Center on Professionalism advances the public interest by promoting and
 											encouraging high ethical conduct and professionalism by lawyers and judges.
 											&nbsp;Its purpose is to enrich teaching and research on the legal profession
 											and to promote professionalism, civic leadership, and public service in the
@@ -506,12 +505,12 @@
 										Atlanta, GA 30363
 									</p>
 									<div class="sidebar-email-icon hidden-print">
-										<a class="email_btn" href="#" data-email="dan.sanders@nelsonmullins.com">
+										<a class="email_btn" href="#" :data-email="'dan.sanders@' + $siteInfo.SITE_EMAIL_DOMAIN">
 											<img src="/images/detail-email-lighter.png"
 												alt="Send Email to Daniel S. Sanders, Jr." />
 										</a>
 									</div>
-									<div class="visible-print-block">dan.sanders@nelsonmullins.com</div>
+									<div class="visible-print-block">{{ 'dan.sanders@' + $siteInfo.SITE_EMAIL_DOMAIN }}</div>
 									<p>T <a href="tel:864.373.2272" class="attorney-phone">864.373.2272</a></p>
 								</div>
 							</div>
@@ -560,7 +559,7 @@
 							<!-- <div class="sidebar-aside-container">	    
 	                <h3 class="sidebar-title" id="fb-fmHMmT3Q9xtS">FIRM BROCHURE</h3>
 
-<div><iframe allow="clipboard-write" allowfullscreen="true" aria-labelledby="fb-fmHMmT3Q9xtS" sandbox="allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms" src="https://e.issuu.com/embed.html?d=firm_brochure_lettersize_print_4.2023&amp;u=nelsonmullins1897"></iframe></div>
+<div><iframe allow="clipboard-write" allowfullscreen="true" aria-labelledby="fb-fmHMmT3Q9xtS" sandbox="allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms" src="https://e.issuu.com/embed.html?d=firm_brochure_lettersize_print_4.2023&amp;u={{ $siteInfo.SITE_NAME.toLowerCase().replace(/\s+/g, '') }}1897"></iframe></div>
         	</div> -->
 							<!-- /aside -->
 

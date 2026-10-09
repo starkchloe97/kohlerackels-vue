@@ -64,7 +64,7 @@
                             <p>Our Pro Bono Program strives for liberty and justice for all in legal need. The program
                                 was created with the mission to serve the less fortunate and nonprofits providing
                                 services in our communities and beyond. Pro bono is a tradition deeply rooted in our
-                                culture. Since 1990, Kohlerackles lawyers have provided over 622,450 hours of service.
+                                culture. Since 1990, {{ $siteInfo.SITE_NAME }} lawyers have provided over 622,450 hours of service.
                             </p>
                         </div>
                     </div>
@@ -111,7 +111,7 @@
                         <div class="culture-intro">
                             <p><strong>Pro Bono Runs Deep in Our Culture</strong></p>
 
-                            <p>Kohlerackles is committed to serving the most vulnerable in our society with legal,
+                            <p>{{ $siteInfo.SITE_NAME }} is committed to serving the most vulnerable in our society with legal,
                                 social and economic issues through pro bono service. The Firm engages in complex pro
                                 bono litigation, policy and legislative advocacy, and provides individual representation
                                 to a diverse group of individuals and organizations whose mission is to serve people
@@ -128,7 +128,7 @@
                                     <summary class="pre-title">If You Need a Pro Bono Lawyer</summary>
 
                                     <div class="pre-content">
-                                        <p>Kohlerackles does not accept direct requests for pro bono representation. Our
+                                        <p>{{ $siteInfo.SITE_NAME }} does not accept direct requests for pro bono representation. Our
                                             pro bono cases and clients are referred to us through legal services
                                             organizations. If you are in need of pro bono legal representation, you may
                                             be able to find help from one of these resources:</p>
@@ -150,7 +150,7 @@
                                     <summary class="pre-title">Historic Impact Litigation</summary>
 
                                     <div class="pre-content">
-                                        <p>Kohlerackles has a legacy of taking on large-scale litigation matters to
+                                        <p>{{ $siteInfo.SITE_NAME }} has a legacy of taking on large-scale litigation matters to
                                             promote the well-being of disadvantaged classes of individuals.<br />
                                             <br />
                                             <strong>Advocacy for Prisoners with Mental Health Illnesses</strong><br />
@@ -162,7 +162,7 @@
                                             ill offenders in the prison facilities.&nbsp;<br />
                                             <br />
                                             <strong>Protecting the Rights of School Children</strong><br />
-                                            In Abbeville County School District v. State of South Carolina, Kohlerackles
+                                            In Abbeville County School District v. State of South Carolina, {{ $siteInfo.SITE_NAME }}
                                             represented a group of rural school districts, students, and taxpayers in a
                                             groundbreaking lawsuit challenging the funding of public schools and the
                                             adequacy of the education system overall. Students in the plaintiff school
@@ -179,7 +179,7 @@
                                     </summary>
 
                                     <div class="pre-content">
-                                        <p>Through hands-on involvement, Kohlerackles attorneys have been integral in
+                                        <p>Through hands-on involvement, {{ $siteInfo.SITE_NAME }} attorneys have been integral in
                                             the creation of new legal frameworks and new, specialized courts to meet
                                             needs that were previously unmet.<br />
                                             <br />
@@ -200,7 +200,7 @@
                                             to restore funding and needed improvements identified in the research.<br />
                                             <br />
                                             <strong>Columbia Homeless Court</strong><br />
-                                            Kohlerackles, in conjunction with dedicated judges, the Richland County
+                                            {{ $siteInfo.SITE_NAME }}, in conjunction with dedicated judges, the Richland County
                                             Solicitor’s Office and Public Defender’s Office, SC Appleseed Legal Justice
                                             and several nonprofits, worked to create the first homeless court in
                                             Columbia, South Carolina.&nbsp;The purpose of the court is to encourage
@@ -218,19 +218,19 @@
                                     <summary class="pre-title">Veterans Assistance</summary>
 
                                     <div class="pre-content">
-                                        <p>Kohlerackles’ attorneys are committed to serving those who have served their
+                                        <p>{{ $siteInfo.SITE_NAME }}’ attorneys are committed to serving those who have served their
                                             country and fellow citizens in the military.<br />
                                             <br />
                                             <strong>Lawyers 4 Vets</strong><br />
                                             This pro bono clinic was created in May, 2014, by SC Appleseed Legal
                                             Justice, in partnership with Dorn VA Medical Center and in coordination with
-                                            and support from Kohlerackles.&nbsp;The monthly legal clinic is for
+                                            and support from {{ $siteInfo.SITE_NAME }}.&nbsp;The monthly legal clinic is for
                                             low-income vets seeking guidance or representation in specific areas of law
                                             from SC Bar attorneys. As of April, 2017, the Firm has received and
                                             screened over 4,200 calls from veterans.&nbsp;<br />
                                             <br />
                                             <strong>Adopt-A-Base</strong><br />
-                                            Kohlerackles is among a few firms nationwide participating in the
+                                            {{ $siteInfo.SITE_NAME }} is among a few firms nationwide participating in the
                                             Adopt-A-Base Program.&nbsp;In this program, the ABA Tax Section partners
                                             with the military and IRS to help train service members to become voluntary
                                             tax preparers through Voluntary Income Tax Assistance (VITA).&nbsp;Numerous
@@ -253,7 +253,7 @@
                                     </summary>
 
                                     <div class="pre-content">
-                                        <p>Kohlerackles has proactively created and maintained robust programs to
+                                        <p>{{ $siteInfo.SITE_NAME }} has proactively created and maintained robust programs to
                                             provide simple wills and healthcare directives free of charge to first
                                             responders who put their lives on the line to serve and protect.<br />
                                             <br />
@@ -283,7 +283,7 @@
                                     <summary class="pre-title">Protecting the Rights of the Incarcerated</summary>
 
                                     <div class="pre-content">
-                                        <p>Kohlerackles’ attorneys work to protect the rights of individuals under the
+                                        <p>{{ $siteInfo.SITE_NAME }}’ attorneys work to protect the rights of individuals under the
                                             jurisdiction of the criminal justice system who otherwise would have no
                                             access to justice.<br />
                                             <br />
@@ -302,7 +302,7 @@
                                             clemency and released from prison.&nbsp;<br />
                                             <br />
                                             <strong>Appellate Indigent Defense Project</strong><br />
-                                            The South Carolina Commission on Indigent Defense and Kohlerackles created a
+                                            The South Carolina Commission on Indigent Defense and {{ $siteInfo.SITE_NAME }} created a
                                             new program called the Appellate Project.&nbsp;Volunteer attorneys help the
                                             appellate division handle an increasingly heavy hearing caseload.&nbsp;
                                         </p>
@@ -315,7 +315,7 @@
                                     <summary class="pre-title">Children and the Law</summary>
 
                                     <div class="pre-content">
-                                        <p>Kohlerackles’ attorneys have deep experience in protecting the legal rights
+                                        <p>{{ $siteInfo.SITE_NAME }}’ attorneys have deep experience in protecting the legal rights
                                             of children who are unable to protect themselves.<br />
                                             <br />
                                             <strong>Reuniting Abducted Children</strong><br />
@@ -354,7 +354,7 @@
                                     <summary class="pre-title">Representing Victims of Domestic Violence</summary>
 
                                     <div class="pre-content">
-                                        <p>Kohlerackles’ attorneys fight for the silent victims of violent crimes within
+                                        <p>{{ $siteInfo.SITE_NAME }}’ attorneys fight for the silent victims of violent crimes within
                                             the household across the firm’s footprint.<br />
                                             <br />
                                             Numerous attorneys, in several states, are trained to represent domestic

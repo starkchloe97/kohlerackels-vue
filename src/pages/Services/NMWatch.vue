@@ -92,7 +92,7 @@
                             
                             
     						<div class="aside-why">
-							<h2>Why Nelson Mullins?</h2>
+							<h2>Why {{ $siteInfo.SITE_NAME }}?</h2>
     							<ul>
     	<li>
     	<p class="generic">Reduced risk of brand dilution and damage.</p>
@@ -132,7 +132,7 @@
                                     <h4><a href="../professionals/john-mcelwaine.html">John C. McElwaine</a></h4>
                                                                         <div class="h5 position">Partner</div>
                                                                                                                                         <div class="sidebar-email-icon">
-                                            <a href="#" data-toggle="modal" data-target="#emailModal" data-email="john.mcelwaine@nelsonmullins.com" class="email_btn"><img src="/images/firmoverview.jpg" alt="Send Email to John C. McElwaine" /></a>
+                                            <a href="#" data-toggle="modal" data-target="#emailModal" :data-email="'john.mcelwaine@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img src="/images/firmoverview.jpg" alt="Send Email to John C. McElwaine" /></a>
                                         </div>
                                                                                                                                             	<div class="sidebar-phone">
                                             <p>T 843.534.4302</p>
@@ -149,7 +149,7 @@
                                     <h4><a href="../professionals/chris-casavale.html">Christopher D. Casavale</a></h4>
                                                                         <div class="h5 position">Partner</div>
                                                                                                                                         <div class="sidebar-email-icon">
-                                            <a href="#" data-toggle="modal" data-target="#emailModal" data-email="chris.casavale@nelsonmullins.com" class="email_btn"><img src="/images/firmoverview.jpg" alt="Send Email to Christopher D. Casavale" /></a>
+                                            <a href="#" data-toggle="modal" data-target="#emailModal" :data-email="'chris.casavale@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img src="/images/firmoverview.jpg" alt="Send Email to Christopher D. Casavale" /></a>
                                         </div>
                                                                                                                                             	<div class="sidebar-phone">
                                             <p>T 843.534.4252</p>
@@ -189,7 +189,7 @@
     				
     				<div class="sidebar-aside-container hidden-print">
     					<div class="aside-why hidden-print">
-						<h2>Why Nelson Mullins?</h2>
+						<h2>Why {{ $siteInfo.SITE_NAME }}?</h2>
     						<ul>
     	<li>
     	<p class="generic">Reduced risk of brand dilution and damage.</p>
@@ -238,7 +238,7 @@
     					
     					<div class="sidebar-aside-container hidden-print">
     						<div class="aside-why hidden-print">
-							<h2>Why Nelson Mullins?</h2>
+							<h2>Why {{ $siteInfo.SITE_NAME }}?</h2>
     							<ul>
     	<li>
     	<p class="generic">Reduced risk of brand dilution and damage.</p>
@@ -291,10 +291,10 @@
     			<div class="row attorney-tab-info">
     					<div class="col-md-8">
     						<p>Following is a selected sampling of matters and is provided for informational purposes only. Past success does not indicate the likelihood of success in any future matter.</p>
-						<p>In the intellectual property litigation context, Nelson Mullins has represented clients in trademark matters in jurisdictions across the United States, including CA, FL, GA, NC, NY, SC, TN, and TX, and have selected and supervised counsel for matters in jurisdictions outside the United States, including before the Tribunal de Grande in Paris. Nelson Mullins has also been involved in more than 100 matters at the TTAB. Representative matters include:</p>
+						<p>In the intellectual property litigation context, {{ $siteInfo.SITE_NAME }} has represented clients in trademark matters in jurisdictions across the United States, including CA, FL, GA, NC, NY, SC, TN, and TX, and have selected and supervised counsel for matters in jurisdictions outside the United States, including before the Tribunal de Grande in Paris. {{ $siteInfo.SITE_NAME }} has also been involved in more than 100 matters at the TTAB. Representative matters include:</p>
     
     <ul>
-	<li>Represented a testing company in a copyright and certification mark infringement matter where Nelson Mullins was not only able to defeat claims of infringement but won a multi-million dollar counterclaim against the plaintiff for unlaw interference with its business relationships and false advertising</li>
+	<li>Represented a testing company in a copyright and certification mark infringement matter where {{ $siteInfo.SITE_NAME }} was not only able to defeat claims of infringement but won a multi-million dollar counterclaim against the plaintiff for unlaw interference with its business relationships and false advertising</li>
     	<li>Represented a plaintiff law firm in a trademark infringement, false advertising, and unfair competition claims against online lead generation lawyer referral service. This case was one of the first cases to assert claims arising out of deceptive &ldquo;bait and switch&rdquo; schemes in which defendants bid on and purchased plaintiff&rsquo;s trademarks as search engine advertising keywords and used them to generate misleading sponsored advertisements with &ldquo;click-to-call&rdquo; button that diverted potential clients searching for plaintiff to defendants&rsquo; call center, where defendants sought to refer those clients to other personal injury lawyers for a fee.&nbsp;</li>
     	<li>Represented plaintiff who is the operator of a large chain of convenience stores in an opposition of the application for the mark to be used for a convenience store. &nbsp;After a trial, the TTAB decided the case in favor of the plaintiff.</li>
     	<li>Developed a domain name policing campaign to address conference registration and hotel reservation scam. Successfully shut down infringing websites and recovered more than 10 domain names.</li>
@@ -307,7 +307,7 @@
     					
     					<div class="sidebar-aside-container">
     						<div class="aside-why">
-							<h2>Why Nelson Mullins?</h2>
+							<h2>Why {{ $siteInfo.SITE_NAME }}?</h2>
     							<ul>
     	<li>
     	<p class="generic">Reduced risk of brand dilution and damage.</p>
@@ -470,10 +470,10 @@
     				<div class="row attorney-tab-info">
     					<div class="col-md-8">
     						<p>Following is a selected sampling of matters and is provided for informational purposes only. Past success does not indicate the likelihood of success in any future matter.</p>
-						<p>In the intellectual property litigation context, Nelson Mullins has represented clients in trademark matters in jurisdictions across the United States, including CA, FL, GA, NC, NY, SC, TN, and TX, and have selected and supervised counsel for matters in jurisdictions outside the United States, including before the Tribunal de Grande in Paris. Nelson Mullins has also been involved in more than 100 matters at the TTAB. Representative matters include:</p>
+						<p>In the intellectual property litigation context, {{ $siteInfo.SITE_NAME }} has represented clients in trademark matters in jurisdictions across the United States, including CA, FL, GA, NC, NY, SC, TN, and TX, and have selected and supervised counsel for matters in jurisdictions outside the United States, including before the Tribunal de Grande in Paris. {{ $siteInfo.SITE_NAME }} has also been involved in more than 100 matters at the TTAB. Representative matters include:</p>
     
     <ul>
-	<li>Represented a testing company in a copyright and certification mark infringement matter where Nelson Mullins was not only able to defeat claims of infringement but won a multi-million dollar counterclaim against the plaintiff for unlaw interference with its business relationships and false advertising</li>
+	<li>Represented a testing company in a copyright and certification mark infringement matter where {{ $siteInfo.SITE_NAME }} was not only able to defeat claims of infringement but won a multi-million dollar counterclaim against the plaintiff for unlaw interference with its business relationships and false advertising</li>
     	<li>Represented a plaintiff law firm in a trademark infringement, false advertising, and unfair competition claims against online lead generation lawyer referral service. This case was one of the first cases to assert claims arising out of deceptive &ldquo;bait and switch&rdquo; schemes in which defendants bid on and purchased plaintiff&rsquo;s trademarks as search engine advertising keywords and used them to generate misleading sponsored advertisements with &ldquo;click-to-call&rdquo; button that diverted potential clients searching for plaintiff to defendants&rsquo; call center, where defendants sought to refer those clients to other personal injury lawyers for a fee.&nbsp;</li>
     	<li>Represented plaintiff who is the operator of a large chain of convenience stores in an opposition of the application for the mark to be used for a convenience store. &nbsp;After a trial, the TTAB decided the case in favor of the plaintiff.</li>
     	<li>Developed a domain name policing campaign to address conference registration and hotel reservation scam. Successfully shut down infringing websites and recovered more than 10 domain names.</li>
@@ -494,7 +494,7 @@
     	
     	<div class="card aside-why">
     		<div class="card-header" role="tab" id="headingSeven">
-			<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">Why Nelson Mullins?</a></h5>
+			<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">Why {{ $siteInfo.SITE_NAME }}?</a></h5>
     		</div>
     
     		<div id="collapseSeven" class="collapse" role="tabpanel" aria-labelledby="headingSeven">
@@ -546,7 +546,7 @@
     	                            <h4><a href="../professionals/john-mcelwaine.html">John C. McElwaine</a></h4>
     	                            	                                <div class="h5 position">Partner</div>
     	                            	                            	                                <div class="sidebar-email-icon" style="float: left; margin-right: 10px;">
-    	                                    <a href="#" data-toggle="modal" data-target="#emailModal" data-email="john.mcelwaine@nelsonmullins.com" class="email_btn"><img src="/images/firmoverview.jpg" alt="Send Email to John C. McElwaine" /></a>
+                                            <a href="#" data-toggle="modal" data-target="#emailModal" :data-email="'john.mcelwaine@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img src="/images/firmoverview.jpg" alt="Send Email to John C. McElwaine" /></a>
     	                                </div>
     	                            	                            	                                	                                	<div style="float: left;">
     	                                    <p>T 843.534.4302</p>
@@ -560,7 +560,7 @@
     	                            <h4><a href="../professionals/chris-casavale.html">Christopher D. Casavale</a></h4>
     	                            	                                <div class="h5 position">Partner</div>
     	                            	                            	                                <div class="sidebar-email-icon" style="float: left; margin-right: 10px;">
-    	                                    <a href="#" data-toggle="modal" data-target="#emailModal" data-email="chris.casavale@nelsonmullins.com" class="email_btn"><img src="/images/firmoverview.jpg" alt="Send Email to Christopher D. Casavale" /></a>
+                                            <a href="#" data-toggle="modal" data-target="#emailModal" :data-email="'chris.casavale@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img src="/images/firmoverview.jpg" alt="Send Email to Christopher D. Casavale" /></a>
     	                                </div>
     	                            	                            	                                	                                	<div style="float: left;">
     	                                    <p>T 843.534.4252</p>

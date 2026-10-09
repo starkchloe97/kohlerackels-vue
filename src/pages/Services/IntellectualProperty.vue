@@ -2,7 +2,7 @@
   <div class="legacy-service-page" @click="handleServicePageInteraction">
     <div class="row featured-top cropped-feature practice-area">
     		<div class="featured-background">            
-    			<img src="/images/firmoverview.jpg" alt="Image of a blue sphere surrounded by a silver cage" />		</div>
+    			<img src="/images/Intellectual-Property-banner.jpg" alt="Image of a blue sphere surrounded by a silver cage" />		</div>
     		<div class="photo-gradient"></div>
     
     		<div class="container featured-container">
@@ -20,7 +20,7 @@
 							 ><img src="/images/detail-pdf.png" class="icon-pdf-direct border-0" alt="PDF" /></a>
     					    
     					</div>
-					<h4 class="featured-subhead" color="#363636" font-family="Quattrocento Sans" font-size="2.8125rem" line-height="2.5rem" margin-bottom="30px" position="relative">Nelson Mullins combines experience, a command of the U.S. Patent &amp; Trademark Office and other regulatory agency processes, PTAB and trial skills, and an appreciation for the importance of innovation to your business to help achieve results.</h4>
+					<h4 class="featured-subhead" color="#363636" font-family="Quattrocento Sans" font-size="2.8125rem" line-height="2.5rem" margin-bottom="30px" position="relative">{{ $siteInfo.SITE_NAME }} combines experience, a command of the U.S. Patent &amp; Trademark Office and other regulatory agency processes, PTAB and trial skills, and an appreciation for the importance of innovation to your business to help achieve results.</h4>
     
     <p class="generic" dir="ltr">Our firm&rsquo;s attorneys have deep experience in patent preparation, prosecution, opinions, client counseling, post-grant practice, and litigation. Our IP attorneys have represented clients in IP litigation and transactions in the United States, Europe, Asia, and South America. That&rsquo;s why clients with worldwide patent and trademark portfolios trust our IP attorneys to manage and enhance their portfolios, protect their rights, and avoid infringement pitfalls.&nbsp;</p>
     				</div>
@@ -72,7 +72,7 @@
     <hr />
     <h4 class="featured-subhead">Understanding the science, relaying complex matters to judges and juries</h4>
     
-    <p dir="ltr">Nelson Mullins&rsquo; IP group includes attorneys registered to practice before the U.S. Patent and Trademark Office, attorneys with technical degrees, including electrical engineering, biochemistry, chemistry, and mechanical engineering. Our team also includes former judicial clerks with the U.S. Court of Appeals for the Federal Circuit and former Patent Examiners, and attorneys who serve as thought leaders, through roles as adjunct intellectual property law professors at local law schools and authors of various publications.&nbsp;</p>
+    <p dir="ltr">{{ $siteInfo.SITE_NAME }}&rsquo; IP group includes attorneys registered to practice before the U.S. Patent and Trademark Office, attorneys with technical degrees, including electrical engineering, biochemistry, chemistry, and mechanical engineering. Our team also includes former judicial clerks with the U.S. Court of Appeals for the Federal Circuit and former Patent Examiners, and attorneys who serve as thought leaders, through roles as adjunct intellectual property law professors at local law schools and authors of various publications.&nbsp;</p>
     
     <hr />
     <h4 class="featured-subhead" dir="ltr">Clients span industry sectors and range from entrepreneurs to research institutions to established household names</h4>
@@ -112,7 +112,7 @@
                             
                             
     						<div class="aside-why">
-							<h2>Why Nelson Mullins?</h2>
+							<h2>Why {{ $siteInfo.SITE_NAME }}?</h2>
     							<ul>
     	<li><strong>Deep knowledge of the law and science</strong></li>
     	<li><strong>Seasoned trial attorneys</strong> &minus; experience and ability trying cases to verdict wherever necessary</li>
@@ -139,7 +139,7 @@
                                                                         <div class="h5 position">Partner</div>
                                                                                                         <div class="h5">Co-Chair</div>
                                                                                                         <div class="sidebar-email-icon">
-                                            <a href="#" data-toggle="modal" data-target="#emailModal" data-email="patrick.kartes@nelsonmullins.com" class="email_btn"><img src="/images/detail-email.png" alt="Send Email to Patrick L. Kartes" /></a>
+                                            <a href="#" data-toggle="modal" data-target="#emailModal" :data-email="'patrick.kartes@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img src="/images/detail-email.png" alt="Send Email to Patrick L. Kartes" /></a>
                                         </div>
                                                                                                                                             	<div class="sidebar-phone">
                                             <p>T 704.417.3036</p>
@@ -157,7 +157,7 @@
                                                                         <div class="h5 position">Partner</div>
                                                                                                         <div class="h5">Co-Chair</div>
                                                                                                         <div class="sidebar-email-icon">
-                                            <a href="#" data-toggle="modal" data-target="#emailModal" data-email="jane.remillard@nelsonmullins.com" class="email_btn"><img src="/images/detail-email.png" alt="Send Email to Jane E. Remillard" /></a>
+                                            <a href="#" data-toggle="modal" data-target="#emailModal" :data-email="'jane.remillard@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img src="/images/detail-email.png" alt="Send Email to Jane E. Remillard" /></a>
                                         </div>
                                                                                                                                             	<div class="sidebar-phone">
                                             <p>T 617.217.4628</p>
@@ -179,22 +179,22 @@
                         
                                             
     <div class="aside-contact-culture">
-            <div class="aside carousel slide multi">
-                            <div class="slick slick-single">
-                                                                            <div class="item">
-                                                        <a href="#"><img src="/images/firmoverview.jpg" alt="Best Lawyers Best Law Firms 2025 Badge, litigation intellectual property" class="img-fluid lozad" /></a>
-                                                    </div>
-                                                                                    <div class="item">
-                                                        <a href="#"><img src="/images/firmoverview.jpg" alt="Best Lawyers Best Law Firms 2025 Badge, patent law" class="img-fluid lozad" /></a>
-                                                    </div>
-                                                                                    <div class="item">
-                                                        <a href="#"><img src="/images/firmoverview.jpg" alt="Best Lawyers Best Law Firms 2025 Badge, trademark law" class="img-fluid lozad" /></a>
-                                                    </div>
-                                                                    </div>
-                        </div>
+      <div class="ip-award-carousel" role="region" aria-label="Awards and recognition" aria-roledescription="carousel">
+        <div
+          v-for="(award, index) in trademarkAwards"
+          :key="award.image + index"
+          class="ip-award-carousel__slide"
+          v-show="activeTrademarkAward === index"
+        >
+          <a href="#"><img :src="award.image" :alt="award.alt" class="img-fluid" /></a>
         </div>
-        
-                    <>
+        <div class="ip-award-carousel__controls">
+          <button type="button" aria-label="Previous award" @click="moveAwardSlide('trademark', -1)">&#8249;</button>
+          <span aria-live="polite">{{ activeTrademarkAward + 1 }} / {{ trademarkAwards.length }}</span>
+          <button type="button" aria-label="Next award" @click="moveAwardSlide('trademark', 1)">&#8250;</button>
+        </div>
+      </div>
+        </div>
                         
     				</div> 
     
@@ -215,7 +215,7 @@
     				
     				<div class="sidebar-aside-container hidden-print">
     					<div class="aside-why hidden-print">
-						<h2>Why Nelson Mullins?</h2>
+						<h2>Why {{ $siteInfo.SITE_NAME }}?</h2>
     						<ul>
     	<li><strong>Deep knowledge of the law and science</strong></li>
     	<li><strong>Seasoned trial attorneys</strong> &minus; experience and ability trying cases to verdict wherever necessary</li>
@@ -283,7 +283,7 @@
     					
     					<div class="sidebar-aside-container hidden-print">
     						<div class="aside-why hidden-print">
-							<h2>Why Nelson Mullins?</h2>
+							<h2>Why {{ $siteInfo.SITE_NAME }}?</h2>
     							<ul>
     	<li><strong>Deep knowledge of the law and science</strong></li>
     	<li><strong>Seasoned trial attorneys</strong> &minus; experience and ability trying cases to verdict wherever necessary</li>
@@ -320,7 +320,7 @@
     					
     					<div class="sidebar-aside-container hidden-print">
     						<div class="aside-why hidden-print">
-							<h2>Why Nelson Mullins?</h2>
+							<h2>Why {{ $siteInfo.SITE_NAME }}?</h2>
     							<ul>
     	<li><strong>Deep knowledge of the law and science</strong></li>
     	<li><strong>Seasoned trial attorneys</strong> &minus; experience and ability trying cases to verdict wherever necessary</li>
@@ -398,7 +398,7 @@
     <hr />
     <h4 class="featured-subhead">Understanding the science, relaying complex matters to judges and juries</h4>
     
-    <p dir="ltr">Nelson Mullins&rsquo; IP group includes attorneys registered to practice before the U.S. Patent and Trademark Office, attorneys with technical degrees, including electrical engineering, biochemistry, chemistry, and mechanical engineering. Our team also includes former judicial clerks with the U.S. Court of Appeals for the Federal Circuit and former Patent Examiners, and attorneys who serve as thought leaders, through roles as adjunct intellectual property law professors at local law schools and authors of various publications.&nbsp;</p>
+    <p dir="ltr">{{ $siteInfo.SITE_NAME }}&rsquo; IP group includes attorneys registered to practice before the U.S. Patent and Trademark Office, attorneys with technical degrees, including electrical engineering, biochemistry, chemistry, and mechanical engineering. Our team also includes former judicial clerks with the U.S. Court of Appeals for the Federal Circuit and former Patent Examiners, and attorneys who serve as thought leaders, through roles as adjunct intellectual property law professors at local law schools and authors of various publications.&nbsp;</p>
     
     <hr />
     <h4 class="featured-subhead" dir="ltr">Clients span industry sectors and range from entrepreneurs to research institutions to established household names</h4>
@@ -424,19 +424,21 @@
     <p class="generic" dir="ltr">Our experience enables us to bring practical, solutions-oriented perspectives. We implement proven project management practices and leverage technology to enable us to efficiently manage, monitor, and respond to client needs and issues quickly and effectively.</p>
                                 
     <div class="aside-contact-culture">
-            <div class="aside carousel slide multi">
-                            <div class="slick slick-single">
-                                                                            <div class="item">
-                                                        <a href="#"><img src="/images/firmoverview.jpg" alt="Best Lawyers Best Law Firms 2025 Badge, litigation intellectual property" class="img-fluid lozad" /></a>
-                                                    </div>
-                                                                                    <div class="item">
-                                                        <a href="#"><img src="/images/firmoverview.jpg" alt="Best Lawyers Best Law Firms 2025 Badge, patent law" class="img-fluid lozad" /></a>
-                                                    </div>
-                                                                                    <div class="item">
-                                                        <a href="#"><img src="/images/firmoverview.jpg" alt="Best Lawyers Best Law Firms 2025 Badge, trademark law" class="img-fluid lozad" /></a>
-                                                    </div>
-                                                                    </div>
-                        </div>
+      <div class="ip-award-carousel" role="region" aria-label="Awards and recognition" aria-roledescription="carousel">
+        <div
+          v-for="(award, index) in firmAwards"
+          :key="award.image + index"
+          class="ip-award-carousel__slide"
+          v-show="activeFirmAward === index"
+        >
+          <a href="#"><img :src="award.image" :alt="award.alt" class="img-fluid" /></a>
+        </div>
+        <div class="ip-award-carousel__controls">
+          <button type="button" aria-label="Previous award" @click="moveAwardSlide('firm', -1)">&#8249;</button>
+          <span aria-live="polite">{{ activeFirmAward + 1 }} / {{ firmAwards.length }}</span>
+          <button type="button" aria-label="Next award" @click="moveAwardSlide('firm', 1)">&#8250;</button>
+        </div>
+      </div>
         </div>
     
     						</div> 
@@ -622,7 +624,7 @@
     	
     	<div class="card aside-why">
     		<div class="card-header" role="tab" id="headingSeven">
-			<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">Why Nelson Mullins?</a></h5>
+			<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">Why {{ $siteInfo.SITE_NAME }}?</a></h5>
     		</div>
     
     		<div id="collapseSeven" class="collapse" role="tabpanel" aria-labelledby="headingSeven">
@@ -660,7 +662,7 @@
     	                            <h4><a href="../professionals/patrick-kartes.html">Patrick L. Kartes</a></h4>
     	                            	                                <div class="h5 position">Partner</div>
     	                            	                            	                                <div class="sidebar-email-icon" style="float: left; margin-right: 10px;">
-    	                                    <a href="#" data-toggle="modal" data-target="#emailModal" data-email="patrick.kartes@nelsonmullins.com" class="email_btn"><img src="/images/firmoverview.jpg" alt="Send Email to Patrick L. Kartes" /></a>
+                                            <a href="#" data-toggle="modal" data-target="#emailModal" :data-email="'patrick.kartes@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img src="/images/firmoverview.jpg" alt="Send Email to Patrick L. Kartes" /></a>
     	                                </div>
     	                            	                            	                                	                                	<div style="float: left;">
     	                                    <p>T 704.417.3036</p>
@@ -674,7 +676,7 @@
     	                            <h4><a href="../professionals/jane-remillard.html">Jane E. Remillard</a></h4>
     	                            	                                <div class="h5 position">Partner</div>
     	                            	                            	                                <div class="sidebar-email-icon" style="float: left; margin-right: 10px;">
-    	                                    <a href="#" data-toggle="modal" data-target="#emailModal" data-email="jane.remillard@nelsonmullins.com" class="email_btn"><img src="/images/firmoverview.jpg" alt="Send Email to Jane E. Remillard" /></a>
+                                            <a href="#" data-toggle="modal" data-target="#emailModal" :data-email="'jane.remillard@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img src="/images/firmoverview.jpg" alt="Send Email to Jane E. Remillard" /></a>
     	                                </div>
     	                            	                            	                                	                                	<div style="float: left;">
     	                                    <p>T 617.217.4628</p>
@@ -709,21 +711,42 @@
 </template>
 
 <script setup>
+import { ref } from 'vue'
+import { SITE_NAME } from '@/config/siteInfo.js'
 import { handleServicePageInteraction } from '@/utils/servicePageInteractions.js'
 import Carousel from '@/components/Carousel.vue'
 import ProfessionalsDirectory from '@/components/ProfessionalsDirectory.vue'
 import InsightsList from '@/components/InsightsList.vue'
 import { serviceInsights } from '@/config/serviceInsights.js'
 
+const trademarkAwards = [
+  { image: '/images/trademark-law.jpg', alt: 'Best Lawyers Best Law Firms 2025 Badge, litigation intellectual property' },
+  { image: '/images/intellectual-property.jpg', alt: 'Best Lawyers Best Law Firms 2025 Badge, patent law' },
+  { image: '/images/patent-law.jpg', alt: 'Best Lawyers Best Law Firms 2025 Badge, trademark law' }
+]
+const firmAwards = [
+  { image: '/images/trademark-law.jpg', alt: 'Best Lawyers Best Law Firms 2025 Badge, litigation intellectual property' },
+  { image: '/images/intellectual-property.jpg', alt: 'Best Lawyers Best Law Firms 2025 Badge, patent law' },
+  { image: '/images/patent-law.jpg', alt: 'Best Lawyers Best Law Firms 2025 Badge, trademark law' }
+]
+const activeTrademarkAward = ref(0)
+const activeFirmAward = ref(0)
+
+const moveAwardSlide = (carousel, direction) => {
+  const activeSlide = carousel === 'trademark' ? activeTrademarkAward : activeFirmAward
+  const totalSlides = carousel === 'trademark' ? trademarkAwards.length : firmAwards.length
+  activeSlide.value = (activeSlide.value + direction + totalSlides) % totalSlides
+}
+
 const insightSections = [
   {
     title: 'News',
     items: [
       { date: 'June 10, 2026', title: 'Partner John McElwaine Named Among WTR Global Leaders 2026' },
-      { date: 'December 2025/January 2026', title: 'Fifteen Nelson Mullins Partners Named 2025 Top Lawyers by Boston Magazine' },
-      { date: 'Feb. 3, 2025', title: 'Nelson Mullins Grows In Houston With Osha Bergman IP Duo' },
-      { date: 'Jan. 29, 2025', title: 'Nelson Mullins Continues Robust Growth in Houston with Pick Up of Two Intellectual Property Partners' },
-      { date: 'July 30, 2024', title: 'Nelson Mullins Partner Jane Remillard Named Finalist for New England IP Attorney of the Year Award' }
+      { date: 'December 2025/January 2026', title: `Fifteen ${SITE_NAME} Partners Named 2025 Top Lawyers by Boston Magazine` },
+      { date: 'Feb. 3, 2025', title: `${SITE_NAME} Grows In Houston With Osha Bergman IP Duo` },
+      { date: 'Jan. 29, 2025', title: `${SITE_NAME} Continues Robust Growth in Houston with Pick Up of Two Intellectual Property Partners` },
+      { date: 'July 30, 2024', title: `${SITE_NAME} Partner Jane Remillard Named Finalist for New England IP Attorney of the Year Award` }
     ]
   },
   {
@@ -758,6 +781,29 @@ const insightSections = [
 
 <style scoped>
 .legacy-service-page { width: 100%; }
+
+.ip-award-carousel__slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.ip-award-carousel__controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.ip-award-carousel__controls button {
+  border: 0;
+  background: transparent;
+  color: #396a93;
+  cursor: pointer;
+  font-size: 1.5rem;
+  line-height: 1;
+}
 
     .row {
         margin-right: -15px;

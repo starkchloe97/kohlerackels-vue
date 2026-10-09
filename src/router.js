@@ -7,6 +7,7 @@ import Locations from "@/pages/Locations.vue";
 import Culture from "@/pages/Culture.vue";
 import PrivacyPolicy from "@/pages/PrivacyPolicy.vue";
 import NoticeAtCollection from "@/pages/NoticeAtCollection.vue";
+import Disclaimer from "./pages/Disclaimer.vue";
 import fullServiceOffices from "./pages/locations/full-service-offices.vue";
 import OtherLocation from "./pages/locations/Other-location.vue";
 import StatesPractice from "./pages/locations/States-practice.vue";
@@ -50,6 +51,7 @@ export default createRouter({
     { path: "/services/intellectual-property/trademarks-copyrights", component: TrademarksAndCopyrights },
     { path: "/services/intellectual-property/transactions", component: IntellectualPropertyTransactions },
     { path: "/services/intellectual-property/patent-litigation", component: PatentLitigation },
+     { path: "/Disclaimer", component: Disclaimer },
     
   ],
 });

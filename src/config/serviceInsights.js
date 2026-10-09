@@ -1,47 +1,42 @@
-import blueWave from '@/pages/Services/Intellectual Property Transactions_files/5LManxh61vZXPsbpNqWwC99yWk8zJQpQ9PTso0Kv.jpg'
-import aiChip from '@/pages/Services/Intellectual Property Transactions_files/4bFhqnnwuP1Kce8Fo6N4fZ6sDLUxiIJ2KjlKVyJ9.jpg'
-import cityBuilding from '@/pages/Services/Intellectual Property Transactions_files/4bd2v4oNLZbW8sxnRdvfa1q9jzx3aTwrun6SyToH.jpg'
-import accessibility from '@/pages/Services/Intellectual Property Transactions_files/ueL3ybeZIIKeiDTw5oyCnHgUmfLc6JDM56tX175K.jpg'
-
 export const serviceInsights = [
   {
-    image: blueWave,
-    alt: 'Abstract blue wave design on a light blue background.',
+    image: '/images/ohdpvaLVtm2FONsiglaiLxq6N0Owi4O40e34qL9b.jpg',
+    alt: 'Gavel and law books',
     title: 'Ninth Circuit to Review Constitutional Challenge to Oregon’s EPR Law',
     href: '#',
     date: 'September 28, 2026',
   },
   {
-    image: aiChip,
-    alt: 'Artificial intelligence chip on a blue circuit board.',
+    image: '/images/slide-1.jpeg',
+    alt: 'Professional reviewing documents in an office',
     title: 'Regulating AI in Employment Decisions: Compliance-Managed Process for Growing State...',
     href: '#',
     date: 'August 26, 2026',
   },
   {
-    image: cityBuilding,
-    alt: 'Glass facade of a modern building.',
+    image: '/images/slide-4.jpg',
+    alt: 'Professionals meeting in a city office',
     title: 'How Engineers Will Determine Why NYC Building Renovation Buckled',
     href: '#',
     date: 'July 10, 2026',
   },
   {
-    image: accessibility,
-    alt: 'Abstract technology network illustration.',
+    image: '/images/slide-3.jpeg',
+    alt: 'Laptop displaying business analytics',
     title: 'Don’t Text Without a Compliance Strategy: Getting Mobile Messaging Right',
     href: '#',
     date: 'September 24, 2026',
   },
   {
-    image: accessibility,
-    alt: 'Abstract technology network illustration.',
+    image: '/images/slide-2.jpg',
+    alt: 'Global network illustration',
     title: 'FCC Download: Monthly Updates - September 2026',
     href: '#',
     date: 'September 17, 2026',
   },
   {
-    image: accessibility,
-    alt: 'Abstract technology network illustration.',
+    image: '/images/slide-1.jpeg',
+    alt: 'Professional reviewing documents in an office',
     title: 'Live Chat, Messaging, and the FCC’s Accessibility Rules',
     href: '#',
     date: 'September 10, 2026',

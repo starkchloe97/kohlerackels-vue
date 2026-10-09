@@ -110,7 +110,7 @@
     
     <h3 class="body-subhead">Protecting cutting edge technologies</h3>
     
-    <p>Nelson Mullins&rsquo; Life Sciences team is known for developing and implementing effective IP strategies and building strong patent portfolios. These practices protect and facilitate commercialization of products for companies ranging from biotechnology start-ups to leading pharmaceutical companies.</p>
+    <p>{{ $siteInfo.SITE_NAME }}&rsquo; Life Sciences team is known for developing and implementing effective IP strategies and building strong patent portfolios. These practices protect and facilitate commercialization of products for companies ranging from biotechnology start-ups to leading pharmaceutical companies.</p>
     
     <h3 class="body-subhead">Our life sciences services help&nbsp;you to</h3>
     
@@ -137,7 +137,7 @@
                             
                             
     						<div class="aside-why">
-							<h2>Why Nelson Mullins?</h2>
+							<h2>Why {{ $siteInfo.SITE_NAME }}?</h2>
     							<ul>
     	<li>Our senior partners have&nbsp;more than 25 years of experience in the biologics field</li>
     	<li>The Life Sciences group consists of patent attorneys, litigators and technical specialists, including many with Ph.D. degrees, who focus on biotechnology, pharmaceuticals, and chemistry</li>
@@ -163,7 +163,7 @@
                                     <h4><a href="../professionals/jane-remillard.html">Jane E. Remillard</a></h4>
                                                                         <div class="h5 position">Partner</div>
                                                                                                                                         <div class="sidebar-email-icon">
-                                            <a href="#" data-toggle="modal" data-target="#emailModal" data-email="jane.remillard@nelsonmullins.com" class="email_btn"><img src="/images/detail-email.png" alt="Send Email to Jane E. Remillard" /></a>
+                                            <a href="#" data-toggle="modal" data-target="#emailModal" :data-email="'jane.remillard@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img src="/images/detail-email.png" alt="Send Email to Jane E. Remillard" /></a>
                                         </div>
                                                                                                                                             	<div class="sidebar-phone">
                                             <p>T 617.217.4628</p>
@@ -204,7 +204,7 @@
     				
     				<div class="sidebar-aside-container hidden-print">
     					<div class="aside-why hidden-print">
-						<h2>Why Nelson Mullins?</h2>
+						<h2>Why {{ $siteInfo.SITE_NAME }}?</h2>
     						<ul>
     	<li>Our senior partners have&nbsp;more than 25 years of experience in the biologics field</li>
     	<li>The Life Sciences group consists of patent attorneys, litigators and technical specialists, including many with Ph.D. degrees, who focus on biotechnology, pharmaceuticals, and chemistry</li>
@@ -281,7 +281,7 @@
     					
     					<div class="sidebar-aside-container hidden-print">
     						<div class="aside-why hidden-print">
-							<h2>Why Nelson Mullins?</h2>
+							<h2>Why {{ $siteInfo.SITE_NAME }}?</h2>
     							<ul>
     	<li>Our senior partners have&nbsp;more than 25 years of experience in the biologics field</li>
     	<li>The Life Sciences group consists of patent attorneys, litigators and technical specialists, including many with Ph.D. degrees, who focus on biotechnology, pharmaceuticals, and chemistry</li>
@@ -309,7 +309,7 @@
     					
     					<div class="sidebar-aside-container hidden-print">
     						<div class="aside-why hidden-print">
-							<h2>Why Nelson Mullins?</h2>
+							<h2>Why {{ $siteInfo.SITE_NAME }}?</h2>
     							<ul>
     	<li>Our senior partners have&nbsp;more than 25 years of experience in the biologics field</li>
     	<li>The Life Sciences group consists of patent attorneys, litigators and technical specialists, including many with Ph.D. degrees, who focus on biotechnology, pharmaceuticals, and chemistry</li>
@@ -421,7 +421,7 @@
     					
     					<div class="sidebar-aside-container">
     						<div class="aside-why">
-							<h2>Why Nelson Mullins?</h2>
+							<h2>Why {{ $siteInfo.SITE_NAME }}?</h2>
     							<ul>
     	<li>Our senior partners have&nbsp;more than 25 years of experience in the biologics field</li>
     	<li>The Life Sciences group consists of patent attorneys, litigators and technical specialists, including many with Ph.D. degrees, who focus on biotechnology, pharmaceuticals, and chemistry</li>
@@ -462,7 +462,7 @@
     					
     					<div class="sidebar-aside-container">
     						<div class="aside-why">
-							<h2>Why Nelson Mullins?</h2>
+							<h2>Why {{ $siteInfo.SITE_NAME }}?</h2>
     							<ul>
     	<li>Our senior partners have&nbsp;more than 25 years of experience in the biologics field</li>
     	<li>The Life Sciences group consists of patent attorneys, litigators and technical specialists, including many with Ph.D. degrees, who focus on biotechnology, pharmaceuticals, and chemistry</li>
@@ -538,7 +538,7 @@
     
     <h3 class="body-subhead">Protecting cutting edge technologies</h3>
     
-    <p>Nelson Mullins&rsquo; Life Sciences team is known for developing and implementing effective IP strategies and building strong patent portfolios. These practices protect and facilitate commercialization of products for companies ranging from biotechnology start-ups to leading pharmaceutical companies.</p>
+    <p>{{ $siteInfo.SITE_NAME }}&rsquo; Life Sciences team is known for developing and implementing effective IP strategies and building strong patent portfolios. These practices protect and facilitate commercialization of products for companies ranging from biotechnology start-ups to leading pharmaceutical companies.</p>
     
     <h3 class="body-subhead">Our life sciences services help&nbsp;you to</h3>
     
@@ -819,7 +819,7 @@
     	
     	<div class="card aside-why">
     		<div class="card-header" role="tab" id="headingSeven">
-			<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">Why Nelson Mullins?</a></h5>
+			<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">Why {{ $siteInfo.SITE_NAME }}?</a></h5>
     		</div>
     
     		<div id="collapseSeven" class="collapse" role="tabpanel" aria-labelledby="headingSeven">
@@ -857,7 +857,7 @@
     	                            <h4><a href="../professionals/jane-remillard.html">Jane E. Remillard</a></h4>
     	                            	                                <div class="h5 position">Partner</div>
     	                            	                            	                                <div class="sidebar-email-icon" style="float: left; margin-right: 10px;">
-    	                                    <a href="#" data-toggle="modal" data-target="#emailModal" data-email="jane.remillard@nelsonmullins.com" class="email_btn"><img src="/images/firmoverview.jpg" alt="Send Email to Jane E. Remillard" /></a>
+                                            <a href="#" data-toggle="modal" data-target="#emailModal" :data-email="'jane.remillard@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img src="/images/firmoverview.jpg" alt="Send Email to Jane E. Remillard" /></a>
     	                                </div>
     	                            	                            	                                	                                	<div style="float: left;">
     	                                    <p>T 617.217.4628</p>
@@ -892,6 +892,7 @@
 </template>
 
 <script setup>
+import { SITE_NAME } from '@/config/siteInfo.js'
 import { handleServicePageInteraction } from '@/utils/servicePageInteractions.js'
 import Carousel from '@/components/Carousel.vue'
 import ProfessionalsDirectory from '@/components/ProfessionalsDirectory.vue'
@@ -903,9 +904,9 @@ const insightSections = [
     title: 'News',
     total: 17,
     items: [
-      { date: 'July 30, 2024', title: 'Nelson Mullins Partner Jane Remillard Named Finalist for New England IP Attorney of the Year Award' },
+      { date: 'July 30, 2024', title: `${SITE_NAME} Partner Jane Remillard Named Finalist for New England IP Attorney of the Year Award` },
       { date: 'Dec. 27, 2023', title: 'Partners Selected for Inclusion as 2023 Who’s Who Legal: Thought Leaders' },
-      { date: 'Aug. 17, 2023', title: 'Nelson Mullins Partners Shortlisted for LMG Life Sciences Award' },
+      { date: 'Aug. 17, 2023', title: `${SITE_NAME} Partners Shortlisted for LMG Life Sciences Award` },
       { date: 'Aug. 2, 2023', title: 'Jason Kraus Selected to the 2023 IAM Patent 1000' },
       { date: 'May 3, 2023', title: 'Susan Jackson Wins Lawyer of The Year Award' }
     ]

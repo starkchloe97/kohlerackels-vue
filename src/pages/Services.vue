@@ -18,7 +18,7 @@
                             <h2 class="featured-title">Collaborative legal talent</h2>
                             <div class="featured-details">
                                 <p><span class="text-head-blue">Working side-by-side with clients, our results-oriented,
-                                        collaborative approach has made Nelson Mullins the firm of choice for many.
+                                        collaborative approach has made {{ $siteInfo.SITE_NAME }} the firm of choice for many.
                                     </span>&nbsp;With experience in over 100 practice areas, our attorneys and business
                                     professionals advocate for clients and offer practical solutions to challenging
                                     business problems.</p>
@@ -38,7 +38,7 @@
                         <div class="col capabilities-practices">
                             <h1>Services</h1>
                             <search>
-                                <form action="https://www.nelsonmullins.com/services/search">
+                                <form :action="`${$siteInfo.SITE_URL}/services/search`">
                                     <label class="label-required" for="keyword">Search By Name</label>
                                     <div class="input-group mb-3">
                                         <input type="text" id="keyword" name="keyword"
@@ -300,7 +300,7 @@
                                     <ul class="practices-subcategories ">
                                         <li><a href="services/e-discovery-and-information-governance.html">E-Discovery
                                                 &amp; Information Governance</a></li>
-                                        <li><a href="http://encompass.nelsonmullins.com/">E-Discovery - Encompass</a>
+                                        <li><a :href="$siteInfo.SITE_ENCOMPASS_URL">E-Discovery - Encompass</a>
                                         </li>
                                         <li><a href="services/health_insurance.html">Health Insurance</a></li>
                                         <li><a href="services/records_and_information_governance.html">Records &amp;
