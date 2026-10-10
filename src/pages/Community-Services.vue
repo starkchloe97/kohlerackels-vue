@@ -1,4 +1,4 @@
-<template>
+    <template>
     <div class="Culture-pro-bono">
         <!-- main content -->
 
@@ -45,50 +45,6 @@
             </div>
         </div><!-- /end of DESKTOP featured top -->
 
-
-
-
-        <div class="row featured-top mobile_background_banner">
-            <img src="/images/Lufuwi6sfCydaiXdhd2EoUYGcwIvXeWv9R1HMnxZ.jpg"
-                alt="Image of coworkers in a meeting room" />
-            <div class="container featured-container">
-                <div class="row">
-                    <div class="col-md-6 featured-content">
-                        <h1 class="featured-section">
-                            Pro Bono </h1>
-                        <h2 class="featured-title">Seeking justice for those in need</h2>
-                        <div class="featured-details">
-                            <p><span class="text-head-blue">Pro Bono is powerful for those who receive it and equally
-                                    for firm members who have the privilege to provide it.</span></p>
-
-                            <p>Our Pro Bono Program strives for liberty and justice for all in legal need. The program
-                                was created with the mission to serve the less fortunate and nonprofits providing
-                                services in our communities and beyond. Pro bono is a tradition deeply rooted in our
-                                culture. Since 1990, {{ $siteInfo.SITE_NAME }} lawyers have provided over 622,450 hours of service.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container featured-tabs">
-                <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                        <RouterLink class="nav-link" exact-active-class="active" to="/culture">Overview</RouterLink>
-                    </li>
-                    <li class="nav-item">
-                        <RouterLink to="/CultureProBono" class="nav-link" exact-active-class="active"> Pro Bono </RouterLink>
-                    </li>
-                    <li class="nav-item">
-                        <RouterLink class="nav-link" exact-active-class="active" to="/EngagementAndOpportunity">Engagement and
-                            Opportunity</RouterLink>
-                    </li>
-                    <li class="nav-item">
-                        <RouterLink class="nav-link" exact-active-class="active" to="/CommunityServices">Community Service
-                        </RouterLink>
-                    </li>
-                </ul>
-            </div>
-        </div><!-- /end of MOBILE featured top -->
 
 
 
@@ -712,6 +668,13 @@
     font-size: 17px;
     text-decoration: none;
     white-space: nowrap;
+}
+
+@media (max-width: 575px) {
+  
+  .featured-tabs{
+    display: none !important;
+}
 }
 </style>
 

@@ -42,6 +42,7 @@ figcaption,
 figure,
 main {
   display: block;
+      padding: 0px 10px;
 }
 
 figure {
@@ -13369,7 +13370,7 @@ h4.contact-sidebar-title {
   .featured-background {
     position: relative;
     height: auto;
-    margin-top: 60px;
+    /* margin-top: 60px; */
   }
   .featured-background img {
     position: relative;
@@ -13405,9 +13406,9 @@ h4.contact-sidebar-title {
   .featured-buttons {
     margin-top: 30px;
   }
-  .featured-tabs {
-    display: none;
-  }
+                    .featured-tabs {
+                      display: none;
+                    }
   .photo-gradient {
     display: none;
   }
@@ -16609,7 +16610,7 @@ a.skip-main:active {
   .featured-background {
     position: relative;
     height: auto;
-    margin-top: 60px;
+    /* margin-top: 60px; */
   }
   .featured-background img {
     position: relative;
@@ -17131,7 +17132,7 @@ a.skip-main:active {
     line-height: 1.25;
   }
   .page-locations.featured-top .featured-container .featured-section {
-    margin-top: 90px;
+    margin-top: 20px;
   }
   .aside-contact-culture .sidebar-contact-photo,
   .aside-contact-culture .sidebar-contact-photo.key-contact,
@@ -17351,9 +17352,6 @@ a.skip-main:active {
   /* new responsive only banners */
   .mobile_background_banner {
     display: block;
-  }
-  .desktop_background_banner {
-    display: none;
   }
   .mobile_background_banner .featured-container .row {
     padding-bottom: 10px;
@@ -17967,6 +17965,9 @@ a.skip-main:active {
   .practice-subcategories-two-column {
     column-count: 1;
   }
+  .featured-tabs .nav-tabs {
+    display: none;
+}
 }
 
 /* Professionals page styles migrated from original HTML */
@@ -18472,4 +18473,7 @@ body
   .legacy-service-page .section-subnav > .container {
     max-width: none;
   }
+  .featured-top.page-locations {
+  min-height: 525px;
+}
 }

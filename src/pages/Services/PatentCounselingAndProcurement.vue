@@ -1080,4 +1080,10 @@ const insightSections = [
 	margin-left: -15px;
 	gap: 0px;
 }
+
+@media (max-width: 575px) {
+  .featured-tabs{
+    display: none !important;
+  }
+}
 </style>

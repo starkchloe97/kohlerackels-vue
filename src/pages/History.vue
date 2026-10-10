@@ -52,9 +52,14 @@
 
 </template>
 
-<script setup>
+<style scoped>
 
-    import slider from '../components/slider.vue';
-    import CarouselTwo from '../components/Carousel-two.vue';
+@media (max-width: 575px) {
+  
+  .featured-tabs{
+    display: none;
+}
+}
 
-</script>
+
+</style>

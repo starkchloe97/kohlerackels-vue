@@ -751,6 +751,110 @@
 </template>
 
 <style scoped>
+@media (max-width: 1199px) {
+    .legacy-page :deep(#bottom-carousel .carousel-inner) {
+        width: auto !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .legacy-page .featured-top.cropped-feature {
+        flex-direction: column;
+        min-height: 0;
+    }
+
+    .legacy-page .featured-top.cropped-feature .featured-background {
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .legacy-page .featured-top.cropped-feature .featured-background img {
+        position: relative;
+        display: block;
+        top: auto;
+        right: auto;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .legacy-page .featured-top .photo-gradient {
+        display: none;
+    }
+
+    .legacy-page .cropped-feature .featured-container {
+        margin-top: 0 !important;
+        width: 100%;
+    }
+
+    .legacy-page .featured-top .featured-content {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 20px 28px;
+    }
+
+    .legacy-page .featured-top .featured-section {
+        margin: 0 0 8px;
+        font-size: 1.25rem;
+        line-height: 1.3;
+    }
+
+    .legacy-page .featured-title {
+        font-size: clamp(2rem, 6vw, 2.5rem);
+        line-height: 1.05;
+        margin-bottom: 16px;
+    }
+
+    .legacy-page .featured-details span {
+        font-size: 1.125rem;
+    }
+
+    .legacy-page .people-search {
+        padding: 28px 0;
+    }
+
+    .legacy-page .people-search .container {
+        width: 100%;
+    }
+
+    .legacy-page .people-search h1 {
+        font-size: clamp(1.75rem, 5vw, 2rem);
+        line-height: 1.2;
+    }
+
+    .legacy-page .practice-category,
+    .legacy-page .practice-column .practices-category {
+        white-space: normal;
+        line-height: 1.3;
+    }
+
+    .legacy-page .practice-category {
+        min-height: 44px;
+        padding-right: 40px;
+    }
+
+    .legacy-page .practice-category-indicator {
+        top: 8px;
+        font-size: 2.75rem;
+    }
+
+    .legacy-page .practice-column .practices-subcategories li {
+        overflow-wrap: anywhere;
+    }
+}
+
+@media (max-width: 480px) {
+    .legacy-page .featured-top .featured-content {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .legacy-page .people-search {
+        padding: 24px 0;
+    }
+}
 </style>
 
 <script setup>

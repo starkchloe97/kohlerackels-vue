@@ -1,5 +1,5 @@
 <template>
-  <header class="simple-header">
+  <header ref="headerRef" class="simple-header" @keydown.esc="closeMenus">
     <a class="skip-link" href="#main-content">Skip to Main Content</a>
 
     <div class="simple-header-inner">
@@ -13,7 +13,7 @@
         :aria-expanded="menuOpen"
         aria-controls="site-navigation"
         aria-label="Toggle navigation"
-        @click="menuOpen = !menuOpen"
+        @click="toggleMenu"
       >
         <span></span>
         <span></span>
@@ -21,14 +21,14 @@
       </button>
 
       <nav id="site-navigation" class="simple-nav" :class="{ open: menuOpen }" aria-label="Main Menu">
-        <RouterLink to="/professionals" @click="menuOpen = false">Professionals</RouterLink>
-        <RouterLink to="/services" @click="menuOpen = false">Services</RouterLink>
-        <div class="nav-dropdown">
-          <RouterLink to="/firm" @click="menuOpen = false">Firm</RouterLink>
-          <div class="dropdown-menu">
-            <RouterLink to="/firm" @click="menuOpen = false">Overview</RouterLink>
-            <RouterLink to="/locations" @click="menuOpen = false">Locations</RouterLink>
-            <RouterLink to="/history" @click="menuOpen = false">History</RouterLink>
+        <RouterLink to="/professionals" @click="closeMenus">Professionals</RouterLink>
+        <RouterLink to="/services" @click="closeMenus">Services</RouterLink>
+        <div class="nav-dropdown" :class="{ expanded: firmOpen }">
+          <button class="firm-toggle" type="button" :aria-expanded="firmOpen" aria-controls="firm-submenu" @click="toggleFirm">Firm</button>
+          <div id="firm-submenu" class="dropdown-menu" :hidden="!firmOpen">
+            <RouterLink to="/firm" @click="closeMenus">Overview</RouterLink>
+            <RouterLink to="/locations" @click="closeMenus">Locations</RouterLink>
+            <RouterLink to="/history" @click="closeMenus">History</RouterLink>
           </div>
         </div>
       </nav>
@@ -83,6 +83,19 @@
   color: #c28b14;
 }
 
+.firm-toggle {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #111;
+  font-size: 30px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.firm-toggle:hover,
+.firm-toggle[aria-expanded="true"] { color: #c28b14; }
+
 .nav-dropdown {
   position: relative;
 }
@@ -99,8 +112,7 @@
   flex-direction: column;
 }
 
-.nav-dropdown:hover .dropdown-menu,
-.nav-dropdown:focus-within .dropdown-menu {
+.nav-dropdown.expanded .dropdown-menu {
   display: flex;
 }
 
@@ -162,35 +174,65 @@
     flex-direction: column;
     align-items: stretch;
     gap: 0;
-    padding: 12px 24px 20px;
-    background: #fff;
-    box-shadow: 0 12px 24px rgba(0, 0, 0, .08);
+    padding: 0;
+    background: #f1f1f1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .12);
   }
 
   .simple-nav.open {
     display: flex;
   }
 
-  .simple-nav a {
-    padding: 13px 0;
-    font-size: 18px;
+  .simple-nav > a,
+  .firm-toggle {
+    display: block;
+    width: 100%;
+    padding: 4px 13px;
+    border: 0;
+    border-bottom: 1px solid #999;
+    background: #f1f1f1;
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
   }
+
+  .simple-nav > a:hover,
+  .firm-toggle:hover,
+  .firm-toggle[aria-expanded="true"] { color: #333; background: #e8e8e8; }
 
   .nav-dropdown {
     width: 100%;
   }
 
   .dropdown-menu {
-    display: flex;
+    display: none;
     position: static;
+    width: 100%;
     min-width: 0;
-    padding: 0 0 0 18px;
+    padding: 0 0 0 14px;
+    background: #e8e8e8;
     box-shadow: none;
   }
 
+  .nav-dropdown.expanded .dropdown-menu { display: flex; }
+  .dropdown-menu[hidden] { display: none; }
+
   .dropdown-menu a {
-    padding: 10px 0;
-    font-size: 16px;
+    display: block;
+    padding: 4px 13px;
+    border-bottom: 1px solid #bbb;
+    color: #333;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+  }
+
+  .dropdown-menu a:hover,
+  .dropdown-menu a.router-link-active {
+    color: #9a6a00;
   }
 }
 
@@ -206,8 +248,31 @@
 </style>
 
 <script setup>
-import { ref } from 'vue'
+import { onBeforeUnmount, onMounted, ref } from 'vue'
 import { SITE_NAME } from '@/config/siteInfo'
 
 const menuOpen = ref(false)
+const firmOpen = ref(false)
+const headerRef = ref(null)
+
+const closeMenus = () => {
+  menuOpen.value = false
+  firmOpen.value = false
+}
+
+const toggleMenu = () => {
+  menuOpen.value = !menuOpen.value
+  if (!menuOpen.value) firmOpen.value = false
+}
+
+const toggleFirm = () => {
+  firmOpen.value = !firmOpen.value
+}
+
+const handleOutsideClick = (event) => {
+  if (!headerRef.value?.contains(event.target)) closeMenus()
+}
+
+onMounted(() => document.addEventListener('click', handleOutsideClick))
+onBeforeUnmount(() => document.removeEventListener('click', handleOutsideClick))
 </script>

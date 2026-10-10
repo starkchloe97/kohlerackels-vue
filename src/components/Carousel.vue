@@ -59,7 +59,7 @@
                 <div
                   v-for="item in slide"
                   :key="item.title"
-                  class="col-12 col-md-6"
+                  class="col-12 col-md-6 responsive-style"
                 >
                   <img :src="item.image" :alt="item.alt" />
                   <div class="photo-gradient"></div>
@@ -327,4 +327,13 @@ onBeforeUnmount(() => {
     transition: none;
   }
 }
+
+
+
+  @media (max-width: 575px) {
+
+    .responsive-style {
+    max-width: 51%;
+}
+  }
 </style>

@@ -70,7 +70,7 @@
     			
     			<div class="tab-pane active sidebar-wrapper" id="overview" role="tabpanel" aria-labelledby="overview-tab">
     			<div class="row attorney-tab-info">
-    				<div class="col-md-8 content-inner">
+    				<div class="col-md-8 content-inner hide-on-responsive">
     					<div>
     <h3 class="top-body-subhead">We help clients</h3>
     
@@ -989,5 +989,16 @@ const insightSections = [
         margin-left: -15px;
         gap: 0px;
     }
+
+
+@media (max-width: 575px) {
+  .featured-tabs{
+    display: none !important;
+  }
+
+  .hide-on-responsive{
+	display: none;
+  }
+}
 </style>
 	

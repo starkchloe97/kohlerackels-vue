@@ -453,4 +453,12 @@ const WOGO = [
     padding: 16px;
   }
 }
+
+@media (max-width: 575px) {
+  
+  .featured-tabs{
+    display: none;
+}
+
+}
 </style>

@@ -44,43 +44,6 @@
 
 
 
-        <div class="row featured-top mobile_background_banner">
-            <img src="/images/Lufuwi6sfCydaiXdhd2EoUYGcwIvXeWv9R1HMnxZ.jpg"
-                alt="Image of coworkers in a meeting room" />
-            <div class="container featured-container">
-                <div class="row">
-                    <div class="col-md-6 featured-content">
-                        <h1 class="featured-section">Culture</h1>
-                        <h2 class="featured-title">Committed to excellence in client service and our profession</h2>
-                        <div class="featured-details">
-                            <p><span class="text-head-blue">Keeping client interests paramount, working side by side
-                                    toward&nbsp;the same goals is a fundamental attribute of our client service
-                                    model.</span></p>
-
-                            <p>{{ $siteInfo.SITE_NAME }} is also committed to serving the public welfare and leading within our
-                                profession.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container featured-tabs">
-                <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                        <RouterLink class="nav-link" exact-active-class="active" to="/culture">Overview</RouterLink>
-                    </li>
-                    <li class="nav-item">
-                        <RouterLink class="nav-link" exact-active-class="active" to="/CultureProBono">Pro Bono</RouterLink>
-                    </li>
-                    <li class="nav-item">
-                        <RouterLink class="nav-link" exact-active-class="active" to="/EngagementAndOpportunity">Engagement and
-                            Opportunity</RouterLink>
-                    </li>
-                    <li class="nav-item">
-                        <RouterLink class="nav-link" exact-active-class="active" to="/CommunityServices">Community Service</RouterLink>
-                    </li>
-                </ul>
-            </div>
-        </div><!-- /end of MOBILE featured top -->
 
 
 
@@ -555,6 +518,10 @@
     .legacy-page :deep(.container.desktop_only) {
         display: none !important;
     }
+      .featured-tabs{
+            display: none;
+        }
+
 }
 
     .row {
@@ -562,7 +529,14 @@
         margin-left: -15px;
         gap: 0px ; 
     }
+    
+  
+        
+      
+
 </style>
+
+
 
 <script setup>
 import Carousel from '@/components/Carousel.vue';

@@ -2054,4 +2054,10 @@ import { serviceInsights } from '@/config/serviceInsights.js'
     gap: 10px;
     align-items:center;
 }
+
+@media (max-width: 575px) {
+  .featured-tabs{
+    display: none !important;
+  }
+}
 </style>
