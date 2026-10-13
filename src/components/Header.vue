@@ -4,7 +4,7 @@
 
     <div class="simple-header-inner">
       <RouterLink class="site-logo" to="/"  :aria-label="`${SITE_NAME} home`">
-        <img src="/images/kohlerackels-logo.png"  :alt="SITE_NAME">
+        <img :src="logo" :alt="SITE_NAME">
       </RouterLink>
 
       <button
@@ -250,6 +250,7 @@
 <script setup>
 import { onBeforeUnmount, onMounted, ref } from 'vue'
 import { SITE_NAME } from '@/config/siteInfo'
+import logo from '@/images/kohlerackels-logo.png'
 
 const menuOpen = ref(false)
 const firmOpen = ref(false)

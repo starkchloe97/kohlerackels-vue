@@ -60,6 +60,15 @@
     display: none;
 }
 }
-
+.featured-tabs {
+    display: none;
+  }
 
 </style>
+
+<script setup>
+
+    import slider from '../components/slider.vue';
+    import CarouselTwo from '../components/Carousel-two.vue';
+
+</script>   

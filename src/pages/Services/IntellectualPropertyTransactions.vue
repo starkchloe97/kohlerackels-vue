@@ -2292,5 +2292,8 @@ const nicholeHaydenImage = '/images/Nichole.jpg'
   .featured-tabs{
     display: none !important; 
   }
+  .white-back-sub{
+    display: none !important;
+  }
 }
 </style>

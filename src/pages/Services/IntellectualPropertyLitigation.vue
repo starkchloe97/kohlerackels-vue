@@ -199,7 +199,7 @@
                                     <h4><a href="../professionals/john-mcelwaine.html">John C. McElwaine</a></h4>
                                                                         <div class="h5 position">Partner</div>
                                                                                                                                         <div class="sidebar-email-icon">
-                                            <a href="#" data-toggle="modal" data-target="#emailModal" :data-email="'john.mcelwaine@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img src="/images/firmoverview.jpg" alt="Send Email to John C. McElwaine" /></a>
+                                            <a href="#" data-toggle="modal" data-target="#emailModal" :data-email="'john.mcelwaine@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img src="/images/detail-email.png" alt="Send Email to John C. McElwaine" /></a>
                                         </div>
                                                                                                                                             	<div class="sidebar-phone">
                                             <p>T 843.534.4302</p>
@@ -918,13 +918,13 @@
     
     								                        <a href="../professionals/john-mcelwaine.html">
     	                            <div class="sidebar-contact-photo">
-    	                                <img src="/images/firmoverview.jpg" alt="John C. McElwaine" />	                            </div>
+    	                                <img src="/images/John-C.jpeg" alt="John C. McElwaine" />	                            </div>
     	                        </a>
     	                        <div class="sidebar-contact-details full-width">
     	                            <h4><a href="../professionals/john-mcelwaine.html">John C. McElwaine</a></h4>
     	                            	                                <div class="h5 position">Partner</div>
     	                            	                            	                                <div class="sidebar-email-icon" style="float: left; margin-right: 10px;">
-                                            <a href="#" data-toggle="modal" data-target="#emailModal" :data-email="'john.mcelwaine@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img src="/images/firmoverview.jpg" alt="Send Email to John C. McElwaine" /></a>
+                                            <a href="#" data-toggle="modal" data-target="#emailModal" :data-email="'john.mcelwaine@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img src="/images/detail-email.png" alt="Send Email to John C. McElwaine" /></a>
     	                                </div>
     	                            	                            	                                	                                	<div style="float: left;">
     	                                    <p>T 843.534.4302</p>
@@ -997,6 +997,16 @@ const insightSections = [
   }
 
   .hide-on-responsive{
+	display: none;
+  }
+
+  .sidebar-title-with-first{
+	display: none;
+  }
+  .img-fluid{
+	display: none;
+  }
+  .nm-button-yellow{
 	display: none;
   }
 }

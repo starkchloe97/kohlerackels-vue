@@ -1,7 +1,7 @@
 <template>
     <div class="legacy-service-page" @click="handleServicePageInteraction">
         <div class="row featured-top cropped-feature practice-area">
-            <div class="featured-background"><img src="/images/Intellectual-Property-banner.jpg"
+            <div class="featured-background"><img :src="imgIpBanner"
                     alt="Blue shield with checkmark on platforms"></div>
             <div class="photo-gradient"></div>
             <div class="container featured-container">
@@ -10,9 +10,9 @@
                         <h1 class="featured-section">Patent Litigation</h1>
                         <h2 class="featured-title">Strategic Enforcement and Defense of Patent Rights.</h2>
                         <div class="capabilities-icon-row"><button type="button"
-                                class="bg-transparent border-0 p-0 print-btn"><img src="/images/detail-print.png"
+                                class="bg-transparent border-0 p-0 print-btn"><img :src="imgDetailPrint"
                                     alt="Print" class="icon-print"></button> <a href="#"><img
-                                    src="/images/detail-pdf.png" alt="PDF" class="icon-pdf-direct border-0"></a></div>
+                                    :src="imgDetailPdf" alt="PDF" class="icon-pdf-direct border-0"></a></div>
                         <h4 class="featured-subhead">Our Patent Litigation Practice represents innovators, technology
                             companies, and investors in high‑stakes patent disputes across industries and jurisdictions.
                         </h4>
@@ -162,7 +162,7 @@
                                         <h3 class="sidebar-title">GET IN TOUCH</h3>
                                         <h4>Practice Contacts</h4>
                                         <div class="sidebar-aside-container"><a href="#">
-                                                <div class="sidebar-contact-photo"><img src="/images/Lisa-M.jpg"
+                                                <div class="sidebar-contact-photo"><img :src="lisa2"
                                                         alt="Lisa Margonis"></div>
                                             </a>
                                             <div class="sidebar-contact-details full-width">
@@ -171,7 +171,7 @@
                                                 <div class="sidebar-email-icon pull-left mr-2"><a href="#"
                                                         data-toggle="modal" data-target="#emailModal"
                                                         :data-email="'lisa.margonis@' + $siteInfo.SITE_EMAIL_DOMAIN"
-                                                        class="email_btn"><img src="/images/detail-email.png"
+                                                        class="email_btn"><img :src="imgDetailEmail"
                                                             alt="Send Email to Lisa Margonis"></a></div>
                                                 <p class="pull-left">T 346.646.5514</p>
                                                 <div class="clearfix"></div>
@@ -179,7 +179,7 @@
                                         </div>
                                     </div>
                                     <div class="sidebar-aside-container"><a href="#">
-                                            <div class="sidebar-contact-photo"><img src="/images/Ashley-summer.jpeg"
+                                            <div class="sidebar-contact-photo"><img :src="imgAshleySummer2"
                                                     alt="Ashley B. Summer"></div>
                                         </a>
                                         <div class="sidebar-contact-details full-width">
@@ -188,7 +188,7 @@
                                             <div class="sidebar-email-icon pull-left mr-2"><a href="#"
                                                     data-toggle="modal" data-target="#emailModal"
                                                     :data-email="'ashley.summer@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img
-                                                        src="/images/detail-email.png"
+                                                        :src="imgDetailEmail"
                                                         alt="Send Email to Ashley B. Summer"></a></div>
                                             <p class="pull-left">T 212.413.9036</p>
                                             <div class="clearfix"></div>
@@ -234,7 +234,7 @@
                                                 <div data-v-f0897244="" class="col-9 col-md-6 search-result-attorney">
                                                     <div data-v-f0897244="" class="search-result-photo"><a
                                                             data-v-f0897244="" href="#"><img
-                                                                src="/images/Erik-Janitens.jpg" alt="Erik Janitens"></a>
+                                                                :src="imgErikJanitens" alt="Erik Janitens"></a>
                                                     </div>
                                                     <div data-v-f0897244="" class="search-result-name">
                                                         <h3 data-v-f0897244=""><a data-v-f0897244="" href="#">Erik
@@ -253,15 +253,15 @@
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
                                                                 href="tel:13466463830"><img data-v-f0897244=""
-                                                                    src="/images/detail-email.png"
+                                                                    :src="imgDetailEmail"
                                                                     alt="Call Erik Janitens"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
-                                                                src="/images/detail-vcard.png"
+                                                                :src="imgDetailVcard"
                                                                 alt="Download vCard for Erik Janitens"></a> <a
                                                             data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
                                                             :data-email="'erik.janitens@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
-                                                                data-v-f0897244="" src="/images/detail-email.png"
+                                                                data-v-f0897244="" :src="imgDetailEmail"
                                                                 alt="Send Email to Erik Janitens"></a>
                                                     </div>
                                                     <div data-v-f0897244="" class="search-result-phone hidden-print">T
@@ -278,7 +278,7 @@
                                                 <div data-v-f0897244="" class="col-9 col-md-6 search-result-attorney">
                                                     <div data-v-f0897244="" class="search-result-photo"><a
                                                             data-v-f0897244="" href="#"><img
-                                                                src="/images/Neil-Jones.jpeg" alt="Neil C. Jones"></a>
+                                                                :src="imgNeilJones" alt="Neil C. Jones"></a>
                                                     </div>
                                                     <div data-v-f0897244="" class="search-result-name">
                                                         <h3 data-v-f0897244=""><a data-v-f0897244="" href="#">Neil C.
@@ -297,15 +297,15 @@
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
                                                                 href="tel:18643732260"><img data-v-f0897244=""
-                                                                    src="/images/firmoverview.jpg"
+                                                                    :src="imgFirmOverview"
                                                                     alt="Call Neil C. Jones"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
-                                                                src="/images/detail-vcard.png"
+                                                                :src="imgDetailVcard"
                                                                 alt="Download vCard for Neil C. Jones"></a> <a
                                                             data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
                                                             :data-email="'neil.jones@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
-                                                                data-v-f0897244="" src="/images/detail-email.png"
+                                                                data-v-f0897244="" :src="imgDetailEmail"
                                                                 alt="Send Email to Neil C. Jones"></a>
                                                     </div>
                                                     <div data-v-f0897244="" class="search-result-phone hidden-print">T
@@ -326,7 +326,7 @@
                                                 <div data-v-f0897244="" class="col-9 col-md-6 search-result-attorney">
                                                     <div data-v-f0897244="" class="search-result-photo"><a
                                                             data-v-f0897244="" href="#"><img
-                                                                src="/images/Craig-Killer.jpeg"
+                                                                :src="imgCraigKiller"
                                                                 alt="Craig N. Killen"></a></div>
                                                     <div data-v-f0897244="" class="search-result-name">
                                                         <h3 data-v-f0897244=""><a data-v-f0897244="" href="#">Craig N.
@@ -346,15 +346,15 @@
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
                                                                 href="tel:17044173127"><img data-v-f0897244=""
-                                                                    src="/images/firmoverview.jpg"
+                                                                    :src="imgFirmOverview"
                                                                     alt="Call Craig N. Killen"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
-                                                                src="/images/detail-vcard.png"
+                                                                :src="imgDetailVcard"
                                                                 alt="Download vCard for Craig N. Killen"></a> <a
                                                             data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
                                                             :data-email="'craig.killen@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
-                                                                data-v-f0897244="" src="/images/detail-email.png"
+                                                                data-v-f0897244="" :src="imgDetailEmail"
                                                                 alt="Send Email to Craig N. Killen"></a>
                                                     </div>
                                                     <div data-v-f0897244="" class="search-result-phone hidden-print">T
@@ -373,7 +373,7 @@
                                                 <div data-v-f0897244="" class="results-top-row"></div>
                                                 <div data-v-f0897244="" class="col-9 col-md-6 search-result-attorney">
                                                     <div data-v-f0897244="" class="search-result-photo"><a
-                                                            data-v-f0897244="" href="#"><img src="/images/Lisa-M.jpg"
+                                                            data-v-f0897244="" href="#"><img :src="imgLisaMargonis"
                                                                 alt="Lisa Margonis"></a></div>
                                                     <div data-v-f0897244="" class="search-result-name">
                                                         <h3 data-v-f0897244=""><a data-v-f0897244="" href="#">Lisa
@@ -392,15 +392,15 @@
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
                                                                 href="tel:13466465514"><img data-v-f0897244=""
-                                                                    src="/images/firmoverview.jpg"
+                                                                    :src="imgFirmOverview"
                                                                     alt="Call Lisa Margonis"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
-                                                                src="/images/detail-vcard.png"
+                                                                :src="imgDetailVcard"
                                                                 alt="Download vCard for Lisa Margonis"></a> <a
                                                             data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
                                                             :data-email="'lisa.margonis@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
-                                                                data-v-f0897244="" src="/images/detail-email.png"
+                                                                data-v-f0897244="" :src="imgDetailEmail"
                                                                 alt="Send Email to Lisa Margonis"></a>
                                                     </div>
                                                     <div data-v-f0897244="" class="search-result-phone hidden-print">T
@@ -417,7 +417,7 @@
                                                 <div data-v-f0897244="" class="col-9 col-md-6 search-result-attorney">
                                                     <div data-v-f0897244="" class="search-result-photo"><a
                                                             data-v-f0897244="" href="#"><img
-                                                                src="/images/Robert-McWilliams.jpeg"
+                                                                :src="imgRobertMcWilliams"
                                                                 alt="Robert H. McWilliams, Jr."></a></div>
                                                     <div data-v-f0897244="" class="search-result-name">
                                                         <h3 data-v-f0897244=""><a data-v-f0897244="" href="#">Robert H.
@@ -437,15 +437,15 @@
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
                                                                 href="tel:18032559380"><img data-v-f0897244=""
-                                                                    src="/images/firmoverview.jpg"
+                                                                    :src="imgFirmOverview"
                                                                     alt="Call Robert H. McWilliams, Jr."></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
-                                                                src="/images/detail-vcard.png"
+                                                                :src="imgDetailVcard"
                                                                 alt="Download vCard for Robert H. McWilliams, Jr."></a>
                                                         <a data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
                                                             :data-email="'robert.mcwilliams@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
-                                                                data-v-f0897244="" src="/images/detail-email.png"
+                                                                data-v-f0897244="" :src="imgDetailEmail"
                                                                 alt="Send Email to Robert H. McWilliams, Jr."></a>
                                                     </div>
                                                     <div data-v-f0897244="" class="search-result-phone hidden-print">T
@@ -465,7 +465,7 @@
                                                 <div data-v-f0897244="" class="col-9 col-md-6 search-result-attorney">
                                                     <div data-v-f0897244="" class="search-result-photo"><a
                                                             data-v-f0897244="" href="#"><img
-                                                                src="/images/Ashley-summer.jpeg"
+                                                                :src="imgAshleySummer"
                                                                 alt="Ashley B. Summer"></a></div>
                                                     <div data-v-f0897244="" class="search-result-name">
                                                         <h3 data-v-f0897244=""><a data-v-f0897244="" href="#">Ashley B.
@@ -485,15 +485,15 @@
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
                                                                 href="tel:12124139036"><img data-v-f0897244=""
-                                                                    src="/images/firmoverview.jpg"
+                                                                    :src="imgFirmOverview"
                                                                     alt="Call Ashley B. Summer"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
-                                                                src="/images/detail-vcard.png"
+                                                                :src="imgDetailVcard"
                                                                 alt="Download vCard for Ashley B. Summer"></a> <a
                                                             data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
                                                             :data-email="'ashley.summer@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
-                                                                data-v-f0897244="" src="/images/detail-email.png"
+                                                                data-v-f0897244="" :src="imgDetailEmail"
                                                                 alt="Send Email to Ashley B. Summer"></a>
                                                     </div>
                                                     <div data-v-f0897244="" class="search-result-phone hidden-print">T
@@ -513,7 +513,7 @@
                                                 <div data-v-f0897244="" class="col-9 col-md-6 search-result-attorney">
                                                     <div data-v-f0897244="" class="search-result-photo"><a
                                                             data-v-f0897244="" href="#"><img
-                                                                src="/images/Tammy-Terry.jpg" alt="Tammy Terry"></a>
+                                                                :src="imgTammyTerry" alt="Tammy Terry"></a>
                                                     </div>
                                                     <div data-v-f0897244="" class="search-result-name">
                                                         <h3 data-v-f0897244=""><a data-v-f0897244="" href="#">Tammy
@@ -532,15 +532,15 @@
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
                                                                 href="tel:13466465389"><img data-v-f0897244=""
-                                                                    src="/images/firmoverview.jpg"
+                                                                    :src="imgFirmOverview"
                                                                     alt="Call Tammy Terry"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
-                                                                src="/images/detail-vcard.png"
+                                                                :src="imgDetailVcard"
                                                                 alt="Download vCard for Tammy Terry"></a> <a
                                                             data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
                                                             :data-email="'tammy.terry@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
-                                                                data-v-f0897244="" src="/images/detail-email.png"
+                                                                data-v-f0897244="" :src="imgDetailEmail"
                                                                 alt="Send Email to Tammy Terry"></a>
                                                     </div>
                                                     <div data-v-f0897244="" class="search-result-phone hidden-print">T
@@ -557,7 +557,7 @@
                                                 <div data-v-f0897244="" class="col-9 col-md-6 search-result-attorney">
                                                     <div data-v-f0897244="" class="search-result-photo"><a
                                                             data-v-f0897244="" href="#"><img
-                                                                src="/images/Cameron.jpg"
+                                                                :src="imgCameron"
                                                                 alt="Cameron Panepinto"></a></div>
                                                     <div data-v-f0897244="" class="search-result-name">
                                                         <h3 data-v-f0897244=""><a data-v-f0897244="" href="#">Cameron
@@ -576,15 +576,15 @@
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
                                                                 href="tel:16172174718"><img data-v-f0897244=""
-                                                                    src="/images/firmoverview.jpg"
+                                                                    :src="imgFirmOverview"
                                                                     alt="Call Cameron Panepinto"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
-                                                                src="/images/detail-vcard.png"
+                                                                :src="imgDetailVcard"
                                                                 alt="Download vCard for Cameron Panepinto"></a> <a
                                                             data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
                                                             :data-email="'cameron.panepinto@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
-                                                                data-v-f0897244="" src="/images/detail-email.png"
+                                                                data-v-f0897244="" :src="imgDetailEmail"
                                                                 alt="Send Email to Cameron Panepinto"></a>
                                                     </div>
                                                     <div data-v-f0897244="" class="search-result-phone hidden-print">T
@@ -601,7 +601,7 @@
                                                 <div data-v-f0897244="" class="col-9 col-md-6 search-result-attorney">
                                                     <div data-v-f0897244="" class="search-result-photo"><a
                                                             data-v-f0897244="" href="#"><img
-                                                                src="/images/Jonathan.jpeg" alt="Jonathan Todd"></a>
+                                                                :src="imgJonathan" alt="Jonathan Todd"></a>
                                                     </div>
                                                     <div data-v-f0897244="" class="search-result-name">
                                                         <h3 data-v-f0897244=""><a data-v-f0897244="" href="#">Jonathan
@@ -620,15 +620,15 @@
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
                                                                 href="tel:18643732215"><img data-v-f0897244=""
-                                                                    src="/images/firmoverview.jpg"
+                                                                    :src="imgFirmOverview"
                                                                     alt="Call Jonathan Todd"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
-                                                                src="/images/detail-vcard.png"
+                                                                :src="imgDetailVcard"
                                                                 alt="Download vCard for Jonathan Todd"></a> <a
                                                             data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
                                                             :data-email="'jonathan.todd@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
-                                                                data-v-f0897244="" src="/images/detail-email.png"
+                                                                data-v-f0897244="" :src="imgDetailEmail"
                                                                 alt="Send Email to Jonathan Todd"></a>
                                                     </div>
                                                     <div data-v-f0897244="" class="search-result-phone hidden-print">T
@@ -645,7 +645,7 @@
                                                 <div data-v-f0897244="" class="col-9 col-md-6 search-result-attorney">
                                                     <div data-v-f0897244="" class="search-result-photo"><a
                                                             data-v-f0897244="" href="#"><img
-                                                                src="/images/Halley.jpg" alt="Halley Herbst"></a>
+                                                                :src="imgHalley" alt="Halley Herbst"></a>
                                                     </div>
                                                     <div data-v-f0897244="" class="search-result-name">
                                                         <h3 data-v-f0897244=""><a data-v-f0897244="" href="#">Halley
@@ -664,15 +664,15 @@
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
                                                                 href="tel:13035839925"><img data-v-f0897244=""
-                                                                    src="/images/firmoverview.jpg"
+                                                                    :src="imgFirmOverview"
                                                                     alt="Call Halley Herbst"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
-                                                                src="/images/detail-vcard.png"
+                                                                :src="imgDetailVcard"
                                                                 alt="Download vCard for Halley Herbst"></a> <a
                                                             data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
                                                             :data-email="'halley.herbst@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
-                                                                data-v-f0897244="" src="/images/detail-email.png"
+                                                                data-v-f0897244="" :src="imgDetailEmail"
                                                                 alt="Send Email to Halley Herbst"></a>
                                                     </div>
                                                     <div data-v-f0897244="" class="search-result-phone hidden-print">T
@@ -689,7 +689,7 @@
                                                 <div data-v-f0897244="" class="col-9 col-md-6 search-result-attorney">
                                                     <div data-v-f0897244="" class="search-result-photo"><a
                                                             data-v-f0897244="" href="#"><img
-                                                                src="/images/Chance-Siller.jpg" alt="Chance Siller"></a>
+                                                                :src="imgChanceSiller" alt="Chance Siller"></a>
                                                     </div>
                                                     <div data-v-f0897244="" class="search-result-name">
                                                         <h3 data-v-f0897244=""><a data-v-f0897244="" href="#">Chance
@@ -708,15 +708,15 @@
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
                                                                 href="tel:13466465842"><img data-v-f0897244=""
-                                                                    src="/images/firmoverview.jpg"
+                                                                    :src="imgFirmOverview"
                                                                     alt="Call Chance Siller"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
-                                                                src="/images/detail-vcard.png"
+                                                                :src="imgDetailVcard"
                                                                 alt="Download vCard for Chance Siller"></a> <a
                                                             data-v-f0897244="" href="#" data-toggle="modal"
                                                             data-target="#emailModal"
                                                             :data-email="'chance.siller@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
-                                                                data-v-f0897244="" src="/images/detail-email.png"
+                                                                data-v-f0897244="" :src="imgDetailEmail"
                                                                 alt="Send Email to Chance Siller"></a>
                                                     </div>
                                                     <div data-v-f0897244="" class="search-result-phone hidden-print">T
@@ -1181,7 +1181,7 @@
                                                                 class="col-9 col-md-6 search-result-attorney">
                                                                 <div data-v-f0897244="" class="search-result-photo"><a
                                                                         data-v-f0897244="" href="#"><img
-                                                                            src="/images/Erik-Janitens.jpg"
+                                                                            :src="imgErikJanitens"
                                                                             alt="Erik Janitens"></a></div>
                                                                 <div data-v-f0897244="" class="search-result-name">
                                                                     <h3 data-v-f0897244=""><a data-v-f0897244=""
@@ -1204,17 +1204,17 @@
                                                                             data-v-f0897244=""
                                                                             href="tel:13466463830"><img
                                                                                 data-v-f0897244=""
-                                                                                src="/images/firmoverview.jpg"
+                                                                                :src="imgFirmOverview"
                                                                                 alt="Call Erik Janitens"></a></div> <a
                                                                         data-v-f0897244="" href="#"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/detail-vcard.png"
+                                                                            :src="imgDetailVcard"
                                                                             alt="Download vCard for Erik Janitens"></a>
                                                                     <a data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
                                                                         :data-email="'erik.janitens@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/detail-email.png"
+                                                                            :src="imgDetailEmail"
                                                                             alt="Send Email to Erik Janitens"></a>
                                                                 </div>
                                                                 <div data-v-f0897244=""
@@ -1235,7 +1235,7 @@
                                                                 class="col-9 col-md-6 search-result-attorney">
                                                                 <div data-v-f0897244="" class="search-result-photo"><a
                                                                         data-v-f0897244="" href="#"><img
-                                                                            src="/images/Neil-Jones.jpeg"
+                                                                            :src="imgNeilJones"
                                                                             alt="Neil C. Jones"></a></div>
                                                                 <div data-v-f0897244="" class="search-result-name">
                                                                     <h3 data-v-f0897244=""><a data-v-f0897244=""
@@ -1258,17 +1258,17 @@
                                                                             data-v-f0897244=""
                                                                             href="tel:18643732260"><img
                                                                                 data-v-f0897244=""
-                                                                                src="/images/firmoverview.jpg"
+                                                                                :src="imgFirmOverview"
                                                                                 alt="Call Neil C. Jones"></a></div> <a
                                                                         data-v-f0897244="" href="#"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/detail-vcard.png"
+                                                                            :src="imgDetailVcard"
                                                                             alt="Download vCard for Neil C. Jones"></a>
                                                                     <a data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
                                                                         :data-email="'neil.jones@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/detail-email.png"
+                                                                            :src="imgDetailEmail"
                                                                             alt="Send Email to Neil C. Jones"></a>
                                                                 </div>
                                                                 <div data-v-f0897244=""
@@ -1295,7 +1295,7 @@
                                                                 class="col-9 col-md-6 search-result-attorney">
                                                                 <div data-v-f0897244="" class="search-result-photo"><a
                                                                         data-v-f0897244="" href="#"><img
-                                                                            src="/images/Craig-Killer.jpeg"
+                                                                            :src="imgCraigKiller"
                                                                             alt="Craig N. Killen"></a></div>
                                                                 <div data-v-f0897244="" class="search-result-name">
                                                                     <h3 data-v-f0897244=""><a data-v-f0897244=""
@@ -1320,17 +1320,17 @@
                                                                             data-v-f0897244=""
                                                                             href="tel:17044173127"><img
                                                                                 data-v-f0897244=""
-                                                                                src="/images/firmoverview.jpg"
+                                                                                :src="imgFirmOverview"
                                                                                 alt="Call Craig N. Killen"></a></div> <a
                                                                         data-v-f0897244="" href="#"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/detail-vcard.png"
+                                                                            :src="imgDetailVcard"
                                                                             alt="Download vCard for Craig N. Killen"></a>
                                                                     <a data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
                                                                         :data-email="'craig.killen@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/detail-email.png"
+                                                                            :src="imgDetailEmail"
                                                                             alt="Send Email to Craig N. Killen"></a>
                                                                 </div>
                                                                 <div data-v-f0897244=""
@@ -1356,7 +1356,7 @@
                                                                 class="col-9 col-md-6 search-result-attorney">
                                                                 <div data-v-f0897244="" class="search-result-photo"><a
                                                                         data-v-f0897244="" href="#"><img
-                                                                            src="/images/Lisa-M.jpg"
+                                                                            :src="imgLisaMargonis"
                                                                             alt="Lisa Margonis"></a></div>
                                                                 <div data-v-f0897244="" class="search-result-name">
                                                                     <h3 data-v-f0897244=""><a data-v-f0897244=""
@@ -1379,17 +1379,17 @@
                                                                             data-v-f0897244=""
                                                                             href="tel:13466465514"><img
                                                                                 data-v-f0897244=""
-                                                                                src="/images/firmoverview.jpg"
+                                                                                :src="imgFirmOverview"
                                                                                 alt="Call Lisa Margonis"></a></div> <a
                                                                         data-v-f0897244="" href="#"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/detail-vcard.png"
+                                                                            :src="imgDetailVcard"
                                                                             alt="Download vCard for Lisa Margonis"></a>
                                                                     <a data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
                                                                         :data-email="'lisa.margonis@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/detail-email.png"
+                                                                            :src="imgDetailEmail"
                                                                             alt="Send Email to Lisa Margonis"></a>
                                                                 </div>
                                                                 <div data-v-f0897244=""
@@ -1410,7 +1410,7 @@
                                                                 class="col-9 col-md-6 search-result-attorney">
                                                                 <div data-v-f0897244="" class="search-result-photo"><a
                                                                         data-v-f0897244="" href="#"><img
-                                                                            src="/images/Robert-McWilliams.jpeg"
+                                                                            :src="imgRobertMcWilliams"
                                                                             alt="Robert H. McWilliams, Jr."></a></div>
                                                                 <div data-v-f0897244="" class="search-result-name">
                                                                     <h3 data-v-f0897244=""><a data-v-f0897244=""
@@ -1435,17 +1435,17 @@
                                                                             data-v-f0897244=""
                                                                             href="tel:18032559380"><img
                                                                                 data-v-f0897244=""
-                                                                                src="/images/firmoverview.jpg"
+                                                                                :src="imgFirmOverview"
                                                                                 alt="Call Robert H. McWilliams, Jr."></a>
                                                                     </div> <a data-v-f0897244="" href="#"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/detail-vcard.png"
+                                                                            :src="imgDetailVcard"
                                                                             alt="Download vCard for Robert H. McWilliams, Jr."></a>
                                                                     <a data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
                                                                         :data-email="'robert.mcwilliams@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/detail-email.png"
+                                                                            :src="imgDetailEmail"
                                                                             alt="Send Email to Robert H. McWilliams, Jr."></a>
                                                                 </div>
                                                                 <div data-v-f0897244=""
@@ -1471,7 +1471,7 @@
                                                                 class="col-9 col-md-6 search-result-attorney">
                                                                 <div data-v-f0897244="" class="search-result-photo"><a
                                                                         data-v-f0897244="" href="#"><img
-                                                                            src="/images/Ashley-summer.jpeg"
+                                                                            :src="imgAshleySummer"
                                                                             alt="Ashley B. Summer"></a></div>
                                                                 <div data-v-f0897244="" class="search-result-name">
                                                                     <h3 data-v-f0897244=""><a data-v-f0897244=""
@@ -1496,17 +1496,17 @@
                                                                             data-v-f0897244=""
                                                                             href="tel:12124139036"><img
                                                                                 data-v-f0897244=""
-                                                                                src="/images/firmoverview.jpg"
+                                                                                :src="imgFirmOverview"
                                                                                 alt="Call Ashley B. Summer"></a></div>
                                                                     <a data-v-f0897244="" href="#"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/detail-vcard.png"
+                                                                            :src="imgDetailVcard"
                                                                             alt="Download vCard for Ashley B. Summer"></a>
                                                                     <a data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
                                                                         :data-email="'ashley.summer@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/detail-email.png"
+                                                                            :src="imgDetailEmail"
                                                                             alt="Send Email to Ashley B. Summer"></a>
                                                                 </div>
                                                                 <div data-v-f0897244=""
@@ -1532,7 +1532,7 @@
                                                                 class="col-9 col-md-6 search-result-attorney">
                                                                 <div data-v-f0897244="" class="search-result-photo"><a
                                                                         data-v-f0897244="" href="#"><img
-                                                                            src="/images/Tammy-Terry.jpg"
+                                                                            :src="imgTammyTerry"
                                                                             alt="Tammy Terry"></a></div>
                                                                 <div data-v-f0897244="" class="search-result-name">
                                                                     <h3 data-v-f0897244=""><a data-v-f0897244=""
@@ -1555,17 +1555,17 @@
                                                                             data-v-f0897244=""
                                                                             href="tel:13466465389"><img
                                                                                 data-v-f0897244=""
-                                                                                src="/images/firmoverview.jpg"
+                                                                                :src="imgFirmOverview"
                                                                                 alt="Call Tammy Terry"></a></div> <a
                                                                         data-v-f0897244="" href="#"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/detail-vcard.png"
+                                                                            :src="imgDetailVcard"
                                                                             alt="Download vCard for Tammy Terry"></a> <a
                                                                         data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
                                                                         :data-email="'tammy.terry@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/detail-email.png"
+                                                                            :src="imgDetailEmail"
                                                                             alt="Send Email to Tammy Terry"></a>
                                                                 </div>
                                                                 <div data-v-f0897244=""
@@ -1586,7 +1586,7 @@
                                                                 class="col-9 col-md-6 search-result-attorney">
                                                                 <div data-v-f0897244="" class="search-result-photo"><a
                                                                         data-v-f0897244="" href="#"><img
-                                                                            src="/images/Cameron.jpg"
+                                                                            :src="imgCameron"
                                                                             alt="Cameron Panepinto"></a></div>
                                                                 <div data-v-f0897244="" class="search-result-name">
                                                                     <h3 data-v-f0897244=""><a data-v-f0897244=""
@@ -1609,17 +1609,17 @@
                                                                             data-v-f0897244=""
                                                                             href="tel:16172174718"><img
                                                                                 data-v-f0897244=""
-                                                                                src="/images/firmoverview.jpg"
+                                                                                :src="imgFirmOverview"
                                                                                 alt="Call Cameron Panepinto"></a></div>
                                                                     <a data-v-f0897244="" href="#"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/detail-vcard.png"
+                                                                            :src="imgDetailVcard"
                                                                             alt="Download vCard for Cameron Panepinto"></a>
                                                                     <a data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
                                                                         :data-email="'cameron.panepinto@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/detail-email.png"
+                                                                            :src="imgDetailEmail"
                                                                             alt="Send Email to Cameron Panepinto"></a>
                                                                 </div>
                                                                 <div data-v-f0897244=""
@@ -1639,7 +1639,7 @@
                                                                 class="col-9 col-md-6 search-result-attorney">
                                                                 <div data-v-f0897244="" class="search-result-photo"><a
                                                                         data-v-f0897244="" href="#"><img
-                                                                            src="/images/Jonathan.jpeg"
+                                                                            :src="imgJonathan"
                                                                             alt="Jonathan Todd"></a></div>
                                                                 <div data-v-f0897244="" class="search-result-name">
                                                                     <h3 data-v-f0897244=""><a data-v-f0897244=""
@@ -1662,17 +1662,17 @@
                                                                             data-v-f0897244=""
                                                                             href="tel:18643732215"><img
                                                                                 data-v-f0897244=""
-                                                                                src="/images/firmoverview.jpg"
+                                                                                :src="imgFirmOverview"
                                                                                 alt="Call Jonathan Todd"></a></div> <a
                                                                         data-v-f0897244="" href="#"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/detail-vcard.png"
+                                                                            :src="imgDetailVcard"
                                                                             alt="Download vCard for Jonathan Todd"></a>
                                                                     <a data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
                                                                         :data-email="'jonathan.todd@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/detail-email.png"
+                                                                            :src="imgDetailEmail"
                                                                             alt="Send Email to Jonathan Todd"></a>
                                                                 </div>
                                                                 <div data-v-f0897244=""
@@ -1693,7 +1693,7 @@
                                                                 class="col-9 col-md-6 search-result-attorney">
                                                                 <div data-v-f0897244="" class="search-result-photo"><a
                                                                         data-v-f0897244="" href="#"><img
-                                                                            src="/images/Halley.jpg"
+                                                                            :src="imgHalley"
                                                                             alt="Halley Herbst"></a></div>
                                                                 <div data-v-f0897244="" class="search-result-name">
                                                                     <h3 data-v-f0897244=""><a data-v-f0897244=""
@@ -1716,17 +1716,17 @@
                                                                             data-v-f0897244=""
                                                                             href="tel:13035839925"><img
                                                                                 data-v-f0897244=""
-                                                                                src="/images/firmoverview.jpg"
+                                                                                :src="imgFirmOverview"
                                                                                 alt="Call Halley Herbst"></a></div> <a
                                                                         data-v-f0897244="" href="#"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/detail-vcard.png"
+                                                                            :src="imgDetailVcard"
                                                                             alt="Download vCard for Halley Herbst"></a>
                                                                     <a data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
                                                                         :data-email="'halley.herbst@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/detail-email.png"
+                                                                            :src="imgDetailEmail"
                                                                             alt="Send Email to Halley Herbst"></a>
                                                                 </div>
                                                                 <div data-v-f0897244=""
@@ -1747,7 +1747,7 @@
                                                                 class="col-9 col-md-6 search-result-attorney">
                                                                 <div data-v-f0897244="" class="search-result-photo"><a
                                                                         data-v-f0897244="" href="#"><img
-                                                                            src="/images/Chance-Siller.jpg"
+                                                                            :src="imgChanceSiller"
                                                                             alt="Chance Siller"></a></div>
                                                                 <div data-v-f0897244="" class="search-result-name">
                                                                     <h3 data-v-f0897244=""><a data-v-f0897244=""
@@ -1770,17 +1770,17 @@
                                                                             data-v-f0897244=""
                                                                             href="tel:13466465842"><img
                                                                                 data-v-f0897244=""
-                                                                                src="/images/firmoverview.jpg"
+                                                                                :src="imgFirmOverview"
                                                                                 alt="Call Chance Siller"></a></div> <a
                                                                         data-v-f0897244="" href="#"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/detail-vcard.png"
+                                                                            :src="imgDetailVcard"
                                                                             alt="Download vCard for Chance Siller"></a>
                                                                     <a data-v-f0897244="" href="#" data-toggle="modal"
                                                                         data-target="#emailModal"
                                                                         :data-email="'chance.siller@' + $siteInfo.SITE_EMAIL_DOMAIN"><img
                                                                             data-v-f0897244=""
-                                                                            src="/images/detail-email.png"
+                                                                            :src="imgDetailEmail"
                                                                             alt="Send Email to Chance Siller"></a>
                                                                 </div>
                                                                 <div data-v-f0897244=""
@@ -1988,7 +1988,7 @@
                         <div class="col-md-4 sidebar">
                             <div class="aside-contacts">
                                 <h4>Practice Contacts</h4> <a href="#">
-                                    <div class="sidebar-contact-photo"><img src="/images/Lisa-M.jpg"
+                                    <div class="sidebar-contact-photo"><img :src="lisa2"
                                             alt="Lisa Margonis"></div>
                                 </a>
                                 <div class="sidebar-contact-details full-width">
@@ -1997,13 +1997,13 @@
                                     <div class="sidebar-email-icon" style="float: left; margin-right: 10px;"><a href="#"
                                             data-toggle="modal" data-target="#emailModal"
                                             :data-email="'lisa.margonis@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img
-                                                src="/images/detail-email.png" alt="Send Email to Lisa Margonis"></a>
+                                                :src="imgDetailEmail" alt="Send Email to Lisa Margonis"></a>
                                     </div>
                                     <div style="float: left;">
                                         <p>T 346.646.5514</p>
                                     </div>
                                 </div> <a href="#">
-                                    <div class="sidebar-contact-photo"><img src="/images/Ashley-summer.jpeg"
+                                    <div class="sidebar-contact-photo"><img :src="imgAshleySummer2"
                                             alt="Ashley B. Summer"></div>
                                 </a>
                                 <div class="sidebar-contact-details full-width">
@@ -2012,7 +2012,7 @@
                                     <div class="sidebar-email-icon" style="float: left; margin-right: 10px;"><a href="#"
                                             data-toggle="modal" data-target="#emailModal"
                                             :data-email="'ashley.summer@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img
-                                                src="/images/detail-email.png" alt="Send Email to Ashley B. Summer"></a>
+                                                :src="imgDetailEmail" alt="Send Email to Ashley B. Summer"></a>
                                     </div>
                                     <div style="float: left;">
                                         <p>T 212.413.9036</p>
@@ -2035,6 +2035,29 @@
 import { handleServicePageInteraction } from '@/utils/servicePageInteractions.js'
 import Carousel from '@/components/Carousel.vue'
 import { serviceInsights } from '@/config/serviceInsights.js'
+import imgAshleySummer from '@/images/Ashley-summer.jpeg'
+import imgCameron from '@/images/Cameron.jpg'
+import imgChanceSiller from '@/images/Chance-Siller.jpg'
+import imgCraigKiller from '@/images/Craig-Killer.jpeg'
+import imgDetailEmail from '@/images/detail-email.png'
+import imgDetailPdf from '@/images/detail-pdf.png'
+import imgDetailPrint from '@/images/detail-print.png'
+import imgDetailVcard from '@/images/detail-vcard.png'
+import imgErikJanitens from '@/images/Erik-Janitens.jpg'
+import imgFirmOverview from '@/images/firmoverview.jpg'
+import imgHalley from '@/images/Halley.jpg'
+import imgIpBanner from '@/images/Intellectual-Property-banner.jpg'
+import imgJonathan from '@/images/Jonathan.jpeg'
+import imgLisaMargonis from '@/images/Lisa-M.jpg'
+import imgNeilJones from '@/images/Neil-Jones.jpeg'
+import imgRobertMcWilliams from '@/images/Robert-McWilliams.jpeg'
+import imgTammyTerry from '@/images/Tammy-Terry.jpg'
+import lisa2 from '@/images/lisa2.jpg'
+import imgAshleySummer2 from '/public/images/Ashley-Summer2.jpeg';
+
+
+ 
+
 </script>
 
 <style scoped>
@@ -2057,6 +2080,9 @@ import { serviceInsights } from '@/config/serviceInsights.js'
 
 @media (max-width: 575px) {
   .featured-tabs{
+    display: none !important;
+  }
+  .white-back-sub{
     display: none !important;
   }
 }

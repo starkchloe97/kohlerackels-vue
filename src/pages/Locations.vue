@@ -20,7 +20,7 @@
                     </div>
                     <div id="map_holder">
                         <div id="map_zoom"></div>
-                        <div id="map_inner"><svg height="452.76" version="1.1" width="735"
+                        <div id="map_inner" ref="mapInnerRef" @pointerover="updateLocationCard" @pointerout="dismissLocationCard" @focusin="updateLocationCard" @focusout="dismissLocationCard"><svg height="452.76" version="1.1" width="735"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                 viewBox="-14.7 -7.35 735 452.76" preserveAspectRatio="xMinYMin">
                                 <rect x="-2020" y="-1242" width="5000" height="3080" rx="0" ry="0" fill="#e8edf1"
@@ -316,7 +316,7 @@
                                     font-family="arial,sans-serif" font-size="22px" stroke="none" fill="#002767"
                                     stroke-width="0" font-weight="bold" transform="matrix(0.735,0,0,0.735,0,0)"
                                     class="sm_label_NH">
-                                    <tspan dy="7.59999942779541">NH</tspan>
+                                
                                 </text>
                                 <rect x="860.5806522369385" y="228.74000601768495" width="45"
                                     height="28.520001316070555" rx="5.704000263214111" ry="5.704000263214111"
@@ -326,7 +326,7 @@
                                     font-family="arial,sans-serif" font-size="22px" stroke="none" fill="#002767"
                                     stroke-width="0" font-weight="bold" transform="matrix(0.735,0,0,0.735,0,0)"
                                     class="sm_label_VT">
-                                    <tspan dy="7.59999942779541">VT</tspan>
+                                    
                                 </text>
                                 <rect x="909.5" y="258.74000601768495" width="45" height="28.520001316070555"
                                     rx="5.704000263214111" ry="5.704000263214111" fill="#2b486e" stroke="#e8edf1"
@@ -335,7 +335,7 @@
                                     y="273" text-anchor="middle" font-family="arial,sans-serif" font-size="22px"
                                     stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_RI">
-                                    <tspan dy="7.59999942779541">RI</tspan>
+                                  
                                 </text>
                                 <rect x="860.5" y="258.74000601768495" width="45" height="28.520001316070555"
                                     rx="5.704000263214111" ry="5.704000263214111" fill="#2b486e" stroke="#e8edf1"
@@ -344,7 +344,7 @@
                                     y="273" text-anchor="middle" font-family="arial,sans-serif" font-size="22px"
                                     stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_NJ">
-                                    <tspan dy="7.59999942779541">NJ</tspan>
+                                   
                                 </text>
                                 <rect x="860.5" y="288.74000601768495" width="45" height="28.520001316070555"
                                     rx="5.704000263214111" ry="5.704000263214111" fill="#2b486e" stroke="#e8edf1"
@@ -363,7 +363,7 @@
                                     font-family="arial,sans-serif" font-size="22px" stroke="none" fill="#002767"
                                     stroke-width="0" font-weight="bold" transform="matrix(0.735,0,0,0.735,0,0)"
                                     class="sm_label_MD">
-                                    <tspan dy="7.59999942779541">MD</tspan>
+                                    
                                 </text>
                                 <rect x="861.5501098632812" y="317.74000601768495" width="45"
                                     height="28.520001316070555" rx="5.704000263214111" ry="5.704000263214111"
@@ -373,7 +373,7 @@
                                     font-family="arial,sans-serif" font-size="22px" stroke="none" fill="#002767"
                                     stroke-width="0" font-weight="bold" transform="matrix(0.735,0,0,0.735,0,0)"
                                     class="sm_label_DC">
-                                    <tspan dy="7.59999942779541">DC</tspan>
+        
                                 </text>
                                 <rect x="909.9505977630615" y="198.74000601768495" width="45"
                                     height="28.520001316070555" rx="5.704000263214111" ry="5.704000263214111"
@@ -383,7 +383,7 @@
                                     font-family="arial,sans-serif" font-size="22px" stroke="none" fill="#002767"
                                     stroke-width="0" font-weight="bold" transform="matrix(0.735,0,0,0.735,0,0)"
                                     class="sm_label_MA">
-                                    <tspan dy="7.59999942779541">MA</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text>
                                 <rect x="909.9750852584839" y="228.74000601768495" width="45"
                                     height="28.520001316070555" rx="5.704000263214111" ry="5.704000263214111"
@@ -393,7 +393,7 @@
                                     font-family="arial,sans-serif" font-size="22px" stroke="none" fill="#002767"
                                     stroke-width="0" font-weight="bold" transform="matrix(0.735,0,0,0.735,0,0)"
                                     class="sm_label_CT">
-                                    <tspan dy="7.59999942779541">CT</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="305" y="565" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_HI">
@@ -405,183 +405,183 @@
                                 </text><text x="773" y="510" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_FL">
-                                    <tspan dy="7.59999942779541">FL</tspan>
+                                  
                                 </text><text x="893" y="85" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_ME">
-                                    <tspan dy="7.59999942779541">ME</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="815" y="158" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_NY">
-                                    <tspan dy="7.59999942779541">NY</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="786" y="210" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_PA">
-                                    <tspan dy="7.59999942779541">PA</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="790" y="282" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_VA">
-                                    <tspan dy="7.59999942779541">VA</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="744" y="270" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_WV">
-                                    <tspan dy="7.59999942779541">WV</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="700" y="240" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_OH">
-                                    <tspan dy="7.59999942779541">OH</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="650" y="250" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_IN">
-                                    <tspan dy="7.59999942779541">IN</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="600" y="250" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_IL">
-                                    <tspan dy="7.59999942779541">IL</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="575" y="155" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_WI">
-                                    <tspan dy="7.59999942779541">WI</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="784" y="326" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_NC">
-                                    <tspan dy="7.59999942779541">NC</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="655" y="340" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_TN">
-                                    <tspan dy="7.59999942779541">TN</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="548" y="368" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_AR">
-                                    <tspan dy="7.59999942779541">AR</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="548" y="293" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_MO">
-                                    <tspan dy="7.59999942779541">MO</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="718" y="405" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_GA">
-                                    <tspan dy="7.59999942779541">GA</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="760" y="371" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_SC">
-                                    <tspan dy="7.59999942779541">SC</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="680" y="300" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_KY">
-                                    <tspan dy="7.59999942779541">KY</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="655" y="405" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_AL">
-                                    <tspan dy="7.59999942779541">AL</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="550" y="435" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_LA">
-                                    <tspan dy="7.59999942779541">LA</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="600" y="405" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_MS">
-                                    <tspan dy="7.59999942779541">MS</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="525" y="210" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_IA">
-                                    <tspan dy="7.59999942779541">IA</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="506" y="124" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_MN">
-                                    <tspan dy="7.59999942779541">MN</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="460" y="360" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_OK">
-                                    <tspan dy="7.59999942779541">OK</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="425" y="435" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_TX">
-                                    <tspan dy="7.59999942779541">TX</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="305" y="365" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_NM">
-                                    <tspan dy="7.59999942779541">NM</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="445" y="290" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_KS">
-                                    <tspan dy="7.59999942779541">KS</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="420" y="225" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_NE">
-                                    <tspan dy="7.59999942779541">NE</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="413" y="160" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_SD">
-                                    <tspan dy="7.59999942779541">SD</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="416" y="96" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_ND">
-                                    <tspan dy="7.59999942779541">ND</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="300" y="180" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_WY">
-                                    <tspan dy="7.59999942779541">WY</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="280" y="95" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_MT">
-                                    <tspan dy="7.59999942779541">MT</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="320" y="275" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_CO">
-                                    <tspan dy="7.59999942779541">CO</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="223" y="260" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_UT">
-                                    <tspan dy="7.59999942779541">UT</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="205" y="360" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_AZ">
-                                    <tspan dy="7.59999942779541">AZ</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="140" y="235" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_NV">
-                                    <tspan dy="7.59999942779541">NV</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="100" y="120" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_OR">
-                                    <tspan dy="7.59999942779541">OR</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="130" y="55" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_WA">
-                                    <tspan dy="7.59999942779541">WA</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="200" y="150" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_ID">
-                                    <tspan dy="7.59999942779541">ID</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="79" y="285" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_CA">
-                                    <tspan dy="7.59999942779541">CA</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="663" y="185" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_MI">
-                                    <tspan dy="7.59999942779541">MI</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="620" y="545" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_PR">
-                                    <tspan dy="7.59999942779541">PR</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="550" y="540" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_GU">
-                                    <tspan dy="7.59999942779541">GU</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="680" y="519" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_VI">
-                                    <tspan dy="7.59999942779541">VI</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="570" y="575" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_MP">
-                                    <tspan dy="7.59999942779541">MP</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text><text x="665" y="580" text-anchor="middle" font-family="arial,sans-serif"
                                     font-size="22px" stroke="none" fill="#002767" stroke-width="0" font-weight="bold"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_label_AS">
-                                    <tspan dy="7.59999942779541">AS</tspan>
+                                    <tspan dy="7.59999942779541"></tspan>
                                 </text>
                                 <circle cx="696.2408472628499" cy="383.23591579275524" r="7.5" fill="#000000"
                                     stroke="#ffffff" stroke-width="1.5" opacity=".9"
@@ -698,7 +698,19 @@
                                     stroke="#ffffff" stroke-width="1.5" opacity=".9"
                                     transform="matrix(0.735,0,0,0.735,0,0)" class="sm_location_38"></circle>
                             </svg>
-                            <div id="tt_sm_map"></div>
+                            <div
+                                v-if="activeLocation"
+                                id="tt_sm_map"
+                                class="map-address-card"
+                                role="status"
+                                :style="{ '--tooltip-x': `${tooltipPosition.x}px`, '--tooltip-y': `${tooltipPosition.y}px` }"
+                            >
+                                <strong>{{ activeLocation.city }}</strong>
+                                <span v-if="activeLocation.building">{{ activeLocation.building }}</span>
+                                <span v-if="activeLocation.street">{{ activeLocation.street }}</span>
+                                <span v-if="activeLocation.suite">{{ activeLocation.suite }}</span>
+                                <span>{{ activeLocation.zip }}</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -736,36 +748,18 @@
                 <div class="row">
                     <div class="col-12">
                         <ul class="locations-list mx-0 mx-lg-5">
-                            <!-- <li><a href="locations/atlanta_ga.html">Atlanta, GA</a></li> -->
-                            <!-- <li><a href="locations/baltimore_md.html">Baltimore, MD</a></li> -->
-                            <!-- <li><a href="locations/boca-raton-fl.html">Boca Raton, FL</a></li> -->
-                            <!-- <li><a href="locations/boston_ma.html">Boston, MA</a></li> -->
-                            <!-- <li><a href="locations/charleston_sc.html">Charleston, SC</a></li> -->
-                            <!-- <li><a href="locations/charlotte_nc.html">Charlotte, NC</a></li> -->
-                            <!-- <li><a href="locations/chicago-il.html">Chicago, IL</a></li> -->
-                            <!-- <li><a href="locations/cleveland-oh.html">Cleveland, OH</a></li> -->
-                            <!-- <li><a href="locations/columbia_sc.html">Columbia, SC</a></li> -->
-                            <!-- <li><a href="locations/dallas-tx-north.html">Dallas, TX, North</a></li> -->
+                           
                             <li><a href="locations/denver_co.html">Denver, CO</a></li>
-                            <!-- <li><a href="locations/fort-lauderdale-fl.html">Fort Lauderdale, FL</a></li> -->
-                            <!-- <li><a href="locations/greenville_sc.html">Greenville, SC</a></li> -->
-                            <!--<li><a href="locations/houston-tx.html">Houston, TX</a></li>-->
-                            <!-- <li><a href="locations/huntington_wv.html">Huntington, WV</a></li> -->
-                            <!-- <li><a href="locations/jacksonville_fl.html">Jacksonville, FL</a></li> -->
+                           
                             <li><a href="locations/miami-fl.html">Miami, FL</a></li>
-                            <!-- <li><a href="locations/minneapolis-mn.html">Minneapolis, MN</a></li> -->
-                            <!-- <li><a href="locations/myrtle_beach_sc.html">Myrtle Beach, SC</a></li> -->
+                            
                             <li><a href="locations/nashville_tn.html">Nashville, TN</a></li>
                             <li><a href="locations/new_york_ny.html">New York, NY</a></li>
-                            <!-- <li><a href="locations/orlando-fl.html">Orlando, FL</a></li> -->
+                           
                             <li><a href="locations/pittsburgh-pa.html">Pittsburgh, PA</a></li>
-                            <!-- <li><a href="locations/raleigh_nc.html">Raleigh, NC</a></li> -->
+                          
                             <li><a href="locations/san-diego-ca.html">San Diego, CA</a></li>
-                            <!-- <li><a href="locations/tallahassee-fl.html">Tallahassee, FL</a></li> -->
-                            <!-- <li><a href="locations/torrance-ca.html">Torrance, CA</a></li> -->
-                            <!-- <li><a href="locations/washington_d_c.html">Washington, D.C.</a></li> -->
-                            <!-- <li><a href="locations/west-palm-beach-fl.html">West Palm Beach, FL</a></li> -->
-                            <!-- <li><a href="locations/winston-salem_nc.html">Winston-Salem, NC</a></li> -->
+                          
                         </ul>
                     </div>
                 </div>
@@ -793,13 +787,10 @@
                     <div class="col-12">
                         <ul class="locations-list mx-0 mx-lg-5">
                             <li><a href="locations/los-angeles-ca.html">Los Angeles, CA</a></li>
-                            <!-- <li><a href="locations/macon-ga.html">Macon, GA</a></li> -->
-                            <!-- <li><a href="locations/naples-fl.html">Naples, FL</a></li> -->
-                            <!-- <li><a href="locations/palm-beach-fl.html">Palm Beach, FL</a></li> -->
                             <li><a href="locations/philadelphia-pa.html">Philadelphia, PA</a></li>
                             <li><a href="locations/richmond-va.html">Richmond, VA</a></li>
                             <li><a href="locations/tampa-fl.html">Tampa, FL</a></li>
-                            <!--<li><a href="locations/dallas-tx-uptown.html">Dallas, TX, Uptown</a></li>-->
+                           
                         </ul>
                     </div>
                 </div>
@@ -856,8 +847,120 @@
 .location-offices{
     padding:0px 15px;
 }
+
+#map_inner {
+    position: relative;
+}
+
+#map_inner :deep(svg),
+#map_inner :deep(circle[class*="sm_location_"]) {
+    pointer-events: auto;
+}
+
+#map_inner :deep(circle[class*="sm_location_"]) {
+    cursor: pointer;
+}
+
+#map_inner :deep(circle[class*="sm_location_"]:focus-visible) {
+    stroke: #c28b14;
+    stroke-width: 3;
+}
+
+.map-address-card {
+    position: absolute;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    max-width: 245px;
+    padding: 12px 15px;
+    border-top: 3px solid #c28b14;
+    background: #fff;
+    color: #333;
+    font-size: 13px;
+    line-height: 1.5;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, .24);
+    transform: translate(-50%, calc(-100% - 12px));
+    pointer-events: none;
+}
+
+#tt_sm_map.map-address-card {
+    left: var(--tooltip-x) !important;
+    top: var(--tooltip-y) !important;
+    right: auto !important;
+    width: max-content !important;
+}
+
+.map-address-card strong {
+    margin-bottom: 4px;
+    color: #173b63;
+    font-size: 15px;
+}
 </style>
 
 <script setup>
-// import fullServiceOffices from './locations/full-service-offices.vue';
+import { onMounted, ref } from 'vue'
+import { fullServiceOffices, otherLocations } from '@/config/locationOffices.js'
+
+const mapInnerRef = ref(null)
+const activeLocation = ref(null)
+const tooltipPosition = ref({ x: 0, y: 0 })
+const mapLocations = [...fullServiceOffices, ...otherLocations]
+const visibleLocations = new Set([
+    'Denver, CO',
+    'Miami, FL',
+    'Los Angeles, CA',
+    'Philadelphia, PA',
+    'Richmond, VA',
+    'Tampa, FL',
+    'Nashville, TN',
+    'New York, NY',
+    'Pittsburgh, PA',
+    'San Diego, CA',
+])
+
+function getMarkerLocation(target) {
+    const marker = target instanceof Element ? target.closest('circle[class*="sm_location_"]') : null
+    const markerId = marker?.getAttribute('class')?.match(/sm_location_(\d+)/)?.[1]
+    if (!markerId) return null
+
+    const location = mapLocations[Number(markerId) - 1]
+    return location ? { marker, location } : null
+}
+
+function updateLocationCard(event) {
+    const markerInfo = getMarkerLocation(event.target)
+    if (!markerInfo || !mapInnerRef.value) return
+
+    const markerBounds = markerInfo.marker.getBoundingClientRect()
+    const mapBounds = mapInnerRef.value.getBoundingClientRect()
+    tooltipPosition.value = {
+        x: Math.min(Math.max(markerBounds.left + markerBounds.width / 2 - mapBounds.left, 125), mapBounds.width - 125),
+        y: markerBounds.top + markerBounds.height / 2 - mapBounds.top,
+    }
+    activeLocation.value = markerInfo.location
+}
+
+function dismissLocationCard(event) {
+    if (getMarkerLocation(event.relatedTarget)) return
+    activeLocation.value = null
+}
+
+onMounted(() => {
+    mapInnerRef.value?.querySelectorAll('circle[class*="sm_location_"]').forEach((marker) => {
+        const markerInfo = getMarkerLocation(marker)
+        if (!markerInfo) return
+        if (!visibleLocations.has(markerInfo.location.city)) {
+            marker.style.display = 'none'
+            return
+        }
+
+        const address = [markerInfo.location.building, markerInfo.location.street, markerInfo.location.suite, markerInfo.location.zip]
+            .filter(Boolean)
+            .join(', ')
+        marker.setAttribute('tabindex', '0')
+        marker.setAttribute('role', 'button')
+        marker.setAttribute('aria-label', `${markerInfo.location.city}: ${address}`)
+    })
+})
 </script>

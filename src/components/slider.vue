@@ -8,106 +8,106 @@
 
                     <section class="timeline">
                         <ol>
-                            <li>
+                            <li tabindex="0" data-year="1897" data-location="Camden and Columbia, S.C.">
                                 <div><time>1897</time><b>The firm is founded by Patrick Henry Nelson, II</b> of Camden
                                     and Columbia, S.C.<br />
                                     Patrick Henry Nelson is succeeded at the firm by his son William Shannon Nelson and
                                     his grandson Patrick Henry Nelson, III.</div>
                             </li>
-                            <li>
+                            <li tabindex="0" data-year="1920" data-location="Firmwide">
                                 <div><time>1920</time><b>Edward Mullins, Sr.</b> joins the firm, continuing its
                                     expansion across the Southeast.</div>
                             </li>
-                            <li>
+                            <li tabindex="0" data-year="1938" data-location="Firmwide">
                                 <div><time>1938</time>The firm continues to grow and expand its practice.</div>
                             </li>
-                            <li>
+                            <li tabindex="0" data-year="1961" data-location="Firmwide">
                                 <div><time>1961</time>Ed Mullins, Jr. and Claude Scarborough join as partners,
                                     expanding the firm&rsquo;s leadership.</div>
                             </li>
-                            <li>
+                            <li tabindex="0" data-year="1964" data-location="Firmwide">
                                 <div><time>1964</time><b>Claude Scarborough becomes managing partner</b>, a position he
                                     will hold for 31 years.</div>
                             </li>
-                            <li>
+                            <li tabindex="0" data-year="1970" data-location="Firmwide">
                                 <div><time>1970</time>The firm begins planning for growth with the goal of adding
                                     attorneys and diversifying its practices. <b>The firm jumps to 18 attorneys in
                                         1978</b>.</div>
                             </li>
-                            <li>
+                            <li tabindex="0" data-year="1985" data-location="Firmwide">
                                 <div><time>1985</time><b>Ed Mullins, Jr.</b> is elected president of the Defense
                                     Research Institute. Firm attorneys who will later fill this prestigious national
                                     role are Steve Morrison, David Dukes, Marc Williams, and John Kuppens.</div>
                             </li>
-                            <li>
+                            <li tabindex="0" data-year="1987" data-location="Firmwide">
                                 <div><time>1987</time>After two terms as South Carolina governor, <b>Richard W. Riley
                                         and his father and brother join the firm</b>.</div>
                             </li>
-                            <li>
+                            <li tabindex="0" data-year="1990" data-location="Firmwide">
                                 <div><time>1990</time><b>The Pro Bono Committee is established</b>. Closing out its
                                     first year of existence in 1990, the committee proudly reports that the pro bono
                                     program has been &quot;smoothly integrated into not only the administration, but the
                                     ethic of the firm.&quot;</div>
                             </li>
-                            <li>
+                            <li tabindex="0" data-year="1992" data-location="Atlanta, Ga.">
                                 <div><time>1992</time>The firm expands out of South Carolina with the opening of an
                                     office in <b>Atlanta</b>.</div>
                             </li>
-                            <li>
+                            <li tabindex="0" data-year="1999" data-location="Firmwide">
                                 <div><time>1999</time>Am Law begins publishing the &quot;Am Law Second Hundred&quot; and
                                     ranks the firm as the <b>178th largest law firm</b> based on 1998 gross revenues.
                                 </div>
                             </li>
-                            <li>
+                            <li tabindex="0" data-year="2001" data-location="Columbia, Greenville, Myrtle Beach, Charleston, Atlanta, and Charlotte">
                                 <div><time>2001</time><b>David Dukes becomes managing partner</b>. The firm has now
                                     grown to 250 attorneys in six offices located in <b>Columbia, Greenville, Myrtle
                                         Beach, Charleston, Atlanta,</b> and <b>Charlotte</b>.</div>
                             </li>
-                            <li>
+                            <li tabindex="0" data-year="2003" data-location="Raleigh, Winston-Salem, and Washington, D.C.">
                                 <div><time>2003</time>The firm expands in 2003 and 2004 with office openings in
                                     <b>Raleigh, Winston-Salem,</b> and <b>Washington D.C.</b></div>
                             </li>
-                            <li>
+                            <li tabindex="0" data-year="2006" data-location="Boston, Mass.">
                                 <div><time>2006</time>The firm opens an office in <b>Boston</b>, which expands in 2010
                                     with the addition of intellectual property attorneys and technical specialists from
                                     Lahive &amp; Cockfield.</div>
                             </li>
-                            <li>
+                            <li tabindex="0" data-year="2008" data-location="10 offices nationwide">
                                 <div><time>2008</time>By now, the firm has grown to 400 attorneys in 10 offices.
                                     <b>EducationCounsel</b>, a mission-based education consulting firm designed to drive
                                     significant improvements in the U.S. education system, becomes a wholly owned
                                     subsidiary.</div>
                             </li>
-                            <li>
+                            <li tabindex="0" data-year="2011" data-location="Firmwide">
                                 <div><time>2011</time>The firm launches <b>Encompass</b>, an e-discovery business unit
                                     that is now one of the largest practices of its kind in the nation.</div>
                             </li>
-                            <li>
+                            <li tabindex="0" data-year="2012" data-location="Firmwide">
                                 <div><time>2012</time><b>Jim Lehman</b>, after serving as operations partner, is elected
                                     <b>managing partner of the firm</b>.</div>
                             </li>
-                            <li>
+                            <li tabindex="0" data-year="2017" data-location="Denver and Los Angeles">
                                 <div><time>2017</time>In 2016 and 2017, the firm opens offices in <b>Denver</b> and
                                     <b>Los Angeles</b> as an expansion of its national automotive defense practice. Now
                                     with 575+ lawyers, the firm enters the Am Law 100 for the first time, debuting at
                                     No. 88.</div>
                             </li>
-                            <li>
+                            <li tabindex="0" data-year="2018" data-location="Baltimore and Florida">
                                 <div><time>2018</time>A year for significant expansion, the firm opens in
                                     <b>Baltimore</b> to cement its presence in the Mid-Atlantic and <b>combines with
                                         Broad and Cassel</b> to grow its <b>Florida</b> presence, adding more than 160
                                     attorneys.</div>
                             </li>
-                            <li>
+                            <li tabindex="0" data-year="2022" data-location="Firmwide">
                                 <div><time>2022</time><b>The firm celebrates 125 years</b> of service to clients,
                                     communities, and the profession.</div>
                             </li>
-                            <li>
+                            <li tabindex="0" data-year="2023" data-location="Pittsburgh, Chicago, and Cleveland">
                                 <div><time>2023</time>The firm expands into <b>Pittsburgh</b> and <b>Chicago</b> with
                                     two new offices and 16 attorneys while also bolstering its presence in Cleveland
                                     with the addition of three partners.</div>
                             </li>
-                            <li>
+                            <li tabindex="0" data-year="2024" data-location="Houston, Texas">
                                 <div><time>2024</time>Ten new litigation and corporate attorneys join {{ $siteInfo.SITE_NAME }} in
                                     Texas as the firm opens its first office in <b>Houston</b>.</div>
                             </li>
@@ -373,6 +373,44 @@ onBeforeUnmount(() => {
     border-radius: 50%;
     background: var(--tl-accent);
     transform: translate(-50%, -50%);
+}
+
+/* Hover or keyboard focus on a milestone dot reveals its year and location. */
+.full-width-blue .timeline ol li[data-location]::after {
+    content: attr(data-year) "\A" attr(data-location);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 4;
+    width: max-content;
+    max-width: 280px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background: #173b63;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4;
+    text-align: center;
+    white-space: pre-line;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .22);
+    transform: translate(-50%, -115%);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity .16s ease, visibility .16s ease;
+}
+
+.full-width-blue .timeline ol li[data-location]:hover,
+.full-width-blue .timeline ol li[data-location]:focus-visible {
+    z-index: 5;
+    outline: none;
+}
+
+.full-width-blue .timeline ol li[data-location]:hover::after,
+.full-width-blue .timeline ol li[data-location]:focus-visible::after {
+    opacity: 1;
+    visibility: visible;
 }
 
 /* The empty last item just gives the line room to run out */

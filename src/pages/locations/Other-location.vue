@@ -1,18 +1,16 @@
 <script setup>
 import { ref } from 'vue'
+import { otherLocations } from '@/config/locationOffices.js'
 
 const backHref = ref('/locations')
 
-const offices = ref([
-  { city: 'Dallas, TX, Uptown', building: '',                           street: '3333 Lee Parkway',                   suite: 'Suite 750',             zip: 'Dallas, TX 75219' },
-  { city: 'Los Angeles, CA',    building: '',                           street: '350 South Grand Avenue',             suite: 'Suite 2200',            zip: 'Los Angeles, CA 90071' },
-  { city: 'Macon, GA',          building: '',                           street: '125 Plantation Centre Drive, South', suite: 'Building 900, Suite B', zip: 'Macon, GA 31210' },
-  { city: 'Naples, FL',         building: 'The Offices at Pelican Bay', street: '5811 Pelican Bay Blvd',              suite: 'Suite 204',             zip: 'Naples, FL 34108' },
-  { city: 'Palm Beach, FL',     building: '',                           street: '251 Royal Palm Way',                 suite: 'Suite 215',             zip: 'Palm Beach, FL 33480' },
-  { city: 'Philadelphia, PA',   building: '',                           street: '1000 Westlakes Drive',               suite: 'Suite 275',             zip: 'Berwyn, PA 19312' },
-  { city: 'Richmond, VA',       building: '',                           street: '1021 E. Cary St.',                   suite: 'Suite 2120',            zip: 'Richmond, VA 23219' },
-  { city: 'Tampa, FL',          building: '',                           street: '100 North Tampa Street',             suite: 'Suite 2460',            zip: 'Tampa, FL 33602' }
+const visibleOtherLocations = new Set([
+  'Los Angeles, CA',
+  'Philadelphia, PA',
+  'Richmond, VA',
+  'Tampa, FL',
 ])
+const offices = otherLocations.filter((office) => visibleOtherLocations.has(office.city))
 </script>
 
 <template>

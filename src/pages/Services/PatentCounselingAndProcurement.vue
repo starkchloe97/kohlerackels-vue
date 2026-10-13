@@ -1001,7 +1001,7 @@
 
 								<a href="../professionals/patrick-kartes.html">
 									<div class="sidebar-contact-photo">
-										<img src="/images/firmoverview.jpg" alt="Patrick L. Kartes" />
+										<img src="/images/Patrick.jpg" alt="Patrick L. Kartes" />
 									</div>
 								</a>
 								<div class="sidebar-contact-details full-width">
@@ -1083,6 +1083,9 @@ const insightSections = [
 
 @media (max-width: 575px) {
   .featured-tabs{
+    display: none !important;
+  }
+   .white-back-sub{
     display: none !important;
   }
 }
