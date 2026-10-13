@@ -8,10 +8,11 @@
                     <div class="col-md-7 featured-content">
                         <h1 class="featured-section">Intellectual Property Transactions</h1>
                         <h2 class="featured-title">Leveraging Innovation Through Strategic Agreements</h2>
-                        <div class="capabilities-icon-row"><button type="button"
+                        <!-- <div class="capabilities-icon-row"><button type="button"
                                 class="bg-transparent border-0 p-0 print-btn"><img src="/images/detail-print.png"
                                     alt="Print" class="icon-print"></button> <a href="#"><img
-                                    src="/images/detail-pdf.png" alt="PDF" class="icon-pdf-direct border-0"></a></div>
+                                    src="/images/detail-pdf.png" alt="PDF" class="icon-pdf-direct border-0"></a>
+                                </div> -->
                         <h4 class="featured-subhead">Comprehensive Intellectual Property Transactions</h4>
                         <p class="generic">With deep experience across a wide range of technologies, {{ $siteInfo.SITE_NAME }}
                             delivers practical, business-focused, strategic solutions that safeguard innovation,

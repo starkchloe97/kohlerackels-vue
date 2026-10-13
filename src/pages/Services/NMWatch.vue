@@ -12,14 +12,14 @@
     				<h1 class="featured-section">NMWatch™</h1>
     				   <h2 class="featured-title">Your Brand&#039;s Guardian in the Ever-Evolving Digital Landscape</h2>
     					
-    					<div class="capabilities-icon-row">
+    					<!-- <div class="capabilities-icon-row">
     					    <button type="button" class="bg-transparent border-0 p-0 print-btn">
 		<img src="/images/detail-print.png" class="icon-print" alt="Print"/>
                             </button>
     		                <a href="../tools/generate/Service/3406/nmwatch.pdf" 
 							 ><img src="/images/detail-pdf.png" class="icon-pdf-direct border-0" alt="PDF" /></a>
     					    
-    					</div>
+    					</div> -->
     					<h4 class="featured-subhead">In today&#39;s evolving digital world, safeguarding your brand online is no longer a reactive measure, it&#39;s a strategic imperative.</h4>
     
     <p class="generic">NMWatch&trade; goes beyond traditional trademark policing, leveraging cutting-edge AI, extensive databases, and deep expertise to develop and implement customized policing strategies that cover trademarks, domain names, and emerging threats in the digital landscape, ensuring your brand shines bright amidst the noise.</p>

@@ -12,14 +12,14 @@
     				<h1 class="featured-section">Intellectual Property Litigation</h1>
     				   <h2 class="featured-title">Practical, client-centric approach to IP litigation</h2>
     					
-    					<div class="capabilities-icon-row">
+    					<!-- <div class="capabilities-icon-row">
     					    <button type="button" class="bg-transparent border-0 p-0 print-btn">
 		<img src="/images/detail-print.png" class="icon-print" alt="Print"/>
                             </button>
     		                <a href="../tools/generate/Service/277/intellectual-property-litigation.pdf" 
 							 ><img src="/images/detail-pdf.png" class="icon-pdf-direct border-0" alt="PDF" /></a>
     					    
-    					</div>
+    					</div> -->
     					<h4 class="featured-subhead">Whether you are seeking to</h4>
     
     <ul>

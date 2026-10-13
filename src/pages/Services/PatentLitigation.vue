@@ -9,10 +9,11 @@
                     <div class="col-md-7 featured-content">
                         <h1 class="featured-section">Patent Litigation</h1>
                         <h2 class="featured-title">Strategic Enforcement and Defense of Patent Rights.</h2>
-                        <div class="capabilities-icon-row"><button type="button"
+                        <!-- <div class="capabilities-icon-row"><button type="button"
                                 class="bg-transparent border-0 p-0 print-btn"><img :src="imgDetailPrint"
                                     alt="Print" class="icon-print"></button> <a href="#"><img
-                                    :src="imgDetailPdf" alt="PDF" class="icon-pdf-direct border-0"></a></div>
+                                    :src="imgDetailPdf" alt="PDF" class="icon-pdf-direct border-0"></a>
+                                </div> -->
                         <h4 class="featured-subhead">Our Patent Litigation Practice represents innovators, technology
                             companies, and investors in high‑stakes patent disputes across industries and jurisdictions.
                         </h4>

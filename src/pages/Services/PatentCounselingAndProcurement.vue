@@ -14,14 +14,14 @@
 						<h1 class="featured-section">Patent Counseling and Procurement</h1>
 						<h2 class="featured-title">Legal &amp; technical knowledge intersect with business strategy</h2>
 
-						<div class="capabilities-icon-row">
+						<!-- <div class="capabilities-icon-row">
 							<button type="button" class="bg-transparent border-0 p-0 print-btn">
 								<img src="/images/detail-print.png" class="icon-print" alt="Print" />
 							</button>
 							<a href="../tools/generate/Service/289/patent-counseling-and-procurement.pdf"><img
 									src="/images/detail-pdf.png" class="icon-pdf-direct border-0" alt="PDF" /></a>
 
-						</div>
+						</div> -->
 						<h4 class="featured-subhead" color="#363636" font-family="Quattrocento Sans"
 							font-size="2.8125rem" line-height="2.5rem">Whether you are seeking to</h4>
 
