@@ -2,7 +2,7 @@
   <div class="legacy-service-page" @click="handleServicePageInteraction">
     <div class="row featured-top cropped-feature practice-area">
     		<div class="featured-background">            
-    			<img src="/images/firmoverview.jpg" alt="Image of a blue sphere surrounded by silver lines" />		</div>
+    			<img src="/images/Intellectual-Property-banner.jpg" alt="Image of a blue sphere surrounded by silver lines" />		</div>
     		<div class="photo-gradient"></div>
     
     		<div class="container featured-container">
