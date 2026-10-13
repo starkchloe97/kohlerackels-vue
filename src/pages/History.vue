@@ -60,9 +60,7 @@
     display: none;
 }
 }
-.featured-tabs {
-    display: none;
-  }
+    
 
 </style>
 
