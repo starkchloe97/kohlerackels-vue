@@ -540,7 +540,7 @@
     
     								                        <a href="../professionals/john-mcelwaine.html">
     	                            <div class="sidebar-contact-photo">
-    	                                <img src="/images/firmoverview.jpg" alt="John C. McElwaine" />	                            </div>
+    	                                <img src="/images/John-C.jpeg" alt="John C. McElwaine" />	                            </div>
     	                        </a>
     	                        <div class="sidebar-contact-details full-width">
     	                            <h4><a href="../professionals/john-mcelwaine.html">John C. McElwaine</a></h4>
@@ -554,7 +554,7 @@
     	                                	                            	                        </div>
     	                    	                        <a href="../professionals/chris-casavale.html">
     	                            <div class="sidebar-contact-photo">
-    	                                <img src="/images/firmoverview.jpg" alt="Christopher D. Casavale" />	                            </div>
+    	                                <img src="/images/Christopher-D-Casavale.jpeg" alt="Christopher D. Casavale" />	                            </div>
     	                        </a>
     	                        <div class="sidebar-contact-details full-width">
     	                            <h4><a href="../professionals/chris-casavale.html">Christopher D. Casavale</a></h4>
@@ -647,6 +647,9 @@ const insightSections = [
 @media (max-width: 575px) {
   .featured-tabs{
     display: none !important;
+  }
+   .white-back-sub{
+	display: none !important;
   }
 }
 </style>

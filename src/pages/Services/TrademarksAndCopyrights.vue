@@ -818,5 +818,9 @@ const insightSections = [
   .featured-tabs{
     display: none !important;
   }
+
+   .white-back-sub{
+	display: none !important;
+  }
 }
 </style>
