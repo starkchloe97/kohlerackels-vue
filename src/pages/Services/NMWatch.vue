@@ -132,7 +132,7 @@
                                     <h4><a href="../professionals/john-mcelwaine.html">John C. McElwaine</a></h4>
                                                                         <div class="h5 position">Partner</div>
                                                                                                                                         <div class="sidebar-email-icon">
-                                            <a href="#" data-toggle="modal" data-target="#emailModal" :data-email="'john.mcelwaine@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img src="/images/firmoverview.jpg" alt="Send Email to John C. McElwaine" /></a>
+                                            <a href="#" data-toggle="modal" data-target="#emailModal" :data-email="'john.mcelwaine@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img src="/images/detail-email.png" alt="Send Email to John C. McElwaine" /></a>
                                         </div>
                                                                                                                                             	<div class="sidebar-phone">
                                             <p>T 843.534.4302</p>
@@ -149,7 +149,7 @@
                                     <h4><a href="../professionals/chris-casavale.html">Christopher D. Casavale</a></h4>
                                                                         <div class="h5 position">Partner</div>
                                                                                                                                         <div class="sidebar-email-icon">
-                                            <a href="#" data-toggle="modal" data-target="#emailModal" :data-email="'chris.casavale@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img src="/images/firmoverview.jpg" alt="Send Email to Christopher D. Casavale" /></a>
+                                            <a href="#" data-toggle="modal" data-target="#emailModal" :data-email="'chris.casavale@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img src="/images/detail-email.png" alt="Send Email to Christopher D. Casavale" /></a>
                                         </div>
                                                                                                                                             	<div class="sidebar-phone">
                                             <p>T 843.534.4252</p>
@@ -546,7 +546,7 @@
     	                            <h4><a href="../professionals/john-mcelwaine.html">John C. McElwaine</a></h4>
     	                            	                                <div class="h5 position">Partner</div>
     	                            	                            	                                <div class="sidebar-email-icon" style="float: left; margin-right: 10px;">
-                                            <a href="#" data-toggle="modal" data-target="#emailModal" :data-email="'john.mcelwaine@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img src="/images/firmoverview.jpg" alt="Send Email to John C. McElwaine" /></a>
+                                            <a href="#" data-toggle="modal" data-target="#emailModal" :data-email="'john.mcelwaine@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img src="/images/detail-email.png" alt="Send Email to John C. McElwaine" /></a>
     	                                </div>
     	                            	                            	                                	                                	<div style="float: left;">
     	                                    <p>T 843.534.4302</p>

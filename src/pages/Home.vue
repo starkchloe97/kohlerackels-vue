@@ -573,9 +573,7 @@
   overflow-wrap: anywhere;
 }
 
-.stats-section {
-  padding: 0 0 20px;
-}
+
 
 .stats-panel {
   width: min(100% - 40px, 1140px);
