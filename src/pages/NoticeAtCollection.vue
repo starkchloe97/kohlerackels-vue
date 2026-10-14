@@ -16,7 +16,7 @@
 
 					<hr />
 					<p><em>Effective Date</em>: January 8, 2025<br />
-						<a href="/storage/KTnqzJk9byuXcgddDY4XhziEkVABnUltsgcvjvla.pdf"><span
+						<a href="#"><span
 								class="font-weight-bold">Download PDF Copy</span></a>
 					</p>
 
@@ -29,7 +29,7 @@
 
 					<p>For more information about our information practices, please visit our Privacy Policy. If you
 						have a disability that prevents or limits your ability to access this notice, please contact us
-						at {{ $siteInfo.SITE_PHONE }} or <a :href="`mailto:${$siteInfo.SITE_EMAIL}`">{{ $siteInfo.SITE_EMAIL }}</a>. We
+						at {{ $siteInfo.SITE_PHONE }} or <a :href="'#'">{{ $siteInfo.SITE_EMAIL }}</a>. We
 						will work with you to provide this Notice in an alternative format.</p>
 
 					<hr />
@@ -253,7 +253,7 @@
 					<p>For questions, comments or inquiries regarding the collection, processing and storage of your
 						Personal Information by us, please contact us via e-mail or phone at:</p>
 
-					<p><a :href="`mailto:${$siteInfo.SITE_EMAIL}`">{{ $siteInfo.SITE_EMAIL }}</a><br />
+					<p><a :href="'#'">{{ $siteInfo.SITE_EMAIL }}</a><br />
 						{{ $siteInfo.SITE_PHONE }}</p>
 
 					<p>or in writing to:</p>
@@ -274,7 +274,7 @@
 						<p><span>&nbsp;</span>{{ $siteInfo.SITE_ADDRESS_LINE1 }}<br />
 							{{ $siteInfo.SITE_ADDRESS_LINE2 }}</p>
 
-						<p>T <a class="attorney-phone" :href="`tel:${$siteInfo.SITE_PHONE_RAW}`">{{ $siteInfo.SITE_PHONE }}</a></p>
+						<p>T <a class="attorney-phone" :href="'#'">{{ $siteInfo.SITE_PHONE }}</a></p>
 						<div class="aside-spacer"></div>
 
 						<h4 class="contact-sidebar-title">General Counsel</h4>
@@ -295,7 +295,7 @@
 
 
 
-						<p>T <a href="tel:864.373.2272" class="attorney-phone">864.373.2272</a></p>
+						<p>T <a href="#" class="attorney-phone">864.373.2272</a></p>
 
 					</div>
 					<!-- /aside -->

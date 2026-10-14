@@ -749,16 +749,16 @@
                     <div class="col-12">
                         <ul class="locations-list mx-0 mx-lg-5">
                            
-                            <li><a href="locations/denver_co.html">Denver, CO</a></li>
+                            <li><a href="#">Denver, CO</a></li>
                            
-                            <li><a href="locations/miami-fl.html">Miami, FL</a></li>
+                            <li><a href="#">Miami, FL</a></li>
                             
-                            <li><a href="locations/nashville_tn.html">Nashville, TN</a></li>
-                            <li><a href="locations/new_york_ny.html">New York, NY</a></li>
+                            <li><a href="#">Nashville, TN</a></li>
+                            <li><a href="#">New York, NY</a></li>
                            
-                            <li><a href="locations/pittsburgh-pa.html">Pittsburgh, PA</a></li>
+                            <li><a href="#">Pittsburgh, PA</a></li>
                           
-                            <li><a href="locations/san-diego-ca.html">San Diego, CA</a></li>
+                            <li><a href="#">San Diego, CA</a></li>
                           
                         </ul>
                     </div>
@@ -786,10 +786,10 @@
                 <div class="row">
                     <div class="col-12">
                         <ul class="locations-list mx-0 mx-lg-5">
-                            <li><a href="locations/los-angeles-ca.html">Los Angeles, CA</a></li>
-                            <li><a href="locations/philadelphia-pa.html">Philadelphia, PA</a></li>
-                            <li><a href="locations/richmond-va.html">Richmond, VA</a></li>
-                            <li><a href="locations/tampa-fl.html">Tampa, FL</a></li>
+                            <li><a href="#">Los Angeles, CA</a></li>
+                            <li><a href="#">Philadelphia, PA</a></li>
+                            <li><a href="#">Richmond, VA</a></li>
+                            <li><a href="#">Tampa, FL</a></li>
                            
                         </ul>
                     </div>

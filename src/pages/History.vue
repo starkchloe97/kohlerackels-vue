@@ -54,11 +54,17 @@
 
 <style scoped>
 
+    
 @media (max-width: 575px) {
   
   .featured-tabs{
     display: none;
 }
+
+#bottom-carousel .carousel-inner img{
+
+        width: 38%;
+    }
 }
     
 
@@ -69,4 +75,4 @@
     import slider from '../components/slider.vue';
     import CarouselTwo from '../components/Carousel-two.vue';
 
-</script>   
+</script>

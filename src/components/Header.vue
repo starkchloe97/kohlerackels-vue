@@ -1,6 +1,6 @@
 <template>
   <header ref="headerRef" class="simple-header" @keydown.esc="closeMenus">
-    <a class="skip-link" href="#main-content">Skip to Main Content</a>
+    <a class="skip-link" href="#">Skip to Main Content</a>
 
     <div class="simple-header-inner">
       <RouterLink class="site-logo" to="/"  :aria-label="`${SITE_NAME} home`">

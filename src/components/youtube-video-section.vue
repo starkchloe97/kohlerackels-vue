@@ -25,7 +25,7 @@
         {{ video.description }}
         <a
           v-if="video.link"
-          :href="video.link"
+          :href="'#'"
           target="_blank"
           rel="noopener noreferrer"
         >

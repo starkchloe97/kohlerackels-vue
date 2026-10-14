@@ -253,7 +253,7 @@
                                                 <div data-v-f0897244="" class="col-3 search-result-person">
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
-                                                                href="tel:13466463830"><img data-v-f0897244=""
+                                                                href="#"><img data-v-f0897244=""
                                                                     :src="imgDetailEmail"
                                                                     alt="Call Erik Janitens"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
@@ -297,7 +297,7 @@
                                                 <div data-v-f0897244="" class="col-3 search-result-person">
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
-                                                                href="tel:18643732260"><img data-v-f0897244=""
+                                                                href="#"><img data-v-f0897244=""
                                                                     :src="imgFirmOverview"
                                                                     alt="Call Neil C. Jones"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
@@ -346,7 +346,7 @@
                                                 <div data-v-f0897244="" class="col-3 search-result-person">
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
-                                                                href="tel:17044173127"><img data-v-f0897244=""
+                                                                href="#"><img data-v-f0897244=""
                                                                     :src="imgFirmOverview"
                                                                     alt="Call Craig N. Killen"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
@@ -392,7 +392,7 @@
                                                 <div data-v-f0897244="" class="col-3 search-result-person">
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
-                                                                href="tel:13466465514"><img data-v-f0897244=""
+                                                                href="#"><img data-v-f0897244=""
                                                                     :src="imgFirmOverview"
                                                                     alt="Call Lisa Margonis"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
@@ -437,7 +437,7 @@
                                                 <div data-v-f0897244="" class="col-3 search-result-person">
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
-                                                                href="tel:18032559380"><img data-v-f0897244=""
+                                                                href="#"><img data-v-f0897244=""
                                                                     :src="imgFirmOverview"
                                                                     alt="Call Robert H. McWilliams, Jr."></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
@@ -485,7 +485,7 @@
                                                 <div data-v-f0897244="" class="col-3 search-result-person">
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
-                                                                href="tel:12124139036"><img data-v-f0897244=""
+                                                                href="#"><img data-v-f0897244=""
                                                                     :src="imgFirmOverview"
                                                                     alt="Call Ashley B. Summer"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
@@ -532,7 +532,7 @@
                                                 <div data-v-f0897244="" class="col-3 search-result-person">
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
-                                                                href="tel:13466465389"><img data-v-f0897244=""
+                                                                href="#"><img data-v-f0897244=""
                                                                     :src="imgFirmOverview"
                                                                     alt="Call Tammy Terry"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
@@ -576,7 +576,7 @@
                                                 <div data-v-f0897244="" class="col-3 search-result-person">
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
-                                                                href="tel:16172174718"><img data-v-f0897244=""
+                                                                href="#"><img data-v-f0897244=""
                                                                     :src="imgFirmOverview"
                                                                     alt="Call Cameron Panepinto"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
@@ -620,7 +620,7 @@
                                                 <div data-v-f0897244="" class="col-3 search-result-person">
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
-                                                                href="tel:18643732215"><img data-v-f0897244=""
+                                                                href="#"><img data-v-f0897244=""
                                                                     :src="imgFirmOverview"
                                                                     alt="Call Jonathan Todd"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
@@ -664,7 +664,7 @@
                                                 <div data-v-f0897244="" class="col-3 search-result-person">
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
-                                                                href="tel:13035839925"><img data-v-f0897244=""
+                                                                href="#"><img data-v-f0897244=""
                                                                     :src="imgFirmOverview"
                                                                     alt="Call Halley Herbst"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
@@ -708,7 +708,7 @@
                                                 <div data-v-f0897244="" class="col-3 search-result-person">
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
-                                                                href="tel:13466465842"><img data-v-f0897244=""
+                                                                href="#"><img data-v-f0897244=""
                                                                     :src="imgFirmOverview"
                                                                     alt="Call Chance Siller"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
@@ -1203,7 +1203,7 @@
                                                                 <div data-v-f0897244="" class="search-result-icons">
                                                                     <div data-v-f0897244="" class="d-md-none"><a
                                                                             data-v-f0897244=""
-                                                                            href="tel:13466463830"><img
+                                                                            href="#"><img
                                                                                 data-v-f0897244=""
                                                                                 :src="imgFirmOverview"
                                                                                 alt="Call Erik Janitens"></a></div> <a
@@ -1257,7 +1257,7 @@
                                                                 <div data-v-f0897244="" class="search-result-icons">
                                                                     <div data-v-f0897244="" class="d-md-none"><a
                                                                             data-v-f0897244=""
-                                                                            href="tel:18643732260"><img
+                                                                            href="#"><img
                                                                                 data-v-f0897244=""
                                                                                 :src="imgFirmOverview"
                                                                                 alt="Call Neil C. Jones"></a></div> <a
@@ -1319,7 +1319,7 @@
                                                                 <div data-v-f0897244="" class="search-result-icons">
                                                                     <div data-v-f0897244="" class="d-md-none"><a
                                                                             data-v-f0897244=""
-                                                                            href="tel:17044173127"><img
+                                                                            href="#"><img
                                                                                 data-v-f0897244=""
                                                                                 :src="imgFirmOverview"
                                                                                 alt="Call Craig N. Killen"></a></div> <a
@@ -1378,7 +1378,7 @@
                                                                 <div data-v-f0897244="" class="search-result-icons">
                                                                     <div data-v-f0897244="" class="d-md-none"><a
                                                                             data-v-f0897244=""
-                                                                            href="tel:13466465514"><img
+                                                                            href="#"><img
                                                                                 data-v-f0897244=""
                                                                                 :src="imgFirmOverview"
                                                                                 alt="Call Lisa Margonis"></a></div> <a
@@ -1434,7 +1434,7 @@
                                                                 <div data-v-f0897244="" class="search-result-icons">
                                                                     <div data-v-f0897244="" class="d-md-none"><a
                                                                             data-v-f0897244=""
-                                                                            href="tel:18032559380"><img
+                                                                            href="#"><img
                                                                                 data-v-f0897244=""
                                                                                 :src="imgFirmOverview"
                                                                                 alt="Call Robert H. McWilliams, Jr."></a>
@@ -1495,7 +1495,7 @@
                                                                 <div data-v-f0897244="" class="search-result-icons">
                                                                     <div data-v-f0897244="" class="d-md-none"><a
                                                                             data-v-f0897244=""
-                                                                            href="tel:12124139036"><img
+                                                                            href="#"><img
                                                                                 data-v-f0897244=""
                                                                                 :src="imgFirmOverview"
                                                                                 alt="Call Ashley B. Summer"></a></div>
@@ -1554,7 +1554,7 @@
                                                                 <div data-v-f0897244="" class="search-result-icons">
                                                                     <div data-v-f0897244="" class="d-md-none"><a
                                                                             data-v-f0897244=""
-                                                                            href="tel:13466465389"><img
+                                                                            href="#"><img
                                                                                 data-v-f0897244=""
                                                                                 :src="imgFirmOverview"
                                                                                 alt="Call Tammy Terry"></a></div> <a
@@ -1608,7 +1608,7 @@
                                                                 <div data-v-f0897244="" class="search-result-icons">
                                                                     <div data-v-f0897244="" class="d-md-none"><a
                                                                             data-v-f0897244=""
-                                                                            href="tel:16172174718"><img
+                                                                            href="#"><img
                                                                                 data-v-f0897244=""
                                                                                 :src="imgFirmOverview"
                                                                                 alt="Call Cameron Panepinto"></a></div>
@@ -1661,7 +1661,7 @@
                                                                 <div data-v-f0897244="" class="search-result-icons">
                                                                     <div data-v-f0897244="" class="d-md-none"><a
                                                                             data-v-f0897244=""
-                                                                            href="tel:18643732215"><img
+                                                                            href="#"><img
                                                                                 data-v-f0897244=""
                                                                                 :src="imgFirmOverview"
                                                                                 alt="Call Jonathan Todd"></a></div> <a
@@ -1715,7 +1715,7 @@
                                                                 <div data-v-f0897244="" class="search-result-icons">
                                                                     <div data-v-f0897244="" class="d-md-none"><a
                                                                             data-v-f0897244=""
-                                                                            href="tel:13035839925"><img
+                                                                            href="#"><img
                                                                                 data-v-f0897244=""
                                                                                 :src="imgFirmOverview"
                                                                                 alt="Call Halley Herbst"></a></div> <a
@@ -1769,7 +1769,7 @@
                                                                 <div data-v-f0897244="" class="search-result-icons">
                                                                     <div data-v-f0897244="" class="d-md-none"><a
                                                                             data-v-f0897244=""
-                                                                            href="tel:13466465842"><img
+                                                                            href="#"><img
                                                                                 data-v-f0897244=""
                                                                                 :src="imgFirmOverview"
                                                                                 alt="Call Chance Siller"></a></div> <a

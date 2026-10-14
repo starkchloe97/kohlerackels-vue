@@ -89,7 +89,7 @@ onBeforeUnmount(stop)
                 <ul class="carousel__track" :style="trackStyle">
                     <li v-for="(item, i) in items" :key="item.title" class="card" :style="{ '--visible': visible }"
                         :inert="!isVisible(i)" :aria-hidden="!isVisible(i)">
-                        <a class="card__link" :href="item.href">
+                        <a class="card__link" :href="'#'">
                             <img class="card__img" :src="item.image" :alt="item.title" draggable="false" />
                             <span class="card__title">{{ item.title }}</span>
                         </a>

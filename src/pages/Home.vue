@@ -963,7 +963,7 @@ const newsSlides = [
     alt: `Featured insight from ${SITE_NAME}`
   },
   {
-    image: '/images/Slide2.jpg',
+    image: '/images/kohlerackels-slide2.jpg',
     category: 'In The News',
     title: 'Christina Lehm Offers Insight for European Companies Facing U.S. Litigation',
     date: 'Aug. 11, 2026',

@@ -16,7 +16,7 @@
     					    <button type="button" class="bg-transparent border-0 p-0 print-btn">
 		<img src="/images/detail-print.png" class="icon-print" alt="Print"/>
                             </button>
-    		                <a href="../tools/generate/Service/277/intellectual-property-litigation.pdf" 
+    		                <a href="#" 
 							 ><img src="/images/detail-pdf.png" class="icon-pdf-direct border-0" alt="PDF" /></a>
     					    
     					</div> -->
@@ -191,12 +191,12 @@
       						<h4>Practice Contacts</h4>
     
                                                     	<div class="sidebar-aside-container">
-                                <a href="../professionals/john-mcelwaine.html">
+                                <a href="#">
                                     <div class="sidebar-contact-photo">
                                         <img src="/images/John-C.jpeg" alt="John C. McElwaine" />                                </div>
                                 </a>
                                 <div class="sidebar-contact-details full-width">
-                                    <h4><a href="../professionals/john-mcelwaine.html">John C. McElwaine</a></h4>
+                                    <h4><a href="#">John C. McElwaine</a></h4>
                                                                         <div class="h5 position">Partner</div>
                                                                                                                                         <div class="sidebar-email-icon">
                                             <a href="#" data-toggle="modal" data-target="#emailModal" :data-email="'john.mcelwaine@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img src="/images/detail-email.png" alt="Send Email to John C. McElwaine" /></a>
@@ -211,7 +211,7 @@
     					
                         <button class="nav-link nm-button-yellow" id="professionals-side-tab" data-toggle="tab" data-target="#professionals" type="button" aria-controls="professionals">Related Professionals</button>                        
                         
-                        <div class="nm-button-yellow visible-print-block"><a href="../insights/alerts.html">Visit Insights</a></div>
+                        <div class="nm-button-yellow visible-print-block"><a href="#">Visit Insights</a></div>
                         
     
                         					
@@ -272,40 +272,40 @@
                         <div class="col-md-12 practice-column related-industries-tab-info">
     					<ul class="list-inline">
     													<li>
-                                                                    <a href="appellate_practice_and_legal_strategies.html">Appellate Practice &amp; Legal Strategies</a>
+                                                                    <a href="#">Appellate Practice &amp; Legal Strategies</a>
                                                                 </li>
     													<li>
-                                                                    <a href="bankruptcy_creditors_rights_and_restructuring.html">Bankruptcy, Creditors&#039; Rights &amp; Restructuring</a>
+                                                                    <a href="#">Bankruptcy, Creditors&#039; Rights &amp; Restructuring</a>
                                                                 </li>
     													<li>
-                                                                    <a href="corporate_and_securities.html">Corporate &amp; Securities</a>
+                                                                    <a href="#">Corporate &amp; Securities</a>
                                                                 </li>
     													<li>
-                                                                    <a href="cybersecurity_and_data_breach_response.html">Cybersecurity &amp; Data Breach Response</a>
+                                                                    <a href="#">Cybersecurity &amp; Data Breach Response</a>
                                                                 </li>
     													<li>
-                                                                    <a href="cybersecurity-and-data-privacy.html">Cybersecurity &amp; Data Privacy</a>
+                                                                    <a href="#">Cybersecurity &amp; Data Privacy</a>
                                                                 </li>
     													<li>
                                                                     <a href="#" >E-Discovery - Encompass</a>
                                                                 </li>
     													<li>
-                                                                    <a href="e-discovery-and-information-governance.html">E-Discovery &amp; Information Governance</a>
+                                                                    <a href="#">E-Discovery &amp; Information Governance</a>
                                                                 </li>
     													<li>
-                                                                    <a href="global-privacy-and-security.html">Global Privacy &amp; Security</a>
+                                                                    <a href="#">Global Privacy &amp; Security</a>
                                                                 </li>
     													<li>
-                                                                    <a href="life_sciences_-_ip.html">Life Sciences - IP</a>
+                                                                    <a href="#">Life Sciences - IP</a>
                                                                 </li>
     													<li>
-                                                                    <a href="patent-counseling-and-procurement.html">Patent Counseling and Procurement</a>
+                                                                    <a href="#">Patent Counseling and Procurement</a>
                                                                 </li>
     													<li>
-                                                                    <a href="trademarks_and_copyrights.html">Trademarks &amp; Copyrights</a>
+                                                                    <a href="#">Trademarks &amp; Copyrights</a>
                                                                 </li>
     													<li>
-                                                                    <a href="white-collar-defense-and-government-investigations.html">White Collar Defense &amp; Government Investigations</a>
+                                                                    <a href="#">White Collar Defense &amp; Government Investigations</a>
                                                                 </li>
     						                    </ul>
                 </div>
@@ -339,13 +339,13 @@
                     <div class="col-md-8 related-industries-tab-info">
     				<ul class="list-inline">
     											<li>
-                                                            <a href="consumer_products_and_retail.html">Consumer Products &amp; Retail</a>
+                                                            <a href="#">Consumer Products &amp; Retail</a>
                                                         </li>
     											<li>
-                                                            <a href="life-sciences-pharmaceuticals-and-medical-devices.html">Life Sciences, Pharmaceuticals &amp; Medical Devices</a>
+                                                            <a href="#">Life Sciences, Pharmaceuticals &amp; Medical Devices</a>
                                                         </li>
     											<li>
-                                                            <a href="manufacturing.html">Manufacturing</a>
+                                                            <a href="#">Manufacturing</a>
                                                         </li>
     					            </ul></div>	
     
@@ -375,12 +375,11 @@
                         <InsightsList
                           :sections="insightSections"
                           directory-style
-                          view-all-href="../insights/alerts.html"
                         />
                                                                                         
                     </div>
                     <div class="col-md-4 attorney-tab-articles hidden-print">
-                        <div class="nm-button-yellow"><a href="../insights/alerts.html">Visit Insights</a></div>
+                        <div class="nm-button-yellow"><a href="#">Visit Insights</a></div>
                     </div>
     
                 </div>
@@ -532,7 +531,7 @@
     			
     			<div class="card">
     				<div class="card-header" role="tab" id="headingOne">
-    					<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Overview</a></h5>
+    					<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#" aria-expanded="false" aria-controls="collapseOne">Overview</a></h5>
     				</div>
     
     				<div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
@@ -643,7 +642,7 @@
     
     					<div class="card">
     				<div class="card-header" role="tab" id="headingThree">
-    					<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Related Practices</a></h5>
+    					<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#" aria-expanded="false" aria-controls="collapseThree">Related Practices</a></h5>
     				</div>
     
     				<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
@@ -652,40 +651,40 @@
     						<div class="col-md-8 related-industries-tab-info">
     
     															<p>
-                                                                    <a href="appellate_practice_and_legal_strategies.html">Appellate Practice &amp; Legal Strategies</a>
+                                                                    <a href="#">Appellate Practice &amp; Legal Strategies</a>
                                     								</p>
     															<p>
-                                                                    <a href="bankruptcy_creditors_rights_and_restructuring.html">Bankruptcy, Creditors&#039; Rights &amp; Restructuring</a>
+                                                                    <a href="#">Bankruptcy, Creditors&#039; Rights &amp; Restructuring</a>
                                     								</p>
     															<p>
-                                                                    <a href="corporate_and_securities.html">Corporate &amp; Securities</a>
+                                                                    <a href="#">Corporate &amp; Securities</a>
                                     								</p>
     															<p>
-                                                                    <a href="cybersecurity_and_data_breach_response.html">Cybersecurity &amp; Data Breach Response</a>
+                                                                    <a href="#">Cybersecurity &amp; Data Breach Response</a>
                                     								</p>
     															<p>
-                                                                    <a href="cybersecurity-and-data-privacy.html">Cybersecurity &amp; Data Privacy</a>
+                                                                    <a href="#">Cybersecurity &amp; Data Privacy</a>
                                     								</p>
     															<p>
                                                                     <a href="#" >E-Discovery - Encompass</a>
                                     								</p>
     															<p>
-                                                                    <a href="e-discovery-and-information-governance.html">E-Discovery &amp; Information Governance</a>
+                                                                    <a href="#">E-Discovery &amp; Information Governance</a>
                                     								</p>
     															<p>
-                                                                    <a href="global-privacy-and-security.html">Global Privacy &amp; Security</a>
+                                                                    <a href="#">Global Privacy &amp; Security</a>
                                     								</p>
     															<p>
-                                                                    <a href="life_sciences_-_ip.html">Life Sciences - IP</a>
+                                                                    <a href="#">Life Sciences - IP</a>
                                     								</p>
     															<p>
-                                                                    <a href="patent-counseling-and-procurement.html">Patent Counseling and Procurement</a>
+                                                                    <a href="#">Patent Counseling and Procurement</a>
                                     								</p>
     															<p>
-                                                                    <a href="trademarks_and_copyrights.html">Trademarks &amp; Copyrights</a>
+                                                                    <a href="#">Trademarks &amp; Copyrights</a>
                                     								</p>
     															<p>
-                                                                    <a href="white-collar-defense-and-government-investigations.html">White Collar Defense &amp; Government Investigations</a>
+                                                                    <a href="#">White Collar Defense &amp; Government Investigations</a>
                                     								</p>
     							
     						</div>	
@@ -698,7 +697,7 @@
     
     					<div class="card">
     				<div class="card-header" role="tab" id="headingEight">
-    					<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">Related Industries</a></h5>
+    					<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#" aria-expanded="false" aria-controls="collapseEight">Related Industries</a></h5>
     				</div>
     
     				<div id="collapseEight" class="collapse" role="tabpanel" aria-labelledby="headingEight">
@@ -706,13 +705,13 @@
     						<div class="row attorney-tab-info">
     						<div class="col-md-8 related-industries-tab-info">
     														<p>
-                                                                    <a href="consumer_products_and_retail.html">Consumer Products &amp; Retail</a>
+                                                                    <a href="#">Consumer Products &amp; Retail</a>
                                     							</p>
     													<p>
-                                                                    <a href="life-sciences-pharmaceuticals-and-medical-devices.html">Life Sciences, Pharmaceuticals &amp; Medical Devices</a>
+                                                                    <a href="#">Life Sciences, Pharmaceuticals &amp; Medical Devices</a>
                                     							</p>
     													<p>
-                                                                    <a href="manufacturing.html">Manufacturing</a>
+                                                                    <a href="#">Manufacturing</a>
                                     							</p>
     												</div>	
     					</div>
@@ -725,7 +724,7 @@
     		
             <div class="card">
                 <div class="card-header" role="tab" id="headingTwo">
-                    <h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Professionals</a></h5>
+                    <h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#" aria-expanded="false" aria-controls="collapseTwo">Professionals</a></h5>
                 </div>
                 <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
                     <div class="card-block">
@@ -750,18 +749,18 @@
     	
     	<div class="card">
     		<div class="card-header" role="tab" id="headingFive">
-    			<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Insights</a></h5>
+    			<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#" aria-expanded="false" aria-controls="collapseFive">Insights</a></h5>
     		</div>
     
     		<div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive">
     			<div class="card-block">
     				<div class="row attorney-tab-info">
     					<div class="col-lg-8 attorney-tab-articles">
-                                                                                                                                            <InsightsList :sections="insightSections" directory-style view-all-href="../insights/alerts.html" />
+                                                                                                                                            <InsightsList :sections="insightSections" directory-style view-all-href="#" />
                                             
                         
     				<div class="col-md-4 attorney-tab-articles">
-                        <div class="nm-button-yellow"><a href="../insights/alerts.html">Visit Insights</a></div>
+                        <div class="nm-button-yellow"><a href="#">Visit Insights</a></div>
                                         </div>
     					</div>
     				</div>
@@ -772,7 +771,7 @@
     	
     	<div class="card">
     		<div class="card-header" role="tab" id="headingSix">
-    			<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">Experience</a></h5>
+    			<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#" aria-expanded="false" aria-controls="collapseSix">Experience</a></h5>
     		</div>
     
     		<div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix">
@@ -885,7 +884,7 @@
     	
     	<div class="card aside-why">
     		<div class="card-header" role="tab" id="headingSeven">
-			<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">Why {{ $siteInfo.SITE_NAME }}?</a></h5>
+			<h5 class="mb-0"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#" aria-expanded="false" aria-controls="collapseSeven">Why {{ $siteInfo.SITE_NAME }}?</a></h5>
     		</div>
     
     		<div id="collapseSeven" class="collapse" role="tabpanel" aria-labelledby="headingSeven">
@@ -916,12 +915,12 @@
     
     					<h4>Practice Contacts</h4>
     
-    								                        <a href="../professionals/john-mcelwaine.html">
+    								                        <a href="#">
     	                            <div class="sidebar-contact-photo">
     	                                <img src="/images/John-C.jpeg" alt="John C. McElwaine" />	                            </div>
     	                        </a>
     	                        <div class="sidebar-contact-details full-width">
-    	                            <h4><a href="../professionals/john-mcelwaine.html">John C. McElwaine</a></h4>
+    	                            <h4><a href="#">John C. McElwaine</a></h4>
     	                            	                                <div class="h5 position">Partner</div>
     	                            	                            	                                <div class="sidebar-email-icon" style="float: left; margin-right: 10px;">
                                             <a href="#" data-toggle="modal" data-target="#emailModal" :data-email="'john.mcelwaine@' + $siteInfo.SITE_EMAIL_DOMAIN" class="email_btn"><img src="/images/detail-email.png" alt="Send Email to John C. McElwaine" /></a>
@@ -934,7 +933,7 @@
     
     							
     						<div class="nm-button-yellow">
-                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Related Professionals</a>
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#" aria-expanded="false" aria-controls="collapseTwo">Related Professionals</a>
                             </div>
     
                             					</div>

@@ -263,7 +263,7 @@
 
 
             <div class="card-header non-accordion">
-                <h5 class="closed"><a class="nav-link" href="/culture" role="tab">Culture</a></h5>
+                <h5 class="closed"><a class="nav-link" href="#" role="tab">Culture</a></h5>
 
 
                 <div class="container">
@@ -476,7 +476,7 @@
 
 
             <div class="card-header non-accordion">
-                <h5 class="closed"><a class="nav-link " href="culture/culture_pro_bono.html" role="tab">Pro Bono</a>
+                <h5 class="closed"><a class="nav-link " href="#" role="tab">Pro Bono</a>
                 </h5>
 
 
@@ -485,7 +485,7 @@
 
 
             <div class="card-header non-accordion">
-                <h5 class="closed"><a class="nav-link " href="culture/culture_engagement_opportunity.html"
+                <h5 class="closed"><a class="nav-link " href="#"
                         role="tab">Engagement and Opportunity</a></h5>
 
 
@@ -494,7 +494,7 @@
 
 
             <div class="card-header non-accordion">
-                <h5 class="closed"><a class="nav-link " href="culture/culture_community_service.html"
+                <h5 class="closed"><a class="nav-link " href="#"
                         role="tab">Community Service</a></h5>
 
 

@@ -12,13 +12,13 @@
               <a
                 v-if="activeContact.email"
                 class="contact-email"
-                :href="`mailto:${activeContact.email}`"
+                :href="'#'"
                 :aria-label="`Email ${activeContact.name}`"
               >
                 <img :src="emailIcon" alt="" />
               </a>
               <img v-else class="contact-email" :src="emailIcon" alt="" aria-hidden="true" />
-              <a v-if="activeContact.phoneLink" class="contact-phone" :href="activeContact.phoneLink">
+              <a v-if="activeContact.phoneLink" class="contact-phone" :href="'#'">
                 {{ activeContact.phone }}
               </a>
               <span v-else class="contact-phone">{{ activeContact.phone }}</span>

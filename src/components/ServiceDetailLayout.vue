@@ -84,7 +84,7 @@
                     <div class="sidebar-contact-details full-width">
                       <h4>{{ person.name }}</h4>
                       <p v-if="person.role">{{ person.role }}</p>
-                      <a v-if="person.email" :href="'mailto:' + person.email">{{ person.email }}</a>
+                      <a v-if="person.email" :href="'#'">{{ person.email }}</a>
                     </div>
                   </div>
                 </div>
@@ -92,7 +92,7 @@
                 <div class="sidebar-aside-container service-cta">
                   <h3 class="sidebar-title sidebar-title-with-first">Get in touch</h3>
                   <p>Contact our team to discuss how we can help with your legal needs.</p>
-                  <a :href="`mailto:${$siteInfo.SITE_EMAIL}`" class="nm-button-yellow service-contact-button">GET IN TOUCH</a>
+                  <a :href="'#'" class="nm-button-yellow service-contact-button">GET IN TOUCH</a>
                 </div>
               </aside>
             </div>

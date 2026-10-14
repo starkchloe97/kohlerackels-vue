@@ -152,7 +152,7 @@
 
                <div class="card-header non-accordion">
         <h5 class="closed">
-          <a class="nav-link" href="/culture" role="tab"
+          <a class="nav-link" href="#" role="tab"
             >Culture</a
           >
         </h5>
@@ -160,7 +160,7 @@
 
        <div class="card-header non-accordion">
         <h5 class="closed">
-          <a class="nav-link" href="culture/culture_pro_bono.html" role="tab"
+          <a class="nav-link" href="#" role="tab"
             >Pro Bono</a
           >
         </h5>
@@ -210,16 +210,16 @@
                     <ul class="list-triangle">
                       <li>
                         <a
-                          href="https://www.americanbar.org/groups/legal_services/flh-home/"
+                          href="#"
                           >FindLegalHelp.org</a
                         >
                       </li>
                       <li>
-                        <a href="https://www.lawhelp.org/">LawHelp.org</a>
+                        <a href="#">LawHelp.org</a>
                       </li>
                       <li>
                         <a
-                          href="https://www.americanbar.org/groups/center-pro-bono/resources/directory_of_law_school_public_interest_pro_bono_programs/"
+                          href="#"
                           target="_blank"
                           >Law School Pro Bono Programs</a
                         >
@@ -641,7 +641,7 @@
 
       <div class="card-header non-accordion">
         <h5 class="closed">
-          <a class="nav-link" href="/EngagementAndOpportunity" role="tab"
+          <a class="nav-link" href="#" role="tab"
             >Engagement and Opportunity</a
           >
         </h5>
@@ -649,7 +649,7 @@
 
       <div class="card-header non-accordion">
         <h5 class="closed">
-          <a class="nav-link" href="/CommunityServices" role="tab"
+          <a class="nav-link" href="#" role="tab"
             >Community Service</a
           >
         </h5>

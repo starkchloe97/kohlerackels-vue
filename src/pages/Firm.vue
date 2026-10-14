@@ -271,7 +271,7 @@
 									</a>
 								</div>
 								<div class="visible-print-block">{{ 'dan.sanders@' + $siteInfo.SITE_EMAIL_DOMAIN }}</div>
-								<p>T <a href="tel:864.373.2272" class="attorney-phone">864.373.2272</a></p>
+								<p>T <a href="#" class="attorney-phone">864.373.2272</a></p>
 							</div>
 						</div>
 						<!-- /aside -->
@@ -331,7 +331,7 @@
 			<!-- /end container -->
 
 			<div class="card-header non-accordion">
-				<h5 class="no_plus"><a class="nav-link " href="/locations" role="tab">Locations</a></h5>
+				<h5 class="no_plus"><a class="nav-link " href="#" role="tab">Locations</a></h5>
 
 
 			</div>
@@ -339,7 +339,7 @@
 
 
 			<div class="card-header non-accordion">
-				<h5 class="no_plus"><a class="nav-link " href="/History" role="tab">History</a></h5>
+				<h5 class="no_plus"><a class="nav-link " href="#" role="tab">History</a></h5>
 
 
 			</div>
@@ -347,7 +347,7 @@
 
 
 			<div class="card-header non-accordion">
-				<h5 class="no_plus"><a class="nav-link " href="/culture" role="tab">Culture</a></h5>
+				<h5 class="no_plus"><a class="nav-link " href="#" role="tab">Culture</a></h5>
 
 
 			</div>
@@ -355,7 +355,7 @@
 
 
 			<div class="card-header non-accordion">
-				<h5 class="no_plus"><a class="nav-link " href="/careers" role="tab">Careers</a></h5>
+				<h5 class="no_plus"><a class="nav-link " href="#" role="tab">Careers</a></h5>
 
 
 			</div>

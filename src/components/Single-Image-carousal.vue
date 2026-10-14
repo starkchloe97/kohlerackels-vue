@@ -99,7 +99,7 @@ onBeforeUnmount(stop)
                     <path d="M0 3.5 18.5 20 0 32zM50 3.5 31.5 20 50 32zM21.5 22 25 25l3.5-3 21.5 10H0z" />
                   </svg>
                 </component>
-                <a :href="`tel:${contact.phone.replace(/\D/g, '')}`">T {{ contact.phone }}</a>
+                <a :href="'#'">T {{ contact.phone }}</a>
               </p>
             </div>
 

@@ -13,7 +13,7 @@
 			<div class="row interior-content">
 				<div class="col-md-8">
 					<p><strong>Effective Date</strong>: August 27,2024<br />
-						<a href="/storage/GSoCd4IYHWdlZYv7Hxl0TchweqREqJuAKDhWi8Rc.pdf"><strong>Download PDF
+						<a href="#"><strong>Download PDF
 								Copy</strong></a>
 					</p>
 
@@ -23,7 +23,7 @@
 						otherwise process information that relates to you (&ldquo;Personal Information&rdquo;). This
 						Privacy Notice informs you of our practices in connection with Personal Information that: we
 						collect, both online and offline, including in connection with the services that we provide; our
-						main website (<a :href="$siteInfo.SITE_URL">{{ $siteInfo.SITE_URL }}</a>); and other websites, mobile applications,
+						main website (<a :href="'#'">{{ $siteInfo.SITE_URL }}</a>); and other websites, mobile applications,
 						and digital communications (like email) that display or link to this Privacy Notice
 						(collectively, &ldquo;Services&rdquo;).</p>
 
@@ -43,7 +43,7 @@
 						Privacy Notice.</p>
 
 					<p>If you have any questions or comments about the Privacy Notice or our privacy practices, please
-						contact us at <a :href="`mailto:${$siteInfo.SITE_EMAIL}`">{{ $siteInfo.SITE_EMAIL }}</a>.</p>
+						contact us at <a :href="'#'">{{ $siteInfo.SITE_EMAIL }}</a>.</p>
 
 					<hr />
 					<p><strong>Table of Contents</strong>&nbsp;</p>
@@ -337,16 +337,16 @@
 					<ul>
 						<li><strong>Google Analytics.</strong> For more information about how Google uses your personal
 							information (including for its own purposes, e.g., for profiling or linking it to other
-							data), please visit <a href="https://policies.google.com/technologies/partner-sites">Google
+							data), please visit <a href="#">Google
 								Analytics&rsquo; Privacy Policy</a>. To learn more about how to opt-out of Google
 							Analytics&rsquo; use of your information, please click <a
-								href="https://tools.google.com/dlpage/gaoptout">here</a>.</li>
+								href="#">here</a>.</li>
 						<li><strong>Facebook Connect.</strong> For more information about Facebook&rsquo;s (now known as
 							&ldquo;Meta&rdquo;) use of your personal information, please visit <a
-								href="https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&amp;entry=0">Facebook&rsquo;s
+								href="#">Facebook&rsquo;s
 								Data Policy</a>. To learn more about how to opt-out of Facebook&rsquo;s use of your
 							information, please click <a
-								href="https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Fsettings%3Ftab%3Dads">here</a>
+								href="#">here</a>
 							while logged in to your Meta/ Facebook account.</li>
 						<li><strong>Social Media Platforms and Networks. </strong>Includes companies such as Facebook,
 							Twitter, and Instagram, when you choose to use certain features or tools available on our
@@ -402,10 +402,10 @@
 					</ul>
 
 					<p>To exercise the Privacy Rights identified above, please: call us at <a
-							:href="`tel:${$siteInfo.SITE_PHONE_RAW}`">{{ $siteInfo.SITE_PHONE }}</a>or email us at <a
-							:href="`mailto:${$siteInfo.SITE_EMAIL}`">{{ $siteInfo.SITE_EMAIL }}</a>. If you have questions about
+							:href="'#'">{{ $siteInfo.SITE_PHONE }}</a>or email us at <a
+							:href="'#'">{{ $siteInfo.SITE_EMAIL }}</a>. If you have questions about
 						your privacy rights or would like to appeal a decision made concerning a privacy request you
-						submitted, please email us at <a :href="`mailto:${$siteInfo.SITE_EMAIL}`">{{ $siteInfo.SITE_EMAIL }}</a>.
+						submitted, please email us at <a :href="'#'">{{ $siteInfo.SITE_EMAIL }}</a>.
 					</p>
 
 					<p><strong>b)&nbsp;Managing Communication Preferences.</strong> If you no longer wish to receive
@@ -432,30 +432,30 @@
 						links:</p>
 
 					<ul>
-						<li class="mb-1"><a href="https://support.google.com/chrome/answer/95647?hl=en">Cookie settings
+						<li class="mb-1"><a href="#">Cookie settings
 								in Chrome</a></li>
 						<li class="mb-1"><a
-								href="https://support.mozilla.org/en-US/kb/cookies-information-websites-store-on-your-computer?redirectlocale=en-US&amp;redirectslug=Cookies">Cookie
+								href="#">Cookie
 								settings in Firefox</a></li>
 						<li class="mb-1"><a
-								href="https://support.microsoft.com/en-us/windows/delete-and-manage-cookies-168dab11-0753-043d-7c16-ede5947fc64d">Cookie
+								href="#">Cookie
 								settings in Internet Explorer</a></li>
-						<li><a href="https://support.apple.com/en-us/105082">Cookie settings in Safari</a></li>
+						<li><a href="#">Cookie settings in Safari</a></li>
 					</ul>
 
 					<p>Please note that cookie-based opt-outs are not effective on mobile applications. However, you may
 						opt-out of personalized advertisements on some mobile applications by following the instructions
 						for <a
-							href="https://support.google.com/googleplay/android-developer/answer/6048248?hl=en">Android</a>,
-						<a href="https://support.apple.com/en-us/105131">iOS</a>, and <a
-							href="https://thenai.org/opt-out/mobile-opt-out/">others.</a></p>
+							href="#">Android</a>,
+						<a href="#">iOS</a>, and <a
+							href="#">others.</a></p>
 
 					<p>The online advertising industry also provides websites from which you may opt out of receiving
 						targeted ads from data partners and other advertising partners that participate in
 						self-regulatory programs. You can access these and learn more about targeted advertising and
-						consumer choice and privacy by visiting the <a href="https://thenai.org/opt-out/">Network
+						consumer choice and privacy by visiting the <a href="#">Network
 							Advertising Initiative</a> and the <a
-							href="https://optout.aboutads.info/?c=2&amp;lang=EN">Digital Advertising Alliance</a>.</p>
+							href="#">Digital Advertising Alliance</a>.</p>
 
 					<p>To the extent our use of Collection Technologies is deemed to be a &ldquo;sale&rdquo;/
 						&ldquo;share&rdquo; under California law, you can opt-out of these tracking technologies by
@@ -523,15 +523,15 @@
 						however, that if you are not a client, we may not be able to treat the information you send us
 						as confidential or privileged. If you wish to contact us regarding legal or other services,
 						please contact an attorney in one of our offices near you. You can find a list of our offices
-						and our attorneys on our main website (<a :href="$siteInfo.SITE_URL">{{ $siteInfo.SITE_URL }}</a>).</p>
+						and our attorneys on our main website (<a :href="'#'">{{ $siteInfo.SITE_URL }}</a>).</p>
 
 					<p><strong>If you have questions about our information practices, please contact us using the
 							following methods:</strong></p>
 
 					<ul>
 						<li><strong>Mail: {{ $siteInfo.SITE_ADDRESS_ONE_LINE }}</strong></li>
-						<li><strong>Telephone: <a :href="`tel:${$siteInfo.SITE_PHONE_RAW}`">{{ $siteInfo.SITE_PHONE }}</a></strong></li>
-						<li><a :href="`mailto:${$siteInfo.SITE_EMAIL}`"><strong>Email: {{ $siteInfo.SITE_EMAIL }}&nbsp;</strong></a></li>
+						<li><strong>Telephone: <a :href="'#'">{{ $siteInfo.SITE_PHONE }}</a></strong></li>
+						<li><a :href="'#'"><strong>Email: {{ $siteInfo.SITE_EMAIL }}&nbsp;</strong></a></li>
 					</ul>
 
 					<p><strong>13.&nbsp;Information for California Residents &ndash; California Privacy Rights.
@@ -730,8 +730,8 @@
 					<ul>
 						<li><strong>How to Submit a Request to Know, Request to Delete, or Request to Correct.</strong>
 							You may submit a Request to Know or a Request to Delete by: (1) contacting us at this
-							toll-free number, <a :href="`tel:${$siteInfo.SITE_PHONE_RAW}`">{{ $siteInfo.SITE_PHONE }}</a>, by (2) emailing us at <a
-								:href="`mailto:${$siteInfo.SITE_EMAIL}`">{{ $siteInfo.SITE_EMAIL }}</a>.</li>
+							toll-free number, <a :href="'#'">{{ $siteInfo.SITE_PHONE }}</a>, by (2) emailing us at <a
+								:href="'#'">{{ $siteInfo.SITE_EMAIL }}</a>.</li>
 						<li><strong>How to Submit a Request to Opt-Out of &ldquo;Selling&rdquo; or
 								&ldquo;Sharing&rdquo;.</strong> You may submit a Request to Opt-Out by following the
 							instructions outlined above in the &ldquo;Request to Opt-Out of the &lsquo;Selling&rsquo; or
@@ -740,7 +740,7 @@
 							to act on your behalf, may submit a request relating to your Personal Information. To
 							authorize an agent to submit a request on your behalf, please provide written authorization
 							signed by you and your designated agent and contact us at <a
-								:href="`mailto:${$siteInfo.SITE_EMAIL}`">{{ $siteInfo.SITE_EMAIL }}</a> for additional
+								:href="'#'">{{ $siteInfo.SITE_EMAIL }}</a> for additional
 							instructions.</li>
 						<li><strong>Verification.</strong> To protect your privacy, we will take steps to reasonably
 							verify your identity before fulfilling your request. These steps may involve asking you to
@@ -752,7 +752,7 @@
 					<p><strong>f)&nbsp;California Shine the Light.</strong> California residents may request information
 						concerning the categories of Personal Information, if any, we share with third parties or
 						affiliates for their direct marketing purposes. If you would like more information, please
-						contact us at: <a :href="`mailto:${$siteInfo.SITE_EMAIL}`">{{ $siteInfo.SITE_EMAIL }}</a>.</p>
+						contact us at: <a :href="'#'">{{ $siteInfo.SITE_EMAIL }}</a>.</p>
 
 					<p>g)&nbsp;<strong>Do Not Track Disclosure. </strong>Some browsers offer a &ldquo;Do Not
 						Track&rdquo; privacy preference. Generally, when a user turns on the Do Not Track Signal, their
@@ -765,9 +765,9 @@
 					<p>For questions, comments or inquiries regarding the collection, processing and storage of your
 						Personal Information by us, please contact us via e-mail or phone at:</p>
 
-					<p><a :href="`mailto:${$siteInfo.SITE_EMAIL}`">{{ $siteInfo.SITE_EMAIL }}</a>&nbsp;</p>
+					<p><a :href="'#'">{{ $siteInfo.SITE_EMAIL }}</a>&nbsp;</p>
 
-					<p><a :href="`tel:${$siteInfo.SITE_PHONE_RAW}`">{{ $siteInfo.SITE_PHONE }}</a></p>
+					<p><a :href="'#'">{{ $siteInfo.SITE_PHONE }}</a></p>
 
 					<p><br />
 						or in writing to:</p>
@@ -793,7 +793,7 @@
 						<p><span>&nbsp;</span>{{ $siteInfo.SITE_ADDRESS_LINE1 }}<br />
 							{{ $siteInfo.SITE_ADDRESS_LINE2 }}</p>
 
-						<p>T <a class="attorney-phone" :href="`tel:${$siteInfo.SITE_PHONE_RAW}`">{{ $siteInfo.SITE_PHONE }}</a></p>
+						<p>T <a class="attorney-phone" :href="'#'">{{ $siteInfo.SITE_PHONE }}</a></p>
 						<div class="aside-spacer"></div>
 
 						<h4 class="contact-sidebar-title">General Counsel</h4>
@@ -814,7 +814,7 @@
 
 
 
-						<p>T <a href="tel:864.373.2272" class="attorney-phone">864.373.2272</a></p>
+						<p>T <a href="#" class="attorney-phone">864.373.2272</a></p>
 
 					</div>
 					<!-- /aside -->

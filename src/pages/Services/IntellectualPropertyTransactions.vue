@@ -195,8 +195,7 @@
                                                     acquisitions involving thousands of patents.</p>
                                             </li>
                                         </div>
-                                    </ul><button type="button" class="border-0 bg-white attorney-tab-read-more"
-                                        aria-expanded="false">+ Read More</button>
+                                    </ul>
                                 </div>
                                 <p>&nbsp;</p>
                             </div>
@@ -304,7 +303,7 @@
                                                 <div data-v-f0897244="" class="col-3 search-result-person">
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
-                                                                href="tel:17044173234"><img data-v-f0897244=""
+                                                                href="#"><img data-v-f0897244=""
                                                                     src="/images/firmoverview.jpg"
                                                                     alt="Call Nichole Hayden"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
@@ -351,7 +350,7 @@
                                                 <div data-v-f0897244="" class="col-3 search-result-person">
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
-                                                                href="tel:18435344252"><img data-v-f0897244=""
+                                                                href="#"><img data-v-f0897244=""
                                                                     src="/images/firmoverview.jpg"
                                                                     alt="Call Christopher D. Casavale"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
@@ -398,7 +397,7 @@
                                                 <div data-v-f0897244="" class="col-3 search-result-person">
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
-                                                                href="tel:18643732260"><img data-v-f0897244=""
+                                                                href="#"><img data-v-f0897244=""
                                                                     src="/images/firmoverview.jpg"
                                                                     alt="Call Neil C. Jones"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
@@ -446,7 +445,7 @@
                                                 <div data-v-f0897244="" class="col-3 search-result-person">
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
-                                                                href="tel:17044173036"><img data-v-f0897244=""
+                                                                href="#"><img data-v-f0897244=""
                                                                     src="/images/firmoverview.jpg"
                                                                     alt="Call Patrick L. Kartes"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
@@ -493,7 +492,7 @@
                                                 <div data-v-f0897244="" class="col-3 search-result-person">
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
-                                                                href="tel:18435344302"><img data-v-f0897244=""
+                                                                href="#"><img data-v-f0897244=""
                                                                     src="/images/firmoverview.jpg"
                                                                     alt="Call John C. McElwaine"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
@@ -541,7 +540,7 @@
                                                 <div data-v-f0897244="" class="col-3 search-result-person">
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
-                                                                href="tel:18032559380"><img data-v-f0897244=""
+                                                                href="#"><img data-v-f0897244=""
                                                                     src="/images/firmoverview.jpg"
                                                                     alt="Call Robert H. McWilliams, Jr."></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
@@ -588,7 +587,7 @@
                                                 <div data-v-f0897244="" class="col-3 search-result-person">
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
-                                                                href="tel:16172174628"><img data-v-f0897244=""
+                                                                href="#"><img data-v-f0897244=""
                                                                     src="/images/firmoverview.jpg"
                                                                     alt="Call Jane E. Remillard"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
@@ -634,7 +633,7 @@
                                                 <div data-v-f0897244="" class="col-3 search-result-person">
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
-                                                                href="tel:16124647554"><img data-v-f0897244=""
+                                                                href="#"><img data-v-f0897244=""
                                                                     src="/images/firmoverview.jpg"
                                                                     alt="Call Edward Sandor"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
@@ -678,7 +677,7 @@
                                                 <div data-v-f0897244="" class="col-3 search-result-person">
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
-                                                                href="tel:16172174630"><img data-v-f0897244=""
+                                                                href="#"><img data-v-f0897244=""
                                                                     src="/images/firmoverview.jpg"
                                                                     alt="Call Jill Gorny Sloper"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
@@ -724,7 +723,7 @@
                                                 <div data-v-f0897244="" class="col-3 search-result-person">
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
-                                                                href="tel:16124647449"><img data-v-f0897244=""
+                                                                href="#"><img data-v-f0897244=""
                                                                     src="/images/firmoverview.jpg"
                                                                     alt="Call Darnell M. Cage"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
@@ -768,7 +767,7 @@
                                                 <div data-v-f0897244="" class="col-3 search-result-person">
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
-                                                                href="tel:16172174718"><img data-v-f0897244=""
+                                                                href="#"><img data-v-f0897244=""
                                                                     src="/images/firmoverview.jpg"
                                                                     alt="Call Cameron Panepinto"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
@@ -812,7 +811,7 @@
                                                 <div data-v-f0897244="" class="col-3 search-result-person">
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
-                                                                href="tel:17044173022"><img data-v-f0897244=""
+                                                                href="#"><img data-v-f0897244=""
                                                                     src="/images/firmoverview.jpg"
                                                                     alt="Call Alexa Venters"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
@@ -856,7 +855,7 @@
                                                 <div data-v-f0897244="" class="col-3 search-result-person">
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
-                                                                href="tel:17044173242"><img data-v-f0897244=""
+                                                                href="#"><img data-v-f0897244=""
                                                                     src="/images/firmoverview.jpg"
                                                                     alt="Call Zahra Asadi"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
@@ -900,7 +899,7 @@
                                                 <div data-v-f0897244="" class="col-3 search-result-person">
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
-                                                                href="tel:17044173025"><img data-v-f0897244=""
+                                                                href="#"><img data-v-f0897244=""
                                                                     src="/images/firmoverview.jpg"
                                                                     alt="Call Carter Rummel"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
@@ -946,7 +945,7 @@
                                                 <div data-v-f0897244="" class="col-3 search-result-person">
                                                     <div data-v-f0897244="" class="search-result-icons">
                                                         <div data-v-f0897244="" class="d-md-none"><a data-v-f0897244=""
-                                                                href="tel:13466465842"><img data-v-f0897244=""
+                                                                href="#"><img data-v-f0897244=""
                                                                     src="/images/firmoverview.jpg"
                                                                     alt="Call Chance Siller"></a></div> <a
                                                             data-v-f0897244="" href="#"><img data-v-f0897244=""
@@ -1350,7 +1349,7 @@
                                                                 <div data-v-f0897244="" class="search-result-icons">
                                                                     <div data-v-f0897244="" class="d-md-none"><a
                                                                             data-v-f0897244=""
-                                                                            href="tel:17044173234"><img
+                                                                            href="#"><img
                                                                                 data-v-f0897244=""
                                                                                 src="/images/firmoverview.jpg"
                                                                                 alt="Call Nichole Hayden"></a></div> <a
@@ -1409,7 +1408,7 @@
                                                                 <div data-v-f0897244="" class="search-result-icons">
                                                                     <div data-v-f0897244="" class="d-md-none"><a
                                                                             data-v-f0897244=""
-                                                                            href="tel:18435344252"><img
+                                                                            href="#"><img
                                                                                 data-v-f0897244=""
                                                                                 src="/images/firmoverview.jpg"
                                                                                 alt="Call Christopher D. Casavale"></a>
@@ -1468,7 +1467,7 @@
                                                                 <div data-v-f0897244="" class="search-result-icons">
                                                                     <div data-v-f0897244="" class="d-md-none"><a
                                                                             data-v-f0897244=""
-                                                                            href="tel:18643732260"><img
+                                                                            href="#"><img
                                                                                 data-v-f0897244=""
                                                                                 src="/images/firmoverview.jpg"
                                                                                 alt="Call Neil C. Jones"></a></div> <a
@@ -1528,7 +1527,7 @@
                                                                 <div data-v-f0897244="" class="search-result-icons">
                                                                     <div data-v-f0897244="" class="d-md-none"><a
                                                                             data-v-f0897244=""
-                                                                            href="tel:17044173036"><img
+                                                                            href="#"><img
                                                                                 data-v-f0897244=""
                                                                                 src="/images/firmoverview.jpg"
                                                                                 alt="Call Patrick L. Kartes"></a></div>
@@ -1587,7 +1586,7 @@
                                                                 <div data-v-f0897244="" class="search-result-icons">
                                                                     <div data-v-f0897244="" class="d-md-none"><a
                                                                             data-v-f0897244=""
-                                                                            href="tel:18435344302"><img
+                                                                            href="#"><img
                                                                                 data-v-f0897244=""
                                                                                 src="/images/firmoverview.jpg"
                                                                                 alt="Call John C. McElwaine"></a></div>
@@ -1648,7 +1647,7 @@
                                                                 <div data-v-f0897244="" class="search-result-icons">
                                                                     <div data-v-f0897244="" class="d-md-none"><a
                                                                             data-v-f0897244=""
-                                                                            href="tel:18032559380"><img
+                                                                            href="#"><img
                                                                                 data-v-f0897244=""
                                                                                 src="/images/firmoverview.jpg"
                                                                                 alt="Call Robert H. McWilliams, Jr."></a>
@@ -1707,7 +1706,7 @@
                                                                 <div data-v-f0897244="" class="search-result-icons">
                                                                     <div data-v-f0897244="" class="d-md-none"><a
                                                                             data-v-f0897244=""
-                                                                            href="tel:16172174628"><img
+                                                                            href="#"><img
                                                                                 data-v-f0897244=""
                                                                                 src="/images/firmoverview.jpg"
                                                                                 alt="Call Jane E. Remillard"></a></div>
@@ -1763,7 +1762,7 @@
                                                                 <div data-v-f0897244="" class="search-result-icons">
                                                                     <div data-v-f0897244="" class="d-md-none"><a
                                                                             data-v-f0897244=""
-                                                                            href="tel:16124647554"><img
+                                                                            href="#"><img
                                                                                 data-v-f0897244=""
                                                                                 src="/images/firmoverview.jpg"
                                                                                 alt="Call Edward Sandor"></a></div> <a
@@ -1817,7 +1816,7 @@
                                                                 <div data-v-f0897244="" class="search-result-icons">
                                                                     <div data-v-f0897244="" class="d-md-none"><a
                                                                             data-v-f0897244=""
-                                                                            href="tel:16172174630"><img
+                                                                            href="#"><img
                                                                                 data-v-f0897244=""
                                                                                 src="/images/firmoverview.jpg"
                                                                                 alt="Call Jill Gorny Sloper"></a></div>
@@ -1873,7 +1872,7 @@
                                                                 <div data-v-f0897244="" class="search-result-icons">
                                                                     <div data-v-f0897244="" class="d-md-none"><a
                                                                             data-v-f0897244=""
-                                                                            href="tel:16124647449"><img
+                                                                            href="#"><img
                                                                                 data-v-f0897244=""
                                                                                 src="/images/firmoverview.jpg"
                                                                                 alt="Call Darnell M. Cage"></a></div> <a
@@ -1927,7 +1926,7 @@
                                                                 <div data-v-f0897244="" class="search-result-icons">
                                                                     <div data-v-f0897244="" class="d-md-none"><a
                                                                             data-v-f0897244=""
-                                                                            href="tel:16172174718"><img
+                                                                            href="#"><img
                                                                                 data-v-f0897244=""
                                                                                 src="/images/firmoverview.jpg"
                                                                                 alt="Call Cameron Panepinto"></a></div>
@@ -1980,7 +1979,7 @@
                                                                 <div data-v-f0897244="" class="search-result-icons">
                                                                     <div data-v-f0897244="" class="d-md-none"><a
                                                                             data-v-f0897244=""
-                                                                            href="tel:17044173022"><img
+                                                                            href="#"><img
                                                                                 data-v-f0897244=""
                                                                                 src="/images/firmoverview.jpg"
                                                                                 alt="Call Alexa Venters"></a></div> <a
@@ -2034,7 +2033,7 @@
                                                                 <div data-v-f0897244="" class="search-result-icons">
                                                                     <div data-v-f0897244="" class="d-md-none"><a
                                                                             data-v-f0897244=""
-                                                                            href="tel:17044173242"><img
+                                                                            href="#"><img
                                                                                 data-v-f0897244=""
                                                                                 src="/images/firmoverview.jpg"
                                                                                 alt="Call Zahra Asadi"></a></div> <a
@@ -2088,7 +2087,7 @@
                                                                 <div data-v-f0897244="" class="search-result-icons">
                                                                     <div data-v-f0897244="" class="d-md-none"><a
                                                                             data-v-f0897244=""
-                                                                            href="tel:17044173025"><img
+                                                                            href="#"><img
                                                                                 data-v-f0897244=""
                                                                                 src="/images/firmoverview.jpg"
                                                                                 alt="Call Carter Rummel"></a></div> <a
@@ -2145,7 +2144,7 @@
                                                                 <div data-v-f0897244="" class="search-result-icons">
                                                                     <div data-v-f0897244="" class="d-md-none"><a
                                                                             data-v-f0897244=""
-                                                                            href="tel:13466465842"><img
+                                                                            href="#"><img
                                                                                 data-v-f0897244=""
                                                                                 src="/images/firmoverview.jpg"
                                                                                 alt="Call Chance Siller"></a></div> <a

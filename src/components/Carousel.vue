@@ -64,7 +64,7 @@
                   <img :src="item.image" :alt="item.alt" />
                   <div class="photo-gradient"></div>
                   <div class="carousel-caption">
-                    <a :href="item.href">{{ item.title }}</a>
+                    <a :href="'#'">{{ item.title }}</a>
                     <div class="caption-date">{{ item.date }}</div>
                   </div>
                 </div>

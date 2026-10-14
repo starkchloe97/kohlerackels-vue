@@ -17,7 +17,7 @@ const offices = otherLocations.filter((office) => visibleOtherLocations.has(offi
   <section class="locations">
     <h1 class="locations__title">Our Locations</h1>
 
-    <a class="locations__back" :href="backHref">Back to Locations</a>
+    <a class="locations__back" :href="'#'">Back to Locations</a>
 
     <h2 class="locations__subtitle">{{ $siteInfo.SITE_NAME }} Other Locations</h2>
 

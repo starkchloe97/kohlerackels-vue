@@ -72,7 +72,7 @@
               Columbia, SC 29201
             </p>
             <p>
-              T <a href="tel:18002372000">1.800.237.2000</a>
+              T <a href="#">1.800.237.2000</a>
             </p>
 
             <div class="aside-spacer"></div>
@@ -90,7 +90,7 @@
               </a>
             </div>
             <div class="visible-print-block">{{ 'dan.sanders@' + $siteInfo.SITE_EMAIL_DOMAIN }}</div>
-            <p>T <a href="tel:8643732272">864.373.2272</a></p>
+            <p>T <a href="#">864.373.2272</a></p>
           </div>
         </div>
       </div>

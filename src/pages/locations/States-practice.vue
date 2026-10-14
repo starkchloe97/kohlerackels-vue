@@ -57,7 +57,7 @@ const states = ref([
   <section class="locations">
     <h1 class="locations__title">Our Locations</h1>
 
-    <a class="locations__back" :href="backHref">Back to Locations</a>
+    <a class="locations__back" :href="'#'">Back to Locations</a>
 
     <h2 class="locations__subtitle">States Where {{ $siteInfo.SITE_NAME }} Attorneys are Admitted to Practice</h2>
 

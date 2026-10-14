@@ -10,7 +10,7 @@
         <div class="insights-list__controls">
           <span class="insights-list__count">{{ rangeLabel(section) }}</span>
           <span v-if="viewAllHref" class="insights-list__next" aria-hidden="true"></span>
-          <a v-if="viewAllHref" class="insights-list__view-all" :href="viewAllHref">View All</a>
+          <a v-if="viewAllHref" class="insights-list__view-all" :href="'#'">View All</a>
         </div>
       </header>
 
@@ -24,7 +24,7 @@
           <a
             v-if="item.href"
             class="insights-list__link"
-            :href="item.href"
+            :href="'#'"
           >{{ item.title }}</a>
           <span v-else class="insights-list__link">{{ item.title }}</span>
         </li>
