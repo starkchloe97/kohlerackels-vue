@@ -109,6 +109,25 @@
       </div>
     </section>
 
+    <section class="how-we-help-section" aria-labelledby="how-we-help-title">
+      <div class="how-we-help-inner">
+        <p class="how-we-help-eyebrow">HOW WE HELP</p>
+        <h2 id="how-we-help-title" class="how-we-help-title">Six ways we protect what you have built.</h2>
+
+        <div class="how-we-help-grid">
+          <article
+            v-for="item in howWeHelpItems"
+            :key="item.number"
+            class="how-we-help-card"
+          >
+            <span class="how-we-help-number">{{ item.number }}</span>
+            <h3 class="how-we-help-name">{{ item.title }}</h3>
+            <p class="how-we-help-desc">{{ item.description }}</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <section class="focus-section">
       <div class="focus-inner">
         <div class="focus-list">
@@ -144,13 +163,15 @@
     <section class="stats-section">
       <img src="/images/home-slide-3.jpeg" alt="">
     </section>
+
+    <PartnersCarousel />
   </div>
 </template>
 
 <style scoped>
 .kr-home {
   width: 100%;
-  overflow: hidden;
+  overflow-x: clip;
   color: #1a1a1a;
   background: #fff;
   font-family: "Open Sans", Arial, sans-serif;
@@ -238,12 +259,46 @@
   letter-spacing: -0.04em;
 }
 
+.hero-slide.active .hero-copy h1 {
+  animation: bannerAppearFromTop 0.85s cubic-bezier(0.16, 1, 0.3, 1) 0.05s both;
+  will-change: transform, opacity;
+}
+
 .hero-lead {
   width: 90%;
   max-width: 540px;
   margin: 0;
   color: #447aa7;
   font: 300 16px/1.375 "Open Sans", sans-serif;
+}
+
+.hero-slide.active .hero-lead {
+  animation: bannerAppearFromTop 0.85s cubic-bezier(0.16, 1, 0.3, 1) 0.18s both;
+  will-change: transform, opacity;
+}
+
+.hero-slide.active .hero-image {
+  animation: bannerFadeIn 0.85s ease-out both;
+}
+
+@keyframes bannerAppearFromTop {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -32px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes bannerFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .hero-controls-container {
@@ -501,6 +556,93 @@
   line-height: 1.65;
 }
 
+/* How We Help Section */
+.how-we-help-section {
+  position: relative;
+  width: 100%;
+  padding: 30px 0 90px;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+.how-we-help-inner {
+  width: min(100% - 40px, 1140px);
+  margin: 0 auto;
+}
+
+.how-we-help-eyebrow {
+  margin: 0 0 16px;
+  color: #c28b14;
+  font: 700 13px/1.2 "Open Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+}
+
+.how-we-help-title {
+  max-width: 820px;
+  margin: 0 0 46px;
+  color: #0d2f5e;
+  font: 700 clamp(32px, 3.8vw, 48px)/1.15 "Quattrocento", Georgia, "Times New Roman", serif;
+  letter-spacing: -0.02em;
+}
+
+.how-we-help-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid #dbe3ed;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow:
+    0 4px 16px rgba(13, 47, 94, 0.05),
+    0 12px 36px rgba(13, 47, 94, 0.04);
+}
+
+.how-we-help-card {
+  padding: 42px 36px 46px;
+  border-right: 1px solid #e5ecf3;
+  border-bottom: 1px solid #e5ecf3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #ffffff;
+  transition: background-color 0.2s ease;
+}
+
+.how-we-help-card:hover {
+  background-color: #f9fbfd;
+}
+
+.how-we-help-card:nth-child(3n) {
+  border-right: none;
+}
+
+.how-we-help-card:nth-child(n + 4) {
+  border-bottom: none;
+}
+
+.how-we-help-number {
+  display: inline-block;
+  color: #c28b14;
+  font: 700 13px/1 "Open Sans", Arial, sans-serif;
+  letter-spacing: 0.08em;
+  margin: 0 0 14px;
+}
+
+.how-we-help-name {
+  margin: 0 0 16px;
+  color: #0d2f5e;
+  font: 700 24px/1.25 "Quattrocento", Georgia, "Times New Roman", serif;
+  letter-spacing: -0.01em;
+}
+
+.how-we-help-desc {
+  margin: 0;
+  color: #4a4a4a;
+  font: 400 14.5px/1.65 "Open Sans", Arial, sans-serif;
+}
+
 .focus-section {
   padding: 0 0 90px;
 }
@@ -690,6 +832,7 @@
 
   .news-slider,
   .practice-grid,
+  .how-we-help-inner,
   .stats-panel {
     width: min(100% - 32px, 1140px);
   }
@@ -710,6 +853,30 @@
 }
 
 @media (max-width: 900px) {
+  .how-we-help-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .how-we-help-card {
+    padding: 34px 28px 38px;
+  }
+
+  .how-we-help-card:nth-child(3n) {
+    border-right: 1px solid #e5ecf3;
+  }
+
+  .how-we-help-card:nth-child(2n) {
+    border-right: none;
+  }
+
+  .how-we-help-card:nth-child(n + 4) {
+    border-bottom: 1px solid #e5ecf3;
+  }
+
+  .how-we-help-card:nth-child(n + 5) {
+    border-bottom: none;
+  }
+
   .practice-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -827,6 +994,14 @@
     padding-bottom: 65px;
   }
 
+  .how-we-help-section {
+    padding: 65px 0 70px;
+  }
+
+  .how-we-help-title {
+    margin-bottom: 32px;
+  }
+
   .practice-grid {
     grid-template-columns: 1fr;
     gap: 26px;
@@ -879,7 +1054,30 @@
   }
 }
 
+@media (max-width: 640px) {
+  .how-we-help-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .how-we-help-card {
+    padding: 28px 20px 32px;
+    border-right: none !important;
+    border-bottom: 1px solid #e5ecf3 !important;
+  }
+
+  .how-we-help-card:last-child {
+    border-bottom: none !important;
+  }
+}
+
 @media (max-width: 480px) {
+  .how-we-help-inner {
+    width: min(100% - 24px, 1140px);
+  }
+
+  .how-we-help-title {
+    font-size: 30px;
+  }
   .hero-copy {
     padding-inline: 16px;
   }
@@ -926,6 +1124,7 @@
 <script setup>
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import { SITE_NAME } from '@/config/siteInfo'
+import PartnersCarousel from '@/components/PartnersCarousel.vue'
 
 const heroSlides = [
   {
@@ -997,6 +1196,39 @@ const practiceCards = [
   {
     title: 'Employment Law',
     description: 'Representing employers of all sizes in a wide array of employment-law matters, including counseling on day-to-day employment issues to litigating in state and federal courts and administrative agencies.'
+  }
+]
+
+const howWeHelpItems = [
+  {
+    number: '01',
+    title: 'Patents',
+    description: 'A patent protects an invention that is new, useful and non-obvious: a machine, a manufactured good, a process or a chemical composition. Most matters start with a provisional application, often filed within days so you can use patent pending status while we prepare the full application, then we prosecute it with the USPTO through to a decision, generally 1 to 3 years.'
+  },
+  {
+    number: '02',
+    title: 'Trademarks',
+    description: "A trademark protects the words, logos, colors, shapes and other identifiers that let customers tell your goods and services apart from everyone else's. Federal registration through the USPTO shifts the burden of proof onto anyone who challenges it, generally lasts 10 years and can be renewed indefinitely as long as the required fees are paid on time."
+  },
+  {
+    number: '03',
+    title: 'Copyrights',
+    description: 'Copyright protects an original work of authorship the moment it is fixed in a tangible form, books, music, photographs, software and more, without requiring registration first. We register those works with the U.S. Copyright Office, which strengthens your ability to enforce them and recover damages if someone copies your work without permission.'
+  },
+  {
+    number: '04',
+    title: 'Trade Secrets',
+    description: 'A trade secret covers what patents, trademarks and copyrights do not reach: a formula, a process, a customer list or a marketing strategy that gives your business independent economic value. We draft the confidentiality and non-disclosure agreements that keep it protected, and litigate when it is disclosed or used without permission.'
+  },
+  {
+    number: '05',
+    title: 'IP Business Law',
+    description: 'Protecting intellectual property starts with the right business structure. We advise on entity formation under the Texas Business Organizations Code, and draft, review and negotiate the licensing and assignment agreements that determine who owns, and who may use, what you create.'
+  },
+  {
+    number: '06',
+    title: 'IP Litigation',
+    description: 'When registration is not enough, we enforce it. Our attorneys litigate patent, trademark, copyright and trade secret disputes for clients across Texas, from a cease and desist letter through federal court.'
   }
 ]
 

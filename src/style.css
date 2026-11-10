@@ -17593,3 +17593,110 @@ body
   min-height: 525px;
 }
 }
+
+
+/* ==========================================================================
+   Page Banner & Starting Heading Animations (Appear from Top on Page Load)
+   ========================================================================== */
+
+@keyframes bannerAppearFromTop {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -32px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes bannerFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Home hero heading & lead text appear from top */
+.hero-slide.active .hero-copy h1 {
+  animation: bannerAppearFromTop 0.85s cubic-bezier(0.16, 1, 0.3, 1) 0.05s both;
+  will-change: transform, opacity;
+}
+
+.hero-slide.active .hero-copy .hero-lead {
+  animation: bannerAppearFromTop 0.85s cubic-bezier(0.16, 1, 0.3, 1) 0.18s both;
+  will-change: transform, opacity;
+}
+
+.hero-slide.active .hero-image {
+  animation: bannerFadeIn 0.85s ease-out both;
+}
+
+/* Featured Top Banners & Starting Headings (Professionals, Services, Firm, Locations, Culture, History, etc.) */
+.featured-top .featured-section {
+  animation: bannerAppearFromTop 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.05s both;
+  will-change: transform, opacity;
+}
+
+.featured-top .featured-title {
+  animation: bannerAppearFromTop 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.16s both;
+  will-change: transform, opacity;
+}
+
+.featured-top .featured-details,
+.featured-top .featured-subhead,
+.featured-top .featured-intro,
+.featured-top .generic.featured-intro {
+  animation: bannerAppearFromTop 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.28s both;
+  will-change: transform, opacity;
+}
+
+.featured-top .featured-background img,
+.featured-top.mobile_background_banner > img {
+  animation: bannerFadeIn 0.9s ease-out both;
+}
+
+/* Interior Pages Headings (Disclaimer, Privacy Policy, Notice at Collection) */
+.interior-title h1 {
+  animation: bannerAppearFromTop 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.08s both;
+  will-change: transform, opacity;
+}
+
+/* Locations Subpages Headings (Full-Service Offices, Other Locations, States Practice) */
+.locations .locations__title,
+.locations__title {
+  animation: bannerAppearFromTop 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.06s both;
+  will-change: transform, opacity;
+}
+
+.locations .locations__subtitle,
+.locations__subtitle {
+  animation: bannerAppearFromTop 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.18s both;
+  will-change: transform, opacity;
+}
+
+/* Respect user's motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .hero-slide.active .hero-copy h1,
+  .hero-slide.active .hero-copy .hero-lead,
+  .hero-slide.active .hero-image,
+  .featured-top .featured-section,
+  .featured-top .featured-title,
+  .featured-top .featured-details,
+  .featured-top .featured-subhead,
+  .featured-top .featured-intro,
+  .featured-top .generic.featured-intro,
+  .featured-top .featured-background img,
+  .featured-top.mobile_background_banner > img,
+  .interior-title h1,
+  .locations .locations__title,
+  .locations__title,
+  .locations .locations__subtitle,
+  .locations__subtitle {
+    animation: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+}

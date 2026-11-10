@@ -2,7 +2,7 @@
   <div class="site-wrapper">
     <Header />
     <main id="main-content">
-      <RouterView />
+      <RouterView :key="$route.path" />
     </main>
     <Footer />
   </div>
