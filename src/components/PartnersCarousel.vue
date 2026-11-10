@@ -7,7 +7,7 @@
     aria-label="Firm Partners"
   >
     <div ref="holdRef" class="partners-hold">
-      <div class="partners-inner">
+      <div ref="innerRef" class="partners-inner">
         <!-- Top Header Row -->
         <div class="partners-header">
           <div class="partners-heading-col">
@@ -25,9 +25,9 @@
               <button
                 type="button"
                 class="nav-btn prev-btn"
-                :disabled="scrollProgress <= 0.02"
-                aria-label="Previous partners"
-                @click="scrollPrev"
+                :disabled="isAtStart"
+                aria-label="Previous partner"
+                @click="onPrevClick"
               >
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                   <line x1="19" y1="12" x2="5" y2="12"></line>
@@ -37,9 +37,9 @@
               <button
                 type="button"
                 class="nav-btn next-btn"
-                :disabled="scrollProgress >= 0.98"
-                aria-label="Next partners"
-                @click="scrollNext"
+                :disabled="isAtEnd"
+                aria-label="Next partner"
+                @click="onNextClick"
               >
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                   <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -67,9 +67,10 @@
             @focusin="onCardFocusIn"
           >
             <article
-              v-for="partner in partners"
+              v-for="(partner, index) in partners"
               :key="partner.id"
               class="partner-card"
+              :data-index="index"
               :aria-label="`${partner.name}, ${partner.role} partner in ${partner.city}`"
             >
               <div class="partner-image-box">
@@ -161,137 +162,161 @@ const cleanPhone = (phone) => phone.replace(/\s+/g, '')
 
 const sectionRef = ref(null)
 const holdRef = ref(null)
+const innerRef = ref(null)
 const viewportRef = ref(null)
 const trackRef = ref(null)
 
-const travelDistance = ref(0)
+// Dimensions & Scroll Travel
+const maxTravel = ref(0)
+const pinDuration = ref(900)
 const scrollProgress = ref(0)
-const supportsScrollTimeline = ref(false)
 
-// Mouse / touch drag state
+// Interactive offset (driven by scroll, arrows, or drag)
+const currentTranslateX = ref(0)
 const isDragging = ref(false)
 const dragStartX = ref(0)
+const dragStartTranslateX = ref(0)
+const isTransitioning = ref(false)
+
 let rafId = null
+let resizeObserver = null
 
 const sectionStyle = computed(() => ({
-  '--people-travel': `${travelDistance.value}px`,
-  '--scroll-progress': scrollProgress.value,
+  '--pin-duration': `${pinDuration.value}px`,
 }))
 
-// Measure the horizontal travel needed so all cards can slide into view
-const updateTravelDistance = () => {
-  if (!trackRef.value || !holdRef.value) return
-  const innerEl = holdRef.value.querySelector('.partners-inner')
-  const style = innerEl ? window.getComputedStyle(innerEl) : null
-  const paddingLeft = style ? parseFloat(style.paddingLeft) || 0 : 40
-  const paddingRight = style ? parseFloat(style.paddingRight) || 0 : 40
+// Measure the horizontal travel distance so all cards can slide into view
+const measure = () => {
+  if (!trackRef.value || !viewportRef.value) return
 
-  const visibleWidth = holdRef.value.clientWidth - paddingLeft - paddingRight
+  const visibleWidth = viewportRef.value.clientWidth
   const totalTrackWidth = trackRef.value.scrollWidth
+
   const travel = Math.max(0, totalTrackWidth - visibleWidth)
-  travelDistance.value = travel
+  maxTravel.value = travel
+
+  // Pin duration: vertical scroll distance over which the cards translate
+  pinDuration.value = Math.max(travel * 1.25, 800)
 }
 
-// Compute scroll progress relative to the pinned range
-const handleScroll = () => {
+// Update scroll progress and track position when the page scrolls
+const onScroll = () => {
+  if (isDragging.value) return
+  isTransitioning.value = false // Scroll immediately takes over any button animation
+
   if (rafId) return
   rafId = requestAnimationFrame(() => {
     rafId = null
-    if (!sectionRef.value || travelDistance.value <= 0) {
-      scrollProgress.value = 0
-      return
-    }
+    if (!sectionRef.value || maxTravel.value <= 0) return
 
     const rect = sectionRef.value.getBoundingClientRect()
-    // Pinning occurs when rect.top <= 0 until rect.top <= -travelDistance
-    const totalTravel = travelDistance.value
-    const progress = Math.min(1, Math.max(0, -rect.top / totalTravel))
+    const total = pinDuration.value
+
+    // When rect.top <= 0, section is pinned; when rect.top <= -total, pinning ends
+    const progress = Math.min(1, Math.max(0, -rect.top / total))
     scrollProgress.value = progress
+
+    currentTranslateX.value = -progress * maxTravel.value
   })
 }
 
-// Fallback transform for browsers without native animation-timeline or during manual drag
-const trackStyle = computed(() => {
-  if (supportsScrollTimeline.value && !isDragging.value) {
-    return {}
-  }
-  const currentOffset = travelDistance.value * scrollProgress.value
-  return {
-    transform: `translate3d(-${currentOffset}px, 0, 0)`,
-    willChange: 'transform',
-  }
-})
+// Track style
+const trackStyle = computed(() => ({
+  transform: `translate3d(${currentTranslateX.value}px, 0, 0)`,
+  transition: isTransitioning.value
+    ? 'transform 0.4s cubic-bezier(0.25, 1, 0.5, 1)'
+    : isDragging.value
+      ? 'none'
+      : 'transform 0.05s linear',
+  willChange: 'transform',
+}))
 
-// Subtle parallax on card images
+// Parallax shift for images inside cards
 const imgParallaxStyle = computed(() => {
-  if (supportsScrollTimeline.value && !isDragging.value) {
-    return {}
-  }
-  const shift = (scrollProgress.value - 0.5) * -12 // -6% to +6%
+  const progressRatio = maxTravel.value > 0 ? -currentTranslateX.value / maxTravel.value : 0
+  const clampedRatio = Math.min(1, Math.max(0, progressRatio))
+  const shift = (clampedRatio - 0.5) * -12 // -6% to +6%
   return {
     transform: `scale(1.08) translate3d(${shift}%, 0, 0)`,
   }
 })
 
-// Arrow navigation: smoothly advances vertical scroll by 1 card distance
+// Navigation button states
+const isAtStart = computed(() => currentTranslateX.value >= -5)
+const isAtEnd = computed(() => currentTranslateX.value <= -(maxTravel.value - 5))
+
+// Calculate card step distance (card width + gap)
 const getCardStep = () => {
-  if (!trackRef.value) return 230
+  if (!trackRef.value) return 260
   const firstCard = trackRef.value.querySelector('.partner-card')
   if (firstCard) {
     const style = window.getComputedStyle(trackRef.value)
-    const gap = parseFloat(style.columnGap || style.gap || '16') || 16
+    const gap = parseFloat(style.columnGap || style.gap || '20') || 20
     return firstCard.offsetWidth + gap
   }
-  return 230
+  return 260
 }
 
-const scrollNext = () => {
-  if (!sectionRef.value || travelDistance.value <= 0) return
-  const sectionTop = sectionRef.value.getBoundingClientRect().top + window.scrollY
-  const currentY = window.scrollY
+// Arrow Controls: Move carousel horizontally AND synchronize page scroll
+const applyTargetTranslate = (newX, smooth = true) => {
+  const clampedX = Math.min(0, Math.max(-maxTravel.value, newX))
+  currentTranslateX.value = clampedX
+
+  if (smooth) {
+    isTransitioning.value = true
+    setTimeout(() => {
+      isTransitioning.value = false
+    }, 400)
+  }
+
+  // Synchronize vertical scroll position so vertical scroll resumes seamlessly
+  if (sectionRef.value && maxTravel.value > 0) {
+    const sectionTop = sectionRef.value.getBoundingClientRect().top + window.scrollY
+    const ratio = -clampedX / maxTravel.value
+    const targetScrollY = sectionTop + ratio * pinDuration.value
+
+    const rect = sectionRef.value.getBoundingClientRect()
+    if (rect.top <= 100 && rect.bottom >= 0) {
+      window.scrollTo({ top: targetScrollY, behavior: smooth ? 'smooth' : 'auto' })
+    }
+  }
+}
+
+const onPrevClick = () => {
   const step = getCardStep()
-  const targetY = Math.min(sectionTop + travelDistance.value, currentY + step)
-  window.scrollTo({ top: targetY, behavior: 'smooth' })
+  applyTargetTranslate(currentTranslateX.value + step, true)
 }
 
-const scrollPrev = () => {
-  if (!sectionRef.value || travelDistance.value <= 0) return
-  const sectionTop = sectionRef.value.getBoundingClientRect().top + window.scrollY
-  const currentY = window.scrollY
+const onNextClick = () => {
   const step = getCardStep()
-  const targetY = Math.max(sectionTop, currentY - step)
-  window.scrollTo({ top: targetY, behavior: 'smooth' })
+  applyTargetTranslate(currentTranslateX.value - step, true)
 }
 
-// Keyboard Accessibility: when tabbing onto a card, scroll into focus
+// Keyboard Accessibility: when a card is focused, slide it into view
 const onCardFocusIn = (e) => {
   const card = e.target.closest('.partner-card')
-  if (!card || !holdRef.value || !sectionRef.value || travelDistance.value <= 0) return
-  const length = travelDistance.value
-  const holdWidth = holdRef.value.clientWidth
+  if (!card || !trackRef.value || maxTravel.value <= 0) return
+
   const cardOffset = card.offsetLeft
-  const cardWidth = card.offsetWidth
-  const share = Math.min(1, Math.max(0, (cardOffset + cardWidth - holdWidth / 2) / length))
-  const sectionTop = sectionRef.value.getBoundingClientRect().top + window.scrollY
-  window.scrollTo({ top: sectionTop + length * share, behavior: 'smooth' })
+  applyTargetTranslate(-cardOffset, true)
 }
 
-// Mouse Drag / Touch Swipe: horizontal drag drives page vertical scroll
+// Mouse Drag & Touch Swipe: allow direct horizontal manipulation
 const startDrag = (e) => {
-  if (e.button !== 0) return // Left mouse click only
+  if (e.button !== 0) return
   isDragging.value = true
+  isTransitioning.value = false
   dragStartX.value = e.clientX
+  dragStartTranslateX.value = currentTranslateX.value
   window.addEventListener('mousemove', onDragMove)
   window.addEventListener('mouseup', endDrag)
 }
 
 const onDragMove = (e) => {
   if (!isDragging.value) return
-  const currentX = e.clientX
-  const deltaX = currentX - dragStartX.value
-  dragStartX.value = currentX
-  // Moving mouse left (deltaX < 0) advances page scroll down
-  window.scrollBy({ top: -deltaX * 1.5, behavior: 'auto' })
+  const deltaX = e.clientX - dragStartX.value
+  const newX = Math.min(20, Math.max(-maxTravel.value - 20, dragStartTranslateX.value + deltaX))
+  currentTranslateX.value = newX
 }
 
 const endDrag = () => {
@@ -299,51 +324,67 @@ const endDrag = () => {
   isDragging.value = false
   window.removeEventListener('mousemove', onDragMove)
   window.removeEventListener('mouseup', endDrag)
+
+  const step = getCardStep()
+  const nearestIndex = Math.round(-currentTranslateX.value / step)
+  const targetX = -nearestIndex * step
+  applyTargetTranslate(targetX, true)
 }
 
 const onTouchStart = (e) => {
   if (e.touches.length !== 1) return
   isDragging.value = true
+  isTransitioning.value = false
   dragStartX.value = e.touches[0].clientX
+  dragStartTranslateX.value = currentTranslateX.value
 }
 
 const onTouchMove = (e) => {
   if (!isDragging.value || e.touches.length !== 1) return
   const currentX = e.touches[0].clientX
   const deltaX = currentX - dragStartX.value
-  dragStartX.value = currentX
-  window.scrollBy({ top: -deltaX * 1.5, behavior: 'auto' })
+  if (Math.abs(deltaX) > 8) {
+    const newX = Math.min(20, Math.max(-maxTravel.value - 20, dragStartTranslateX.value + deltaX))
+    currentTranslateX.value = newX
+  }
 }
 
 const onTouchEnd = () => {
+  if (!isDragging.value) return
   isDragging.value = false
+  const step = getCardStep()
+  const nearestIndex = Math.round(-currentTranslateX.value / step)
+  const targetX = -nearestIndex * step
+  applyTargetTranslate(targetX, true)
 }
 
 onMounted(() => {
-  // Check browser support for CSS View-Timeline
-  if (typeof CSS !== 'undefined' && CSS.supports) {
-    supportsScrollTimeline.value = CSS.supports('animation-timeline: view()')
-  }
+  measure()
+  onScroll()
 
-  updateTravelDistance()
-  handleScroll()
-
-  window.addEventListener('scroll', handleScroll, { passive: true })
+  window.addEventListener('scroll', onScroll, { passive: true })
   window.addEventListener('resize', () => {
-    updateTravelDistance()
-    handleScroll()
+    measure()
+    onScroll()
   })
 
-  // Recalculate once images are fully loaded
-  window.addEventListener('load', updateTravelDistance)
+  // ResizeObserver automatically recalculates if cards or viewport change
+  if (typeof ResizeObserver !== 'undefined' && trackRef.value && viewportRef.value) {
+    resizeObserver = new ResizeObserver(() => {
+      measure()
+      onScroll()
+    })
+    resizeObserver.observe(trackRef.value)
+    resizeObserver.observe(viewportRef.value)
+  }
 })
 
 onBeforeUnmount(() => {
   if (rafId) cancelAnimationFrame(rafId)
-  window.removeEventListener('scroll', handleScroll)
+  if (resizeObserver) resizeObserver.disconnect()
+  window.removeEventListener('scroll', onScroll)
   window.removeEventListener('mousemove', onDragMove)
   window.removeEventListener('mouseup', endDrag)
-  window.removeEventListener('load', updateTravelDistance)
 })
 </script>
 
@@ -352,13 +393,13 @@ onBeforeUnmount(() => {
   position: relative;
   width: 100%;
   background-color: #f1f1f1;
-  /* Extended height creates the scroll track so the section pins */
-  height: calc(100vh + var(--people-travel, 0px));
-  height: calc(100svh + var(--people-travel, 0px));
+  /* Extended height creates the vertical scroll room for horizontal translation */
+  height: calc(100vh + var(--pin-duration, 800px));
+  height: calc(100svh + var(--pin-duration, 800px));
   box-sizing: border-box;
 }
 
-/* Sticky viewport frame: remains pinned in viewport while cards slide */
+/* Pinned sticky viewport container: stays pinned at top: 0 while cards slide */
 .partners-hold {
   position: sticky;
   top: 0;
@@ -376,19 +417,19 @@ onBeforeUnmount(() => {
 
 .partners-inner {
   width: 100%;
-  max-width: 1280px;
+  max-width: 1360px;
   margin: 0 auto;
   padding: 0 40px;
   box-sizing: border-box;
 }
 
-/* Header layout */
+/* Header row */
 .partners-header {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   gap: 32px;
-  margin-bottom: 40px;
+  margin-bottom: 36px;
 }
 
 .partners-heading-col {
@@ -431,8 +472,8 @@ onBeforeUnmount(() => {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 34px;
-  height: 34px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
   border: 1px solid #d1d1d1;
   background: #ffffff;
@@ -454,7 +495,7 @@ onBeforeUnmount(() => {
   border-color: #e0e0e0;
 }
 
-/* Carousel Viewport & Track */
+/* Viewport and track */
 .partners-carousel-viewport {
   width: 100%;
   overflow: visible;
@@ -469,15 +510,15 @@ onBeforeUnmount(() => {
 
 .partners-track {
   display: flex;
-  gap: 16px;
+  gap: 20px;
   width: max-content;
   will-change: transform;
 }
 
-/* Partner Card */
+/* Individual card */
 .partner-card {
-  flex: 0 0 clamp(210px, 20vw, 280px);
-  width: clamp(210px, 20vw, 280px);
+  flex: 0 0 clamp(240px, 22vw, 310px);
+  width: clamp(240px, 22vw, 310px);
   display: flex;
   flex-direction: column;
 }
@@ -485,7 +526,7 @@ onBeforeUnmount(() => {
 .partner-image-box {
   position: relative;
   width: 100%;
-  height: min(42svh, 380px);
+  height: min(44svh, 400px);
   background-color: #e2e2e2;
   overflow: hidden;
 }
@@ -525,7 +566,7 @@ onBeforeUnmount(() => {
 }
 
 .partner-name {
-  font-size: clamp(19px, 1.8vw, 23px);
+  font-size: clamp(19px, 1.8vw, 24px);
   font-weight: 700;
   letter-spacing: -0.02em;
   color: #111111;
@@ -550,53 +591,7 @@ onBeforeUnmount(() => {
 }
 
 /* ----------------------------------------------------
-   CSS Scroll-Driven Animation (Native GPU support)
-   ---------------------------------------------------- */
-@supports (animation-timeline: view()) {
-  @media (prefers-reduced-motion: no-preference) {
-    .partners-section {
-      view-timeline: --people-t1 block;
-      view-timeline-inset: 0;
-    }
-
-    .partners-track {
-      animation-name: people-track-kf;
-      animation-timeline: --people-t1;
-      animation-range: cover 100vh cover calc(100vh + var(--people-travel, 0px));
-      animation-timing-function: linear;
-      animation-fill-mode: both;
-    }
-
-    .partner-img {
-      animation-name: people-img-kf;
-      animation-timeline: --people-t1;
-      animation-range: cover 100vh cover calc(100vh + var(--people-travel, 0px));
-      animation-timing-function: linear;
-      animation-fill-mode: both;
-    }
-  }
-}
-
-@keyframes people-track-kf {
-  0% {
-    transform: translate3d(0, 0, 0);
-  }
-  100% {
-    transform: translate3d(calc(var(--people-travel, 0px) * -1), 0, 0);
-  }
-}
-
-@keyframes people-img-kf {
-  0% {
-    transform: scale(1.08) translate3d(6%, 0, 0);
-  }
-  100% {
-    transform: scale(1.08) translate3d(-6%, 0, 0);
-  }
-}
-
-/* ----------------------------------------------------
-   Reduced Motion: graceful static fallback
+   Reduced Motion: Static accessible fallback
    ---------------------------------------------------- */
 @media (prefers-reduced-motion: reduce) {
   .partners-section {
@@ -616,12 +611,10 @@ onBeforeUnmount(() => {
 
   .partners-track {
     transform: none !important;
-    animation: none !important;
   }
 
   .partner-img {
     transform: none !important;
-    animation: none !important;
   }
 }
 
@@ -643,12 +636,12 @@ onBeforeUnmount(() => {
   }
 
   .partner-card {
-    flex: 0 0 220px;
-    width: 220px;
+    flex: 0 0 230px;
+    width: 230px;
   }
 
   .partner-image-box {
-    height: min(38svh, 300px);
+    height: min(40svh, 320px);
   }
 }
 
@@ -686,12 +679,26 @@ onBeforeUnmount(() => {
   }
 
   .partner-card {
-    flex: 0 0 195px;
-    width: 195px;
+    flex: 0 0 200px;
+    width: 200px;
   }
 
   .partner-image-box {
-    height: min(34svh, 240px);
+    height: min(36svh, 260px);
+  }
+}
+
+@media (max-height: 520px) {
+  .partners-header {
+    margin-bottom: 16px;
+  }
+
+  .partner-image-box {
+    height: 180px;
+  }
+
+  .partners-title {
+    font-size: 22px;
   }
 }
 </style>

@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 
 html {
   font-family: sans-serif;
@@ -8892,7 +8892,7 @@ body {
  */
 html,
 body {
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 body {
@@ -8901,7 +8901,7 @@ body {
 }
 
 .site-wrapper {
-  overflow: hidden;
+  overflow-x: clip;
 }
 
 .collapse.show {
