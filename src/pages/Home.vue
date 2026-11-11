@@ -63,6 +63,15 @@
         </div>
       </div>
     </section>
+    <section class="practice-section">
+      <div class="practice-grid">
+        <article v-for="card in practiceCards" :key="card.title" class="practice-card">
+          <h2>{{ card.title }}</h2>
+          <span class="practice-rule" aria-hidden="true"></span>
+          <p>{{ card.description }}</p>
+        </article>
+      </div>
+    </section>
     <section
       class="news-section"
       aria-label="Featured insights"
@@ -99,15 +108,7 @@
       </div>
     </section>
 
-    <section class="practice-section">
-      <div class="practice-grid">
-        <article v-for="card in practiceCards" :key="card.title" class="practice-card">
-          <h2>{{ card.title }}</h2>
-          <span class="practice-rule" aria-hidden="true"></span>
-          <p>{{ card.description }}</p>
-        </article>
-      </div>
-    </section>
+    
 
     <section class="how-we-help-section" aria-labelledby="how-we-help-title">
       <div class="how-we-help-inner">
@@ -120,13 +121,16 @@
             :key="item.number"
             class="how-we-help-card"
           >
-            <span class="how-we-help-number">{{ item.number }}</span>
+            <!-- <span class="how-we-help-number">{{ item.number }}</span> -->
             <h3 class="how-we-help-name">{{ item.title }}</h3>
             <p class="how-we-help-desc">{{ item.description }}</p>
           </article>
         </div>
       </div>
     </section>
+
+    <PartnersCarousel />
+
 
     <section class="focus-section">
       <div class="focus-inner">
@@ -161,10 +165,10 @@
     </section>
 
     <section class="stats-section">
-      <img src="/images/home-slide-3.jpeg" alt="">
+      <img src="/images/home-slide-3.png" alt="">
     </section>
 
-    <PartnersCarousel />
+    
   </div>
 </template>
 
@@ -512,6 +516,7 @@
 
 .practice-section {
   padding: 30px 0 92px;
+  margin-top: 50px;
 }
 
 .practice-grid {
@@ -574,7 +579,7 @@
 .how-we-help-eyebrow {
   margin: 0 0 16px;
   color: #c28b14;
-  font: 700 13px/1.2 "Open Sans", sans-serif;
+  font: 700 13px/1.2 "Quattrocento Sans", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.16em;
 }
@@ -644,7 +649,7 @@
 }
 
 .focus-section {
-  padding: 0 0 90px;
+  padding: 70px 0 90px;
 }
 
 .focus-inner {
@@ -1155,14 +1160,14 @@ const heroSlides = [
 
 const newsSlides = [
   {
-    image: '/images/Slide1.jpg',
+    image: '/images/Slide1.png',
     category: 'Featured Insight',
     title: `Latest insights from ${SITE_NAME}`,
     date: 'August 2026',
     alt: `Featured insight from ${SITE_NAME}`
   },
   {
-    image: '/images/kohlerackels-slide2.jpg',
+    image: '/images/Slide2.png',
     category: 'In The News',
     title: 'Christina Lehm Offers Insight for European Companies Facing U.S. Litigation',
     date: 'Aug. 11, 2026',

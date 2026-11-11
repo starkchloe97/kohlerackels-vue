@@ -250,7 +250,7 @@
 <script setup>
 import { onBeforeUnmount, onMounted, ref } from 'vue'
 import { SITE_NAME } from '@/config/siteInfo'
-import logo from '@/images/kohlerackels-logo.png'
+import logo from '@/images/logos-02.png'
 
 const menuOpen = ref(false)
 const firmOpen = ref(false)
