@@ -473,6 +473,8 @@
 }
 
 .news-arrow {
+  display: flex;
+  justify-content: center;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -576,12 +578,32 @@
   margin: 0 auto;
 }
 
+/* Eyebrow enhancement */
 .how-we-help-eyebrow {
-  margin: 0 0 16px;
-  color: #c28b14;
-  font: 700 13px/1.2 "Quattrocento Sans", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.16em;
+  position: relative;
+  display: inline-block;
+  padding-left: 40px;
+  font-weight: 600;
+  margin-bottom: 24px !important;
+  color: #57A7DC !important;
+}
+
+/* Decorative accent line */
+.how-we-help-eyebrow::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 2px;
+  background-color: #57A7DC;
+}
+
+/* Title refinement */
+#how-we-help-title {
+  margin-bottom: 60px !important;
+  letter-spacing: -0.03em !important;
 }
 
 .how-we-help-title {

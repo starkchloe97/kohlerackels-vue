@@ -10,7 +10,7 @@
       <div class="row interior-content">
         <div class="col-md-8">
           <p>
-            The materials on this website have been prepared by Kohlerackels Riley &amp; Scarborough LLP for
+            The materials on this website have been prepared by mercerflint Riley &amp; Scarborough LLP for
             informational purposes only and are not legal advice. This information is not intended to create, and
             receipt of it does not constitute, an attorney-client relationship. Internet subscribers and online readers
             should not act upon this information without retaining professional counsel. Do not send us information
@@ -20,7 +20,7 @@
           </p>
 
           <p>
-            Some sections of this website describe legal matters handled in the past by Kohlerackels. The results for
+            Some sections of this website describe legal matters handled in the past by mercerflint. The results for
             these matters depended upon a variety of factors, each unique to its own situation. Any result a lawyer or
             a law firm may achieve on behalf of one client in one matter does not guarantee or predict similar results
             can be obtained for other clients.
@@ -28,7 +28,7 @@
 
           <p>
             To the extent state bar rules require designation of a principal office and/or a single lawyer responsible
-            for this website, Kohlerackels designates its office in Columbia, South Carolina, USA (Meridian, 17th
+            for this website, mercerflint designates its office in Columbia, South Carolina, USA (Meridian, 17th
             Floor, 1320 Main Street Columbia, SC 29201), as its principal office and designates James C. Gray, Jr. as
             the lawyer responsible for this website.
           </p>
@@ -41,7 +41,7 @@
 
           <p>
             <strong>Third Party Website Links:</strong> This website may include links to other Internet sites that
-            are beyond the control of Kohlerackels. Kohlerackels is not responsible for the content of any such sites,
+            are beyond the control of mercerflint. mercerflint is not responsible for the content of any such sites,
             makes no representations regarding any such sites, cannot guarantee their practices regarding data
             privacy, and does not necessarily endorse or approve of the information, material, products, or services
             contained on or accessible through any such sites.
@@ -49,13 +49,13 @@
 
           <p>
             <strong>Photography:</strong> Photographs depicting featured or sponsored events may contain pictures of
-            individuals who are not lawyers or who are not employed by Kohlerackels.
+            individuals who are not lawyers or who are not employed by mercerflint.
           </p>
 
           <p>
-            <strong>Website Content:</strong> Kohlerackels makes no guarantees that content of the website will be
+            <strong>Website Content:</strong> mercerflint makes no guarantees that content of the website will be
             without errors, timely, free of viruses or other harmful elements, or that defects will be corrected.
-            Kohlerackels does not make any representations, express or implied, with respect to the timeliness,
+            mercerflint does not make any representations, express or implied, with respect to the timeliness,
             accuracy, or completeness of any of the contents of this website, and expressly disclaims any liability or
             warranties, express or implied, including, without limitation, any implied warranties of merchantability,
             fitness for a particular purpose, or non-infringement.
@@ -65,7 +65,7 @@
         <div class="col-md-4 sidebar">
           <div class="aside-general-counsel">
             <h4 class="contact-sidebar-title">Corporate Information</h4>
-            <h5>Kohlerackels Riley &amp; Scarborough LLP</h5>
+            <h5>mercerflint Riley &amp; Scarborough LLP</h5>
             <p>
               Meridian<br />
               1320 Main Street, 17th Floor<br />

@@ -101,7 +101,7 @@ const items = ref([
   {
     image: '/images/history-slider2.jpg',
     alt: 'Construction site and development',
-    title: 'Kohlerackles Builds Momentum with Growing Greenville Litigation Team',
+    title: 'mercerflint Builds Momentum with Growing Greenville Litigation Team',
     href: 'insights/insights/nmrs-attorneys-published-in-florida-bar-journal-on-ccna-procurements.html',
     date: 'December 4, 2025',
   },
