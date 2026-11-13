@@ -744,7 +744,7 @@
                 </div>
             </div>
 
-           <Carousel />
+           <CarouselTwo />
 
             <!-- /main content -->
   </div>
@@ -858,7 +858,7 @@
 </style>
 
 <script setup>
-
+import CarouselTwo from '../components/Carousel-two.vue';
 import Carousel from '@/components/Carousel.vue';
 import { ref, reactive, computed, watchEffect, onMounted, onBeforeUnmount } from 'vue'
  

@@ -16469,6 +16469,9 @@ a.skip-main:active {
   .mobile_background_banner {
     display: block;
   }
+  .desktop_background_banner {
+    display: none;
+  }
   .mobile_background_banner .featured-container .row {
     padding-bottom: 10px;
   }
@@ -16479,7 +16482,6 @@ a.skip-main:active {
   .mobile_background_banner img {
     width: 100%;
     height: auto;
-    margin-top: 63px;
   }
   .mobile_background_banner .featured-container .featured-content {
     flex: 100%;
