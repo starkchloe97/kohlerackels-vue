@@ -582,23 +582,11 @@
 .how-we-help-eyebrow {
   position: relative;
   display: inline-block;
-  padding-left: 40px;
   font-weight: 600;
   margin-bottom: 24px !important;
   color: #57A7DC !important;
 }
 
-/* Decorative accent line */
-.how-we-help-eyebrow::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 30px;
-  height: 2px;
-  background-color: #57A7DC;
-}
 
 /* Title refinement */
 #how-we-help-title {

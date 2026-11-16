@@ -114,7 +114,7 @@ const partners = [
     city: 'EDINBURGH',
     name: 'Anders Holm',
     phone: '+44 131 000 0000',
-    image: '/images/partners/anders-holm.jpg',
+    image: '/images/partners/scroll-part1.jpg',
   },
   {
     id: 2,
@@ -122,7 +122,7 @@ const partners = [
     city: 'EDINBURGH',
     name: 'Fiona Strachan',
     phone: '+44 131 000 0000',
-    image: '/images/partners/fiona-strachan.jpg',
+    image: '/images/partners/scroll-part2.avif',
   },
   {
     id: 3,
@@ -130,7 +130,7 @@ const partners = [
     city: 'LONDON',
     name: 'Samuel Adeyemi',
     phone: '+44 20 0000 0000',
-    image: '/images/partners/samuel-adeyemi.jpg',
+    image: '/images/partners/scroll-part3.avif',
   },
   {
     id: 4,
@@ -138,7 +138,7 @@ const partners = [
     city: 'EDINBURGH',
     name: 'Callum Rennie',
     phone: '+44 131 000 0000',
-    image: '/images/partners/callum-rennie.jpg',
+    image: '/images/partners/scroll-part4.avif',
   },
   {
     id: 5,
@@ -146,7 +146,7 @@ const partners = [
     city: 'LONDON',
     name: 'Inês Carvalho',
     phone: '+44 20 0000 0000',
-    image: '/images/partners/ines-carvalho.jpg',
+    image: '/images/partners/scroll-part5.avif',
   },
   {
     id: 6,
@@ -154,7 +154,7 @@ const partners = [
     city: 'LONDON',
     name: 'Marcus Vance',
     phone: '+44 20 0000 0000',
-    image: '/images/partners/marcus-vance.jpg',
+    image: '/images/partners/scroll-part6.avif',
   },
 ]
 
