@@ -112,8 +112,8 @@ const partners = [
     id: 1,
     role: 'DISPUTES',
     city: 'EDINBURGH',
-    name: 'Anders Holm',
-    phone: '+44 131 000 0000',
+    name: 'David Woodcock',
+    phone: '+44 111 000 0000',
     image: '/images/partners/scroll-part1.jpg',
   },
   {
@@ -121,15 +121,15 @@ const partners = [
     role: 'CORPORATE',
     city: 'EDINBURGH',
     name: 'Fiona Strachan',
-    phone: '+44 131 000 0000',
+    phone: '+44 00 000 0000',
     image: '/images/partners/scroll-part2.avif',
   },
   {
     id: 3,
     role: 'DISPUTES',
     city: 'LONDON',
-    name: 'Samuel Adeyemi',
-    phone: '+44 20 0000 0000',
+    name: 'Thomas H. Adolph',
+    phone: '+44 10 0000 0000',
     image: '/images/partners/scroll-part3.avif',
   },
   {
@@ -137,7 +137,7 @@ const partners = [
     role: 'CORPORATE',
     city: 'EDINBURGH',
     name: 'Callum Rennie',
-    phone: '+44 131 000 0000',
+    phone: '+44 101 000 0000',
     image: '/images/partners/scroll-part4.avif',
   },
   {
@@ -145,7 +145,7 @@ const partners = [
     role: 'REAL ESTATE',
     city: 'LONDON',
     name: 'Inês Carvalho',
-    phone: '+44 20 0000 0000',
+    phone: '+44 00 0000 0000',
     image: '/images/partners/scroll-part5.avif',
   },
   {
@@ -153,7 +153,7 @@ const partners = [
     role: 'PRIVATE CLIENT',
     city: 'LONDON',
     name: 'Marcus Vance',
-    phone: '+44 20 0000 0000',
+    phone: '+44 22 0000 0000',
     image: '/images/partners/scroll-part6.avif',
   },
 ]
